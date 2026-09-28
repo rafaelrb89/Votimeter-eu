@@ -9,6 +9,8 @@
   "entity_label": "Grupo político",
   "leader_label": "Presidente(s) (ref. 2025)",
   "hashtags": "Votimetro,ParlamentoEuropeu",
+  "hemicycle_note": "Lugares no início da legislatura 2024–2029 (julho de 2024), dispostos da esquerda para a direita como no hemiciclo. 720 eurodeputados.",
+  "unaffiliated_label": "Não inscritos",
   "parties": {
     "EPP": {
       "name": "Grupo do Partido Popular Europeu (Democratas-Cristãos)",

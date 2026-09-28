@@ -9,6 +9,8 @@
   "entity_label": "Party/Coalition",
   "leader_label": "Leader(s) (as of April 2025)",
   "hashtags": "Votimeter,PortuguesePolitics",
+  "hemicycle_note": "Seats in the Assembly of the Republic after the May 2025 legislative election, arranged left to right. 230 MPs.",
+  "unaffiliated_label": "Other",
   "parties": {
     "PS": {
       "name": "Socialist Party",

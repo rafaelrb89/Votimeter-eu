@@ -1,13 +1,35 @@
 # Votimeter EU
 
-A Streamlit quiz that places you on three political axes (economic, social, political) and measures your agreement with a set of parties. It is based on [paradigmapolitico2](https://github.com/rafaelrb89/paradigmapolitico2) (Votímetro).
+A quiz that places you on three political axes (economic, social, political) and measures your agreement with a set of parties. It is based on [paradigmapolitico2](https://github.com/rafaelrb89/paradigmapolitico2) (Votímetro).
 
 - **Languages:** English, Português
 - **Party landscapes:** European Parliament political groups (2024–2029 term), Portuguese parties
 
-You can switch language and landscape at any time from the sidebar. Answers are stored by question ID, so switching keeps them. The selection is also saved in the URL (`?lang=pt&landscape=eu`), so you can share a link with a preset.
+You can switch language and landscape at any time. Answers are stored by question ID, so switching keeps them. The selection is also saved in the URL (`?lang=pt&landscape=eu`), so you can share a link with a preset.
 
-## Running locally
+## Two front ends
+
+| | Folder | What it is |
+|---|---|---|
+| **Website** | `web/` | Static HTML/CSS/JS. No server needed. Deployed to GitHub Pages. |
+| **Streamlit app** | `Home.py` | The original app, now bilingual. |
+
+Both read the same data in `data/`.
+
+### Website
+
+```bash
+python scripts/build_web_data.py      # bundle data/ into web/data.json (after any data edit)
+python -m http.server -d web 8000     # then open http://localhost:8000
+```
+
+`web/data.json` is generated. Rebuild it after editing anything in `data/`; the tests fail if it is stale.
+
+**Publishing:** the `Deploy website` workflow publishes `web/` to GitHub Pages on every push to `main` that touches it. Enable it once under **Settings → Pages → Source: GitHub Actions**.
+
+The website supports `?lang=pt&landscape=eu` in the URL. It remembers a visitor's answers in their browser, so they can resume an unfinished test. Keyboard: `1`–`5` answer, `S` skips, `←` goes back.
+
+### Streamlit app
 
 ```bash
 poetry install
@@ -36,7 +58,8 @@ data/
     │   ├── parties.csv      # code, color, url               (language-neutral)
     │   ├── positions.csv    # id + one column per party code, values -2..2
     │   ├── text_en.json     # landscape strings + party details
-    │   └── text_pt.json
+    │   ├── text_pt.json
+    │   └── hemicycle.csv    # code, seats, left to right (website chamber drawing)
     └── pt/  (same files)
 ```
 
