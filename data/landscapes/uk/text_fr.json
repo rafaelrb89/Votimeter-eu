@@ -52,6 +52,16 @@
       "description": "Principal parti du centre gauche britannique, au pouvoir depuis sa large victoire de 2024. Sous Keir Starmer, il associe des règles budgétaires strictes à l'investissement dans le NHS, l'énergie propre et le logement, et à un rapprochement avec l'UE sans adhésion.",
       "wiki_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
     },
+    "Volt": {
+      "name": "Volt UK",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
     "LD": {
       "name": "Liberal Democrats",
       "leader": "Ed Davey (dirigeant(e))",

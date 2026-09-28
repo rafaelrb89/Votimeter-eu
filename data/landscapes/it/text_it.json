@@ -42,6 +42,16 @@
       "description": "Il principale partito del centrosinistra e la prima forza di opposizione. Con Elly Schlein si è spostato a sinistra, battendosi per la sanità pubblica, il salario minimo e i diritti civili.",
       "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Party_(Italy)"
     },
+    "Volt": {
+      "name": "Volt Italia",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
     "IV": {
       "name": "Italia Viva",
       "leader": "Matteo Renzi (leader)",

@@ -52,6 +52,16 @@
       "description": "Il partito verde tedesco, al governo federale dal 2021 al 2025. Fortemente europeista e deciso nel sostegno all'Ucraina, si oppone al nucleare e punta su una rapida transizione energetica.",
       "wiki_url": "https://en.wikipedia.org/wiki/Alliance_90/The_Greens"
     },
+    "Volt": {
+      "name": "Volt Deutschland",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
     "FDP": {
       "name": "Freie Demokratische Partei",
       "leader": "Christian Dürr (presidente)",

@@ -1,0 +1,126 @@
+{
+  "name": "Francia — partidos franceses",
+  "short_name": "Francia",
+  "intro": "compararla con los partidos políticos franceses",
+  "results_title": "Coincidencia con los partidos franceses",
+  "included_label": "Partidos incluidos",
+  "inclusion_note": "El test incluye los principales partidos nacionales de Francia: los representados en la Asamblea Nacional y los que tienen un apoyo nacional relevante. Las posiciones son estimaciones del equipo y pueden revisarse.",
+  "details_title": "Más sobre los partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimetro,FrenchPolitics",
+  "hemicycle_note": "Escaños en la Asamblea Nacional tras las elecciones legislativas de julio de 2024 (por grupo parlamentario), ordenados de izquierda a derecha. Aproximado. 577 miembros.",
+  "unaffiliated_label": "Otros",
+  "parties": {
+    "LFI": {
+      "name": "La France insoumise",
+      "leader": "Jean-Luc Mélenchon (fundador), Manuel Bompard (coordinador)",
+      "founded": "2016",
+      "spectrum": "Izquierda a izquierda radical",
+      "ideologies": "Socialismo democrático, Populismo de izquierda, Ecosocialismo, Euroescepticismo moderado",
+      "priorities": "Coste de la vida, Servicios públicos, Gravar las grandes fortunas, Acción climática, Reforma democrática",
+      "description": "Principal partido de la izquierda radical francesa, fundado por Jean-Luc Mélenchon. Defiende una VI República, un salario mínimo más alto, la jubilación a los 60, la planificación ecológica y romper con las reglas fiscales de la UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/La_France_Insoumise"
+    },
+    "PCF": {
+      "name": "Parti communiste français",
+      "leader": "Fabien Roussel (secretario nacional)",
+      "founded": "1920",
+      "spectrum": "Extrema izquierda",
+      "ideologies": "Comunismo, Socialismo democrático, Soberanismo",
+      "priorities": "Derechos y salarios de los trabajadores, Servicios públicos, Proteger la industria nacional, Energía nuclear, Coste de la vida",
+      "description": "Uno de los partidos más antiguos de Francia, con base obrera y municipal. A diferencia de casi toda la izquierda, defiende la energía nuclear y el empleo industrial, y critica las reglas de mercado de la UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/French_Communist_Party"
+    },
+    "PS": {
+      "name": "Parti socialiste",
+      "leader": "Olivier Faure (primer secretario)",
+      "founded": "1969",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Europeísmo",
+      "priorities": "Servicios públicos, Gravar las grandes fortunas, Vivienda asequible, Acción climática, Más integración europea",
+      "description": "El partido histórico del centroizquierda francés, que gobernó con Mitterrand y Hollande. Tras años de declive se recuperó en las europeas de 2024 y forma parte de la alianza de izquierdas en la Asamblea.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Socialist_Party_(France)"
+    },
+    "Écologistes": {
+      "name": "Les Écologistes",
+      "leader": "Marine Tondelier (secretario nacional)",
+      "founded": "2010 (como EELV; renombrado en 2023)",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Ecologismo, Progresismo, Federalismo europeo",
+      "priorities": "Acción climática, Servicios públicos, Vivienda asequible, Libertades civiles, Más integración europea",
+      "description": "Principal partido ecologista francés, antes Europe Écologie Les Verts. Se opone a nuevas centrales nucleares, apoya un impuesto sobre la riqueza y una política climática ambiciosa, y gobierna varias grandes ciudades.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Ecologists"
+    },
+    "Volt": {
+      "name": "Volt France",
+      "leader": "Sección nacional de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeo, Progresismo",
+      "priorities": "Más integración europea, Acción climática, Innovación digital, Reforma democrática",
+      "description": "Sección nacional de Volt Europa, el primer partido paneuropeo. Todas las secciones comparten un mismo programa: una UE federal y más democrática, políticas basadas en la evidencia, economía de mercado con un Estado del bienestar fuerte y las transiciones digital y climática. En este test Volt tiene las mismas posiciones en todos los países.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "RE": {
+      "name": "Renaissance",
+      "leader": "Gabriel Attal (líder)",
+      "founded": "2016 (como En Marche)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Centrismo, Europeísmo",
+      "priorities": "Competitividad y crecimiento, Más integración europea, Defensa y apoyo a Ucrania, Energía nuclear, Educación",
+      "description": "El partido de Emmanuel Macron, creado para superar la división izquierda-derecha. Favorable a la empresa y muy europeísta, impulsó la reforma de las pensiones, la energía nuclear y la defensa europea.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Renaissance_(French_political_party)"
+    },
+    "MoDem": {
+      "name": "Mouvement démocrate",
+      "leader": "François Bayrou (presidente)",
+      "founded": "2007",
+      "spectrum": "Centro",
+      "ideologies": "Centrismo, Democracia cristiana, Europeísmo",
+      "priorities": "Disciplina presupuestaria, Más integración europea, Reforma democrática, Educación",
+      "description": "Partido centrista dirigido por François Bayrou, aliado de Macron desde 2017. Une raíces democristianas, preocupación por la deuda pública y apoyo al sistema proporcional.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Movement_(France)"
+    },
+    "HOR": {
+      "name": "Horizons",
+      "leader": "Édouard Philippe (presidente)",
+      "founded": "2021",
+      "spectrum": "Centroderecha",
+      "ideologies": "Conservadurismo liberal, Liberalismo económico, Europeísmo",
+      "priorities": "Disciplina presupuestaria, Seguridad y orden público, Competitividad y crecimiento, Energía nuclear",
+      "description": "El partido del ex primer ministro Édouard Philippe, en el ala derecha del macronismo. Prioriza la disciplina fiscal, la seguridad y la reforma del Estado.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Horizons_(political_party)"
+    },
+    "LR": {
+      "name": "Les Républicains",
+      "leader": "Bruno Retailleau (presidente)",
+      "founded": "2015 (UMP desde 2002)",
+      "spectrum": "Centroderecha",
+      "ideologies": "Gaullismo, Conservadurismo liberal, Democracia cristiana",
+      "priorities": "Seguridad y orden público, Reducir la inmigración, Disciplina presupuestaria, Bajar impuestos, Identidad nacional",
+      "description": "La derecha gaullista tradicional de Chirac y Sarkozy. Debilitada desde 2017, ha endurecido su discurso sobre inmigración y seguridad sin dejar de defender la economía de mercado.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Republicans_(France)"
+    },
+    "RN": {
+      "name": "Rassemblement national",
+      "leader": "Jordan Bardella (presidente), Marine Le Pen (líder parlamentario)",
+      "founded": "1972 (como Front National)",
+      "spectrum": "Extrema derecha",
+      "ideologies": "Conservadurismo nacional, Populismo de derecha, Contrario a la inmigración, Soberanismo",
+      "priorities": "Reducir la inmigración, Coste de la vida, Seguridad y orden público, Soberanía nacional, Proteger la industria nacional",
+      "description": "El mayor partido de la Asamblea Nacional. Combina fuertes límites a la inmigración y la «preferencia nacional» con una economía proteccionista y favorable al Estado del bienestar, y rechaza más integración europea.",
+      "wiki_url": "https://en.wikipedia.org/wiki/National_Rally"
+    },
+    "REC": {
+      "name": "Reconquête",
+      "leader": "Éric Zemmour (presidente)",
+      "founded": "2021",
+      "spectrum": "Extrema derecha",
+      "ideologies": "Nacionalismo, Conservadurismo nacional, Contrario a la inmigración, Liberalismo económico",
+      "priorities": "Remigración y cierre de fronteras, Identidad nacional, Bajar impuestos, Seguridad y orden público, Valores de la familia tradicional",
+      "description": "Partido fundado por el polemista Éric Zemmour. Más liberal en economía y más radical en inmigración e identidad que el RN.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reconquête"
+    }
+  }
+}

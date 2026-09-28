@@ -52,6 +52,16 @@
       "description": "Die deutsche Grünen-Partei, 2021 bis 2025 in der Bundesregierung. Stark proeuropäisch und entschieden in der Unterstützung der Ukraine, lehnt sie Atomkraft ab und setzt auf eine schnelle Energiewende.",
       "wiki_url": "https://en.wikipedia.org/wiki/Alliance_90/The_Greens"
     },
+    "Volt": {
+      "name": "Volt Deutschland",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
     "FDP": {
       "name": "Freie Demokratische Partei",
       "leader": "Christian Dürr (Vorsitz)",

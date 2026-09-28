@@ -1,0 +1,86 @@
+{
+  "name": "Spanien — spanischen Parteien",
+  "short_name": "Spanien",
+  "intro": "sie mit den spanischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den spanischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Spaniens: die im Abgeordnetenkongress vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Spanien",
+  "hemicycle_note": "Sitze im Abgeordnetenkongress nach der Parlamentswahl im Juli 2023, von links nach rechts angeordnet. Ungefähre Angaben. 350 Abgeordnete. Podemos verließ die Sumar-Fraktion im Dezember 2023. Regionalparteien (ERC, Junts, EH Bildu, PNV, BNG, CC, UPN) erscheinen unter Sonstige.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "Podemos": {
+      "name": "Podemos",
+      "leader": "Ione Belarra (Generalsekretär)",
+      "founded": "2014",
+      "spectrum": "Links bis linksaußen",
+      "ideologies": "Demokratischer Sozialismus, Linkspopulismus, Feminismus",
+      "priorities": "Bezahlbares Wohnen, Öffentliche Daseinsvorsorge, Vermögensbesteuerung, Diplomatie mit Russland, keine Waffenlieferungen, Gleichstellung und Feminismus",
+      "description": "Linkspopulistische Partei aus der 15-M-Protestbewegung von 2011. Von 2020 bis 2023 mit der PSOE in der Regierung, verließ sie danach das Bündnis Sumar. Sie fordert Mietendeckel, öffentlichen Wohnungsbau und höhere Steuern für Reiche und lehnt Waffenlieferungen an die Ukraine ab.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Podemos_(Spanish_political_party)"
+    },
+    "Sumar": {
+      "name": "Sumar",
+      "leader": "Yolanda Díaz (Vorsitz)",
+      "founded": "2023",
+      "spectrum": "Links",
+      "ideologies": "Demokratischer Sozialismus, Grüne Politik, Feminismus, Proeuropäisch",
+      "priorities": "Arbeitnehmerrechte und Löhne, Bezahlbares Wohnen, Klimaschutz, Öffentliche Daseinsvorsorge, Gleichstellung und Feminismus",
+      "description": "Linkes Bündnis unter Arbeitsministerin Yolanda Díaz, Juniorpartner in der Koalitionsregierung von Pedro Sánchez. Es hat den Mindestlohn angehoben, setzt sich für eine kürzere Arbeitswoche ein und verbindet linke Wirtschaftspolitik mit grünen und proeuropäischen Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sumar_(electoral_platform)"
+    },
+    "PSOE": {
+      "name": "Partido Socialista Obrero Español",
+      "leader": "Pedro Sánchez (Generalsekretär)",
+      "founded": "1879",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Progressivismus, Feminismus, Proeuropäisch",
+      "priorities": "Arbeitnehmerrechte und Löhne, Bezahlbares Wohnen, Gleichstellung und Feminismus, Vertiefte europäische Integration, Klimaschutz",
+      "description": "Die älteste Partei Spaniens, seit 2018 unter Pedro Sánchez mit Unterstützung von Regionalparteien an der Regierung. Gesellschaftspolitisch progressiv (Legalisierung der Sterbehilfe, Ziel der Abschaffung der Prostitution), stark proeuropäisch und für Erneuerbare und den Atomausstieg.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Spanish_Socialist_Workers%27_Party"
+    },
+    "Volt": {
+      "name": "Volt España",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PP": {
+      "name": "Partido Popular",
+      "leader": "Alberto Núñez Feijóo (Vorsitz)",
+      "founded": "1989 (Alianza Popular seit 1976)",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Christdemokratie, Proeuropäisch",
+      "priorities": "Steuersenkungen, Einheit Spaniens, Korruptionsbekämpfung, Weniger Einwanderung, Haushaltsdisziplin",
+      "description": "Die wichtigste Mitte-rechts-Partei Spaniens und seit 2023 größte Kraft im Kongress, jedoch ohne Mehrheit. Sie steht für Steuersenkungen, eine harte Linie gegenüber dem katalanischen und baskischen Nationalismus und strengere Migrationskontrolle und will die Atomkraftwerke weiterbetreiben.",
+      "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_(Spain)"
+    },
+    "Vox": {
+      "name": "Vox",
+      "leader": "Santiago Abascal (Vorsitz)",
+      "founded": "2013",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalkonservatismus, Nationalismus, Einwanderungskritik, Gemäßigter Euroskeptizismus",
+      "priorities": "Weniger Einwanderung, Einheit Spaniens, Traditionelle Familienwerte, Sicherheit und Ordnung, Landwirtschaft und ländlicher Raum",
+      "description": "Rechtsradikale Partei, gegründet von früheren PP-Mitgliedern, heute drittstärkste Kraft im Kongress. Sie lehnt die regionalen Autonomien, Abtreibung und Sterbehilfe ab, verteidigt den Stierkampf und traditionelle Werte und will Abschiebungen und viel weniger Zuwanderung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vox_(political_party)"
+    },
+    "SALF": {
+      "name": "Se Acabó La Fiesta",
+      "leader": "Luis «Alvise» Pérez (Gründer)",
+      "founded": "2024",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Rechtspopulismus, Populismus, Wirtschaftsliberalismus",
+      "priorities": "Korruptionsbekämpfung, Sicherheit und Ordnung, Steuersenkungen, Weniger Einwanderung",
+      "description": "Anti-Establishment-Bewegung des Social-Media-Aktivisten Alvise Pérez, die bei der Europawahl 2024 drei Sitze gewann. Sie fordert Megagefängnisse nach salvadorianischem Vorbild, harte Strafen für Korruption und deutlich niedrigere Steuern.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Se_Acab%C3%B3_La_Fiesta"
+    }
+  }
+}

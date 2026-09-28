@@ -1,0 +1,86 @@
+{
+  "name": "Espanha — partidos espanhóis",
+  "short_name": "Espanha",
+  "intro": "compará-lo com os partidos políticos espanhóis",
+  "results_title": "Percentagem de Concordância com os Partidos Espanhóis",
+  "included_label": "Partidos incluídos",
+  "inclusion_note": "O teste inclui os principais partidos nacionais de Espanha: os representados no Congresso dos Deputados e os que têm uma base de apoio nacional relevante. As posições são estimativas da equipa e estão abertas a revisão.",
+  "details_title": "Descobre mais sobre os Partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimetro,PoliticaEspanhola",
+  "hemicycle_note": "Lugares no Congresso dos Deputados após as eleições gerais de julho de 2023, dispostos da esquerda para a direita. Aproximado. 350 deputados. O Podemos saiu do grupo Sumar em dezembro de 2023. Os partidos regionais (ERC, Junts, EH Bildu, PNV, BNG, CC, UPN) aparecem como Outros.",
+  "unaffiliated_label": "Outros",
+  "parties": {
+    "Podemos": {
+      "name": "Podemos",
+      "leader": "Ione Belarra (Secretário-geral)",
+      "founded": "2014",
+      "spectrum": "Esquerda a extrema-esquerda",
+      "ideologies": "Socialismo democrático, Populismo de esquerda, Feminismo",
+      "priorities": "Habitação acessível, Serviços públicos, Tributar a riqueza, Diplomacia com a Rússia, sem envio de armas, Igualdade e feminismo",
+      "description": "Partido populista de esquerda nascido dos protestos do 15-M de 2011. Esteve no governo com o PSOE de 2020 a 2023 e depois saiu da aliança Sumar. Defende o controlo das rendas, habitação pública e mais impostos sobre os ricos, e opõe-se ao envio de armas para a Ucrânia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Podemos_(Spanish_political_party)"
+    },
+    "Sumar": {
+      "name": "Sumar",
+      "leader": "Yolanda Díaz (Líder)",
+      "founded": "2023",
+      "spectrum": "Esquerda",
+      "ideologies": "Socialismo democrático, Ecologismo, Feminismo, Europeísmo",
+      "priorities": "Direitos e salários dos trabalhadores, Habitação acessível, Ação climática, Serviços públicos, Igualdade e feminismo",
+      "description": "Plataforma de esquerda liderada pela ministra do Trabalho Yolanda Díaz, parceira minoritária no governo de coligação de Pedro Sánchez. Subiu o salário mínimo, defende uma semana de trabalho mais curta e junta economia de esquerda com posições ecologistas e europeístas.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sumar_(electoral_platform)"
+    },
+    "PSOE": {
+      "name": "Partido Socialista Obrero Español",
+      "leader": "Pedro Sánchez (Secretário-geral)",
+      "founded": "1879",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Social-democracia, Progressismo, Feminismo, Europeísmo",
+      "priorities": "Direitos e salários dos trabalhadores, Habitação acessível, Igualdade e feminismo, Maior integração europeia, Ação climática",
+      "description": "O partido mais antigo de Espanha, à frente do governo com Pedro Sánchez desde 2018, com apoio de partidos regionais. Progressista nos costumes (legalizou a eutanásia e defende a abolição da prostituição), muito europeísta e empenhado nas renováveis e no fim do nuclear.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Spanish_Socialist_Workers%27_Party"
+    },
+    "Volt": {
+      "name": "Volt España",
+      "leader": "Secção nacional do Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeu, Progressismo",
+      "priorities": "Maior integração europeia, Ação climática, Inovação digital, Reforma democrática",
+      "description": "Secção nacional do Volt Europa, o primeiro partido pan-europeu. Todas as secções partilham um programa: uma UE federal e mais democrática, políticas baseadas em evidência, economia de mercado com um Estado social forte e as transições digital e climática. O Volt tem as mesmas posições em todos os países deste teste.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PP": {
+      "name": "Partido Popular",
+      "leader": "Alberto Núñez Feijóo (Presidente)",
+      "founded": "1989 (Alianza Popular desde 1976)",
+      "spectrum": "Centro-direita",
+      "ideologies": "Conservadorismo liberal, Democracia cristã, Europeísmo",
+      "priorities": "Menos impostos, Unidade de Espanha, Combate à corrupção, Reduzir a imigração, Disciplina orçamental",
+      "description": "O principal partido do centro-direita espanhol e o maior no Congresso desde 2023, embora sem maioria. Defende cortes de impostos, firmeza perante os nacionalismos catalão e basco e mais controlo da imigração, e quer manter as centrais nucleares.",
+      "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_(Spain)"
+    },
+    "Vox": {
+      "name": "Vox",
+      "leader": "Santiago Abascal (Presidente)",
+      "founded": "2013",
+      "spectrum": "Extrema-direita",
+      "ideologies": "Conservadorismo nacional, Nacionalismo, Anti-imigração, Euroceticismo moderado",
+      "priorities": "Reduzir a imigração, Unidade de Espanha, Valores da família tradicional, Segurança e ordem pública, Agricultores e mundo rural",
+      "description": "Partido de direita radical fundado por antigos membros do PP, hoje a terceira força no Congresso. Opõe-se às autonomias, ao aborto e à eutanásia, defende as touradas e os valores tradicionais e quer deportações e muito menos imigração.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vox_(political_party)"
+    },
+    "SALF": {
+      "name": "Se Acabó La Fiesta",
+      "leader": "Luis «Alvise» Pérez (Fundador)",
+      "founded": "2024",
+      "spectrum": "Extrema-direita",
+      "ideologies": "Populismo de direita, Populismo, Liberalismo económico",
+      "priorities": "Combate à corrupção, Segurança e ordem pública, Menos impostos, Reduzir a imigração",
+      "description": "Movimento anti-sistema fundado pelo agitador das redes sociais Alvise Pérez, que conquistou três lugares nas europeias de 2024. Defende megaprisões ao estilo de El Salvador, penas duras para a corrupção e impostos muito mais baixos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Se_Acab%C3%B3_La_Fiesta"
+    }
+  }
+}

@@ -42,6 +42,16 @@
       "description": "Principal parti du centre gauche italien et première force d'opposition. Sous Elly Schlein, il s'est déplacé à gauche et fait campagne pour la santé publique, un salaire minimum et les droits civiques.",
       "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Party_(Italy)"
     },
+    "Volt": {
+      "name": "Volt Italia",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
     "IV": {
       "name": "Italia Viva",
       "leader": "Matteo Renzi (dirigeant(e))",

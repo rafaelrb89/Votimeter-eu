@@ -52,6 +52,16 @@
       "description": "Principale partito ecologista francese, già Europe Écologie Les Verts. Si oppone a nuove centrali nucleari, sostiene una patrimoniale e una politica climatica ambiziosa e governa diverse grandi città.",
       "wiki_url": "https://en.wikipedia.org/wiki/The_Ecologists"
     },
+    "Volt": {
+      "name": "Volt France",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
     "RE": {
       "name": "Renaissance",
       "leader": "Gabriel Attal (leader)",

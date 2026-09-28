@@ -1,0 +1,86 @@
+{
+  "name": "Spagna — partiti spagnoli",
+  "short_name": "Spagna",
+  "intro": "confrontarlo con i partiti politici spagnoli",
+  "results_title": "Accordo con i partiti spagnoli",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali della Spagna: quelli rappresentati al Congresso dei deputati e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimetro,Spagna",
+  "hemicycle_note": "Seggi al Congresso dei deputati dopo le elezioni generali di luglio 2023, disposti da sinistra a destra. Dati approssimativi. 350 membri. Podemos ha lasciato il gruppo di Sumar a dicembre 2023. I partiti regionali (ERC, Junts, EH Bildu, PNV, BNG, CC, UPN) compaiono come Altri.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "Podemos": {
+      "name": "Podemos",
+      "leader": "Ione Belarra (segretario generale)",
+      "founded": "2014",
+      "spectrum": "Sinistra-sinistra radicale",
+      "ideologies": "Socialismo democratico, Populismo di sinistra, Femminismo",
+      "priorities": "Casa accessibile, Servizi pubblici, Tassare i grandi patrimoni, Diplomazia con la Russia, niente armi, Parità e femminismo",
+      "description": "Partito populista di sinistra nato dalle proteste del 15-M del 2011. Al governo con il PSOE dal 2020 al 2023, ha poi lasciato l'alleanza Sumar. Chiede il controllo degli affitti, case popolari e più tasse sui ricchi, e si oppone all'invio di armi all'Ucraina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Podemos_(Spanish_political_party)"
+    },
+    "Sumar": {
+      "name": "Sumar",
+      "leader": "Yolanda Díaz (leader)",
+      "founded": "2023",
+      "spectrum": "Sinistra",
+      "ideologies": "Socialismo democratico, Ecologismo, Femminismo, Europeismo",
+      "priorities": "Diritti e salari dei lavoratori, Casa accessibile, Azione per il clima, Servizi pubblici, Parità e femminismo",
+      "description": "Piattaforma di sinistra guidata dalla ministra del Lavoro Yolanda Díaz, partner minore del governo di coalizione di Pedro Sánchez. Ha alzato il salario minimo, spinge per una settimana lavorativa più corta e unisce economia di sinistra, ecologismo ed europeismo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sumar_(electoral_platform)"
+    },
+    "PSOE": {
+      "name": "Partido Socialista Obrero Español",
+      "leader": "Pedro Sánchez (segretario generale)",
+      "founded": "1879",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Progressismo, Femminismo, Europeismo",
+      "priorities": "Diritti e salari dei lavoratori, Casa accessibile, Parità e femminismo, Maggiore integrazione europea, Azione per il clima",
+      "description": "Il partito più antico della Spagna, al governo con Pedro Sánchez dal 2018 grazie all'appoggio dei partiti regionali. Progressista sui diritti (ha legalizzato l'eutanasia e punta all'abolizione della prostituzione), fortemente europeista e impegnato su rinnovabili e uscita dal nucleare.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Spanish_Socialist_Workers%27_Party"
+    },
+    "Volt": {
+      "name": "Volt España",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PP": {
+      "name": "Partido Popular",
+      "leader": "Alberto Núñez Feijóo (presidente)",
+      "founded": "1989 (Alianza Popular dal 1976)",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo liberale, Democrazia cristiana, Europeismo",
+      "priorities": "Meno tasse, Unità della Spagna, Lotta alla corruzione, Ridurre l'immigrazione, Disciplina di bilancio",
+      "description": "Il principale partito del centrodestra spagnolo e il più grande al Congresso dal 2023, pur senza maggioranza. Sostiene tagli fiscali, fermezza verso i nazionalismi catalano e basco e più controllo dell'immigrazione, e vuole mantenere le centrali nucleari.",
+      "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_(Spain)"
+    },
+    "Vox": {
+      "name": "Vox",
+      "leader": "Santiago Abascal (presidente)",
+      "founded": "2013",
+      "spectrum": "Estrema destra",
+      "ideologies": "Conservatorismo nazionale, Nazionalismo, Contrarietà all'immigrazione, Euroscetticismo moderato",
+      "priorities": "Ridurre l'immigrazione, Unità della Spagna, Valori della famiglia tradizionale, Sicurezza e ordine pubblico, Agricoltori e aree rurali",
+      "description": "Partito di destra radicale fondato da ex membri del PP, oggi terza forza al Congresso. Si oppone alle autonomie regionali, all'aborto e all'eutanasia, difende la corrida e i valori tradizionali e chiede espulsioni e molta meno immigrazione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vox_(political_party)"
+    },
+    "SALF": {
+      "name": "Se Acabó La Fiesta",
+      "leader": "Luis «Alvise» Pérez (fondatore)",
+      "founded": "2024",
+      "spectrum": "Estrema destra",
+      "ideologies": "Populismo di destra, Populismo, Liberalismo economico",
+      "priorities": "Lotta alla corruzione, Sicurezza e ordine pubblico, Meno tasse, Ridurre l'immigrazione",
+      "description": "Movimento antisistema fondato dall'agitatore dei social Alvise Pérez, che ha ottenuto tre seggi alle europee del 2024. Chiede megacarceri sul modello salvadoregno, pene durissime per la corruzione e tasse molto più basse.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Se_Acab%C3%B3_La_Fiesta"
+    }
+  }
+}
