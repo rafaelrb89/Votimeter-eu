@@ -1,0 +1,8 @@
+runtime: python
+env: flex
+
+runtime_config:
+  operating_system: "ubuntu22"
+  runtime_version: "3.12"
+
+entrypoint: streamlit run Home.py --server.port $PORT
