@@ -9,6 +9,8 @@
   "entity_label": "Political group",
   "leader_label": "Chair(s) (as of 2025)",
   "hashtags": "Votimeter,EuropeanParliament",
+  "hemicycle_note": "Seats at the start of the 2024–2029 term (July 2024), arranged left to right as in the chamber. 720 MEPs.",
+  "unaffiliated_label": "Non-attached",
   "parties": {
     "EPP": {
       "name": "Group of the European People's Party (Christian Democrats)",

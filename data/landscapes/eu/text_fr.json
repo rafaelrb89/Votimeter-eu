@@ -1,0 +1,96 @@
+{
+  "name": "Union européenne — groupes du Parlement européen",
+  "short_name": "Parlement européen",
+  "intro": "le comparer aux groupes politiques du Parlement européen (législature 2024–2029)",
+  "results_title": "Accord avec les groupes du Parlement européen",
+  "included_label": "Groupes inclus",
+  "inclusion_note": "Le test inclut tous les groupes politiques du Parlement européen de la législature 2024–2029. Les non-inscrits ne sont pas inclus. Les positions des groupes reflètent la ligne dominante de leurs partis membres ; les délégations nationales d'un même groupe peuvent diverger sensiblement.",
+  "details_title": "En savoir plus sur les groupes",
+  "entity_label": "Groupe politique",
+  "leader_label": "Président(e)(s) (réf. 2025)",
+  "hashtags": "Votimetre,ParlementEuropeen",
+  "hemicycle_note": "Sièges au début de la législature 2024–2029 (juillet 2024), disposés de gauche à droite comme dans l'hémicycle. 720 eurodéputés.",
+  "unaffiliated_label": "Non-inscrits",
+  "parties": {
+    "EPP": {
+      "name": "Groupe du Parti populaire européen (Démocrates-chrétiens)",
+      "leader": "Manfred Weber (président)",
+      "founded": "1953 (groupe démocrate-chrétien)",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Conservatisme libéral, Proeuropéisme",
+      "priorities": "Compétitivité et simplification, Sécurité et défense, Maîtrise de l'immigration irrégulière, Agriculture, Soutien à l'Ukraine",
+      "description": "Premier groupe du Parlement européen depuis 1999, il réunit des partis démocrates-chrétiens et de centre droit comme la CDU/CSU allemande, la Plateforme civique polonaise, le PP espagnol et Les Républicains français. Proeuropéen et favorable au marché, il s'est déplacé vers la droite sur l'immigration et la réglementation environnementale pendant la législature 2024–2029.",
+      "wiki_url": "https://en.wikipedia.org/wiki/European_People%27s_Party_Group"
+    },
+    "S&D": {
+      "name": "Groupe de l'Alliance progressiste des socialistes et démocrates",
+      "leader": "Iratxe García Pérez (présidente)",
+      "founded": "1953 (groupe socialiste) ; nom actuel depuis 2009",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Progressisme, Proeuropéisme",
+      "priorities": "Europe sociale (salaires justes, droits des travailleurs), Logement abordable, Justice fiscale, Transition verte avec protection sociale, Égalité femmes-hommes",
+      "description": "Principal groupe de centre gauche, il rassemble des partis sociaux-démocrates et socialistes comme le PSOE espagnol, le PD italien, le SPD allemand et le PS français. Il défend un État-providence fort, les droits des travailleurs et une intégration européenne plus poussée, y compris l'emprunt commun.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Progressive_Alliance_of_Socialists_and_Democrats"
+    },
+    "Renew": {
+      "name": "Renew Europe",
+      "leader": "Valérie Hayer (présidente)",
+      "founded": "2019 (successeur de l'ADLE)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme, Centrisme, Proeuropéisme",
+      "priorities": "Marché unique et compétitivité, État de droit, Libertés civiles, Défense européenne, Innovation numérique",
+      "description": "Groupe libéral et centriste formé autour de Renaissance et des partis des familles ALDE et Parti démocrate européen. Libéral sur le plan économique et progressiste sur le plan sociétal, il compte parmi les forces les plus favorables à l'intégration et à l'État de droit.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Renew_Europe"
+    },
+    "Greens/EFA": {
+      "name": "Groupe des Verts/Alliance libre européenne",
+      "leader": "Terry Reintke, Bas Eickhout (coprésidents)",
+      "founded": "1999",
+      "spectrum": "Centre gauche à gauche",
+      "ideologies": "Écologie politique, Progressisme, Régionalisme (ALE), Fédéralisme européen",
+      "priorities": "Action climatique et Pacte vert, Justice sociale, Droits humains, Droits numériques, Réforme démocratique de l'UE",
+      "description": "Alliance de partis écologistes (comme Les Verts allemands et Les Écologistes français) avec des partis régionalistes et progressistes de l'Alliance libre européenne et de nouveaux partis proeuropéens comme Volt. Elle défend une politique climatique ambitieuse, une UE plus fédérale et démocratique et des libertés civiles fortes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Greens%E2%80%93European_Free_Alliance"
+    },
+    "The Left": {
+      "name": "La Gauche au Parlement européen – GUE/NGL",
+      "leader": "Manon Aubry, Martin Schirdewan (coprésidents)",
+      "founded": "1995 (GUE/NGL)",
+      "spectrum": "Gauche à gauche radicale",
+      "ideologies": "Socialisme démocratique, Communisme, Anticapitalisme, Écosocialisme, Euroscepticisme de gauche",
+      "priorities": "Services publics et nationalisations, Droits des travailleurs, Taxation des grandes fortunes, Opposition à l'austérité et aux accords de libre-échange, Paix et démilitarisation",
+      "description": "Groupe de partis de gauche radicale, socialistes et communistes comme La France insoumise, Podemos et Die Linke. Critique de l'orientation de marché de l'UE et de l'OTAN, bien que ses membres divergent sur le degré d'intégration européenne et le soutien à l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Left_in_the_European_Parliament_%E2%80%93_GUE/NGL"
+    },
+    "ECR": {
+      "name": "Groupe des Conservateurs et Réformistes européens",
+      "leader": "Nicola Procaccini, Joachim Brudziński (coprésidents)",
+      "founded": "2009",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme national, Euroscepticisme modéré, Atlantisme",
+      "priorities": "Réduction de l'immigration, Subsidiarité et souveraineté nationale, Valeurs traditionnelles, Déréglementation, Soutien à l'Ukraine et à l'OTAN",
+      "description": "Groupe conservateur et modérément eurosceptique emmené par Fratelli d'Italia et le PiS polonais. Il privilégie une Europe des nations plutôt qu'une UE fédérale, des politiques migratoires restrictives et des valeurs conservatrices, tout en étant plus atlantiste et pro-ukrainien que les groupes situés à sa droite.",
+      "wiki_url": "https://en.wikipedia.org/wiki/European_Conservatives_and_Reformists_Group"
+    },
+    "PfE": {
+      "name": "Patriotes pour l'Europe",
+      "leader": "Jordan Bardella (président)",
+      "founded": "2024 (successeur d'Identité et démocratie)",
+      "spectrum": "Droite à extrême droite",
+      "ideologies": "Conservatisme national, Populisme de droite, Euroscepticisme, Anti-immigration",
+      "priorities": "Arrêter l'immigration illégale, Souveraineté nationale, Opposition au Pacte vert, Protection des industries et des agriculteurs nationaux, Valeurs familiales traditionnelles",
+      "description": "Créé en 2024 autour du Fidesz hongrois, du Rassemblement national, de la Lega, de Vox et du Chega portugais. Il s'oppose à une intégration européenne plus poussée et au Pacte vert, réclame une forte baisse de l'immigration, et plusieurs de ses membres sont ambivalents sur l'aide militaire à l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patriots_for_Europe"
+    },
+    "ESN": {
+      "name": "Europe des nations souveraines",
+      "leader": "René Aust (président)",
+      "founded": "2024",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Euroscepticisme dur, Populisme de droite, Anti-immigration",
+      "priorities": "Remigration et fermeture des frontières, Retour de compétences aux États membres, Opposition à la politique climatique, Fin des sanctions et des livraisons d'armes",
+      "description": "Le groupe le plus à droite du Parlement, formé en 2024 autour de l'Alternative pour l'Allemagne (AfD). Il rejette l'intégration européenne sous sa forme actuelle, s'oppose aux sanctions contre la Russie et à l'aide militaire à l'Ukraine, et prône une ligne dure contre l'immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Europe_of_Sovereign_Nations_Group"
+    }
+  }
+}

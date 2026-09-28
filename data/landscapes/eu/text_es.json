@@ -1,0 +1,96 @@
+{
+  "name": "Unión Europea — grupos del Parlamento Europeo",
+  "short_name": "Parlamento Europeo",
+  "intro": "compararla con los grupos políticos del Parlamento Europeo (legislatura 2024–2029)",
+  "results_title": "Coincidencia con los grupos del Parlamento Europeo",
+  "included_label": "Grupos incluidos",
+  "inclusion_note": "El test incluye todos los grupos políticos del Parlamento Europeo en la legislatura 2024–2029. Los diputados no inscritos no están incluidos. Las posiciones reflejan la línea dominante de los partidos miembros; las delegaciones nacionales de un mismo grupo pueden diferir bastante.",
+  "details_title": "Más sobre los grupos",
+  "entity_label": "Grupo político",
+  "leader_label": "Presidencia (ref. 2025)",
+  "hashtags": "Votimetro,ParlamentoEuropeo",
+  "hemicycle_note": "Escaños al inicio de la legislatura 2024–2029 (julio de 2024), ordenados de izquierda a derecha como en el hemiciclo. 720 eurodiputados.",
+  "unaffiliated_label": "No inscritos",
+  "parties": {
+    "EPP": {
+      "name": "Grupo del Partido Popular Europeo (Demócrata-Cristianos)",
+      "leader": "Manfred Weber (presidente)",
+      "founded": "1953 (como grupo democristiano)",
+      "spectrum": "Centroderecha",
+      "ideologies": "Democracia cristiana, Conservadurismo liberal, Europeísmo",
+      "priorities": "Competitividad y simplificación, Seguridad y defensa, Control de la inmigración irregular, Agricultura, Apoyo a Ucrania",
+      "description": "El mayor grupo del Parlamento Europeo desde 1999; reúne a partidos democristianos y de centroderecha como la CDU/CSU alemana, Plataforma Cívica de Polonia y el PP español. Europeísta y favorable al mercado, se ha desplazado a la derecha en inmigración y regulación ambiental en la legislatura 2024–2029.",
+      "wiki_url": "https://en.wikipedia.org/wiki/European_People%27s_Party_Group"
+    },
+    "S&D": {
+      "name": "Grupo de la Alianza Progresista de Socialistas y Demócratas",
+      "leader": "Iratxe García Pérez (presidenta)",
+      "founded": "1953 (como grupo socialista); nombre actual desde 2009",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Progresismo, Europeísmo",
+      "priorities": "Europa social (salarios justos, derechos laborales), Vivienda asequible, Justicia fiscal, Transición verde con protección social, Igualdad de género",
+      "description": "El principal grupo de centroizquierda, con partidos socialdemócratas y socialistas como el PSOE, el PD italiano, el SPD alemán y el PS portugués. Defiende un Estado del bienestar fuerte, los derechos laborales y más integración europea, incluida la deuda común.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Progressive_Alliance_of_Socialists_and_Democrats"
+    },
+    "Renew": {
+      "name": "Renew Europe",
+      "leader": "Valérie Hayer (presidenta)",
+      "founded": "2019 (sucesor del ALDE)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Centrismo, Europeísmo",
+      "priorities": "Mercado único y competitividad, Estado de derecho, Libertades civiles, Defensa europea, Innovación digital",
+      "description": "Grupo liberal y centrista formado en torno a Renaissance y a los partidos de las familias ALDE y Partido Demócrata Europeo. Liberal en economía y progresista en derechos, está entre las fuerzas más favorables a la integración y al Estado de derecho.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Renew_Europe"
+    },
+    "Greens/EFA": {
+      "name": "Grupo de los Verdes/Alianza Libre Europea",
+      "leader": "Terry Reintke, Bas Eickhout (copresidentes)",
+      "founded": "1999",
+      "spectrum": "Centroizquierda a izquierda",
+      "ideologies": "Ecologismo, Progresismo, Regionalismo (ALE), Federalismo europeo",
+      "priorities": "Acción climática y Pacto Verde Europeo, Justicia social, Derechos humanos, Derechos digitales, Reforma democrática de la UE",
+      "description": "Alianza de partidos verdes (como Los Verdes alemanes) con partidos regionalistas y progresistas de la Alianza Libre Europea, entre ellos ERC y el BNG, y nuevos partidos europeístas como Volt. Defiende una política climática ambiciosa, una UE más federal y democrática y fuertes libertades civiles.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Greens%E2%80%93European_Free_Alliance"
+    },
+    "The Left": {
+      "name": "La Izquierda en el Parlamento Europeo – GUE/NGL",
+      "leader": "Manon Aubry, Martin Schirdewan (copresidentes)",
+      "founded": "1995 (como GUE/NGL)",
+      "spectrum": "Izquierda a izquierda radical",
+      "ideologies": "Socialismo democrático, Comunismo, Anticapitalismo, Ecosocialismo, Euroescepticismo de izquierda",
+      "priorities": "Servicios públicos y nacionalizaciones, Derechos de los trabajadores, Impuestos a la riqueza, Oposición a la austeridad y a los tratados de libre comercio, Paz y desmilitarización",
+      "description": "Grupo de partidos de la izquierda radical, socialistas y comunistas como La France Insoumise, Podemos, Sumar y Die Linke. Crítico con la orientación de mercado de la UE y con la OTAN, aunque sus miembros discrepan sobre el grado de integración europea y el apoyo a Ucrania.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Left_in_the_European_Parliament_%E2%80%93_GUE/NGL"
+    },
+    "ECR": {
+      "name": "Grupo de los Conservadores y Reformistas Europeos",
+      "leader": "Nicola Procaccini, Joachim Brudziński (copresidentes)",
+      "founded": "2009",
+      "spectrum": "Derecha",
+      "ideologies": "Conservadurismo nacional, Euroescepticismo moderado, Atlantismo",
+      "priorities": "Menos inmigración, Subsidiariedad y soberanía nacional, Valores tradicionales, Desregulación, Apoyo a Ucrania y a la OTAN",
+      "description": "Grupo conservador y moderadamente euroescéptico liderado por Hermanos de Italia y el PiS polaco. Prefiere una Europa de las naciones a una UE federal, políticas migratorias restrictivas y valores conservadores, pero es más atlantista y proucraniano que los grupos a su derecha.",
+      "wiki_url": "https://en.wikipedia.org/wiki/European_Conservatives_and_Reformists_Group"
+    },
+    "PfE": {
+      "name": "Patriotas por Europa",
+      "leader": "Jordan Bardella (presidente)",
+      "founded": "2024 (sucesor de Identidad y Democracia)",
+      "spectrum": "Derecha a extrema derecha",
+      "ideologies": "Conservadurismo nacional, Populismo de derecha, Euroescepticismo, Contrario a la inmigración",
+      "priorities": "Frenar la inmigración ilegal, Soberanía nacional, Oposición al Pacto Verde, Proteger la industria y a los agricultores nacionales, Valores de la familia tradicional",
+      "description": "Creado en 2024 en torno al Fidesz húngaro, el Rassemblement National, la Lega, Vox y el Chega portugués. Se opone a más integración europea y al Pacto Verde, pide recortar drásticamente la inmigración, y varios de sus miembros son ambiguos sobre la ayuda militar a Ucrania.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patriots_for_Europe"
+    },
+    "ESN": {
+      "name": "Europa de las Naciones Soberanas",
+      "leader": "René Aust (presidente)",
+      "founded": "2024",
+      "spectrum": "Extrema derecha",
+      "ideologies": "Nacionalismo, Euroescepticismo duro, Populismo de derecha, Contrario a la inmigración",
+      "priorities": "Remigración y cierre de fronteras, Devolver competencias a los Estados miembros, Oposición a la política climática, Fin de las sanciones y del envío de armas",
+      "description": "El grupo más a la derecha del Parlamento, creado en 2024 en torno a Alternativa para Alemania (AfD). Rechaza la integración europea tal como es hoy, se opone a las sanciones a Rusia y a la ayuda militar a Ucrania y defiende una línea dura contra la inmigración.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Europe_of_Sovereign_Nations_Group"
+    }
+  }
+}

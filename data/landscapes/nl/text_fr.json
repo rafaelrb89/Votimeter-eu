@@ -1,0 +1,136 @@
+{
+  "name": "Pays-Bas — partis néerlandais",
+  "short_name": "Pays-Bas",
+  "intro": "le comparer aux partis politiques néerlandais",
+  "results_title": "Accord avec les partis néerlandais",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux des Pays-Bas : ceux représentés à la Seconde Chambre et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimetre,PaysBas",
+  "hemicycle_note": "Sièges à la Seconde Chambre après les élections législatives d'octobre 2025, disposés de gauche à droite. Approximatif. 150 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "SP": {
+      "name": "Socialistische Partij",
+      "leader": "Jimmy Dijk (dirigeant(e))",
+      "founded": "1972",
+      "spectrum": "Gauche",
+      "ideologies": "Socialisme démocratique, Populisme de gauche, Euroscepticisme modéré",
+      "priorities": "Santé publique, Pouvoir d'achat, Logement abordable, Droits et salaires des travailleurs",
+      "description": "Parti populiste de gauche qui veut un fonds national de santé à la place des assureurs privés, des loyers plus bas et un salaire minimum plus élevé. Critique de l'UE, il est plus prudent sur l'immigration que le reste de la gauche.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Socialist_Party_(Netherlands)"
+    },
+    "PvdD": {
+      "name": "Partij voor de Dieren",
+      "leader": "Esther Ouwehand (dirigeant(e))",
+      "founded": "2002",
+      "spectrum": "Gauche",
+      "ideologies": "Droits des animaux, Écologie politique, Progressisme",
+      "priorities": "Bien-être animal, Action climatique, Agriculteurs et monde rural",
+      "description": "Premier parti animaliste au monde à entrer dans un parlement national. Il veut réduire l'élevage, supprimer les subventions aux énergies fossiles et placer la nature avant la croissance.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Party_for_the_Animals"
+    },
+    "GL-PvdA": {
+      "name": "GroenLinks–PvdA",
+      "leader": "Jesse Klaver (chef de file parlementaire)",
+      "founded": "2023 (alliance)",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Écologie politique, Proeuropéisme",
+      "priorities": "Action climatique, Logement abordable, Services publics, Approfondir l'intégration européenne",
+      "description": "Liste commune de la Gauche verte et du Parti travailliste, première force de la gauche néerlandaise. Elle associe politique climatique, protection sociale et logement abordable, et soutient fermement l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/GroenLinks–PvdA"
+    },
+    "Volt": {
+      "name": "Volt Nederland",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "D66": {
+      "name": "Democraten 66",
+      "leader": "Rob Jetten (dirigeant(e))",
+      "founded": "1966",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Proeuropéisme, Progressisme",
+      "priorities": "Éducation, Logement abordable, Action climatique, Approfondir l'intégration européenne, Réforme démocratique",
+      "description": "Parti social-libéral arrivé en tête en voix en octobre 2025 sous Rob Jetten. Très proeuropéen et progressiste sur les questions éthiques, il mise sur l'éducation, la construction de logements et le climat.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democrats_66"
+    },
+    "CDA": {
+      "name": "Christen-Democratisch Appèl",
+      "leader": "Henri Bontenbal (dirigeant(e))",
+      "founded": "1980",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Valeurs familiales traditionnelles, Sécurité et ordre public, Logement abordable, Agriculteurs et monde rural",
+      "description": "Parti démocrate-chrétien longtemps dominant aux Pays-Bas, nettement remonté en 2025. Il met en avant la communauté, la famille, une politique migratoire modérée et une UE forte.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Christian_Democratic_Appeal"
+    },
+    "CU": {
+      "name": "ChristenUnie",
+      "leader": "Mirjam Bikker (dirigeant(e))",
+      "founded": "2000",
+      "spectrum": "Centre",
+      "ideologies": "Christianisme social, Démocratie chrétienne, Écologie politique",
+      "priorities": "Protection de la vie et de la famille, Valeurs familiales traditionnelles, Action climatique, Revenu minimum et lutte contre la pauvreté",
+      "description": "Parti chrétien protestant, conservateur sur l'euthanasie, les drogues et la prostitution, mais de centre gauche sur la pauvreté, les réfugiés et l'environnement.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Christian_Union_(Netherlands)"
+    },
+    "VVD": {
+      "name": "Volkspartij voor Vrijheid en Democratie",
+      "leader": "Dilan Yeşilgöz-Zegerius (dirigeant(e))",
+      "founded": "1948",
+      "spectrum": "Centre droit",
+      "ideologies": "Libéralisme, Libéralisme économique, Conservatisme libéral",
+      "priorities": "Baisse des impôts, Réduire l'immigration, Sécurité et ordre public, Discipline budgétaire, Énergie nucléaire",
+      "description": "Parti libéral-conservateur de l'ancien Premier ministre Mark Rutte. Il défend des impôts bas, la rigueur budgétaire, le nucléaire et un durcissement du droit d'asile.",
+      "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_for_Freedom_and_Democracy"
+    },
+    "BBB": {
+      "name": "BoerBurgerBeweging",
+      "leader": "Caroline van der Plas (dirigeant(e))",
+      "founded": "2019",
+      "spectrum": "Centre droit",
+      "ideologies": "Agrarisme, Populisme de droite, Euroscepticisme modéré",
+      "priorities": "Agriculteurs et monde rural, Réduire l'immigration, Souveraineté nationale, Pouvoir d'achat",
+      "description": "Mouvement agriculteur-citoyen, né des manifestations contre les règles sur l'azote. Il défend les agriculteurs et le monde rural face à la réglementation environnementale et à « La Haye », et veut moins d'immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Farmer–Citizen_Movement"
+    },
+    "JA21": {
+      "name": "JA21",
+      "leader": "Joost Eerdmans (dirigeant(e))",
+      "founded": "2020",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme national, Libéralisme économique, Anti-immigration, Atlantisme",
+      "priorities": "Réduire l'immigration, Sécurité et ordre public, Baisse des impôts, Défense et soutien à l'Ukraine",
+      "description": "Parti conservateur-libéral issu d'une scission du Forum pour la démocratie. Il associe une politique migratoire stricte à l'économie de marché et à une ligne pro-OTAN et pro-Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/JA21"
+    },
+    "PVV": {
+      "name": "Partij voor de Vrijheid",
+      "leader": "Geert Wilders (dirigeant(e))",
+      "founded": "2006",
+      "spectrum": "Extrême droite",
+      "ideologies": "Populisme de droite, Nationalisme, Anti-immigration, Euroscepticisme",
+      "priorities": "Réduire l'immigration, Identité nationale, Pouvoir d'achat, Santé publique, Souveraineté nationale",
+      "description": "Le parti de Geert Wilders, premier en 2023 et à égalité en tête en 2025. Il veut geler l'asile et limiter les mosquées, avec des positions de gauche sur les retraites et la santé, et il est hostile à l'UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Party_for_Freedom"
+    },
+    "FvD": {
+      "name": "Forum voor Democratie",
+      "leader": "Thierry Baudet (fondateur), Lidewij de Vos (chef du parti)",
+      "founded": "2016",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Conservatisme national, Euroscepticisme, Souverainisme",
+      "priorities": "Souveraineté nationale, Démocratie directe, Identité nationale, Diplomatie avec la Russie, pas de livraisons d'armes",
+      "description": "Parti de droite dure fondé par Thierry Baudet. Il veut quitter l'UE, rejette l'essentiel de la politique climatique, s'est illustré contre les mesures anti-COVID et se montre bienveillant envers la Russie.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Forum_for_Democracy"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Royaume-Uni — partis britanniques",
+  "short_name": "Royaume-Uni",
+  "intro": "le comparer aux partis politiques britanniques",
+  "results_title": "Accord avec les partis britanniques",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux du Royaume-Uni : ceux représentés à la Chambre des communes et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimetre,RoyaumeUni",
+  "hemicycle_note": "Sièges à la Chambre des communes après les élections générales de juillet 2024, disposés de gauche à droite. Approximatif. 650 membres. Les Communes siègent sur des bancs face à face ; les sièges sont représentés en hémicycle pour la comparaison.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "Green": {
+      "name": "Green Party of England and Wales",
+      "leader": "Zack Polanski (dirigeant(e))",
+      "founded": "1990",
+      "spectrum": "Gauche",
+      "ideologies": "Écologie politique, Écosocialisme, Progressisme, Proeuropéisme",
+      "priorities": "Action climatique, Taxer les grandes fortunes, Services publics, Logement abordable, Rapprochement avec l'UE",
+      "description": "Le parti écologiste d'Angleterre et du pays de Galles. Il prône la taxation de la richesse, la propriété publique de l'eau et du rail, une décarbonation rapide et, à terme, le retour dans l'UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Green_Party_of_England_and_Wales"
+    },
+    "SNP": {
+      "name": "Scottish National Party",
+      "leader": "John Swinney (dirigeant(e))",
+      "founded": "1934",
+      "spectrum": "Centre gauche",
+      "ideologies": "Indépendantisme écossais, Social-démocratie, Proeuropéisme",
+      "priorities": "Indépendance de l'Écosse, Services publics, Rapprochement avec l'UE, Action climatique",
+      "description": "Le parti de l'indépendance écossaise, au pouvoir en Écosse depuis 2007. De centre gauche et très proeuropéen, il veut qu'une Écosse indépendante rejoigne l'UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Scottish_National_Party"
+    },
+    "Plaid": {
+      "name": "Plaid Cymru",
+      "leader": "Rhun ap Iorwerth (dirigeant(e))",
+      "founded": "1925",
+      "spectrum": "Centre gauche",
+      "ideologies": "Nationalisme gallois, Social-démocratie, Écologie politique, Proeuropéisme",
+      "priorities": "Plus de pouvoirs pour le pays de Galles, Services publics, Action climatique, Rapprochement avec l'UE",
+      "description": "Parti nationaliste gallois qui réclame davantage de pouvoirs et, à terme, l'indépendance du pays de Galles. De centre gauche, proeuropéen et attaché à la langue galloise.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Plaid_Cymru"
+    },
+    "Lab": {
+      "name": "Labour Party",
+      "leader": "Keir Starmer (dirigeant(e))",
+      "founded": "1900",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Unionisme britannique, Atlantisme",
+      "priorities": "Santé publique, Pouvoir d'achat, Logement abordable, Droits et salaires des travailleurs, Discipline budgétaire",
+      "description": "Principal parti du centre gauche britannique, au pouvoir depuis sa large victoire de 2024. Sous Keir Starmer, il associe des règles budgétaires strictes à l'investissement dans le NHS, l'énergie propre et le logement, et à un rapprochement avec l'UE sans adhésion.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    "Volt": {
+      "name": "Volt UK",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "LD": {
+      "name": "Liberal Democrats",
+      "leader": "Ed Davey (dirigeant(e))",
+      "founded": "1988",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Libéralisme, Proeuropéisme",
+      "priorities": "Santé publique, Action climatique, Libertés civiles, Rapprochement avec l'UE, Réforme démocratique",
+      "description": "Parti centriste socialement libéral, troisième force aux Communes depuis 2024. Il fait campagne sur la santé, l'environnement, la réforme électorale et le retour dans le marché unique.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Liberal_Democrats_(UK)"
+    },
+    "Con": {
+      "name": "Conservative Party",
+      "leader": "Kemi Badenoch (dirigeant(e))",
+      "founded": "1834",
+      "spectrum": "Centre droit",
+      "ideologies": "Conservatisme, Libéralisme économique, Unionisme britannique, Euroscepticisme",
+      "priorities": "Baisse des impôts, Réduire l'immigration, Discipline budgétaire, Défense et soutien à l'Ukraine, Quitter la CEDH, pleine souveraineté",
+      "description": "Le parti au pouvoir de 2010 à 2024, qui a mené le Brexit. Dans l'opposition sous Kemi Badenoch, il prône moins d'impôts, un État réduit et une immigration bien plus faible.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+    },
+    "Reform": {
+      "name": "Reform UK",
+      "leader": "Nigel Farage (dirigeant(e))",
+      "founded": "2018 (sous le nom Brexit Party)",
+      "spectrum": "Droite à extrême droite",
+      "ideologies": "Populisme de droite, Nationalisme, Anti-immigration, Euroscepticisme",
+      "priorities": "Réduire l'immigration, Quitter la CEDH, pleine souveraineté, Baisse des impôts, Pouvoir d'achat, Sécurité et ordre public",
+      "description": "Parti populiste de droite dirigé par Nigel Farage, en forte hausse dans les sondages depuis 2024. Il veut stopper l'immigration nette, quitter la Convention européenne des droits de l'homme, baisser les impôts et abandonner l'objectif de neutralité carbone.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reform_UK"
+    }
+  }
+}

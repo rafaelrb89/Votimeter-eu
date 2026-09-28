@@ -1,0 +1,96 @@
+{
+  "name": "Allemagne — partis allemands",
+  "short_name": "Allemagne",
+  "intro": "le comparer aux partis politiques allemands",
+  "results_title": "Accord avec les partis allemands",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux d'Allemagne : ceux représentés au Bundestag et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimetre,Allemagne",
+  "hemicycle_note": "Sièges au Bundestag après les élections fédérales de février 2025, disposés de gauche à droite. Approximatif. 630 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "Linke": {
+      "name": "Die Linke",
+      "leader": "Ines Schwerdtner, Jan van Aken (président(e)s)",
+      "founded": "2007",
+      "spectrum": "Gauche à gauche radicale",
+      "ideologies": "Socialisme démocratique, Écosocialisme, Progressisme",
+      "priorities": "Logement abordable, Pouvoir d'achat, Taxer les grandes fortunes, Services publics, Diplomatie avec la Russie, pas de livraisons d'armes",
+      "description": "Parti socialiste démocratique revenu en force en 2025, porté par les jeunes électeurs. Il se concentre sur les loyers, les prix et la taxation des plus riches, et s'oppose aux exportations d'armes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Left_(Germany)"
+    },
+    "BSW": {
+      "name": "Bündnis Sahra Wagenknecht",
+      "leader": "Sahra Wagenknecht (fondateur)",
+      "founded": "2024",
+      "spectrum": "Gauche économique, conservateur sur l'immigration",
+      "ideologies": "Conservatisme de gauche, Populisme de gauche, Souverainisme, Euroscepticisme",
+      "priorities": "Diplomatie avec la Russie, pas de livraisons d'armes, Pouvoir d'achat, Réduire l'immigration, Droits et salaires des travailleurs, Protéger l'industrie nationale",
+      "description": "Scission de Die Linke menée par Sahra Wagenknecht. Elle allie économie de gauche et politique migratoire restrictive, s'oppose aux livraisons d'armes à l'Ukraine et veut une énergie moins chère par le dialogue avec la Russie. Elle a manqué de peu l'entrée au Bundestag en 2025.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sahra_Wagenknecht_Alliance"
+    },
+    "SPD": {
+      "name": "Sozialdemokratische Partei Deutschlands",
+      "leader": "Lars Klingbeil, Bärbel Bas (président(e)s)",
+      "founded": "1863",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Proeuropéisme, Atlantisme",
+      "priorities": "Droits et salaires des travailleurs, Services publics, Logement abordable, Défense et soutien à l'Ukraine, Protéger l'industrie nationale",
+      "description": "Le plus ancien parti d'Allemagne, aujourd'hui partenaire minoritaire de la coalition de Friedrich Merz après un plus bas historique en 2025. Il défend les retraites, le salaire minimum et l'emploi industriel.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany"
+    },
+    "Grüne": {
+      "name": "Bündnis 90/Die Grünen",
+      "leader": "Felix Banaszak, Franziska Brantner (président(e)s)",
+      "founded": "1980",
+      "spectrum": "Centre gauche",
+      "ideologies": "Écologie politique, Libéralisme social, Proeuropéisme, Atlantisme",
+      "priorities": "Action climatique, Défense et soutien à l'Ukraine, Approfondir l'intégration européenne, Libertés civiles, Innovation numérique",
+      "description": "Le parti écologiste allemand, au gouvernement fédéral de 2021 à 2025. Très proeuropéen et ferme dans son soutien à l'Ukraine, il s'oppose au nucléaire et défend une transition énergétique rapide.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alliance_90/The_Greens"
+    },
+    "Volt": {
+      "name": "Volt Deutschland",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "FDP": {
+      "name": "Freie Demokratische Partei",
+      "leader": "Christian Dürr (président(e))",
+      "founded": "1948",
+      "spectrum": "Centre droit",
+      "ideologies": "Libéralisme, Libéralisme économique, Proeuropéisme",
+      "priorities": "Discipline budgétaire, Baisse des impôts, Moins de bureaucratie, Innovation numérique, Éducation",
+      "description": "Le parti libéral classique allemand, défenseur du frein à l'endettement et d'impôts plus bas. Sa sortie de la coalition en 2024 a provoqué des élections anticipées, à l'issue desquelles il a quitté le Bundestag.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Free_Democratic_Party_(Germany)"
+    },
+    "CDU/CSU": {
+      "name": "CDU/CSU (Union)",
+      "leader": "Friedrich Merz (président(e)), Markus Söder (président(e))",
+      "founded": "1945",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Conservatisme libéral, Proeuropéisme, Atlantisme",
+      "priorities": "Compétitivité et croissance, Réduire l'immigration, Défense et soutien à l'Ukraine, Sécurité et ordre public, Moins de bureaucratie",
+      "description": "L'alliance démocrate-chrétienne de la CDU et de sa sœur bavaroise la CSU, qui a remporté les élections de 2025 et dirige le gouvernement du chancelier Friedrich Merz. Elle prône un durcissement migratoire, la relance économique et plus de dépenses de défense.",
+      "wiki_url": "https://en.wikipedia.org/wiki/CDU/CSU"
+    },
+    "AfD": {
+      "name": "Alternative für Deutschland",
+      "leader": "Alice Weidel, Tino Chrupalla (président(e)s)",
+      "founded": "2013",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Populisme de droite, Anti-immigration, Euroscepticisme",
+      "priorities": "Remigration et fermeture des frontières, Souveraineté nationale, Diplomatie avec la Russie, pas de livraisons d'armes, Pouvoir d'achat, Énergie nucléaire",
+      "description": "Parti d'extrême droite arrivé deuxième en 2025, son meilleur score. Il réclame la « remigration », la sortie de l'euro et peut-être de l'UE, la fin des sanctions contre la Russie et le retour au nucléaire et aux énergies fossiles. Une partie du parti est surveillée comme extrémiste par le renseignement allemand.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alternative_for_Germany"
+    }
+  }
+}

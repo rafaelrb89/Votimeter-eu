@@ -1,0 +1,126 @@
+{
+  "name": "France — partis français",
+  "short_name": "France",
+  "intro": "le comparer aux partis politiques français",
+  "results_title": "Accord avec les partis français",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de France : ceux représentés à l'Assemblée nationale et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimetre,PolitiqueFrancaise",
+  "hemicycle_note": "Sièges à l'Assemblée nationale après les législatives de juillet 2024 (par groupe parlementaire), disposés de gauche à droite. Approximatif. 577 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "LFI": {
+      "name": "La France insoumise",
+      "leader": "Jean-Luc Mélenchon (fondateur), Manuel Bompard (coordinateur)",
+      "founded": "2016",
+      "spectrum": "Gauche à gauche radicale",
+      "ideologies": "Socialisme démocratique, Populisme de gauche, Écosocialisme, Euroscepticisme modéré",
+      "priorities": "Pouvoir d'achat, Services publics, Taxer les grandes fortunes, Action climatique, Réforme démocratique",
+      "description": "Premier parti de la gauche radicale, fondé par Jean-Luc Mélenchon. Il défend une VIe République, la hausse du SMIC, la retraite à 60 ans, la planification écologique et la rupture avec les règles budgétaires européennes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/La_France_Insoumise"
+    },
+    "PCF": {
+      "name": "Parti communiste français",
+      "leader": "Fabien Roussel (secrétaire national(e))",
+      "founded": "1920",
+      "spectrum": "Extrême gauche",
+      "ideologies": "Communisme, Socialisme démocratique, Souverainisme",
+      "priorities": "Droits et salaires des travailleurs, Services publics, Protéger l'industrie nationale, Énergie nucléaire, Pouvoir d'achat",
+      "description": "L'un des plus anciens partis français, implanté dans le monde ouvrier et les collectivités locales. Contrairement à la plupart de la gauche, il défend le nucléaire et l'emploi industriel et critique les règles de marché de l'UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/French_Communist_Party"
+    },
+    "PS": {
+      "name": "Parti socialiste",
+      "leader": "Olivier Faure (premier secrétaire)",
+      "founded": "1969",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Proeuropéisme",
+      "priorities": "Services publics, Taxer les grandes fortunes, Logement abordable, Action climatique, Approfondir l'intégration européenne",
+      "description": "Parti historique du centre gauche, au pouvoir sous Mitterrand et Hollande. Après des années de déclin, il s'est redressé aux européennes de 2024 et fait partie de l'alliance de gauche à l'Assemblée.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Socialist_Party_(France)"
+    },
+    "Écologistes": {
+      "name": "Les Écologistes",
+      "leader": "Marine Tondelier (secrétaire national(e))",
+      "founded": "2010 (sous le nom EELV ; renommé en 2023)",
+      "spectrum": "Centre gauche",
+      "ideologies": "Écologie politique, Progressisme, Fédéralisme européen",
+      "priorities": "Action climatique, Services publics, Logement abordable, Libertés civiles, Approfondir l'intégration européenne",
+      "description": "Principal parti écologiste, anciennement Europe Écologie Les Verts. Il s'oppose aux nouveaux réacteurs nucléaires, défend l'ISF et une politique climatique ambitieuse, et dirige plusieurs grandes villes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Ecologists"
+    },
+    "Volt": {
+      "name": "Volt France",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "RE": {
+      "name": "Renaissance",
+      "leader": "Gabriel Attal (dirigeant(e))",
+      "founded": "2016 (sous le nom En Marche)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme, Centrisme, Proeuropéisme",
+      "priorities": "Compétitivité et croissance, Approfondir l'intégration européenne, Défense et soutien à l'Ukraine, Énergie nucléaire, Éducation",
+      "description": "Le parti d'Emmanuel Macron, créé pour dépasser le clivage gauche-droite. Favorable aux entreprises et très proeuropéen, il a porté la réforme des retraites, le nucléaire et la défense européenne.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Renaissance_(French_political_party)"
+    },
+    "MoDem": {
+      "name": "Mouvement démocrate",
+      "leader": "François Bayrou (président(e))",
+      "founded": "2007",
+      "spectrum": "Centre",
+      "ideologies": "Centrisme, Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Discipline budgétaire, Approfondir l'intégration européenne, Réforme démocratique, Éducation",
+      "description": "Parti centriste dirigé par François Bayrou, allié de Macron depuis 2017. Il allie racines démocrates-chrétiennes, souci de la dette publique et soutien à la proportionnelle.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Movement_(France)"
+    },
+    "HOR": {
+      "name": "Horizons",
+      "leader": "Édouard Philippe (président(e))",
+      "founded": "2021",
+      "spectrum": "Centre droit",
+      "ideologies": "Conservatisme libéral, Libéralisme économique, Proeuropéisme",
+      "priorities": "Discipline budgétaire, Sécurité et ordre public, Compétitivité et croissance, Énergie nucléaire",
+      "description": "Le parti de l'ancien Premier ministre Édouard Philippe, à l'aile droite du camp macroniste. Il met l'accent sur la rigueur budgétaire, la sécurité et la réforme de l'État.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Horizons_(political_party)"
+    },
+    "LR": {
+      "name": "Les Républicains",
+      "leader": "Bruno Retailleau (président(e))",
+      "founded": "2015 (UMP depuis 2002)",
+      "spectrum": "Centre droit",
+      "ideologies": "Gaullisme, Conservatisme libéral, Démocratie chrétienne",
+      "priorities": "Sécurité et ordre public, Réduire l'immigration, Discipline budgétaire, Baisse des impôts, Identité nationale",
+      "description": "La droite gaulliste traditionnelle de Chirac et Sarkozy. Affaiblie depuis 2017, elle a durci sa ligne sur l'immigration et la sécurité tout en défendant l'économie de marché.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Republicans_(France)"
+    },
+    "RN": {
+      "name": "Rassemblement national",
+      "leader": "Jordan Bardella (président(e)), Marine Le Pen (chef de file parlementaire)",
+      "founded": "1972 (sous le nom Front national)",
+      "spectrum": "Extrême droite",
+      "ideologies": "Conservatisme national, Populisme de droite, Anti-immigration, Souverainisme",
+      "priorities": "Réduire l'immigration, Pouvoir d'achat, Sécurité et ordre public, Souveraineté nationale, Protéger l'industrie nationale",
+      "description": "Premier parti de l'Assemblée nationale. Il associe une forte restriction de l'immigration et la « préférence nationale » à une économie protectionniste et sociale, et s'oppose à une intégration européenne accrue.",
+      "wiki_url": "https://en.wikipedia.org/wiki/National_Rally"
+    },
+    "REC": {
+      "name": "Reconquête",
+      "leader": "Éric Zemmour (président(e))",
+      "founded": "2021",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Conservatisme national, Anti-immigration, Libéralisme économique",
+      "priorities": "Remigration et fermeture des frontières, Identité nationale, Baisse des impôts, Sécurité et ordre public, Valeurs familiales traditionnelles",
+      "description": "Parti fondé par le polémiste Éric Zemmour. Plus libéral en économie et plus radical sur l'immigration et l'identité que le RN.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reconquête"
+    }
+  }
+}

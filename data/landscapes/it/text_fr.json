@@ -1,0 +1,106 @@
+{
+  "name": "Italie — partis italiens",
+  "short_name": "Italie",
+  "intro": "le comparer aux partis politiques italiens",
+  "results_title": "Accord avec les partis italiens",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux d'Italie : ceux représentés à la Chambre des députés et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimetre,Italie",
+  "hemicycle_note": "Sièges à la Chambre des députés après les élections générales de septembre 2022, disposés de gauche à droite. Approximatif. 400 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "AVS": {
+      "name": "Alleanza Verdi e Sinistra",
+      "leader": "Angelo Bonelli, Nicola Fratoianni (codirigeants)",
+      "founded": "2022",
+      "spectrum": "Gauche",
+      "ideologies": "Écologie politique, Écosocialisme, Socialisme démocratique",
+      "priorities": "Action climatique, Droits et salaires des travailleurs, Services publics, Diplomatie avec la Russie, pas de livraisons d'armes",
+      "description": "Alliance d'Europa Verde et de Sinistra Italiana. Elle associe écologie et économie de gauche, réclame un salaire minimum et s'oppose aux livraisons d'armes à l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Greens_and_Left_Alliance"
+    },
+    "M5S": {
+      "name": "Movimento 5 Stelle",
+      "leader": "Giuseppe Conte (président(e))",
+      "founded": "2009",
+      "spectrum": "Syncrétique",
+      "ideologies": "Populisme, Progressisme, Écologie politique",
+      "priorities": "Revenu minimum et lutte contre la pauvreté, Réforme de la justice, Diplomatie avec la Russie, pas de livraisons d'armes, Action climatique, Démocratie directe",
+      "description": "Fondé comme mouvement antisystème par Beppe Grillo, il est aujourd'hui dirigé par l'ancien président du Conseil Giuseppe Conte et plus proche de la gauche. Il a créé le revenu de citoyenneté, se montre intransigeant sur la corruption et s'oppose aux armes pour l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Five_Star_Movement"
+    },
+    "PD": {
+      "name": "Partito Democratico",
+      "leader": "Elly Schlein (secrétaire)",
+      "founded": "2007",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Progressisme, Proeuropéisme",
+      "priorities": "Santé publique, Droits et salaires des travailleurs, Services publics, Approfondir l'intégration européenne, Action climatique",
+      "description": "Principal parti du centre gauche italien et première force d'opposition. Sous Elly Schlein, il s'est déplacé à gauche et fait campagne pour la santé publique, un salaire minimum et les droits civiques.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Party_(Italy)"
+    },
+    "Volt": {
+      "name": "Volt Italia",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "IV": {
+      "name": "Italia Viva",
+      "leader": "Matteo Renzi (dirigeant(e))",
+      "founded": "2019",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme, Centrisme, Proeuropéisme, Réformisme",
+      "priorities": "Compétitivité et croissance, Approfondir l'intégration européenne, Éducation, Réforme de la justice",
+      "description": "Parti centriste fondé par l'ancien président du Conseil Matteo Renzi après son départ du PD. Libéral et proeuropéen, il s'est rapproché de l'opposition de centre gauche.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Italia_Viva"
+    },
+    "Azione": {
+      "name": "Azione",
+      "leader": "Carlo Calenda (dirigeant(e))",
+      "founded": "2019",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme, Réformisme, Proeuropéisme, Atlantisme",
+      "priorities": "Énergie nucléaire, Compétitivité et croissance, Éducation, Défense et soutien à l'Ukraine",
+      "description": "Parti libéral et réformiste dirigé par Carlo Calenda. Il défend le retour au nucléaire, une politique industrielle, la responsabilité budgétaire et un soutien ferme à l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Action_(Italy)"
+    },
+    "FI": {
+      "name": "Forza Italia",
+      "leader": "Antonio Tajani (secrétaire national(e))",
+      "founded": "1994 (refondé en 2013)",
+      "spectrum": "Centre droit",
+      "ideologies": "Conservatisme libéral, Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Baisse des impôts, Réforme de la justice, Compétitivité et croissance, Approfondir l'intégration européenne",
+      "description": "Le parti fondé par Silvio Berlusconi, aujourd'hui l'aile modérée et proeuropéenne de la coalition de Giorgia Meloni. Il veut moins d'impôts, une flat tax et une réforme de la justice.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Forza_Italia_(2013)"
+    },
+    "FdI": {
+      "name": "Fratelli d'Italia",
+      "leader": "Giorgia Meloni (président(e))",
+      "founded": "2012",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme national, Conservatisme, Euroscepticisme modéré, Atlantisme",
+      "priorities": "Réduire l'immigration, Valeurs familiales traditionnelles, Élection directe du chef du gouvernement, Sécurité et ordre public, Défense et soutien à l'Ukraine",
+      "description": "Le parti de Giorgia Meloni, arrivé en tête en 2022 et à la tête du gouvernement. National-conservateur aux racines post-fascistes, il est dur sur l'immigration et traditionaliste sur la famille, mais pro-OTAN et favorable à l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Brothers_of_Italy"
+    },
+    "Lega": {
+      "name": "Lega",
+      "leader": "Matteo Salvini (secrétaire fédéral)",
+      "founded": "1991 (sous le nom Lega Nord)",
+      "spectrum": "Droite à extrême droite",
+      "ideologies": "Populisme de droite, Nationalisme, Euroscepticisme, Anti-immigration",
+      "priorities": "Réduire l'immigration, Baisse des impôts, Autonomie régionale, Sécurité et ordre public, Énergie nucléaire",
+      "description": "Ancien parti autonomiste du Nord, transformé par Matteo Salvini en force populiste de droite nationale. Au gouvernement, il défend la flat tax, l'autonomie régionale et la fermeture des ports, et se montre sceptique envers l'UE et les sanctions contre la Russie.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lega_(political_party)"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Spain — Spanish parties",
+  "short_name": "Spain",
+  "intro": "compare it with Spanish political parties",
+  "results_title": "Agreement with Spanish parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Spain: those represented in the Congress of Deputies and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,SpanishPolitics",
+  "hemicycle_note": "Seats in the Congress of Deputies after the July 2023 general election, arranged left to right. Approximate. 350 members. Podemos left the Sumar group in December 2023. Regional parties (ERC, Junts, EH Bildu, PNV, BNG, CC, UPN) are shown as Other.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "Podemos": {
+      "name": "Podemos",
+      "leader": "Ione Belarra (Secretary-General)",
+      "founded": "2014",
+      "spectrum": "Left to far-left",
+      "ideologies": "Democratic socialism, Left-wing populism, Feminism",
+      "priorities": "Affordable housing, Public services, Taxing wealth, Diplomacy with Russia, no arms deliveries, Gender equality and feminism",
+      "description": "Left-wing populist party born from the 2011 15-M protests. It was in government with the PSOE from 2020 to 2023, then left the Sumar alliance. It calls for rent controls, public housing and higher taxes on the wealthy, and opposes sending arms to Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Podemos_(Spanish_political_party)"
+    },
+    "Sumar": {
+      "name": "Sumar",
+      "leader": "Yolanda Díaz (Leader)",
+      "founded": "2023",
+      "spectrum": "Left",
+      "ideologies": "Democratic socialism, Green politics, Feminism, Pro-Europeanism",
+      "priorities": "Workers' rights and wages, Affordable housing, Climate action, Public services, Gender equality and feminism",
+      "description": "Left-wing platform led by labour minister Yolanda Díaz, the junior partner in Pedro Sánchez's coalition government. It has raised the minimum wage, pushes for a shorter working week and combines left-wing economics with green and pro-European positions.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sumar_(electoral_platform)"
+    },
+    "PSOE": {
+      "name": "Partido Socialista Obrero Español",
+      "leader": "Pedro Sánchez (Secretary-General)",
+      "founded": "1879",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Progressivism, Feminism, Pro-Europeanism",
+      "priorities": "Workers' rights and wages, Affordable housing, Gender equality and feminism, Deeper European integration, Climate action",
+      "description": "Spain's oldest party, leading the government under Pedro Sánchez since 2018 with support from regional parties. Socially progressive (it legalised euthanasia and favours abolishing prostitution), strongly pro-European and committed to renewables and phasing out nuclear power.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Spanish_Socialist_Workers%27_Party"
+    },
+    "Volt": {
+      "name": "Volt España",
+      "leader": "National chapter of Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "National chapter of Volt Europa, the first pan-European party. All chapters share one programme: a federal and more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions. Volt has the same positions in every country in this test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PP": {
+      "name": "Partido Popular",
+      "leader": "Alberto Núñez Feijóo (President)",
+      "founded": "1989 (Alianza Popular from 1976)",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberal conservatism, Christian democracy, Pro-Europeanism",
+      "priorities": "Lower taxes, Unity of Spain, Fighting corruption, Reducing immigration, Fiscal discipline",
+      "description": "The main party of the Spanish centre-right and the largest in Congress since 2023, though short of a majority. It favours tax cuts, a firm line on Catalan and Basque nationalism and tighter migration control, and wants to keep nuclear plants open.",
+      "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_(Spain)"
+    },
+    "Vox": {
+      "name": "Vox",
+      "leader": "Santiago Abascal (President)",
+      "founded": "2013",
+      "spectrum": "Far-right",
+      "ideologies": "National conservatism, Nationalism, Anti-immigration, Soft Euroscepticism",
+      "priorities": "Reducing immigration, Unity of Spain, Traditional family values, Security and law and order, Farmers and rural areas",
+      "description": "Radical-right party founded by former PP members, now the third force in Congress. It opposes regional autonomy, abortion and euthanasia, defends bullfighting and traditional values, and wants deportations and much less immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vox_(political_party)"
+    },
+    "SALF": {
+      "name": "Se Acabó La Fiesta",
+      "leader": "Luis «Alvise» Pérez (Founder)",
+      "founded": "2024",
+      "spectrum": "Far-right",
+      "ideologies": "Right-wing populism, Populism, Economic liberalism",
+      "priorities": "Fighting corruption, Security and law and order, Lower taxes, Reducing immigration",
+      "description": "Anti-establishment movement founded by the social-media agitator Alvise Pérez, which won three seats in the 2024 European election. It calls for mega-prisons on the Salvadoran model, harsh penalties for corruption and much lower taxes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Se_Acab%C3%B3_La_Fiesta"
+    }
+  }
+}

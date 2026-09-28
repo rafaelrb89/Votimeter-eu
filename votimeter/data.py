@@ -9,6 +9,8 @@ Layout of ``data/``:
 - ``landscapes/<id>/parties.csv``   code, color, url (language-neutral)
 - ``landscapes/<id>/positions.csv`` id + one column per party code, values in -2..2
 - ``landscapes/<id>/text_<lang>.json`` landscape strings and party details
+- ``landscapes/<id>/hemicycle.csv`` code, seats, in seating order left to right
+  (optional; codes that are not parties, e.g. ``NI``, are shown as unaffiliated)
 """
 
 from __future__ import annotations
@@ -43,6 +45,7 @@ class Landscape:
     text: dict
     parties: tuple[Party, ...]
     positions: pd.DataFrame  # index: question id, columns: party codes
+    hemicycle: tuple[tuple[str, int], ...] = ()  # (code, seats), left to right
 
     @property
     def party_codes(self) -> list[str]:
@@ -112,7 +115,23 @@ def load_landscape(landscape_id: str, lang: str, data_dir: Path = DATA_DIR) -> L
         Party(code=row.code, color=row.color, url=row.url, details=details[row.code])
         for row in parties_df.itertuples(index=False)
     )
-    return Landscape(id=landscape_id, text=text, parties=parties, positions=positions.astype(int))
+    return Landscape(
+        id=landscape_id,
+        text=text,
+        parties=parties,
+        positions=positions.astype(int),
+        hemicycle=_load_hemicycle(folder / "hemicycle.csv", landscape_id),
+    )
+
+
+def _load_hemicycle(path: Path, landscape_id: str) -> tuple[tuple[str, int], ...]:
+    if not path.exists():
+        return ()
+    seats = pd.read_csv(path, dtype={"code": str})
+    _require_columns(seats, ["code", "seats"], f"{landscape_id}/hemicycle.csv")
+    if seats["code"].duplicated().any() or not (seats["seats"] > 0).all():
+        raise DataError(f"{landscape_id}/hemicycle.csv: codes must be unique and seats positive")
+    return tuple((row.code, int(row.seats)) for row in seats.itertuples(index=False))
 
 
 def _read_json(path: Path) -> dict:

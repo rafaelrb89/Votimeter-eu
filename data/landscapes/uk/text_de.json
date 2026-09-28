@@ -1,0 +1,96 @@
+{
+  "name": "Vereinigtes Königreich — britischen Parteien",
+  "short_name": "Vereinigtes Königreich",
+  "intro": "sie mit den britischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den britischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien des Vereinigten Königreichs: die im Unterhaus vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Grossbritannien",
+  "hemicycle_note": "Sitze im Unterhaus nach der Unterhauswahl im Juli 2024, von links nach rechts angeordnet. Ungefähre Angaben. 650 Abgeordnete. Im Unterhaus sitzen sich die Bänke gegenüber; die Sitze sind zum Vergleich als Halbrund dargestellt.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "Green": {
+      "name": "Green Party of England and Wales",
+      "leader": "Zack Polanski (Vorsitz)",
+      "founded": "1990",
+      "spectrum": "Links",
+      "ideologies": "Grüne Politik, Ökosozialismus, Progressivismus, Proeuropäisch",
+      "priorities": "Klimaschutz, Vermögensbesteuerung, Öffentliche Daseinsvorsorge, Bezahlbares Wohnen, Engere Bindung an die EU",
+      "description": "Die grüne Partei für England und Wales. Sie fordert Vermögensteuern, öffentliches Eigentum an Wasser und Bahn, schnelle Dekarbonisierung und langfristig den Wiedereintritt in die EU.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Green_Party_of_England_and_Wales"
+    },
+    "SNP": {
+      "name": "Scottish National Party",
+      "leader": "John Swinney (Vorsitz)",
+      "founded": "1934",
+      "spectrum": "Mitte-links",
+      "ideologies": "Schottische Unabhängigkeit, Sozialdemokratie, Proeuropäisch",
+      "priorities": "Unabhängigkeit Schottlands, Öffentliche Daseinsvorsorge, Engere Bindung an die EU, Klimaschutz",
+      "description": "Die Partei der schottischen Unabhängigkeit, seit 2007 in Schottland an der Regierung. Mitte-links und stark proeuropäisch, will sie ein unabhängiges Schottland in die EU zurückführen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Scottish_National_Party"
+    },
+    "Plaid": {
+      "name": "Plaid Cymru",
+      "leader": "Rhun ap Iorwerth (Vorsitz)",
+      "founded": "1925",
+      "spectrum": "Mitte-links",
+      "ideologies": "Walisischer Nationalismus, Sozialdemokratie, Grüne Politik, Proeuropäisch",
+      "priorities": "Mehr Befugnisse für Wales, Öffentliche Daseinsvorsorge, Klimaschutz, Engere Bindung an die EU",
+      "description": "Walisische Nationalpartei, die mehr Befugnisse und langfristig die Unabhängigkeit für Wales anstrebt. Mitte-links, proeuropäisch und der walisischen Sprache verpflichtet.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Plaid_Cymru"
+    },
+    "Lab": {
+      "name": "Labour Party",
+      "leader": "Keir Starmer (Vorsitz)",
+      "founded": "1900",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Britischer Unionismus, Atlantizismus",
+      "priorities": "Öffentliche Gesundheitsversorgung, Lebenshaltungskosten, Bezahlbares Wohnen, Arbeitnehmerrechte und Löhne, Haushaltsdisziplin",
+      "description": "Die wichtigste Mitte-links-Partei Großbritanniens, seit ihrem Erdrutschsieg 2024 an der Regierung. Unter Keir Starmer verbindet sie strenge Haushaltsregeln mit Investitionen in den NHS, saubere Energie und Wohnungsbau sowie eine engere Beziehung zur EU ohne Mitgliedschaft.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    "Volt": {
+      "name": "Volt UK",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "LD": {
+      "name": "Liberal Democrats",
+      "leader": "Ed Davey (Vorsitz)",
+      "founded": "1988",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Liberalismus, Proeuropäisch",
+      "priorities": "Öffentliche Gesundheitsversorgung, Klimaschutz, Bürgerrechte, Engere Bindung an die EU, Demokratiereform",
+      "description": "Sozialliberale Partei der Mitte, seit 2024 dritte Kraft im Unterhaus. Sie setzt auf Gesundheit und Pflege, Umwelt, Wahlrechtsreform und die Rückkehr in den EU-Binnenmarkt.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Liberal_Democrats_(UK)"
+    },
+    "Con": {
+      "name": "Conservative Party",
+      "leader": "Kemi Badenoch (Vorsitz)",
+      "founded": "1834",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Konservatismus, Wirtschaftsliberalismus, Britischer Unionismus, Euroskeptizismus",
+      "priorities": "Steuersenkungen, Weniger Einwanderung, Haushaltsdisziplin, Verteidigung und Unterstützung der Ukraine, Austritt aus der EMRK, volle Souveränität",
+      "description": "Die Partei, die von 2010 bis 2024 regierte und den Brexit umsetzte. In der Opposition unter Kemi Badenoch tritt sie für niedrigere Steuern, einen kleineren Staat und deutlich weniger Zuwanderung ein.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+    },
+    "Reform": {
+      "name": "Reform UK",
+      "leader": "Nigel Farage (Vorsitz)",
+      "founded": "2018 (als Brexit Party)",
+      "spectrum": "Rechts bis rechtsaußen",
+      "ideologies": "Rechtspopulismus, Nationalismus, Einwanderungskritik, Euroskeptizismus",
+      "priorities": "Weniger Einwanderung, Austritt aus der EMRK, volle Souveränität, Steuersenkungen, Lebenshaltungskosten, Sicherheit und Ordnung",
+      "description": "Rechtspopulistische Partei unter Nigel Farage, die seit 2024 in Umfragen stark zugelegt hat. Sie will die Nettozuwanderung stoppen, die Europäische Menschenrechtskonvention verlassen, Steuern senken und Netto-Null-Ziele abschaffen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reform_UK"
+    }
+  }
+}

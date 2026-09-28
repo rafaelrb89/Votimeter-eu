@@ -9,6 +9,8 @@
   "entity_label": "Partido/Coligação",
   "leader_label": "Líder(es) (ref. Abril 2025)",
   "hashtags": "ParadigmaPoliticoPT,PoliticaPortuguesa",
+  "hemicycle_note": "Lugares na Assembleia da República após as eleições legislativas de maio de 2025, dispostos da esquerda para a direita. 230 deputados.",
+  "unaffiliated_label": "Outros",
   "parties": {
     "PS": {
       "name": "Partido Socialista",

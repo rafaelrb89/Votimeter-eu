@@ -18,8 +18,8 @@ LANDSCAPES = list_landscapes()
 
 
 def test_expected_languages_and_landscapes():
-    assert {"en", "pt"} <= set(LANGUAGES)
-    assert {"eu", "pt"} <= set(LANDSCAPES)
+    assert {"en", "pt", "fr", "de", "it", "es"} <= set(LANGUAGES)
+    assert {"eu", "pt", "fr", "uk", "de", "nl", "it", "es"} <= set(LANDSCAPES)
 
 
 @pytest.mark.parametrize("lang", LANGUAGES)
@@ -73,3 +73,16 @@ def test_portugal_positions_preserved_from_original_order():
     assert positions.columns[0] == "id"
     assert positions.loc[0, "id"] == "ECO01"
     assert positions.loc[0, "Chega"] == 2
+
+
+def test_volt_has_the_same_positions_everywhere():
+    """Volt shares one programme across countries (see scripts/sync_volt.py)."""
+    columns = {
+        landscape_id: load_landscape(landscape_id, "en").positions["Volt"]
+        for landscape_id in LANDSCAPES
+        if "Volt" in load_landscape(landscape_id, "en").party_codes
+    }
+    assert {"pt", "fr", "uk", "de", "nl", "it", "es"} <= set(columns)
+    reference = columns["pt"]
+    for landscape_id, column in columns.items():
+        assert column.equals(reference), f"Volt differs in {landscape_id}: run scripts/sync_volt.py"
