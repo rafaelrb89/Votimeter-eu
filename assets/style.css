@@ -1,0 +1,79 @@
+/* --- General Text & Background --- */
+body { background-color: #0E1117 !important; }
+.stApp { background-color: #0E1117 !important; }
+h1, h2, h3, h4, h5, h6, p, div, span, label, input, textarea, li { color: #FFFFFF !important; }
+a { color: #1E90FF !important; }
+
+/* --- Altair Chart Visibility --- */
+.vega-visualization { background-color: transparent !important; }
+.vega-visualization svg text { fill: #FFFFFF !important; font-size: 11px; }
+.vega-visualization svg .axis-title { font-size: 13px !important; fill: #E0E0E0 !important; }
+.vega-visualization svg .legend-title { font-size: 13px !important; fill: #E0E0E0 !important; }
+.vega-visualization svg .legend-label { fill: #CCCCCC !important; font-size: 11px !important; }
+.vega-visualization svg .axis path, .vega-visualization svg .axis line, .vega-visualization svg .axis .tick { stroke: #CCCCCC !important; }
+.vega-visualization svg .axis .domain { stroke-width: 1px; }
+.compass-text-label { fill: #FFFFFF !important; }
+
+/* --- Button Styling --- */
+/* Answer Buttons (Horizontal) */
+div[data-testid="stHorizontalBlock"] button { width: 100%; color: #ffffff !important; border-radius: 4px; border: none;}
+div[data-testid="stHorizontalBlock"] > div:nth-of-type(1) button { background-color: #8B0000 !important; }
+div[data-testid="stHorizontalBlock"] > div:nth-of-type(2) button { background-color: #FF6347 !important; }
+div[data-testid="stHorizontalBlock"] > div:nth-of-type(3) button { background-color: #FFD700 !important; color: #000000 !important;}
+div[data-testid="stHorizontalBlock"] > div:nth-of-type(4) button { background-color: #556B2F !important; }
+div[data-testid="stHorizontalBlock"] > div:nth-of-type(5) button { background-color: #006400 !important; }
+
+/* Skip button */
+.skip-btn-wrapper { margin-top: 15px !important; margin-bottom: 5px !important; }
+.skip-btn-wrapper div[data-testid="stButton"] button {
+    background-color: #D3D3D3 !important; /* Light Gray */
+    color: #000000 !important; /* Black Text */
+    width: 100% !important;
+    padding: 0.5em 1em !important;
+    font-weight: bold;
+    border: none !important;
+    border-radius: 4px;
+}
+/* Force color on potential inner elements too */
+.skip-btn-wrapper button * {
+     color: #000000 !important;
+}
+
+
+/* Back button */
+.recuar-btn-wrapper { margin-top: 10px !important; margin-bottom: 10px !important; }
+.recuar-btn-wrapper div[data-testid="stButton"] button {
+    background-color: #D3D3D3 !important; /* Light Gray */
+    color: #000000 !important; /* Black Text */
+    width: 100% !important;
+    padding: 0.5em 1em !important;
+    font-weight: bold;
+    border: none !important;
+    border-radius: 4px;
+}
+ /* Force color on potential inner elements too */
+.recuar-btn-wrapper button * {
+     color: #000000 !important;
+}
+
+/* Restart button wrapper (spacing) */
+.restart-btn-wrapper {
+    margin-top: 20px !important; /* Add space above the restart button */
+    margin-bottom: 10px !important; /* Optional: Add space below */
+}
+/* No specific style needed for the button itself - use theme default */
+
+
+/* Start / midpoint / share / expander */
+.start-btn button, .midpoint-btn button { font-weight: bold !important; padding: 0.6em 1em !important; width: 100%; border-radius: 5px; border: none;}
+.start-btn button { background-color: #003300 !important; color: #ffffff !important; font-size: 1.1rem !important; }
+.midpoint-btn button { background-color: #003366 !important; color: #ffffff !important; font-size: 1.0rem !important; margin-top: 10px;}
+.start-btn-container { display: flex; justify-content: center; margin-top: 20px; gap: 20px;}
+.share-btn { display: inline-block; padding: 8px 15px; margin: 5px 3px; border-radius: 5px; color: white !important; text-decoration: none; font-weight: bold; text-align: center; border: none; cursor: pointer; }
+.share-btn:hover { opacity: 0.9; text-decoration: none; color: white !important; }
+.share-btn-facebook { background-color: #1877F2; } .share-btn-x { background-color: #1DA1F2; }
+.share-btn-whatsapp { background-color: #25D366; } .share-btn-email { background-color: #777777; }
+.share-button-container { text-align: center; margin-top: 20px;}
+.stExpander div[data-testid="stExpanderDetails"] { background-color: #222222; padding: 15px; border-radius: 5px; border: 1px solid #444444; }
+.stExpander div[data-testid="stExpanderDetails"] p, .stExpander div[data-testid="stExpanderDetails"] li, .stExpander div[data-testid="stExpanderDetails"] strong { color: #FFFFFF !important; }
+.stExpander div[data-testid="stExpanderDetails"] a { color: #90CAF9 !important; }
