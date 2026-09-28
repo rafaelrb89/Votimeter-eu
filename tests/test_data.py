@@ -18,8 +18,8 @@ LANDSCAPES = list_landscapes()
 
 
 def test_expected_languages_and_landscapes():
-    assert {"en", "pt"} <= set(LANGUAGES)
-    assert {"eu", "pt"} <= set(LANDSCAPES)
+    assert {"en", "pt", "fr", "de", "it"} <= set(LANGUAGES)
+    assert {"eu", "pt", "fr", "uk", "de", "nl", "it"} <= set(LANDSCAPES)
 
 
 @pytest.mark.parametrize("lang", LANGUAGES)

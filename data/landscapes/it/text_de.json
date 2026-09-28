@@ -1,0 +1,96 @@
+{
+  "name": "Italien — italienischen Parteien",
+  "short_name": "Italien",
+  "intro": "sie mit den italienischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den italienischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Italiens: die in der Abgeordnetenkammer vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Italien",
+  "hemicycle_note": "Sitze in der Abgeordnetenkammer nach der Parlamentswahl im September 2022, von links nach rechts angeordnet. Ungefähre Angaben. 400 Abgeordnete.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "AVS": {
+      "name": "Alleanza Verdi e Sinistra",
+      "leader": "Angelo Bonelli, Nicola Fratoianni (Ko-Vorsitz)",
+      "founded": "2022",
+      "spectrum": "Links",
+      "ideologies": "Grüne Politik, Ökosozialismus, Demokratischer Sozialismus",
+      "priorities": "Klimaschutz, Arbeitnehmerrechte und Löhne, Öffentliche Daseinsvorsorge, Diplomatie mit Russland, keine Waffenlieferungen",
+      "description": "Bündnis aus Europa Verde und Sinistra Italiana. Es verbindet Umweltschutz mit linker Wirtschaftspolitik, fordert einen Mindestlohn und lehnt Waffenlieferungen an die Ukraine ab.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Greens_and_Left_Alliance"
+    },
+    "M5S": {
+      "name": "Movimento 5 Stelle",
+      "leader": "Giuseppe Conte (Vorsitz)",
+      "founded": "2009",
+      "spectrum": "Synkretistisch",
+      "ideologies": "Populismus, Progressivismus, Grüne Politik",
+      "priorities": "Mindesteinkommen und Armutsbekämpfung, Justizreform, Diplomatie mit Russland, keine Waffenlieferungen, Klimaschutz, Direkte Demokratie",
+      "description": "Von Beppe Grillo als Anti-Establishment-Bewegung gegründet, heute unter Ex-Ministerpräsident Giuseppe Conte näher an der Linken. Sie führte das Bürgergeld ein, geht hart gegen Korruption vor und lehnt Waffen für die Ukraine ab.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Five_Star_Movement"
+    },
+    "PD": {
+      "name": "Partito Democratico",
+      "leader": "Elly Schlein (Sekretär(in))",
+      "founded": "2007",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Progressivismus, Proeuropäisch",
+      "priorities": "Öffentliche Gesundheitsversorgung, Arbeitnehmerrechte und Löhne, Öffentliche Daseinsvorsorge, Vertiefte europäische Integration, Klimaschutz",
+      "description": "Die wichtigste Partei der italienischen Mitte-links und größte Oppositionskraft. Unter Elly Schlein ist sie nach links gerückt und setzt sich für öffentliche Gesundheitsversorgung, einen Mindestlohn und Bürgerrechte ein.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Party_(Italy)"
+    },
+    "IV": {
+      "name": "Italia Viva",
+      "leader": "Matteo Renzi (Vorsitz)",
+      "founded": "2019",
+      "spectrum": "Mitte",
+      "ideologies": "Liberalismus, Zentrismus, Proeuropäisch, Reformismus",
+      "priorities": "Wettbewerbsfähigkeit und Wachstum, Vertiefte europäische Integration, Bildung, Justizreform",
+      "description": "Zentristische Partei, die Ex-Ministerpräsident Matteo Renzi nach seinem Austritt aus dem PD gründete. Liberal und proeuropäisch, hat sie sich der Mitte-links-Opposition angenähert.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Italia_Viva"
+    },
+    "Azione": {
+      "name": "Azione",
+      "leader": "Carlo Calenda (Vorsitz)",
+      "founded": "2019",
+      "spectrum": "Mitte",
+      "ideologies": "Liberalismus, Reformismus, Proeuropäisch, Atlantizismus",
+      "priorities": "Kernenergie, Wettbewerbsfähigkeit und Wachstum, Bildung, Verteidigung und Unterstützung der Ukraine",
+      "description": "Liberale, reformorientierte Partei unter Carlo Calenda. Sie befürwortet die Rückkehr zur Kernkraft, Industriepolitik, solide Finanzen und entschiedene Unterstützung der Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Action_(Italy)"
+    },
+    "FI": {
+      "name": "Forza Italia",
+      "leader": "Antonio Tajani (Nationaler Sekretär)",
+      "founded": "1994 (2013 neu gegründet)",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Christdemokratie, Proeuropäisch",
+      "priorities": "Steuersenkungen, Justizreform, Wettbewerbsfähigkeit und Wachstum, Vertiefte europäische Integration",
+      "description": "Die von Silvio Berlusconi gegründete Partei, heute der gemäßigte, proeuropäische Flügel der Regierungskoalition von Giorgia Meloni. Sie will niedrigere Steuern, eine Flat Tax und eine Justizreform.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Forza_Italia_(2013)"
+    },
+    "FdI": {
+      "name": "Fratelli d'Italia",
+      "leader": "Giorgia Meloni (Vorsitz)",
+      "founded": "2012",
+      "spectrum": "Rechts",
+      "ideologies": "Nationalkonservatismus, Konservatismus, Gemäßigter Euroskeptizismus, Atlantizismus",
+      "priorities": "Weniger Einwanderung, Traditionelle Familienwerte, Direktwahl des Regierungschefs, Sicherheit und Ordnung, Verteidigung und Unterstützung der Ukraine",
+      "description": "Die Partei von Giorgia Meloni, 2022 stärkste Kraft und Regierungsführerin. Nationalkonservativ mit postfaschistischen Wurzeln, hart in der Migrationspolitik und traditionell in Familienfragen, aber NATO-treu und ukrainefreundlich.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Brothers_of_Italy"
+    },
+    "Lega": {
+      "name": "Lega",
+      "leader": "Matteo Salvini (Bundessekretär)",
+      "founded": "1991 (als Lega Nord)",
+      "spectrum": "Rechts bis rechtsaußen",
+      "ideologies": "Rechtspopulismus, Nationalismus, Euroskeptizismus, Einwanderungskritik",
+      "priorities": "Weniger Einwanderung, Steuersenkungen, Regionale Autonomie, Sicherheit und Ordnung, Kernenergie",
+      "description": "Früher eine norditalienische Autonomiepartei, von Matteo Salvini zu einer landesweiten rechtspopulistischen Kraft umgebaut. In der Regierung fordert sie Flat Tax, regionale Autonomie und geschlossene Häfen und steht der EU und den Russland-Sanktionen skeptisch gegenüber.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lega_(political_party)"
+    }
+  }
+}

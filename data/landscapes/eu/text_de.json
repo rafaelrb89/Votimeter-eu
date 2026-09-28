@@ -1,0 +1,96 @@
+{
+  "name": "Europäische Union — Fraktionen des Europäischen Parlaments",
+  "short_name": "Europäisches Parlament",
+  "intro": "sie mit den Fraktionen des Europäischen Parlaments (Wahlperiode 2024–2029) zu vergleichen",
+  "results_title": "Übereinstimmung mit den Fraktionen des Europäischen Parlaments",
+  "included_label": "Enthaltene Fraktionen",
+  "inclusion_note": "Der Test umfasst alle Fraktionen des Europäischen Parlaments der Wahlperiode 2024–2029. Fraktionslose Abgeordnete sind nicht enthalten. Die Positionen spiegeln die vorherrschende Linie der Mitgliedsparteien wider; nationale Delegationen innerhalb einer Fraktion können deutlich abweichen.",
+  "details_title": "Mehr über die Fraktionen",
+  "entity_label": "Fraktion",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,EuropaeischesParlament",
+  "hemicycle_note": "Sitze zu Beginn der Wahlperiode 2024–2029 (Juli 2024), von links nach rechts wie im Plenarsaal angeordnet. 720 Abgeordnete.",
+  "unaffiliated_label": "Fraktionslos",
+  "parties": {
+    "EPP": {
+      "name": "Fraktion der Europäischen Volkspartei (Christdemokraten)",
+      "leader": "Manfred Weber (Vorsitzender)",
+      "founded": "1953 (als Christlich-Demokratische Fraktion)",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Christdemokratie, Liberaler Konservatismus, Proeuropäisch",
+      "priorities": "Wettbewerbsfähigkeit und Bürokratieabbau, Sicherheit und Verteidigung, Begrenzung irregulärer Migration, Landwirtschaft, Unterstützung der Ukraine",
+      "description": "Seit 1999 die größte Fraktion im Europäischen Parlament; sie vereint christdemokratische und Mitte-rechts-Parteien wie CDU/CSU, die polnische Bürgerplattform, die spanische PP und die italienische Forza Italia. Proeuropäisch und marktfreundlich, ist sie in der Wahlperiode 2024–2029 bei Migration und Umweltregulierung nach rechts gerückt.",
+      "wiki_url": "https://en.wikipedia.org/wiki/European_People%27s_Party_Group"
+    },
+    "S&D": {
+      "name": "Fraktion der Progressiven Allianz der Sozialdemokraten",
+      "leader": "Iratxe García Pérez (Vorsitzende)",
+      "founded": "1953 (als Sozialistische Fraktion); heutiger Name seit 2009",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Progressivismus, Proeuropäisch",
+      "priorities": "Soziales Europa (faire Löhne, Arbeitnehmerrechte), Bezahlbares Wohnen, Steuergerechtigkeit, Grüner Wandel mit sozialem Ausgleich, Gleichstellung",
+      "description": "Die wichtigste Mitte-links-Fraktion mit sozialdemokratischen und sozialistischen Parteien wie SPD, PSOE, PD und der portugiesischen PS. Sie tritt für einen starken Sozialstaat, Arbeitnehmerrechte und eine vertiefte europäische Integration ein, einschließlich gemeinsamer EU-Anleihen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Progressive_Alliance_of_Socialists_and_Democrats"
+    },
+    "Renew": {
+      "name": "Renew Europe",
+      "leader": "Valérie Hayer (Vorsitzende)",
+      "founded": "2019 (Nachfolgerin der ALDE-Fraktion)",
+      "spectrum": "Mitte",
+      "ideologies": "Liberalismus, Zentrismus, Proeuropäisch",
+      "priorities": "Binnenmarkt und Wettbewerbsfähigkeit, Rechtsstaatlichkeit, Bürgerrechte, Europäische Verteidigung, Digitale Innovation",
+      "description": "Liberale und zentristische Fraktion um die französische Renaissance und Parteien der ALDE- und EDP-Familien. Wirtschaftsliberal und gesellschaftlich progressiv, gehört sie zu den integrations- und rechtsstaatsfreundlichsten Kräften im Parlament.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Renew_Europe"
+    },
+    "Greens/EFA": {
+      "name": "Fraktion der Grünen/Freie Europäische Allianz",
+      "leader": "Terry Reintke, Bas Eickhout (Ko-Vorsitzende)",
+      "founded": "1999",
+      "spectrum": "Mitte-links bis links",
+      "ideologies": "Grüne Politik, Progressivismus, Regionalismus (EFA), Europäischer Föderalismus",
+      "priorities": "Klimaschutz und Europäischer Grüner Deal, Soziale Gerechtigkeit, Menschenrechte, Digitale Rechte, Demokratische Reform der EU",
+      "description": "Bündnis grüner Parteien (wie Bündnis 90/Die Grünen) mit regionalistischen und progressiven Parteien der Freien Europäischen Allianz sowie neuen proeuropäischen Parteien wie Volt. Sie steht für ehrgeizige Klimapolitik, eine föderalere und demokratischere EU und starke Bürgerrechte.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Greens%E2%80%93European_Free_Alliance"
+    },
+    "The Left": {
+      "name": "Die Linke im Europäischen Parlament – GUE/NGL",
+      "leader": "Manon Aubry, Martin Schirdewan (Ko-Vorsitzende)",
+      "founded": "1995 (als GUE/NGL)",
+      "spectrum": "Links bis linksaußen",
+      "ideologies": "Demokratischer Sozialismus, Kommunismus, Antikapitalismus, Ökosozialismus, Linker Euroskeptizismus",
+      "priorities": "Öffentliche Daseinsvorsorge und Verstaatlichungen, Arbeitnehmerrechte, Vermögensbesteuerung, Gegen Austerität und Freihandelsabkommen, Frieden und Abrüstung",
+      "description": "Fraktion radikal linker, sozialistischer und kommunistischer Parteien wie Die Linke, La France Insoumise und Podemos. Kritisch gegenüber der Marktorientierung der EU und der NATO, wobei die Mitglieder beim Grad der europäischen Integration und bei der Unterstützung der Ukraine uneins sind.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Left_in_the_European_Parliament_%E2%80%93_GUE/NGL"
+    },
+    "ECR": {
+      "name": "Fraktion der Europäischen Konservativen und Reformer",
+      "leader": "Nicola Procaccini, Joachim Brudziński (Ko-Vorsitzende)",
+      "founded": "2009",
+      "spectrum": "Rechts",
+      "ideologies": "Nationalkonservatismus, Gemäßigter Euroskeptizismus, Atlantizismus",
+      "priorities": "Weniger Migration, Subsidiarität und nationale Souveränität, Traditionelle Werte, Deregulierung, Unterstützung der Ukraine und der NATO",
+      "description": "Konservative, gemäßigt euroskeptische Fraktion unter Führung der Fratelli d'Italia und der polnischen PiS. Sie bevorzugt ein Europa der Nationen statt einer föderalen EU, eine restriktive Migrationspolitik und konservative Werte, ist aber atlantischer und ukrainefreundlicher als die Fraktionen rechts von ihr.",
+      "wiki_url": "https://en.wikipedia.org/wiki/European_Conservatives_and_Reformists_Group"
+    },
+    "PfE": {
+      "name": "Patrioten für Europa",
+      "leader": "Jordan Bardella (Präsident)",
+      "founded": "2024 (Nachfolgerin von Identität und Demokratie)",
+      "spectrum": "Rechts bis rechtsaußen",
+      "ideologies": "Nationalkonservatismus, Rechtspopulismus, Euroskeptizismus, Einwanderungskritik",
+      "priorities": "Illegale Einwanderung stoppen, Nationale Souveränität, Gegen den Green Deal, Schutz heimischer Industrie und Landwirtschaft, Traditionelle Familienwerte",
+      "description": "2024 um die ungarische Fidesz, den französischen Rassemblement National, die Lega, Vox und die FPÖ gegründet. Sie lehnt weitere europäische Integration und den Green Deal ab, fordert drastisch weniger Einwanderung, und mehrere Mitglieder sehen Militärhilfe für die Ukraine skeptisch.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patriots_for_Europe"
+    },
+    "ESN": {
+      "name": "Europa der Souveränen Nationen",
+      "leader": "René Aust (Vorsitzender)",
+      "founded": "2024",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Harter Euroskeptizismus, Rechtspopulismus, Einwanderungsfeindlichkeit",
+      "priorities": "Remigration und Grenzschließung, Rückverlagerung von Kompetenzen auf die Mitgliedstaaten, Gegen Klimapolitik, Ende der Sanktionen und Waffenlieferungen",
+      "description": "Die am weitesten rechts stehende Fraktion, 2024 um die Alternative für Deutschland (AfD) gegründet. Sie lehnt die EU-Integration in ihrer heutigen Form ab, wendet sich gegen Sanktionen gegen Russland und Militärhilfe für die Ukraine und vertritt eine harte Linie gegen Einwanderung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Europe_of_Sovereign_Nations_Group"
+    }
+  }
+}

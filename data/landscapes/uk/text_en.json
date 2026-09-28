@@ -1,0 +1,86 @@
+{
+  "name": "United Kingdom — British parties",
+  "short_name": "United Kingdom",
+  "intro": "compare it with British political parties",
+  "results_title": "Agreement with British parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of United Kingdom: those represented in the House of Commons and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,UKPolitics",
+  "hemicycle_note": "Seats in the House of Commons after the July 2024 general election, arranged left to right. Approximate. 650 members. The Commons sits on facing benches; seats are shown as a hemicycle for comparison.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "Green": {
+      "name": "Green Party of England and Wales",
+      "leader": "Zack Polanski (Leader)",
+      "founded": "1990",
+      "spectrum": "Left",
+      "ideologies": "Green politics, Eco-socialism, Progressivism, Pro-Europeanism",
+      "priorities": "Climate action, Taxing wealth, Public services, Affordable housing, Closer ties with the EU",
+      "description": "The green party of England and Wales. It calls for wealth taxes, public ownership of water and rail, rapid decarbonisation and rejoining the EU in the long run.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Green_Party_of_England_and_Wales"
+    },
+    "SNP": {
+      "name": "Scottish National Party",
+      "leader": "John Swinney (Leader)",
+      "founded": "1934",
+      "spectrum": "Centre-left",
+      "ideologies": "Scottish independence, Social democracy, Pro-Europeanism",
+      "priorities": "Scottish independence, Public services, Closer ties with the EU, Climate action",
+      "description": "The party of Scottish independence, in government in Scotland since 2007. Centre-left and strongly pro-European, it wants an independent Scotland to rejoin the EU.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Scottish_National_Party"
+    },
+    "Plaid": {
+      "name": "Plaid Cymru",
+      "leader": "Rhun ap Iorwerth (Leader)",
+      "founded": "1925",
+      "spectrum": "Centre-left",
+      "ideologies": "Welsh nationalism, Social democracy, Green politics, Pro-Europeanism",
+      "priorities": "More powers for Wales, Public services, Climate action, Closer ties with the EU",
+      "description": "Welsh nationalist party that seeks more powers and, eventually, independence for Wales. Centre-left, pro-European and committed to the Welsh language.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Plaid_Cymru"
+    },
+    "Lab": {
+      "name": "Labour Party",
+      "leader": "Keir Starmer (Leader)",
+      "founded": "1900",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, British unionism, Atlanticism",
+      "priorities": "Public healthcare, Cost of living, Affordable housing, Workers' rights and wages, Fiscal discipline",
+      "description": "The main party of the British centre-left, in government since its 2024 landslide. Under Keir Starmer it pairs strict fiscal rules with investment in the NHS, clean energy and housing, and a closer but non-member relationship with the EU.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    "LD": {
+      "name": "Liberal Democrats",
+      "leader": "Ed Davey (Leader)",
+      "founded": "1988",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, Liberalism, Pro-Europeanism",
+      "priorities": "Public healthcare, Climate action, Civil liberties, Closer ties with the EU, Democratic reform",
+      "description": "Socially liberal centrist party, the third force in the Commons since 2024. It campaigns on health and care, the environment, electoral reform and rejoining the EU single market.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Liberal_Democrats_(UK)"
+    },
+    "Con": {
+      "name": "Conservative Party",
+      "leader": "Kemi Badenoch (Leader)",
+      "founded": "1834",
+      "spectrum": "Centre-right",
+      "ideologies": "Conservatism, Economic liberalism, British unionism, Euroscepticism",
+      "priorities": "Lower taxes, Reducing immigration, Fiscal discipline, Defence and support for Ukraine, Leaving the ECHR, full sovereignty",
+      "description": "The party that governed from 2010 to 2024 and delivered Brexit. In opposition under Kemi Badenoch it favours lower taxes, a smaller state and much lower immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+    },
+    "Reform": {
+      "name": "Reform UK",
+      "leader": "Nigel Farage (Leader)",
+      "founded": "2018 (as the Brexit Party)",
+      "spectrum": "Right to far-right",
+      "ideologies": "Right-wing populism, Nationalism, Anti-immigration, Euroscepticism",
+      "priorities": "Reducing immigration, Leaving the ECHR, full sovereignty, Lower taxes, Cost of living, Security and law and order",
+      "description": "Right-wing populist party led by Nigel Farage, which has surged in the polls since 2024. It wants to stop net migration, leave the European Convention on Human Rights, cut taxes and scrap net-zero targets.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reform_UK"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Regno Unito — partiti britannici",
+  "short_name": "Regno Unito",
+  "intro": "confrontarlo con i partiti politici britannici",
+  "results_title": "Accordo con i partiti britannici",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali del Regno Unito: quelli rappresentati alla Camera dei Comuni e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimetro,RegnoUnito",
+  "hemicycle_note": "Seggi alla Camera dei Comuni dopo le elezioni generali di luglio 2024, disposti da sinistra a destra. Dati approssimativi. 650 membri. Ai Comuni i banchi sono uno di fronte all'altro; i seggi sono mostrati a emiciclo per confronto.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "Green": {
+      "name": "Green Party of England and Wales",
+      "leader": "Zack Polanski (leader)",
+      "founded": "1990",
+      "spectrum": "Sinistra",
+      "ideologies": "Ecologismo, Ecosocialismo, Progressismo, Europeismo",
+      "priorities": "Azione per il clima, Tassare i grandi patrimoni, Servizi pubblici, Casa accessibile, Rapporti più stretti con l'UE",
+      "description": "Il partito verde di Inghilterra e Galles. Chiede tasse sulla ricchezza, proprietà pubblica di acqua e ferrovie, rapida decarbonizzazione e, nel lungo periodo, il ritorno nell'UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Green_Party_of_England_and_Wales"
+    },
+    "SNP": {
+      "name": "Scottish National Party",
+      "leader": "John Swinney (leader)",
+      "founded": "1934",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Indipendentismo scozzese, Socialdemocrazia, Europeismo",
+      "priorities": "Indipendenza della Scozia, Servizi pubblici, Rapporti più stretti con l'UE, Azione per il clima",
+      "description": "Il partito dell'indipendenza scozzese, al governo in Scozia dal 2007. Di centrosinistra e fortemente europeista, vuole che una Scozia indipendente rientri nell'UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Scottish_National_Party"
+    },
+    "Plaid": {
+      "name": "Plaid Cymru",
+      "leader": "Rhun ap Iorwerth (leader)",
+      "founded": "1925",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Nazionalismo gallese, Socialdemocrazia, Ecologismo, Europeismo",
+      "priorities": "Più poteri al Galles, Servizi pubblici, Azione per il clima, Rapporti più stretti con l'UE",
+      "description": "Partito nazionalista gallese che chiede più poteri e, in prospettiva, l'indipendenza del Galles. Di centrosinistra, europeista e legato alla lingua gallese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Plaid_Cymru"
+    },
+    "Lab": {
+      "name": "Labour Party",
+      "leader": "Keir Starmer (leader)",
+      "founded": "1900",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Unionismo britannico, Atlantismo",
+      "priorities": "Sanità pubblica, Costo della vita, Casa accessibile, Diritti e salari dei lavoratori, Disciplina di bilancio",
+      "description": "Il principale partito del centrosinistra britannico, al governo dalla vittoria schiacciante del 2024. Con Keir Starmer unisce regole di bilancio rigide a investimenti nel sistema sanitario, nell'energia pulita e nella casa, e un rapporto più stretto con l'UE senza adesione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Labour_Party_(UK)"
+    },
+    "LD": {
+      "name": "Liberal Democrats",
+      "leader": "Ed Davey (leader)",
+      "founded": "1988",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Liberalismo, Europeismo",
+      "priorities": "Sanità pubblica, Azione per il clima, Libertà civili, Rapporti più stretti con l'UE, Riforma democratica",
+      "description": "Partito centrista e socialmente liberale, terza forza ai Comuni dal 2024. Si batte per sanità e assistenza, ambiente, riforma elettorale e ritorno nel mercato unico europeo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Liberal_Democrats_(UK)"
+    },
+    "Con": {
+      "name": "Conservative Party",
+      "leader": "Kemi Badenoch (leader)",
+      "founded": "1834",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo, Liberalismo economico, Unionismo britannico, Euroscetticismo",
+      "priorities": "Meno tasse, Ridurre l'immigrazione, Disciplina di bilancio, Difesa e sostegno all'Ucraina, Uscire dalla CEDU, piena sovranità",
+      "description": "Il partito al governo dal 2010 al 2024, che ha realizzato la Brexit. All'opposizione con Kemi Badenoch, punta su meno tasse, uno Stato più snello e molta meno immigrazione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+    },
+    "Reform": {
+      "name": "Reform UK",
+      "leader": "Nigel Farage (leader)",
+      "founded": "2018 (come Brexit Party)",
+      "spectrum": "Destra-estrema destra",
+      "ideologies": "Populismo di destra, Nazionalismo, Contrarietà all'immigrazione, Euroscetticismo",
+      "priorities": "Ridurre l'immigrazione, Uscire dalla CEDU, piena sovranità, Meno tasse, Costo della vita, Sicurezza e ordine pubblico",
+      "description": "Partito populista di destra guidato da Nigel Farage, in forte crescita nei sondaggi dal 2024. Vuole azzerare l'immigrazione netta, uscire dalla Convenzione europea dei diritti dell'uomo, tagliare le tasse e abbandonare gli obiettivi di emissioni zero.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reform_UK"
+    }
+  }
+}

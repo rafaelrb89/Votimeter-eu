@@ -1,0 +1,86 @@
+{
+  "name": "Deutschland — deutschen Parteien",
+  "short_name": "Deutschland",
+  "intro": "sie mit den deutschen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den deutschen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Deutschlands: die im Bundestag vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Bundestag",
+  "hemicycle_note": "Sitze im Bundestag nach der Bundestagswahl im Februar 2025, von links nach rechts angeordnet. Ungefähre Angaben. 630 Abgeordnete.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "Linke": {
+      "name": "Die Linke",
+      "leader": "Ines Schwerdtner, Jan van Aken (Vorsitzende)",
+      "founded": "2007",
+      "spectrum": "Links bis linksaußen",
+      "ideologies": "Demokratischer Sozialismus, Ökosozialismus, Progressivismus",
+      "priorities": "Bezahlbares Wohnen, Lebenshaltungskosten, Vermögensbesteuerung, Öffentliche Daseinsvorsorge, Diplomatie mit Russland, keine Waffenlieferungen",
+      "description": "Demokratisch-sozialistische Partei, die 2025 dank junger Wählerinnen und Wähler ein starkes Comeback feierte. Sie setzt auf Mieten, Preise und die Besteuerung von Reichen und lehnt Rüstungsexporte ab.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Left_(Germany)"
+    },
+    "BSW": {
+      "name": "Bündnis Sahra Wagenknecht",
+      "leader": "Sahra Wagenknecht (Gründer)",
+      "founded": "2024",
+      "spectrum": "Wirtschaftlich links, migrationspolitisch konservativ",
+      "ideologies": "Linkskonservatismus, Linkspopulismus, Souveränismus, Euroskeptizismus",
+      "priorities": "Diplomatie mit Russland, keine Waffenlieferungen, Lebenshaltungskosten, Weniger Einwanderung, Arbeitnehmerrechte und Löhne, Schutz der heimischen Industrie",
+      "description": "Abspaltung von der Linken unter Sahra Wagenknecht. Sie verbindet linke Wirtschaftspolitik mit restriktiver Migrationspolitik, lehnt Waffenlieferungen an die Ukraine ab und will günstigere Energie durch Dialog mit Russland. 2025 verpasste sie knapp den Einzug in den Bundestag.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sahra_Wagenknecht_Alliance"
+    },
+    "SPD": {
+      "name": "Sozialdemokratische Partei Deutschlands",
+      "leader": "Lars Klingbeil, Bärbel Bas (Vorsitzende)",
+      "founded": "1863",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Proeuropäisch, Atlantizismus",
+      "priorities": "Arbeitnehmerrechte und Löhne, Öffentliche Daseinsvorsorge, Bezahlbares Wohnen, Verteidigung und Unterstützung der Ukraine, Schutz der heimischen Industrie",
+      "description": "Die älteste Partei Deutschlands, nach einem historischen Tiefstand 2025 Juniorpartner in der Koalition von Friedrich Merz. Sie verteidigt Renten, Mindestlohn und Industriearbeitsplätze.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany"
+    },
+    "Grüne": {
+      "name": "Bündnis 90/Die Grünen",
+      "leader": "Felix Banaszak, Franziska Brantner (Vorsitzende)",
+      "founded": "1980",
+      "spectrum": "Mitte-links",
+      "ideologies": "Grüne Politik, Sozialliberalismus, Proeuropäisch, Atlantizismus",
+      "priorities": "Klimaschutz, Verteidigung und Unterstützung der Ukraine, Vertiefte europäische Integration, Bürgerrechte, Digitale Innovation",
+      "description": "Die deutsche Grünen-Partei, 2021 bis 2025 in der Bundesregierung. Stark proeuropäisch und entschieden in der Unterstützung der Ukraine, lehnt sie Atomkraft ab und setzt auf eine schnelle Energiewende.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alliance_90/The_Greens"
+    },
+    "FDP": {
+      "name": "Freie Demokratische Partei",
+      "leader": "Christian Dürr (Vorsitz)",
+      "founded": "1948",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberalismus, Wirtschaftsliberalismus, Proeuropäisch",
+      "priorities": "Haushaltsdisziplin, Steuersenkungen, Bürokratieabbau, Digitale Innovation, Bildung",
+      "description": "Die klassisch-liberale Partei Deutschlands, Verfechterin der Schuldenbremse und niedrigerer Steuern. Ihr Austritt aus der Koalition 2024 löste Neuwahlen aus, nach denen sie aus dem Bundestag ausschied.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Free_Democratic_Party_(Germany)"
+    },
+    "CDU/CSU": {
+      "name": "CDU/CSU (Union)",
+      "leader": "Friedrich Merz (Vorsitz), Markus Söder (Vorsitz)",
+      "founded": "1945",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Christdemokratie, Liberaler Konservatismus, Proeuropäisch, Atlantizismus",
+      "priorities": "Wettbewerbsfähigkeit und Wachstum, Weniger Einwanderung, Verteidigung und Unterstützung der Ukraine, Sicherheit und Ordnung, Bürokratieabbau",
+      "description": "Das christdemokratische Bündnis aus CDU und bayerischer Schwesterpartei CSU, das die Wahl 2025 gewann und mit Kanzler Friedrich Merz die Regierung führt. Es steht für strengere Migrationsregeln, wirtschaftliche Belebung und höhere Verteidigungsausgaben.",
+      "wiki_url": "https://en.wikipedia.org/wiki/CDU/CSU"
+    },
+    "AfD": {
+      "name": "Alternative für Deutschland",
+      "leader": "Alice Weidel, Tino Chrupalla (Vorsitzende)",
+      "founded": "2013",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Rechtspopulismus, Einwanderungskritik, Euroskeptizismus",
+      "priorities": "Remigration und geschlossene Grenzen, Nationale Souveränität, Diplomatie mit Russland, keine Waffenlieferungen, Lebenshaltungskosten, Kernenergie",
+      "description": "Rechtsextreme Partei, die 2025 mit ihrem besten Ergebnis Zweite wurde. Sie fordert „Remigration“, den Austritt aus dem Euro und womöglich der EU, ein Ende der Russland-Sanktionen und die Rückkehr zu Kernkraft und fossiler Energie. Teile der Partei werden vom Verfassungsschutz als extremistisch beobachtet.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alternative_for_Germany"
+    }
+  }
+}

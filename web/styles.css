@@ -159,6 +159,20 @@ p { margin: 0; }
 .switch button:hover { color: var(--ink); }
 .switch button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
 
+.select-wrap { position: relative; display: inline-flex; }
+.select-wrap select {
+  appearance: none;
+  border: 1px solid var(--rule);
+  background: var(--sunken);
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--step--1);
+  font-weight: 600;
+  padding: 8px 34px 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.select-wrap::after { content: "▾"; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--muted); font-size: .8rem; }
 main { flex: 1; outline: none; }
 main:focus, main:focus-visible { outline: none; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -369,13 +383,13 @@ main:focus, main:focus-visible { outline: none; }
 .you-mark { fill: var(--gold); stroke: var(--ink); stroke-width: 1.5; }
 .you-label { fill: var(--gold-ink); font-family: var(--font-display); font-size: 12px; font-weight: 800; }
 .party-dot { stroke: var(--paper); stroke-width: 1.5; }
-.strip { display: grid; gap: 14px; padding: 22px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--rule); }
+.strips { display: grid; gap: 12px; }
+.strip { display: grid; gap: 8px; padding: 16px 18px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--rule); }
+.strip-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
 .strip h3 { font-size: var(--step-1); font-weight: 800; font-stretch: 112%; }
+.strip-score { font-family: var(--font-mono); font-size: var(--step--1); color: var(--gold-ink); font-weight: 500; font-variant-numeric: tabular-nums; }
+.you-rule { stroke: var(--gold); stroke-width: 1.5; stroke-dasharray: 2 3; }
 .strip-line { stroke: var(--rule); stroke-width: 2; }
-.axis-scores { display: grid; gap: 10px; margin: 0; }
-.axis-scores div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--rule); padding-block: 8px; }
-.axis-scores dt { color: var(--ink-2); }
-.axis-scores dd { margin: 0; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 
 .groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: start; }
 .group { border-radius: var(--radius); background: var(--surface); border: 1px solid var(--rule); }

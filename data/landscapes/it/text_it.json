@@ -1,0 +1,96 @@
+{
+  "name": "Italia — partiti italiani",
+  "short_name": "Italia",
+  "intro": "confrontarlo con i partiti politici italiani",
+  "results_title": "Accordo con i partiti italiani",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali dell'Italia: quelli rappresentati alla Camera dei deputati e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimetro,PoliticaItaliana",
+  "hemicycle_note": "Seggi alla Camera dei deputati dopo le elezioni politiche di settembre 2022, disposti da sinistra a destra. Dati approssimativi. 400 membri.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "AVS": {
+      "name": "Alleanza Verdi e Sinistra",
+      "leader": "Angelo Bonelli, Nicola Fratoianni (coportavoce)",
+      "founded": "2022",
+      "spectrum": "Sinistra",
+      "ideologies": "Ecologismo, Ecosocialismo, Socialismo democratico",
+      "priorities": "Azione per il clima, Diritti e salari dei lavoratori, Servizi pubblici, Diplomazia con la Russia, niente armi",
+      "description": "Alleanza tra Europa Verde e Sinistra Italiana. Unisce ambientalismo ed economia di sinistra, chiede un salario minimo e si oppone all'invio di armi all'Ucraina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Greens_and_Left_Alliance"
+    },
+    "M5S": {
+      "name": "Movimento 5 Stelle",
+      "leader": "Giuseppe Conte (presidente)",
+      "founded": "2009",
+      "spectrum": "Sincretico",
+      "ideologies": "Populismo, Progressismo, Ecologismo",
+      "priorities": "Reddito minimo e lotta alla povertà, Riforma della giustizia, Diplomazia con la Russia, niente armi, Azione per il clima, Democrazia diretta",
+      "description": "Nato come movimento antisistema di Beppe Grillo, oggi guidato dall'ex presidente del Consiglio Giuseppe Conte e più vicino alla sinistra. Ha introdotto il reddito di cittadinanza, è intransigente sulla corruzione e si oppone alle armi all'Ucraina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Five_Star_Movement"
+    },
+    "PD": {
+      "name": "Partito Democratico",
+      "leader": "Elly Schlein (segretario)",
+      "founded": "2007",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Progressismo, Europeismo",
+      "priorities": "Sanità pubblica, Diritti e salari dei lavoratori, Servizi pubblici, Maggiore integrazione europea, Azione per il clima",
+      "description": "Il principale partito del centrosinistra e la prima forza di opposizione. Con Elly Schlein si è spostato a sinistra, battendosi per la sanità pubblica, il salario minimo e i diritti civili.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democratic_Party_(Italy)"
+    },
+    "IV": {
+      "name": "Italia Viva",
+      "leader": "Matteo Renzi (leader)",
+      "founded": "2019",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Centrismo, Europeismo, Riformismo",
+      "priorities": "Competitività e crescita, Maggiore integrazione europea, Istruzione, Riforma della giustizia",
+      "description": "Partito centrista fondato dall'ex premier Matteo Renzi dopo l'uscita dal PD. Liberale ed europeista, si è avvicinato all'opposizione di centrosinistra.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Italia_Viva"
+    },
+    "Azione": {
+      "name": "Azione",
+      "leader": "Carlo Calenda (leader)",
+      "founded": "2019",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Riformismo, Europeismo, Atlantismo",
+      "priorities": "Energia nucleare, Competitività e crescita, Istruzione, Difesa e sostegno all'Ucraina",
+      "description": "Partito liberale e riformista guidato da Carlo Calenda. Sostiene il ritorno al nucleare, la politica industriale, la responsabilità di bilancio e un fermo sostegno all'Ucraina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Action_(Italy)"
+    },
+    "FI": {
+      "name": "Forza Italia",
+      "leader": "Antonio Tajani (segretario nazionale)",
+      "founded": "1994 (rifondato nel 2013)",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo liberale, Democrazia cristiana, Europeismo",
+      "priorities": "Meno tasse, Riforma della giustizia, Competitività e crescita, Maggiore integrazione europea",
+      "description": "Il partito fondato da Silvio Berlusconi, oggi l'ala moderata ed europeista della coalizione di governo di Giorgia Meloni. Vuole meno tasse, la flat tax e la riforma della giustizia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Forza_Italia_(2013)"
+    },
+    "FdI": {
+      "name": "Fratelli d'Italia",
+      "leader": "Giorgia Meloni (presidente)",
+      "founded": "2012",
+      "spectrum": "Destra",
+      "ideologies": "Conservatorismo nazionale, Conservatorismo, Euroscetticismo moderato, Atlantismo",
+      "priorities": "Ridurre l'immigrazione, Valori della famiglia tradizionale, Premierato (elezione diretta del premier), Sicurezza e ordine pubblico, Difesa e sostegno all'Ucraina",
+      "description": "Il partito di Giorgia Meloni, primo nel 2022 e alla guida del governo. Nazional-conservatore con radici post-fasciste, è duro sull'immigrazione e tradizionalista sulla famiglia, ma filo-NATO e a sostegno dell'Ucraina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Brothers_of_Italy"
+    },
+    "Lega": {
+      "name": "Lega",
+      "leader": "Matteo Salvini (segretario federale)",
+      "founded": "1991 (come Lega Nord)",
+      "spectrum": "Destra-estrema destra",
+      "ideologies": "Populismo di destra, Nazionalismo, Euroscetticismo, Contrarietà all'immigrazione",
+      "priorities": "Ridurre l'immigrazione, Meno tasse, Autonomia differenziata, Sicurezza e ordine pubblico, Energia nucleare",
+      "description": "Un tempo partito autonomista del Nord, Matteo Salvini l'ha trasformato in una forza populista di destra nazionale. Al governo, spinge per flat tax, autonomia differenziata e porti chiusi, ed è scettico verso l'UE e le sanzioni alla Russia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lega_(political_party)"
+    }
+  }
+}

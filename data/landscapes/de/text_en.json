@@ -1,0 +1,86 @@
+{
+  "name": "Germany — German parties",
+  "short_name": "Germany",
+  "intro": "compare it with German political parties",
+  "results_title": "Agreement with German parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Germany: those represented in the Bundestag and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,GermanPolitics",
+  "hemicycle_note": "Seats in the Bundestag after the February 2025 federal election, arranged left to right. Approximate. 630 members.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "Linke": {
+      "name": "Die Linke",
+      "leader": "Ines Schwerdtner, Jan van Aken (Chairs)",
+      "founded": "2007",
+      "spectrum": "Left to far-left",
+      "ideologies": "Democratic socialism, Eco-socialism, Progressivism",
+      "priorities": "Affordable housing, Cost of living, Taxing wealth, Public services, Diplomacy with Russia, no arms deliveries",
+      "description": "Democratic-socialist party that made a strong comeback in 2025, driven by young voters. It focuses on rents, prices and taxing the rich, and opposes arms exports.",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Left_(Germany)"
+    },
+    "BSW": {
+      "name": "Bündnis Sahra Wagenknecht",
+      "leader": "Sahra Wagenknecht (Founder)",
+      "founded": "2024",
+      "spectrum": "Left-wing economically, conservative on migration",
+      "ideologies": "Left conservatism, Left-wing populism, Sovereignism, Euroscepticism",
+      "priorities": "Diplomacy with Russia, no arms deliveries, Cost of living, Reducing immigration, Workers' rights and wages, Protecting national industry",
+      "description": "Split from Die Linke led by Sahra Wagenknecht. It combines left-wing economics with restrictive migration policy, opposes arms deliveries to Ukraine and wants cheaper energy through dialogue with Russia. It narrowly missed the Bundestag in 2025.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sahra_Wagenknecht_Alliance"
+    },
+    "SPD": {
+      "name": "Sozialdemokratische Partei Deutschlands",
+      "leader": "Lars Klingbeil, Bärbel Bas (Chairs)",
+      "founded": "1863",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Pro-Europeanism, Atlanticism",
+      "priorities": "Workers' rights and wages, Public services, Affordable housing, Defence and support for Ukraine, Protecting national industry",
+      "description": "Germany's oldest party, now junior partner in Friedrich Merz's coalition after a historic low in 2025. It defends pensions, the minimum wage and industrial jobs.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany"
+    },
+    "Grüne": {
+      "name": "Bündnis 90/Die Grünen",
+      "leader": "Felix Banaszak, Franziska Brantner (Chairs)",
+      "founded": "1980",
+      "spectrum": "Centre-left",
+      "ideologies": "Green politics, Social liberalism, Pro-Europeanism, Atlanticism",
+      "priorities": "Climate action, Defence and support for Ukraine, Deeper European integration, Civil liberties, Digital innovation",
+      "description": "Germany's green party, in the federal government from 2021 to 2025. Strongly pro-European and firm on support for Ukraine, it opposes nuclear power and backs a fast energy transition.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alliance_90/The_Greens"
+    },
+    "FDP": {
+      "name": "Freie Demokratische Partei",
+      "leader": "Christian Dürr (Chair)",
+      "founded": "1948",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberalism, Economic liberalism, Pro-Europeanism",
+      "priorities": "Fiscal discipline, Lower taxes, Less red tape, Digital innovation, Education",
+      "description": "Germany's classical-liberal party, defender of the debt brake and lower taxes. Its exit from the governing coalition in 2024 triggered early elections, after which it fell out of the Bundestag.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Free_Democratic_Party_(Germany)"
+    },
+    "CDU/CSU": {
+      "name": "CDU/CSU (Union)",
+      "leader": "Friedrich Merz (Chair), Markus Söder (Chair)",
+      "founded": "1945",
+      "spectrum": "Centre-right",
+      "ideologies": "Christian democracy, Liberal conservatism, Pro-Europeanism, Atlanticism",
+      "priorities": "Competitiveness and growth, Reducing immigration, Defence and support for Ukraine, Security and law and order, Less red tape",
+      "description": "The Christian-democratic alliance of the CDU and its Bavarian sister the CSU, which won the 2025 election and leads the government under Chancellor Friedrich Merz. It favours tighter migration rules, economic revival and higher defence spending.",
+      "wiki_url": "https://en.wikipedia.org/wiki/CDU/CSU"
+    },
+    "AfD": {
+      "name": "Alternative für Deutschland",
+      "leader": "Alice Weidel, Tino Chrupalla (Chairs)",
+      "founded": "2013",
+      "spectrum": "Far-right",
+      "ideologies": "Nationalism, Right-wing populism, Anti-immigration, Euroscepticism",
+      "priorities": "Remigration and closed borders, National sovereignty, Diplomacy with Russia, no arms deliveries, Cost of living, Nuclear energy",
+      "description": "Far-right party that came second in 2025 with its best result ever. It calls for 'remigration', leaving the euro and possibly the EU, an end to sanctions on Russia and a return to nuclear and fossil energy. Parts of it are monitored by German intelligence as extremist.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alternative_for_Germany"
+    }
+  }
+}

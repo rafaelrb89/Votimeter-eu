@@ -20,5 +20,6 @@ def test_web_data_is_up_to_date():
 def test_hemicycle_totals():
     from votimeter.data import load_landscape
 
-    assert sum(seats for _, seats in load_landscape("eu", "en").hemicycle) == 720
-    assert sum(seats for _, seats in load_landscape("pt", "en").hemicycle) == 230
+    expected = {"eu": 720, "pt": 230, "fr": 577, "uk": 650, "de": 630, "nl": 150, "it": 400}
+    for landscape_id, total in expected.items():
+        assert sum(seats for _, seats in load_landscape(landscape_id, "en").hemicycle) == total, landscape_id

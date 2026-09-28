@@ -6,6 +6,7 @@
   const VALUES = [-2, -1, 0, 1, 2];
   const AXES = ["economic", "social", "political"];
   const AXIS_PREFIX = { economic: "ECO", social: "SOC", political: "POL" };
+  const AXIS_ENDS = { economic: ["web_left", "web_right"], social: ["web_conservative", "web_progressive"], political: ["web_authoritarian", "web_liberal"] };
   const UNAFFILIATED_COLOR = "#9AA1B5";
   const SVG_NS = "http://www.w3.org/2000/svg";
 
@@ -171,13 +172,13 @@
   }
 
   function legendHtml(focus) {
-    return `<ul class="legend">${landscape()
-      .hemicycle.map(([code, n]) => {
-        const label = landscape().parties.some((p) => p.code === code) ? code : lt("unaffiliated_label");
-        const color = focus && focus !== code ? "var(--dim-seat)" : partyColor(code);
-        return `<li><span class="swatch" style="background:${color}"></span>${esc(label)} <span class="num">${n}</span></li>`;
-      })
-      .join("")}</ul>`;
+    const isParty = (code) => landscape().parties.some((p) => p.code === code);
+    const rows = landscape().hemicycle.filter(([code]) => isParty(code));
+    const other = landscape().hemicycle.filter(([code]) => !isParty(code)).reduce((sum, [, n]) => sum + n, 0);
+    const item = (label, n, color) => `<li><span class="swatch" style="background:${color}"></span>${esc(label)} <span class="num">${n}</span></li>`;
+    return `<ul class="legend">${rows
+      .map(([code, n]) => item(code, n, focus && focus !== code ? "var(--dim-seat)" : partyColor(code)))
+      .join("")}${other ? item(lt("unaffiliated_label"), other, focus ? "var(--dim-seat)" : UNAFFILIATED_COLOR) : ""}</ul>`;
   }
 
   // ------------------------------------------------------------------ chrome
@@ -187,10 +188,10 @@
     langSwitch.innerHTML = Object.entries(DATA.languages)
       .map(([code, l]) => `<button type="button" data-lang="${code}" aria-pressed="${code === state.lang}" lang="${code}">${code.toUpperCase()}<span class="sr"> ${esc(l.name)}</span></button>`)
       .join("");
-    const landSwitch = document.getElementById("landscape-switch");
-    landSwitch.setAttribute("aria-label", t("landscape_label"));
-    landSwitch.innerHTML = DATA.landscapes
-      .map((l) => `<button type="button" data-landscape="${l.id}" aria-pressed="${l.id === state.landscape}">${esc(l.text[state.lang].short_name)}</button>`)
+    const select = document.getElementById("landscape-select");
+    select.setAttribute("aria-label", t("landscape_label"));
+    select.innerHTML = DATA.landscapes
+      .map((l) => `<option value="${l.id}"${l.id === state.landscape ? " selected" : ""}>${esc(l.text[state.lang].short_name)}</option>`)
       .join("");
     document.documentElement.lang = state.lang;
   }
@@ -240,7 +241,7 @@
 
     const counts = {};
     DATA.questions.forEach((q) => (counts[q.axis] = (counts[q.axis] || 0) + 1));
-    const ends = { economic: ["web_left", "web_right"], social: ["web_conservative", "web_progressive"], political: ["web_authoritarian", "web_liberal"] };
+    const ends = AXIS_ENDS;
     const axes = document.createElement("section");
     axes.className = "section";
     axes.innerHTML = `
@@ -420,16 +421,18 @@
         <p class="prose">${esc(t("web_compass_caption"))}</p></div>
       <div class="compass-wrap">
         <figure class="compass" style="margin:0"></figure>
-        <div style="display:grid;gap:16px">
-          <div class="strip"><h3>${esc(t("web_axis_political"))}</h3><div class="strip-plot"></div><p class="small">${esc(t("web_political_caption"))}</p></div>
-          <dl class="axis-scores">
-            ${AXES.map((a) => `<div><dt>${esc(t("web_axis_" + a))}</dt><dd>${signed(you[a])}</dd></div>`).join("")}
-          </dl>
+        <div class="strips">
+          ${AXES.map((a) => `
+            <div class="strip">
+              <div class="strip-head"><h3>${esc(t("web_axis_" + a))}</h3><span class="strip-score">${esc(t("you"))} ${signed(you[a])}</span></div>
+              <div class="strip-plot" data-axis="${a}"></div>
+              <div class="spectrum-ends"><span>${esc(t(AXIS_ENDS[a][0]))}</span><span>${esc(t(AXIS_ENDS[a][1]))}</span></div>
+            </div>`).join("")}
         </div>
       </div>`;
     view.appendChild(comp);
     drawCompass(comp.querySelector(".compass"), you, parties);
-    drawStrip(comp.querySelector(".strip-plot"), you, parties);
+    comp.querySelectorAll(".strip-plot").forEach((el) => drawStrip(el, el.dataset.axis, you, parties));
 
     // 4. Group details
     const scoreOf = Object.fromEntries(ranking.map((r) => [r.code, r.score]));
@@ -537,40 +540,34 @@
     container.appendChild(root);
   }
 
-  function drawStrip(container, you, parties) {
+  function drawStrip(container, axis, you, parties) {
     const W = 420, P = 14, mid = 58;
     const X = (v) => P + ((v + 1) / 2) * (W - 2 * P);
     // Label lanes above and below the line; each party takes the first lane where its label fits.
     const lanes = [mid - 12, mid + 24, mid - 28, mid + 40, mid - 44, mid + 56];
     const laneEnd = lanes.map(() => -Infinity);
-    const labels = [...parties].sort((a, b) => a.political - b.political).map((p) => {
-      const x = X(p.political), w = p.code.length * 7.2 + 6;
+    const labels = [...parties].sort((a, b) => a[axis] - b[axis]).map((p) => {
+      const x = X(p[axis]), w = p.code.length * 7.8 + 10;
       let lane = lanes.findIndex((_, i) => x - w / 2 > laneEnd[i]);
       if (lane < 0) lane = 0;
       laneEnd[lane] = x + w / 2;
       return { p, x, y: lanes[lane] };
     });
     const top = Math.min(...labels.map((l) => l.y)) - 14;
-    const bottom = Math.max(mid + 36, ...labels.map((l) => l.y)) + 16;
-    const root = svg("svg", { viewBox: `0 ${top} ${W} ${bottom - top}`, role: "img", "aria-label": t("web_axis_political") });
+    const bottom = Math.max(mid + 16, ...labels.map((l) => l.y + 6));
+    const root = svg("svg", { viewBox: `0 ${top} ${W} ${bottom - top}`, role: "img", "aria-label": t("web_axis_" + axis) });
     svg("line", { x1: P, x2: W - P, y1: mid, y2: mid, class: "strip-line" }, root);
     for (const { p, x, y } of labels) {
       if (Math.abs(y - mid) > 20) svg("line", { x1: x, x2: x, y1: mid, y2: y < mid ? y + 3 : y - 11, class: "strip-line", "stroke-width": 1 }, root);
       const c = svg("circle", { cx: x, cy: mid, r: 6, class: "party-dot" }, root);
       c.style.fill = p.color;
-      svg("title", {}, c).textContent = `${p.code}: ${signed(p.political)}`;
+      svg("title", {}, c).textContent = `${p.code}: ${signed(p[axis])}`;
       const tx = svg("text", { x, y, "text-anchor": "middle", class: "dot-label" }, root);
       tx.textContent = p.code;
     }
-    const x = X(you.political);
-    svg("path", { d: `M${x} ${mid - 16} L${x + 8} ${mid - 2} L${x - 8} ${mid - 2} Z`, class: "you-mark" }, root);
-    const ends = [["−1", P, "start"], ["+1", W - P, "end"]];
-    for (const [txt, xx, anchor] of ends) {
-      const e = svg("text", { x: xx, y: bottom - 2, "text-anchor": anchor, class: "compass-axis-label" }, root);
-      e.textContent = txt;
-    }
-    const lbl = svg("text", { x: W / 2, y: bottom - 2, "text-anchor": "middle", class: "you-label" }, root);
-    lbl.textContent = `▲ ${t("you")} ${signed(you.political)}`;
+    const x = X(you[axis]);
+    svg("line", { x1: x, x2: x, y1: top + 4, y2: bottom - 4, class: "you-rule" }, root);
+    svg("path", { d: `M${x} ${mid - 9} L${x + 9} ${mid + 7} L${x - 9} ${mid + 7} Z`, class: "you-mark" }, root);
     container.appendChild(root);
   }
 
@@ -626,6 +623,10 @@
     }[action] || (() => {}))();
   });
 
+  document.addEventListener("change", (e) => {
+    if (e.target.id === "landscape-select") { state.landscape = e.target.value; render(); }
+  });
+
   document.addEventListener("keydown", (e) => {
     if (state.mode !== "quiz" || e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.target.closest && e.target.closest("input, textarea, select")) return;
@@ -643,7 +644,8 @@
     const saved = restore();
     const url = readUrl();
     const pick = (value, options, fallback) => (options.includes(value) ? value : fallback);
-    state.lang = pick(url.lang, langs, pick(saved && saved.lang, langs, DATA.defaults.lang));
+    const browserLang = (navigator.language || "").slice(0, 2).toLowerCase();
+    state.lang = pick(url.lang, langs, pick(saved && saved.lang, langs, pick(browserLang, langs, DATA.defaults.lang)));
     state.landscape = pick(url.landscape, lands, pick(saved && saved.landscape, lands, DATA.defaults.landscape));
     if (saved && saved.answers && Array.isArray(saved.sequence)) {
       const known = new Set(allIds());

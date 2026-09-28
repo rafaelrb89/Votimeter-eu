@@ -1,0 +1,136 @@
+{
+  "name": "Netherlands — Dutch parties",
+  "short_name": "Netherlands",
+  "intro": "compare it with Dutch political parties",
+  "results_title": "Agreement with Dutch parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Netherlands: those represented in the House of Representatives and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,DutchPolitics",
+  "hemicycle_note": "Seats in the House of Representatives after the October 2025 general election, arranged left to right. Approximate. 150 members.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "SP": {
+      "name": "Socialistische Partij",
+      "leader": "Jimmy Dijk (Leader)",
+      "founded": "1972",
+      "spectrum": "Left",
+      "ideologies": "Democratic socialism, Left-wing populism, Soft Euroscepticism",
+      "priorities": "Public healthcare, Cost of living, Affordable housing, Workers' rights and wages",
+      "description": "Left-wing populist party that wants a national health fund instead of private insurers, lower rents and higher minimum wages. It is critical of the EU and more cautious on migration than the rest of the left.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Socialist_Party_(Netherlands)"
+    },
+    "PvdD": {
+      "name": "Partij voor de Dieren",
+      "leader": "Esther Ouwehand (Leader)",
+      "founded": "2002",
+      "spectrum": "Left",
+      "ideologies": "Animal rights, Green politics, Progressivism",
+      "priorities": "Animal welfare, Climate action, Farmers and rural areas",
+      "description": "The world's first animal-rights party to enter a national parliament. It wants to shrink livestock farming, end fossil subsidies and put nature before economic growth.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Party_for_the_Animals"
+    },
+    "GL-PvdA": {
+      "name": "GroenLinks–PvdA",
+      "leader": "Jesse Klaver (Parliamentary leader)",
+      "founded": "2023 (alliance)",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Green politics, Pro-Europeanism",
+      "priorities": "Climate action, Affordable housing, Public services, Deeper European integration",
+      "description": "Merged list of the Green Left and the Labour Party, the main force of the Dutch left. It combines climate policy with social security and affordable housing, and strongly supports Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/GroenLinks–PvdA"
+    },
+    "Volt": {
+      "name": "Volt Nederland",
+      "leader": "Laurens Dassen (Leader)",
+      "founded": "2018",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "Dutch branch of the pan-European Volt movement. It campaigns for a federal Europe, evidence-based policy and digital and climate transitions.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Netherlands"
+    },
+    "D66": {
+      "name": "Democraten 66",
+      "leader": "Rob Jetten (Leader)",
+      "founded": "1966",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, Pro-Europeanism, Progressivism",
+      "priorities": "Education, Affordable housing, Climate action, Deeper European integration, Democratic reform",
+      "description": "Social-liberal party that won the most votes in October 2025 under Rob Jetten. Strongly pro-European and progressive on ethical issues, it focuses on education, housing construction and climate.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Democrats_66"
+    },
+    "CDA": {
+      "name": "Christen-Democratisch Appèl",
+      "leader": "Henri Bontenbal (Leader)",
+      "founded": "1980",
+      "spectrum": "Centre-right",
+      "ideologies": "Christian democracy, Pro-Europeanism",
+      "priorities": "Traditional family values, Security and law and order, Affordable housing, Farmers and rural areas",
+      "description": "Christian-democratic party that long dominated Dutch politics and recovered strongly in 2025. It stresses community, family, moderate migration policy and a strong EU.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Christian_Democratic_Appeal"
+    },
+    "CU": {
+      "name": "ChristenUnie",
+      "leader": "Mirjam Bikker (Leader)",
+      "founded": "2000",
+      "spectrum": "Centre",
+      "ideologies": "Christian social politics, Christian democracy, Green politics",
+      "priorities": "Protecting life and family, Traditional family values, Climate action, Minimum income and anti-poverty",
+      "description": "Protestant Christian party that is socially conservative on euthanasia, drugs and prostitution but centre-left on poverty, refugees and the environment.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Christian_Union_(Netherlands)"
+    },
+    "VVD": {
+      "name": "Volkspartij voor Vrijheid en Democratie",
+      "leader": "Dilan Yeşilgöz-Zegerius (Leader)",
+      "founded": "1948",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberalism, Economic liberalism, Liberal conservatism",
+      "priorities": "Lower taxes, Reducing immigration, Security and law and order, Fiscal discipline, Nuclear energy",
+      "description": "Conservative-liberal party of former prime minister Mark Rutte. It favours low taxes, fiscal discipline, nuclear energy and tighter asylum rules.",
+      "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_for_Freedom_and_Democracy"
+    },
+    "BBB": {
+      "name": "BoerBurgerBeweging",
+      "leader": "Caroline van der Plas (Leader)",
+      "founded": "2019",
+      "spectrum": "Centre-right",
+      "ideologies": "Agrarianism, Right-wing populism, Soft Euroscepticism",
+      "priorities": "Farmers and rural areas, Reducing immigration, National sovereignty, Cost of living",
+      "description": "Farmer–Citizen Movement, born from protests against nitrogen rules. It defends farmers and rural areas against environmental regulation and 'The Hague' and wants less immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Farmer–Citizen_Movement"
+    },
+    "JA21": {
+      "name": "JA21",
+      "leader": "Joost Eerdmans (Leader)",
+      "founded": "2020",
+      "spectrum": "Right",
+      "ideologies": "National conservatism, Economic liberalism, Anti-immigration, Atlanticism",
+      "priorities": "Reducing immigration, Security and law and order, Lower taxes, Defence and support for Ukraine",
+      "description": "Conservative-liberal party that split from Forum for Democracy. It combines strict immigration policy with free-market economics and a pro-NATO, pro-Ukraine foreign policy.",
+      "wiki_url": "https://en.wikipedia.org/wiki/JA21"
+    },
+    "PVV": {
+      "name": "Partij voor de Vrijheid",
+      "leader": "Geert Wilders (Leader)",
+      "founded": "2006",
+      "spectrum": "Far-right",
+      "ideologies": "Right-wing populism, Nationalism, Anti-immigration, Euroscepticism",
+      "priorities": "Reducing immigration, National identity, Cost of living, Public healthcare, National sovereignty",
+      "description": "Geert Wilders's party, first in 2023 and tied for first in 2025. It wants an asylum freeze and fewer mosques, combined with left-leaning positions on pensions and healthcare, and is hostile to the EU.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Party_for_Freedom"
+    },
+    "FvD": {
+      "name": "Forum voor Democratie",
+      "leader": "Thierry Baudet (Founder), Lidewij de Vos (Party leader)",
+      "founded": "2016",
+      "spectrum": "Far-right",
+      "ideologies": "Nationalism, National conservatism, Euroscepticism, Sovereignism",
+      "priorities": "National sovereignty, Direct democracy, National identity, Diplomacy with Russia, no arms deliveries",
+      "description": "Hard-right party founded by Thierry Baudet. It wants to leave the EU, rejects most climate policy, was a leading voice against COVID measures and is sympathetic to Russia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Forum_for_Democracy"
+    }
+  }
+}
