@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "paradigma-politico"
+name = "votimeter-eu"
 version = "1.0.0"
-description = "Streamlit app designed to easily find our own political alignment"
+description = "Streamlit app to find your political alignment against Portuguese parties and European Parliament groups"
 authors = ["Miguel Costa <miguelptcosta1995@gmail.com>"]
 readme = "README.md"
 package-mode = false
@@ -11,6 +11,13 @@ python = "^3.12"
 streamlit = "^1.43.2"
 pandas = "^2.2.3"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
 
 [build-system]
 requires = ["poetry-core"]

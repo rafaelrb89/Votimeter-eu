@@ -1,0 +1,168 @@
+{
+  "name": "Portugal — partidos portugueses",
+  "short_name": "Portugal",
+  "intro": "compará-lo com os partidos portugueses em 2025",
+  "results_title": "Percentagem de Concordância com os Partidos Portugueses",
+  "included_label": "Partidos incluídos",
+  "inclusion_note": "O teste inclui os partidos que tiveram mais do que 7000 votos nas eleições legislativas de 2024 (mínimo de assinaturas para a formação de um partido político em Portugal).",
+  "details_title": "Descobre mais sobre os Partidos",
+  "entity_label": "Partido/Coligação",
+  "leader_label": "Líder(es) (ref. Abril 2025)",
+  "hashtags": "ParadigmaPoliticoPT,PoliticaPortuguesa",
+  "parties": {
+    "PS": {
+      "name": "Partido Socialista",
+      "leader": "Pedro Nuno Santos (Secretário-Geral)",
+      "founded": "19 de abril de 1973",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Social-democracia, Europeísmo",
+      "priorities": "Reforço do Estado Social (SNS, Educação), Redistribuição de Rendimentos, Europeísmo",
+      "description": "Principal partido de centro-esquerda em Portugal, defensor do estado social e membro do Partido Socialista Europeu. Procura equilibrar políticas sociais com crescimento económico sustentável.",
+      "program_url": "https://ps.pt/programa/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Partido_Socialista_(Portugal)"
+    },
+    "AD": {
+      "name": "Aliança Democrática - Coligação PPD-PSD/CDS-PP",
+      "leader": "Luís Montenegro (Presidente PPD/PSD)",
+      "founded": "PPD/PSD: 6 de maio de 1974 (Coligação AD reeditada em 2023)",
+      "spectrum": "Centro-direita",
+      "ideologies": "Conservadorismo Liberal, Democracia Cristã, Liberalismo Económico",
+      "priorities": "Redução de Impostos (IRS/IRC), Manutenção do Estado Social, Crescimento Económico, Controlo da Dívida Pública",
+      "description": "Coligação de centro-direita liderada pelo Partido Social Democrata (PPD/PSD), integrando também o CDS-PP. Defende uma economia de mercado com responsabilidade social, reformas para aumentar a competitividade e a estabilidade governativa.",
+      "program_url": "https://ad2025.pt/programa-eleitoral/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/AD_%E2%80%94_ALIAN%C3%87A_DEMOCR%C3%81TICA_(2024-Presente)"
+    },
+    "Chega": {
+      "name": "Chega",
+      "leader": "André Ventura (Presidente)",
+      "founded": "2019",
+      "spectrum": "Extrema-direita",
+      "ideologies": "Conservadorismo cristão, Nacionalismo, Anti-imigração, Anti-corrupção",
+      "priorities": "Diminuição da Imigração, Combate à Corrupção e ao Sistema, Reforço da Segurança e Autoridade do Estado, Redução de Impostos",
+      "description": "Partido de direita radical com discurso centrado na defesa da identidade nacional, segurança, críticas ao sistema político e posições anti-imigração. Defende valores conservadores, nacionalistas e liberalismo económico.",
+      "program_url": "https://partidochega.pt/programa/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Chega_(partido_pol%C3%ADtico)"
+    },
+    "IL": {
+      "name": "Iniciativa Liberal",
+      "leader": "Rui Rocha (Presidente)",
+      "founded": "2017",
+      "spectrum": "Direita",
+      "ideologies": "Liberalismo (Clássico e Económico), Libertarianismo (influências)",
+      "priorities": "Redução de Impostos e Burocracia, Liberdade Económica e Individual, Reforma do Estado, Privatizações",
+      "description": "Partido liberal que defende uma intervenção limitada do Estado na economia e na sociedade. Propõe a liberalização e desregulação do mercado, privatização da maioria das empresas públicas, impostos significativamente mais baixos e maior liberdade de escolha individual.",
+      "program_url": "https://iniciativaliberal.pt/programas/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Iniciativa_Liberal"
+    },
+    "CDU": {
+      "name": "Coligação Democrática Unitária (Partido Cominista Português + Partido Ecologista Os Verdes)",
+      "leader": "Paulo Raimundo (Secretário-Geral PCP)",
+      "founded": "PCP: 1921 (Coligação CDU: 1987)",
+      "spectrum": "Extrema-esquerda",
+      "ideologies": "Comunismo (Marxismo-Leninismo - PCP), Ecossocialismo (PEV)",
+      "priorities": "Direitos dos Trabalhadores, Serviços Públicos Universais e Gratuitos, Nacionalizações, Soberania Nacional, Oposição à NATO e União Europeia",
+      "description": "Aliança permanente entre o Partido Comunista Português (PCP) e o Partido Ecologista \"Os Verdes\" (PEV). Defende os interesses dos trabalhadores, o reforço do sector público e a soberania nacional. O PCP mantém uma linha marxista-leninista.",
+      "program_url": "https://www.cdu.pt/legislativas2025/compromisso-eleitoral-do-pcp",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Coliga%C3%A7%C3%A3o_Democr%C3%A1tica_Unit%C3%A1ria"
+    },
+    "Livre": {
+      "name": "Livre",
+      "leader": "Rui Tavares, Isabel Mendes Lopes (Porta-vozes)",
+      "founded": "2014",
+      "spectrum": "Esquerda",
+      "ideologies": "Socialismo, Progressismo, Ecologia, Europeísmo, Direitos das Minorias",
+      "priorities": "Redistribuição de Rendimentos, Combate às Alterações Climáticas, Direitos de Minorias, Habitação, Rendimento Básico Incondicional (RBI)",
+      "description": "Partido de esquerda com forte ênfase na ecologia, direitos humanos, aprofundamento democrático e maior integração europeia. Defende políticas sociais inclusivas e um modelo económico socialista e com enfâse na sustentabilidade. Conhecido pelo seu modelo de liderança com porta-vozes rotativos.",
+      "program_url": "https://programa.partidolivre.pt/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Livre_(partido_pol%C3%ADtico)"
+    },
+    "PAN": {
+      "name": "Pessoas-Animais-Natureza",
+      "leader": "Inês Sousa Real (Porta-Voz)",
+      "founded": "2011",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Ambientalismo, Direitos dos Animais, Humanismo",
+      "priorities": "Proteção Animal e Ambiental, Saúde Única (Humana/Animal/Ambiental), Combate às Alterações Climáticas, Direitos Humanos",
+      "description": "Partido Pessoas-Animais-Natureza, focado na defesa dos direitos dos animais e na proteção ambiental como eixos centrais. Promove políticas de sustentabilidade, bem-estar animal, preservação dos ecosistemas e economia verde. Geralmente alinha com o centro-esquerda em questões sociais.",
+      "program_url": "https://2024.pan.com.pt/program",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Pessoas%E2%80%93Animais%E2%80%93Natureza"
+    },
+    "BE": {
+      "name": "Bloco de Esquerda",
+      "leader": "Mariana Mortágua (Coordenadora)",
+      "founded": "1999",
+      "spectrum": "Extrema-esquerda",
+      "ideologies": "Socialismo, Anti-capitalismo, Progressismo, Direitos das Minorias",
+      "priorities": "Reforço dos Serviços Públicos (SNS, Escola), Direitos Laborais, Redistribuição dos rendimentos, Nacionalizações",
+      "description": "Partido de esquerda radical, crítico do liberalismo e defensor de alternativas socialistas e ecológicas. Resultou da fusão de vários movimentos de esquerda. Forte ênfase nos direitos das minorias e na justiça social.",
+      "program_url": "https://www.bloco.org/programa",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Bloco_de_Esquerda"
+    },
+    "ADN": {
+      "name": "Alternativa Democrática Nacional",
+      "leader": "Bruno Fialho (Presidente)",
+      "founded": "2015 (como PDR), 2021 (ADN)",
+      "spectrum": "Extrema-direita",
+      "ideologies": "Conservadorismo, Nacionalismo, Anti-globalismo, Anti-establishment",
+      "priorities": "Combate à corrupção, Redução do Estado, Soberania Nacional, Anti-vacinas , Oposição a 'agendas globais'",
+      "description": "Anterior Partido Democrático Republicano. Partido conservador e nacionalista, muito crítico do sistema político atual, do papel do estado na sociedade, de organizações/agendas internacionais (Organizaçãp Mundial da Saúde, clima, etc.) e de consensos científicos.",
+      "program_url": "https://adn.com.pt/programa-eleitoral/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Alternativa_Democr%C3%A1tica_Nacional"
+    },
+    "RIR": {
+      "name": "Reagir-Incluir-Reciclar",
+      "leader": "Márcia Henriques (Presidente)",
+      "founded": "2019",
+      "spectrum": "Centro",
+      "ideologies": "Centrismo, Humanismo, Reformismo, Descentralização, Ecologia",
+      "priorities": "Reforma do sistema político/justiça, Transparência, Combate à corrupção",
+      "description": "Apresenta-se como alternativa aos partidos de centro esquerda e centro direita, com foco na reforma do sistema de justiça e político de forma a aumentar a transparência e a representatividade democrática. Adota posições geralmente moderadas noutras áreas.",
+      "program_url": "https://partido-rir.pt/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Reagir_Incluir_Reciclar"
+    },
+    "JPP": {
+      "name": "Juntos Pelo Povo",
+      "leader": "Lina Pereira (Presidente), Élvio Sousa (Secretário Geral)",
+      "founded": "2015",
+      "spectrum": "Centro (Regionalista)",
+      "ideologies": "Regionalismo (Madeira), Social-democracia (local), Liberalismo, Autonomismo",
+      "priorities": "Interesses da Madeira, Regionalismo, Centrismo, Transparência",
+      "description": "Partido com forte base na Madeira, focado na defesa dos interesses da região e na luta por maior autonomia. Adota posições pragmáticas e de centro localmente.",
+      "program_url": "https://juntospelopovo.pt/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Juntos_pelo_Povo"
+    },
+    "Nova Direita": {
+      "name": "Nova Direita",
+      "leader": "Ossanda Liber (Presidente)",
+      "founded": "2023",
+      "spectrum": "Direita",
+      "ideologies": "Conservadorismo cristão, Anti-imigração, Liberalismo económico, Nacionalismo",
+      "priorities": "Diminuição da imigração, Redução de impostos, Segurança, Defesa da família tradicional, Controlo da Dívida Pública",
+      "description": "Partido fundado por dissidentes do CDS-PP. Apresenta-se como conservador nos costumes e liberal na economia, defendendo valores da direita.",
+      "program_url": "https://novadireita.pt/legislativas-2025/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Nova_Direita_(Portugal)"
+    },
+    "PCTP/MRPP": {
+      "name": "Partido Comunista dos Trabalhadores Portugueses",
+      "leader": "Liderança coletiva",
+      "founded": "1970 (MRPP), 1976 (PCTP/MRPP)",
+      "spectrum": "Extrema-esquerda",
+      "ideologies": "Comunismo, Marxismo-Leninismo, Maoismo",
+      "priorities": "Revolução socialista, Ditadura do proletariado, Anti-imperialismo",
+      "description": "Partido de linha maoista, mantém discurso revolucionário clássico que advoga a nacionalização dos meios de produção.",
+      "program_url": "https://www.pctpmrpp.com/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Partido_Comunista_dos_Trabalhadores_Portugueses"
+    },
+    "Volt": {
+      "name": "Volt Portugal",
+      "leader": "Duarte Costa, Inês Bravo Figueiredo (Co-Presidentes)",
+      "founded": "2020",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo Social, Progressismo, Federalismo Europeu, Ecologia",
+      "priorities": "Reforma da UE, Transição digital e climática, Políticas sociais pragmáticas, Direitos Humanos",
+      "description": "Secção portuguesa do movimento pan-europeu Volt Europa. Defende uma economia de mercado livre complementada com um estado social forte com base em políticas progressistas e baseadas em evidência científica e em melhores práticas. Defende uma União Europeia mais integrada e democrática.",
+      "program_url": "https://voltportugal.org/programa",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Volt_Portugal"
+    }
+  }
+}

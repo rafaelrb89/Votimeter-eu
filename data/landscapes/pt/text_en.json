@@ -1,0 +1,168 @@
+{
+  "name": "Portugal — Portuguese parties",
+  "short_name": "Portugal",
+  "intro": "compare it with Portuguese political parties in 2025",
+  "results_title": "Agreement with Portuguese Parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the parties that received more than 7,000 votes in the 2024 legislative elections (the minimum number of signatures needed to form a political party in Portugal).",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party/Coalition",
+  "leader_label": "Leader(s) (as of April 2025)",
+  "hashtags": "Votimeter,PortuguesePolitics",
+  "parties": {
+    "PS": {
+      "name": "Socialist Party",
+      "leader": "Pedro Nuno Santos (Secretary-General)",
+      "founded": "19 April 1973",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Pro-Europeanism",
+      "priorities": "Strengthening the welfare state (NHS, education), Income redistribution, Pro-Europeanism",
+      "description": "Portugal's main centre-left party, a defender of the welfare state and a member of the Party of European Socialists. It seeks to balance social policies with sustainable economic growth.",
+      "program_url": "https://ps.pt/programa/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Partido_Socialista_(Portugal)"
+    },
+    "AD": {
+      "name": "Democratic Alliance — PPD-PSD/CDS-PP coalition",
+      "leader": "Luís Montenegro (PPD/PSD President)",
+      "founded": "PPD/PSD: 6 May 1974 (AD coalition revived in 2023)",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberal conservatism, Christian democracy, Economic liberalism",
+      "priorities": "Tax cuts (personal and corporate income tax), Maintaining the welfare state, Economic growth, Public debt control",
+      "description": "Centre-right coalition led by the Social Democratic Party (PPD/PSD), also including CDS-PP. It advocates a market economy with social responsibility, reforms to boost competitiveness, and government stability.",
+      "program_url": "https://ad2025.pt/programa-eleitoral/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/AD_%E2%80%94_ALIAN%C3%87A_DEMOCR%C3%81TICA_(2024-Presente)"
+    },
+    "Chega": {
+      "name": "Chega (\"Enough\")",
+      "leader": "André Ventura (President)",
+      "founded": "2019",
+      "spectrum": "Far-right",
+      "ideologies": "Christian conservatism, Nationalism, Anti-immigration, Anti-corruption",
+      "priorities": "Reducing immigration, Fighting corruption and \"the system\", Strengthening security and State authority, Tax cuts",
+      "description": "Radical-right party whose discourse centres on defending national identity, security, criticism of the political system and anti-immigration positions. It defends conservative and nationalist values and economic liberalism.",
+      "program_url": "https://partidochega.pt/programa/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Chega_(partido_pol%C3%ADtico)"
+    },
+    "IL": {
+      "name": "Liberal Initiative",
+      "leader": "Rui Rocha (President)",
+      "founded": "2017",
+      "spectrum": "Right",
+      "ideologies": "Liberalism (classical and economic), Libertarian influences",
+      "priorities": "Cutting taxes and red tape, Economic and individual freedom, State reform, Privatisations",
+      "description": "Liberal party advocating limited State intervention in the economy and society. It proposes market liberalisation and deregulation, privatising most state-owned companies, significantly lower taxes and greater individual freedom of choice.",
+      "program_url": "https://iniciativaliberal.pt/programas/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Iniciativa_Liberal"
+    },
+    "CDU": {
+      "name": "Unitary Democratic Coalition (Portuguese Communist Party + Ecologist Party \"The Greens\")",
+      "leader": "Paulo Raimundo (PCP Secretary-General)",
+      "founded": "PCP: 1921 (CDU coalition: 1987)",
+      "spectrum": "Far-left",
+      "ideologies": "Communism (Marxism-Leninism — PCP), Eco-socialism (PEV)",
+      "priorities": "Workers' rights, Universal and free public services, Nationalisations, National sovereignty, Opposition to NATO and the European Union",
+      "description": "Permanent alliance between the Portuguese Communist Party (PCP) and the Ecologist Party \"The Greens\" (PEV). It defends workers' interests, a stronger public sector and national sovereignty. The PCP maintains a Marxist-Leninist line.",
+      "program_url": "https://www.cdu.pt/legislativas2025/compromisso-eleitoral-do-pcp",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Coliga%C3%A7%C3%A3o_Democr%C3%A1tica_Unit%C3%A1ria"
+    },
+    "Livre": {
+      "name": "Livre (\"Free\")",
+      "leader": "Rui Tavares, Isabel Mendes Lopes (Spokespersons)",
+      "founded": "2014",
+      "spectrum": "Left",
+      "ideologies": "Socialism, Progressivism, Ecology, Pro-Europeanism, Minority rights",
+      "priorities": "Income redistribution, Fighting climate change, Minority rights, Housing, Universal Basic Income (UBI)",
+      "description": "Left-wing party with a strong emphasis on ecology, human rights, deepening democracy and greater European integration. It advocates inclusive social policies and a socialist economic model focused on sustainability. Known for its leadership model with rotating spokespersons.",
+      "program_url": "https://programa.partidolivre.pt/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Livre_(partido_pol%C3%ADtico)"
+    },
+    "PAN": {
+      "name": "People-Animals-Nature",
+      "leader": "Inês Sousa Real (Spokesperson)",
+      "founded": "2011",
+      "spectrum": "Centre-left",
+      "ideologies": "Environmentalism, Animal rights, Humanism",
+      "priorities": "Animal and environmental protection, One Health (human/animal/environmental), Fighting climate change, Human rights",
+      "description": "Party focused on animal rights and environmental protection as its central pillars. It promotes sustainability policies, animal welfare, ecosystem preservation and a green economy. It generally aligns with the centre-left on social issues.",
+      "program_url": "https://2024.pan.com.pt/program",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Pessoas%E2%80%93Animais%E2%80%93Natureza"
+    },
+    "BE": {
+      "name": "Left Bloc",
+      "leader": "Mariana Mortágua (Coordinator)",
+      "founded": "1999",
+      "spectrum": "Far-left",
+      "ideologies": "Socialism, Anti-capitalism, Progressivism, Minority rights",
+      "priorities": "Strengthening public services (NHS, schools), Labour rights, Income redistribution, Nationalisations",
+      "description": "Radical-left party, critical of liberalism and advocating socialist and ecological alternatives. It resulted from the merger of several left-wing movements. Strong emphasis on minority rights and social justice.",
+      "program_url": "https://www.bloco.org/programa",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Bloco_de_Esquerda"
+    },
+    "ADN": {
+      "name": "National Democratic Alternative",
+      "leader": "Bruno Fialho (President)",
+      "founded": "2015 (as PDR), 2021 (ADN)",
+      "spectrum": "Far-right",
+      "ideologies": "Conservatism, Nationalism, Anti-globalism, Anti-establishment",
+      "priorities": "Fighting corruption, Reducing the State, National sovereignty, Anti-vaccine positions, Opposition to \"global agendas\"",
+      "description": "Formerly the Democratic Republican Party. Conservative and nationalist party, highly critical of the current political system, of the State's role in society, of international organisations and agendas (World Health Organization, climate, etc.) and of scientific consensus.",
+      "program_url": "https://adn.com.pt/programa-eleitoral/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Alternativa_Democr%C3%A1tica_Nacional"
+    },
+    "RIR": {
+      "name": "React-Include-Recycle",
+      "leader": "Márcia Henriques (President)",
+      "founded": "2019",
+      "spectrum": "Centre",
+      "ideologies": "Centrism, Humanism, Reformism, Decentralisation, Ecology",
+      "priorities": "Reform of the political/justice system, Transparency, Fighting corruption",
+      "description": "Presents itself as an alternative to the centre-left and centre-right parties, focusing on reforming the justice and political systems to increase transparency and democratic representation. Generally holds moderate positions in other areas.",
+      "program_url": "https://partido-rir.pt/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Reagir_Incluir_Reciclar"
+    },
+    "JPP": {
+      "name": "Together for the People",
+      "leader": "Lina Pereira (President), Élvio Sousa (Secretary-General)",
+      "founded": "2015",
+      "spectrum": "Centre (Regionalist)",
+      "ideologies": "Regionalism (Madeira), Social democracy (local), Liberalism, Autonomism",
+      "priorities": "Madeira's interests, Regionalism, Centrism, Transparency",
+      "description": "Party with a strong base in Madeira, focused on defending the region's interests and fighting for greater autonomy. Holds pragmatic, centrist positions locally.",
+      "program_url": "https://juntospelopovo.pt/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Juntos_pelo_Povo"
+    },
+    "Nova Direita": {
+      "name": "New Right",
+      "leader": "Ossanda Liber (President)",
+      "founded": "2023",
+      "spectrum": "Right",
+      "ideologies": "Christian conservatism, Anti-immigration, Economic liberalism, Nationalism",
+      "priorities": "Reducing immigration, Tax cuts, Security, Defence of the traditional family, Public debt control",
+      "description": "Party founded by CDS-PP dissidents. Presents itself as socially conservative and economically liberal, defending right-wing values.",
+      "program_url": "https://novadireita.pt/legislativas-2025/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Nova_Direita_(Portugal)"
+    },
+    "PCTP/MRPP": {
+      "name": "Portuguese Workers' Communist Party",
+      "leader": "Collective leadership",
+      "founded": "1970 (MRPP), 1976 (PCTP/MRPP)",
+      "spectrum": "Far-left",
+      "ideologies": "Communism, Marxism-Leninism, Maoism",
+      "priorities": "Socialist revolution, Dictatorship of the proletariat, Anti-imperialism",
+      "description": "Maoist party that maintains a classic revolutionary discourse advocating the nationalisation of the means of production.",
+      "program_url": "https://www.pctpmrpp.com/",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Partido_Comunista_dos_Trabalhadores_Portugueses"
+    },
+    "Volt": {
+      "name": "Volt Portugal",
+      "leader": "Duarte Costa, Inês Bravo Figueiredo (Co-Presidents)",
+      "founded": "2020",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, Progressivism, European federalism, Ecology",
+      "priorities": "EU reform, Digital and climate transition, Pragmatic social policies, Human rights",
+      "description": "Portuguese branch of the pan-European Volt Europa movement. It advocates a free-market economy complemented by a strong welfare state, based on progressive, evidence-based policies and best practices. It supports a more integrated and democratic European Union.",
+      "program_url": "https://voltportugal.org/programa",
+      "wiki_url": "https://pt.wikipedia.org/wiki/Volt_Portugal"
+    }
+  }
+}
