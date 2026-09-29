@@ -1,0 +1,14 @@
+{
+  "name": "Észtország — politikai pártok",
+  "short_name": "Észtország",
+  "intro": "politikai pártok: Észtország",
+  "results_title": "Egyezés a pártokkal — Észtország",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Estonia",
+  "hemicycle_note": "Mandátumok a parlamentben (Riigikogu) a 2023. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 101. A mandátum nélküli pártok a felmérésekben mért támogatottságuk miatt szerepelnek.",
+  "unaffiliated_label": "Egyéb"
+}

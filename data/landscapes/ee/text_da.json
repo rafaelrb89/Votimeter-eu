@@ -1,0 +1,14 @@
+{
+  "name": "Estland — politiske partier",
+  "short_name": "Estland",
+  "intro": "de politiske partier i Estland",
+  "results_title": "Enighed med partierne — Estland",
+  "included_label": "Partier i testen",
+  "inclusion_note": "Testen omfatter de vigtigste landsdækkende partier: dem, der er repræsenteret i parlamentet, og dem med mærkbar opbakning i målingerne. Positionerne er holdets vurderinger og kan revideres.",
+  "details_title": "Mere om partierne",
+  "entity_label": "Parti",
+  "leader_label": "Leder(e) (pr. 2025)",
+  "hashtags": "Votimeter,Estonia",
+  "hemicycle_note": "Mandater i parlamentet (Riigikogu) efter valget i 2023, fra venstre mod højre. Omtrentligt. Antal mandater: 101. Partier uden mandater er med på grund af deres opbakning i målingerne.",
+  "unaffiliated_label": "Andre"
+}

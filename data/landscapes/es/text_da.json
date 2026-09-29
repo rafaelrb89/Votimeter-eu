@@ -1,0 +1,14 @@
+{
+  "name": "Spanien — politiske partier",
+  "short_name": "Spanien",
+  "intro": "de politiske partier i Spanien",
+  "results_title": "Enighed med partierne — Spanien",
+  "included_label": "Partier i testen",
+  "inclusion_note": "Testen omfatter de vigtigste landsdækkende partier: dem, der er repræsenteret i parlamentet, og dem med mærkbar opbakning i målingerne. Positionerne er holdets vurderinger og kan revideres.",
+  "details_title": "Mere om partierne",
+  "entity_label": "Parti",
+  "leader_label": "Leder(e) (pr. 2025)",
+  "hashtags": "Votimeter,SpanishPolitics",
+  "hemicycle_note": "Mandater i parlamentet (Congreso de los Diputados) efter valget i 2023, fra venstre mod højre. Omtrentligt. Antal mandater: 350. Partier uden mandater er med på grund af deres opbakning i målingerne.",
+  "unaffiliated_label": "Andre"
+}

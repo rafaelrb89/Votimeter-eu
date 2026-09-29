@@ -1,0 +1,14 @@
+{
+  "name": "Portugalsko — politické strany",
+  "short_name": "Portugalsko",
+  "intro": "politické strany: Portugalsko",
+  "results_title": "Shoda se stranami — Portugalsko",
+  "included_label": "Zahrnuté strany",
+  "inclusion_note": "Test zahrnuje hlavní celostátní strany: zastoupené v parlamentu a ty, které mají významnou podporu v průzkumech. Postoje jsou odhady týmu a mohou být upraveny.",
+  "details_title": "Více o stranách",
+  "entity_label": "Strana",
+  "leader_label": "Předseda/předsedové (2025)",
+  "hashtags": "Votimeter,PortuguesePolitics",
+  "hemicycle_note": "Mandáty v parlamentu (Assembleia da República) po volbách v roce 2025, zleva doprava. Přibližně. Počet mandátů: 230. Strany bez mandátů jsou zahrnuty kvůli podpoře v průzkumech.",
+  "unaffiliated_label": "Ostatní"
+}

@@ -14,7 +14,8 @@ def _load_builder():
 def test_web_data_is_up_to_date():
     builder = _load_builder()
     current = (ROOT / "web" / "data.json").read_text(encoding="utf-8")
-    assert current == builder.render(), "web/data.json is stale: run `python scripts/build_web_data.py`"
+    up_to_date = current == builder.render()  # plain bool: pytest would otherwise diff two ~1 MB strings
+    assert up_to_date, "web/data.json is stale: run `python scripts/build_web_data.py`"
 
 
 def test_hemicycle_totals():

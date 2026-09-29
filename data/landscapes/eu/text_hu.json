@@ -1,0 +1,14 @@
+{
+  "name": "Európai Unió — az Európai Parlament képviselőcsoportjai",
+  "short_name": "Európai Parlament",
+  "intro": "az Európai Parlament képviselőcsoportjai (2024–2029-es ciklus)",
+  "results_title": "Egyezés az Európai Parlament képviselőcsoportjaival",
+  "included_label": "Szereplő képviselőcsoportok",
+  "inclusion_note": "A teszt az Európai Parlament 2024–2029-es ciklusának összes képviselőcsoportját tartalmazza. A független képviselők nem szerepelnek. Az álláspontok a tagpártok fő irányvonalát tükrözik; ugyanazon csoport nemzeti delegációi jelentősen eltérhetnek.",
+  "details_title": "Bővebben a képviselőcsoportokról",
+  "entity_label": "Képviselőcsoport",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,EuropeanParliament",
+  "hemicycle_note": "Mandátumok a 2024–2029-es ciklus elején (2024. július), balról jobbra, ahogy az ülésteremben. 720 képviselő.",
+  "unaffiliated_label": "Független képviselők"
+}

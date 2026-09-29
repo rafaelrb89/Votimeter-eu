@@ -1,0 +1,14 @@
+{
+  "name": "Fínsko — politické strany",
+  "short_name": "Fínsko",
+  "intro": "politické strany: Fínsko",
+  "results_title": "Zhoda so stranami — Fínsko",
+  "included_label": "Zahrnuté strany",
+  "inclusion_note": "Test zahŕňa hlavné celoštátne strany: zastúpené v parlamente a tie, ktoré majú významnú podporu v prieskumoch. Postoje sú odhady tímu a môžu byť upravené.",
+  "details_title": "Viac o stranách",
+  "entity_label": "Strana",
+  "leader_label": "Predseda/predsedovia (2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Mandáty v parlamente (Eduskunta) po voľbách v roku 2023, zľava doprava. Približne. Počet mandátov: 200.",
+  "unaffiliated_label": "Ostatní"
+}

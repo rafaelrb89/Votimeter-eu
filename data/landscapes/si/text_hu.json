@@ -1,0 +1,14 @@
+{
+  "name": "Szlovénia — politikai pártok",
+  "short_name": "Szlovénia",
+  "intro": "politikai pártok: Szlovénia",
+  "results_title": "Egyezés a pártokkal — Szlovénia",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Slovenia",
+  "hemicycle_note": "Mandátumok a parlamentben (Državni zbor) a 2022. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 90. Egy újabb választás eredménye itt még nem szerepel. A mandátum nélküli pártok a felmérésekben mért támogatottságuk miatt szerepelnek.",
+  "unaffiliated_label": "Egyéb"
+}

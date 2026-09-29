@@ -1,0 +1,14 @@
+{
+  "name": "Kroatien — politiska partier",
+  "short_name": "Kroatien",
+  "intro": "de politiska partierna i Kroatien",
+  "results_title": "Samstämmighet med partierna — Kroatien",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,Croatia",
+  "hemicycle_note": "Mandat i parlamentet (Sabor) efter valet 2024, från vänster till höger. Ungefärligt. Antal mandat: 151.",
+  "unaffiliated_label": "Övriga"
+}

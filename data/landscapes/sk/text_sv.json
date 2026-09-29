@@ -1,0 +1,14 @@
+{
+  "name": "Slovakien — politiska partier",
+  "short_name": "Slovakien",
+  "intro": "de politiska partierna i Slovakien",
+  "results_title": "Samstämmighet med partierna — Slovakien",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,Slovakia",
+  "hemicycle_note": "Mandat i parlamentet (Národná rada) efter valet 2023, från vänster till höger. Ungefärligt. Antal mandat: 150. Partier utan mandat är med på grund av sitt stöd i opinionsmätningar.",
+  "unaffiliated_label": "Övriga"
+}

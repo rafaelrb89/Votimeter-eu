@@ -1,0 +1,14 @@
+{
+  "name": "Vācija — politiskās partijas",
+  "short_name": "Vācija",
+  "intro": "politiskās partijas: Vācija",
+  "results_title": "Sakritība ar partijām — Vācija",
+  "included_label": "Iekļautās partijas",
+  "inclusion_note": "Testā iekļautas galvenās valsts mēroga partijas: parlamentā pārstāvētās un tās, kurām ir ievērojams atbalsts aptaujās. Nostājas ir veidotāju vērtējumi, un tās var tikt pārskatītas.",
+  "details_title": "Vairāk par partijām",
+  "entity_label": "Partija",
+  "leader_label": "Vadītājs(-i) (2025)",
+  "hashtags": "Votimeter,GermanPolitics",
+  "hemicycle_note": "Vietas parlamentā (Bundestag) pēc 2025. gada vēlēšanām, no kreisās uz labo pusi. Aptuveni. Vietu skaits: 630. Partijas bez vietām iekļautas to atbalsta dēļ aptaujās.",
+  "unaffiliated_label": "Citi"
+}

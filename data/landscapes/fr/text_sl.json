@@ -1,0 +1,14 @@
+{
+  "name": "Francija — politične stranke",
+  "short_name": "Francija",
+  "intro": "politične stranke: Francija",
+  "results_title": "Ujemanje s strankami — Francija",
+  "included_label": "Vključene stranke",
+  "inclusion_note": "Test vključuje glavne vsedržavne stranke: zastopane v parlamentu in tiste z opazno podporo v anketah. Stališča so ocene ekipe in jih je mogoče popraviti.",
+  "details_title": "Več o strankah",
+  "entity_label": "Stranka",
+  "leader_label": "Predsednik/-i (2025)",
+  "hashtags": "Votimeter,FrenchPolitics",
+  "hemicycle_note": "Sedeži v parlamentu (Assemblée nationale) po volitvah 2024, od leve proti desni. Približno. Število sedežev: 577. Stranke brez sedežev so vključene zaradi podpore v anketah.",
+  "unaffiliated_label": "Drugi"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Nederland — politieke partijen",
+  "short_name": "Nederland",
+  "intro": "de politieke partijen van Nederland",
+  "results_title": "Overeenkomst met de partijen — Nederland",
+  "included_label": "Opgenomen partijen",
+  "inclusion_note": "De test bevat de belangrijkste landelijke partijen: partijen in het parlement en partijen met noemenswaardige steun in peilingen. De standpunten zijn inschattingen van het team en kunnen worden herzien.",
+  "details_title": "Meer over de partijen",
+  "entity_label": "Partij",
+  "leader_label": "Leider(s) (stand 2025)",
+  "hashtags": "Votimeter,DutchPolitics",
+  "hemicycle_note": "Zetels in het parlement (Tweede Kamer) na de verkiezingen van 2025, van links naar rechts. Bij benadering. Aantal zetels: 150.",
+  "unaffiliated_label": "Overig"
+}

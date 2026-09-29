@@ -1,0 +1,14 @@
+{
+  "name": "Maďarsko — politické strany",
+  "short_name": "Maďarsko",
+  "intro": "politické strany: Maďarsko",
+  "results_title": "Shoda se stranami — Maďarsko",
+  "included_label": "Zahrnuté strany",
+  "inclusion_note": "Test zahrnuje hlavní celostátní strany: zastoupené v parlamentu a ty, které mají významnou podporu v průzkumech. Postoje jsou odhady týmu a mohou být upraveny.",
+  "details_title": "Více o stranách",
+  "entity_label": "Strana",
+  "leader_label": "Předseda/předsedové (2025)",
+  "hashtags": "Votimeter,Hungary",
+  "hemicycle_note": "Mandáty v parlamentu (Országgyűlés) po volbách v roce 2022, zleva doprava. Přibližně. Počet mandátů: 199. Novější volby zde zatím nejsou zohledněny. Strany bez mandátů jsou zahrnuty kvůli podpoře v průzkumech.",
+  "unaffiliated_label": "Ostatní"
+}

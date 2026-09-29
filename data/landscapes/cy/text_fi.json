@@ -1,0 +1,14 @@
+{
+  "name": "Kypros — poliittiset puolueet",
+  "short_name": "Kypros",
+  "intro": "poliittiset puolueet: Kypros",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Kypros",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,Cyprus",
+  "hemicycle_note": "Paikat parlamentissa (Vouli ton Antiprosopon) vuoden 2021 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 56. Uudempia vaaleja ei ole vielä huomioitu. Paikattomat puolueet ovat mukana kannatuksensa vuoksi.",
+  "unaffiliated_label": "Muut"
+}

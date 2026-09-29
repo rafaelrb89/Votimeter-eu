@@ -1,0 +1,14 @@
+{
+  "name": "Slovenija — političke stranke",
+  "short_name": "Slovenija",
+  "intro": "političke stranke: Slovenija",
+  "results_title": "Podudarnost sa strankama — Slovenija",
+  "included_label": "Uključene stranke",
+  "inclusion_note": "Test uključuje glavne nacionalne stranke: zastupljene u parlamentu i one sa značajnom potporom u anketama. Stajališta su procjene tima i mogu se ispraviti.",
+  "details_title": "Više o strankama",
+  "entity_label": "Stranka",
+  "leader_label": "Predsjednik/ci (2025.)",
+  "hashtags": "Votimeter,Slovenia",
+  "hemicycle_note": "Mandati u parlamentu (Državni zbor) nakon izbora 2022., slijeva nadesno. Približno. Broj mandata: 90. Noviji izbori ovdje još nisu uzeti u obzir. Stranke bez mandata uključene su zbog potpore u anketama.",
+  "unaffiliated_label": "Ostali"
+}

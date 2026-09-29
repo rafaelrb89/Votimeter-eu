@@ -1,0 +1,14 @@
+{
+  "name": "Finnország — politikai pártok",
+  "short_name": "Finnország",
+  "intro": "politikai pártok: Finnország",
+  "results_title": "Egyezés a pártokkal — Finnország",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Mandátumok a parlamentben (Eduskunta) a 2023. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 200.",
+  "unaffiliated_label": "Egyéb"
+}

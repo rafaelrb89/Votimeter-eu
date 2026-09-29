@@ -1,0 +1,14 @@
+{
+  "name": "Finland — politiska partier",
+  "short_name": "Finland",
+  "intro": "de politiska partierna i Finland",
+  "results_title": "Samstämmighet med partierna — Finland",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Mandat i parlamentet (Eduskunta) efter valet 2023, från vänster till höger. Ungefärligt. Antal mandat: 200.",
+  "unaffiliated_label": "Övriga"
+}

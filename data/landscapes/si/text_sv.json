@@ -1,0 +1,14 @@
+{
+  "name": "Slovenien — politiska partier",
+  "short_name": "Slovenien",
+  "intro": "de politiska partierna i Slovenien",
+  "results_title": "Samstämmighet med partierna — Slovenien",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,Slovenia",
+  "hemicycle_note": "Mandat i parlamentet (Državni zbor) efter valet 2022, från vänster till höger. Ungefärligt. Antal mandat: 90. Ett senare val är ännu inte inarbetat här. Partier utan mandat är med på grund av sitt stöd i opinionsmätningar.",
+  "unaffiliated_label": "Övriga"
+}

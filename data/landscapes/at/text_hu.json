@@ -1,0 +1,14 @@
+{
+  "name": "Ausztria — politikai pártok",
+  "short_name": "Ausztria",
+  "intro": "politikai pártok: Ausztria",
+  "results_title": "Egyezés a pártokkal — Ausztria",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Austria",
+  "hemicycle_note": "Mandátumok a parlamentben (Nationalrat) a 2024. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 183. A mandátum nélküli pártok a felmérésekben mért támogatottságuk miatt szerepelnek.",
+  "unaffiliated_label": "Egyéb"
+}

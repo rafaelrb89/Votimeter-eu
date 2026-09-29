@@ -14,6 +14,7 @@ from votimeter.data import (
 )
 
 LANGUAGES = available_languages()
+COMPLETE_LANGUAGES = {"en", "pt", "fr", "de", "it", "es"}  # party profiles fully translated
 LANDSCAPES = list_landscapes()
 
 
@@ -60,14 +61,20 @@ def test_landscapes_load(landscape_id, lang):
 
 @pytest.mark.parametrize("landscape_id", LANDSCAPES)
 def test_landscape_text_keys_match_across_languages(landscape_id):
-    texts = {
-        lang: json.loads((DATA_DIR / "landscapes" / landscape_id / f"text_{lang}.json").read_text(encoding="utf-8"))
-        for lang in LANGUAGES
-    }
-    reference = texts["en"]
-    for lang, text in texts.items():
-        assert set(text) == set(reference), lang
-        assert set(text["parties"]) == set(reference["parties"]), lang
+    """Every language has a text file per landscape. The six original languages are complete;
+    the others may leave out keys or party details, which then fall back to English."""
+    folder = DATA_DIR / "landscapes" / landscape_id
+    reference = json.loads((folder / "text_en.json").read_text(encoding="utf-8"))
+    meta_keys = set(reference) - {"parties"}
+    for lang in LANGUAGES:
+        text = json.loads((folder / f"text_{lang}.json").read_text(encoding="utf-8"))
+        assert set(text) <= set(reference), (lang, set(text) - set(reference))
+        assert meta_keys <= set(text), (lang, meta_keys - set(text))  # landscape names and notes are always translated
+        for code, details in text.get("parties", {}).items():
+            assert code in reference["parties"], (lang, code)
+            assert set(details) <= set(reference["parties"][code]), (lang, code)
+        if lang in COMPLETE_LANGUAGES:
+            assert set(text["parties"]) == set(reference["parties"]), lang
 
 
 def test_portugal_positions_preserved_from_original_order():

@@ -1,0 +1,14 @@
+{
+  "name": "Lengyelország — politikai pártok",
+  "short_name": "Lengyelország",
+  "intro": "politikai pártok: Lengyelország",
+  "results_title": "Egyezés a pártokkal — Lengyelország",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Poland",
+  "hemicycle_note": "Mandátumok a parlamentben (Sejm) a 2023. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 460. A mandátum nélküli pártok a felmérésekben mért támogatottságuk miatt szerepelnek.",
+  "unaffiliated_label": "Egyéb"
+}

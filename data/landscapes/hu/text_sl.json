@@ -1,0 +1,14 @@
+{
+  "name": "Madžarska — politične stranke",
+  "short_name": "Madžarska",
+  "intro": "politične stranke: Madžarska",
+  "results_title": "Ujemanje s strankami — Madžarska",
+  "included_label": "Vključene stranke",
+  "inclusion_note": "Test vključuje glavne vsedržavne stranke: zastopane v parlamentu in tiste z opazno podporo v anketah. Stališča so ocene ekipe in jih je mogoče popraviti.",
+  "details_title": "Več o strankah",
+  "entity_label": "Stranka",
+  "leader_label": "Predsednik/-i (2025)",
+  "hashtags": "Votimeter,Hungary",
+  "hemicycle_note": "Sedeži v parlamentu (Országgyűlés) po volitvah 2022, od leve proti desni. Približno. Število sedežev: 199. Novejše volitve tu še niso upoštevane. Stranke brez sedežev so vključene zaradi podpore v anketah.",
+  "unaffiliated_label": "Drugi"
+}

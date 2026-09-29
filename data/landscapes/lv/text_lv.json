@@ -1,0 +1,14 @@
+{
+  "name": "Latvija — politiskās partijas",
+  "short_name": "Latvija",
+  "intro": "politiskās partijas: Latvija",
+  "results_title": "Sakritība ar partijām — Latvija",
+  "included_label": "Iekļautās partijas",
+  "inclusion_note": "Testā iekļautas galvenās valsts mēroga partijas: parlamentā pārstāvētās un tās, kurām ir ievērojams atbalsts aptaujās. Nostājas ir veidotāju vērtējumi, un tās var tikt pārskatītas.",
+  "details_title": "Vairāk par partijām",
+  "entity_label": "Partija",
+  "leader_label": "Vadītājs(-i) (2025)",
+  "hashtags": "Votimeter,Latvia",
+  "hemicycle_note": "Vietas parlamentā (Saeima) pēc 2022. gada vēlēšanām, no kreisās uz labo pusi. Aptuveni. Vietu skaits: 100.",
+  "unaffiliated_label": "Citi"
+}

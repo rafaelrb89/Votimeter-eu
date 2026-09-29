@@ -1,0 +1,14 @@
+{
+  "name": "Niemcy — partie polityczne",
+  "short_name": "Niemcy",
+  "intro": "partie polityczne: Niemcy",
+  "results_title": "Zgodność z partiami — Niemcy",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,GermanPolitics",
+  "hemicycle_note": "Mandaty w parlamencie (Bundestag) po wyborach w 2025 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 630. Partie bez mandatów uwzględniono ze względu na poparcie w sondażach.",
+  "unaffiliated_label": "Inni"
+}

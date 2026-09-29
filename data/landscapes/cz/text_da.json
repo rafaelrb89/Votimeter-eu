@@ -1,0 +1,14 @@
+{
+  "name": "Tjekkiet — politiske partier",
+  "short_name": "Tjekkiet",
+  "intro": "de politiske partier i Tjekkiet",
+  "results_title": "Enighed med partierne — Tjekkiet",
+  "included_label": "Partier i testen",
+  "inclusion_note": "Testen omfatter de vigtigste landsdækkende partier: dem, der er repræsenteret i parlamentet, og dem med mærkbar opbakning i målingerne. Positionerne er holdets vurderinger og kan revideres.",
+  "details_title": "Mere om partierne",
+  "entity_label": "Parti",
+  "leader_label": "Leder(e) (pr. 2025)",
+  "hashtags": "Votimeter,Czechia",
+  "hemicycle_note": "Mandater i parlamentet (Poslanecká sněmovna) efter valget i 2025, fra venstre mod højre. Omtrentligt. Antal mandater: 200. Partier uden mandater er med på grund af deres opbakning i målingerne.",
+  "unaffiliated_label": "Andre"
+}

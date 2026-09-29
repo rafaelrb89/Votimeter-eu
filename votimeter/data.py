@@ -24,6 +24,7 @@ import pandas as pd
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 AXES = ("economic", "social", "political")
+FALLBACK_LANGUAGE = "en"  # landscape texts missing a key or a party fall back to English
 ANSWER_VALUES = (-2, -1, 0, 1, 2)
 
 
@@ -105,11 +106,11 @@ def load_landscape(landscape_id: str, lang: str, data_dir: Path = DATA_DIR) -> L
     if not positions.isin(ANSWER_VALUES).all().all():
         raise DataError(f"{landscape_id}/positions.csv: values must be integers in -2..2")
 
-    text = _read_json(folder / f"text_{lang}.json")
+    text = load_landscape_text(landscape_id, lang, data_dir)
     details = text.get("parties", {})
     missing = [c for c in codes if c not in details]
     if missing:
-        raise DataError(f"{landscape_id}/text_{lang}.json: no details for {missing}")
+        raise DataError(f"{landscape_id}/text_{FALLBACK_LANGUAGE}.json: no details for {missing}")
 
     parties = tuple(
         Party(code=row.code, color=row.color, url=row.url, details=details[row.code])
@@ -122,6 +123,21 @@ def load_landscape(landscape_id: str, lang: str, data_dir: Path = DATA_DIR) -> L
         positions=positions.astype(int),
         hemicycle=_load_hemicycle(folder / "hemicycle.csv", landscape_id),
     )
+
+
+def load_landscape_text(landscape_id: str, lang: str, data_dir: Path = DATA_DIR) -> dict:
+    """Landscape strings in ``lang``, with English filling any missing key or party field."""
+    folder = data_dir / "landscapes" / landscape_id
+    text = _read_json(folder / f"text_{FALLBACK_LANGUAGE}.json")
+    overlay_path = folder / f"text_{lang}.json"
+    if lang == FALLBACK_LANGUAGE or not overlay_path.exists():
+        return text
+    overlay = _read_json(overlay_path)
+    merged = {**text, **{k: v for k, v in overlay.items() if k != "parties"}}
+    merged["parties"] = {
+        code: {**details, **overlay.get("parties", {}).get(code, {})} for code, details in text["parties"].items()
+    }
+    return merged
 
 
 def _load_hemicycle(path: Path, landscape_id: str) -> tuple[tuple[str, int], ...]:

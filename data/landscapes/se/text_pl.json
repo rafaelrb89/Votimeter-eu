@@ -1,0 +1,14 @@
+{
+  "name": "Szwecja — partie polityczne",
+  "short_name": "Szwecja",
+  "intro": "partie polityczne: Szwecja",
+  "results_title": "Zgodność z partiami — Szwecja",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,Sweden",
+  "hemicycle_note": "Mandaty w parlamencie (Riksdag) po wyborach w 2022 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 349. Nowsze wybory nie zostały tu jeszcze uwzględnione.",
+  "unaffiliated_label": "Inni"
+}

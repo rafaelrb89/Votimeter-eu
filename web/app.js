@@ -33,8 +33,10 @@
   const pct = (x) => `${Math.round(x * 100)}%`;
   const signed = (x) => (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x).toFixed(2);
   const landscape = () => DATA.landscapes.find((l) => l.id === state.landscape);
-  const lt = (key, vars) => fill(landscape().text[state.lang][key] ?? key, vars);
-  const partyInfo = (code) => landscape().text[state.lang].parties[code] || {};
+  // Landscape texts: the chosen language where written, English otherwise.
+  const textOf = (l, key) => ((l.text[state.lang] || {})[key] ?? l.text.en[key]);
+  const lt = (key, vars) => fill(textOf(landscape(), key) ?? key, vars);
+  const partyInfo = (code) => ({ ...(landscape().text.en.parties[code] || {}), ...(((landscape().text[state.lang] || {}).parties || {})[code] || {}) });
   const partyColor = (code) => (landscape().parties.find((p) => p.code === code) || {}).color || UNAFFILIATED_COLOR;
   const questionText = (id) => DATA.languages[state.lang].questions[id];
   const allIds = () => DATA.questions.map((q) => q.id);
@@ -183,16 +185,17 @@
 
   // ------------------------------------------------------------------ chrome
   function renderSwitches() {
-    const langSwitch = document.getElementById("lang-switch");
-    langSwitch.setAttribute("aria-label", t("language_label"));
-    langSwitch.innerHTML = Object.entries(DATA.languages)
-      .map(([code, l]) => `<button type="button" data-lang="${code}" aria-pressed="${code === state.lang}" lang="${code}">${code.toUpperCase()}<span class="sr"> ${esc(l.name)}</span></button>`)
+    const langSelect = document.getElementById("lang-select");
+    langSelect.setAttribute("aria-label", t("language_label"));
+    langSelect.innerHTML = Object.entries(DATA.languages)
+      .sort(([, a], [, b]) => a.name.localeCompare(b.name))
+      .map(([code, l]) => `<option value="${code}" lang="${code}"${code === state.lang ? " selected" : ""}>${esc(l.name)}</option>`)
       .join("");
     const select = document.getElementById("landscape-select");
     select.setAttribute("aria-label", t("landscape_label"));
-    const option = (l) => `<option value="${l.id}"${l.id === state.landscape ? " selected" : ""}>${esc(l.text[state.lang].short_name)}</option>`;
+    const option = (l) => `<option value="${l.id}"${l.id === state.landscape ? " selected" : ""}>${esc(textOf(l, "short_name"))}</option>`;
     const countries = DATA.landscapes.filter((l) => l.id !== "eu")
-      .sort((a, b) => a.text[state.lang].short_name.localeCompare(b.text[state.lang].short_name, state.lang));
+      .sort((a, b) => textOf(a, "short_name").localeCompare(textOf(b, "short_name"), state.lang));
     select.innerHTML = DATA.landscapes.filter((l) => l.id === "eu").map(option).join("")
       + `<optgroup label="${esc(t("web_countries"))}">${countries.map(option).join("")}</optgroup>`;
     document.documentElement.lang = state.lang;
@@ -605,7 +608,6 @@
   document.addEventListener("click", (e) => {
     const el = e.target.closest("button, a[data-action]");
     if (!el) return;
-    if (el.dataset.lang) { state.lang = el.dataset.lang; return render(); }
     if (el.dataset.landscape) { state.landscape = el.dataset.landscape; return render(); }
     if (el.dataset.answer !== undefined) return answer(Number(el.dataset.answer));
     const action = el.dataset.action;
@@ -627,6 +629,7 @@
 
   document.addEventListener("change", (e) => {
     if (e.target.id === "landscape-select") { state.landscape = e.target.value; render(); }
+    if (e.target.id === "lang-select") { state.lang = e.target.value; render(); }
   });
 
   document.addEventListener("keydown", (e) => {

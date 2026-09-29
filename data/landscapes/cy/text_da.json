@@ -1,0 +1,14 @@
+{
+  "name": "Cypern — politiske partier",
+  "short_name": "Cypern",
+  "intro": "de politiske partier i Cypern",
+  "results_title": "Enighed med partierne — Cypern",
+  "included_label": "Partier i testen",
+  "inclusion_note": "Testen omfatter de vigtigste landsdækkende partier: dem, der er repræsenteret i parlamentet, og dem med mærkbar opbakning i målingerne. Positionerne er holdets vurderinger og kan revideres.",
+  "details_title": "Mere om partierne",
+  "entity_label": "Parti",
+  "leader_label": "Leder(e) (pr. 2025)",
+  "hashtags": "Votimeter,Cyprus",
+  "hemicycle_note": "Mandater i parlamentet (Vouli ton Antiprosopon) efter valget i 2021, fra venstre mod højre. Omtrentligt. Antal mandater: 56. Et nyere valg er endnu ikke indarbejdet her. Partier uden mandater er med på grund af deres opbakning i målingerne.",
+  "unaffiliated_label": "Andre"
+}

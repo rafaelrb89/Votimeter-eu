@@ -2,7 +2,7 @@
 
 A quiz that places you on three political axes (economic, social, political) and measures your agreement with a set of parties. It is based on [paradigmapolitico2](https://github.com/rafaelrb89/paradigmapolitico2) (Votímetro).
 
-- **Languages:** English, Português, Français, Deutsch, Italiano, Español
+- **Languages:** all 24 official EU languages — Български, Čeština, Dansk, Deutsch, Eesti, Ελληνικά, English, Español, Français, Gaeilge, Hrvatski, Italiano, Latviešu, Lietuvių, Magyar, Malti, Nederlands, Polski, Português, Română, Slovenčina, Slovenščina, Suomi, Svenska. Party profiles (descriptions, ideologies, priorities) are fully translated in English, Portuguese, French, German, Italian and Spanish; the other 18 languages show them in English for now.
 - **Party landscapes:** European Parliament groups (2024–2029 term), all 27 EU member states, and the United Kingdom
 
 You can switch language and landscape at any time. Answers are stored by question ID, so switching keeps them. The selection is also saved in the URL (`?lang=pt&landscape=eu`), so you can share a link with a preset.
@@ -72,13 +72,13 @@ data/
 
 1. Add `data/i18n/ui_<lang>.json` with the same keys as `ui_en.json`.
 2. Add `data/questions/text_<lang>.csv` with every question ID.
-3. Add `text_<lang>.json` to every landscape folder.
+3. Add `text_<lang>.json` to landscape folders. Anything missing from it (a key, a party profile) falls back to `text_en.json`, so a file with just the landscape name and notes is enough to start.
 
 A language shows up in the sidebar only when both its UI file and its question file exist. The tests check that the keys and IDs are complete.
 
 ### Adding a landscape
 
-Create `data/landscapes/<id>/` with `parties.csv`, `positions.csv` and a `text_<lang>.json` for every language, then add `<id>` to `landscapes.csv`.
+Create `data/landscapes/<id>/` with `parties.csv`, `positions.csv`, a complete `text_en.json` and optional `text_<lang>.json` translations, then add `<id>` to `landscapes.csv`.
 
 ## About the positions
 

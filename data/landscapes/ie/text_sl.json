@@ -1,0 +1,14 @@
+{
+  "name": "Irska — politične stranke",
+  "short_name": "Irska",
+  "intro": "politične stranke: Irska",
+  "results_title": "Ujemanje s strankami — Irska",
+  "included_label": "Vključene stranke",
+  "inclusion_note": "Test vključuje glavne vsedržavne stranke: zastopane v parlamentu in tiste z opazno podporo v anketah. Stališča so ocene ekipe in jih je mogoče popraviti.",
+  "details_title": "Več o strankah",
+  "entity_label": "Stranka",
+  "leader_label": "Predsednik/-i (2025)",
+  "hashtags": "Votimeter,Ireland",
+  "hemicycle_note": "Sedeži v parlamentu (Dáil Éireann) po volitvah 2024, od leve proti desni. Približno. Število sedežev: 174.",
+  "unaffiliated_label": "Drugi"
+}
