@@ -92,5 +92,6 @@
   "web_copy_failed": "Selecciona el texto de arriba para copiarlo.",
   "web_seats": "{n} escaños",
   "web_answered": "{n} respondidas",
-  "web_about": "Sobre este test"
+  "web_about": "Sobre este test",
+  "web_countries": "Países"
 }

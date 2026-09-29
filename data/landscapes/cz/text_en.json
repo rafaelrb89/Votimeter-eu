@@ -1,0 +1,96 @@
+{
+  "name": "Czechia — Czech parties",
+  "short_name": "Czechia",
+  "intro": "compare it with Czech political parties",
+  "results_title": "Agreement with Czech parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Czechia: those represented in the parliament (Poslanecká sněmovna) and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,Czechia",
+  "hemicycle_note": "Seats in the parliament (Poslanecká sněmovna) after the 2025 election, arranged left to right. Approximate. 200 members. Parties shown without seats are included because they poll strongly.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "Stačilo!": {
+      "name": "Stačilo!",
+      "leader": "Kateřina Konečná (Leader)",
+      "founded": "2024",
+      "spectrum": "Far-left",
+      "ideologies": "Communism, Left-wing populism, Sovereignism",
+      "priorities": "Diplomacy with Russia, no arms deliveries, Cost of living, National sovereignty",
+      "description": "Left-populist alliance led by the Communist Party, opposed to aid for Ukraine and critical of the EU and NATO; it narrowly missed parliament in 2025.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sta%C4%8Dilo%21"
+    },
+    "Piráti": {
+      "name": "Česká pirátská strana",
+      "leader": "Zdeněk Hřib (Chair)",
+      "founded": "2009",
+      "spectrum": "Centre",
+      "ideologies": "Pirate politics, Social liberalism, Pro-Europeanism",
+      "priorities": "Transparency and digital rights, Digital innovation, Civil liberties, Affordable housing",
+      "description": "Pirate Party, focused on transparency, digital government and civil liberties.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Czech%20Pirate%20Party"
+    },
+    "Volt": {
+      "name": "Volt Česko",
+      "leader": "National chapter of Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "National chapter of Volt Europa, the first pan-European party. All chapters share one programme: a federal and more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions. Volt has the same positions in every country in this test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "STAN": {
+      "name": "Starostové a nezávislí",
+      "leader": "Vít Rakušan (Chair)",
+      "founded": "2004",
+      "spectrum": "Centre",
+      "ideologies": "Liberalism, Centrism, Pro-Europeanism",
+      "priorities": "Regions and rural services, Education, Deeper European integration",
+      "description": "Mayors and Independents, a centrist party rooted in local government, liberal and pro-European.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Mayors%20and%20Independents"
+    },
+    "SPOLU": {
+      "name": "SPOLU (ODS, KDU-ČSL, TOP 09)",
+      "leader": "",
+      "founded": "2020",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberal conservatism, Christian democracy, Atlanticism",
+      "priorities": "Fiscal discipline, Defence and support for Ukraine, Competitiveness and growth",
+      "description": "Centre-right alliance of the Civic Democrats, Christian Democrats and TOP 09 that governed from 2021 to 2025; strongly pro-Ukraine and fiscally conservative.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Spolu%20%28alliance%29"
+    },
+    "ANO": {
+      "name": "ANO 2011",
+      "leader": "Andrej Babiš (Leader)",
+      "founded": "2011",
+      "spectrum": "Right",
+      "ideologies": "Populism, Euroscepticism, Anti-immigration",
+      "priorities": "Cost of living, Pensions and the elderly, Reducing immigration, National sovereignty",
+      "description": "Populist party of billionaire Andrej Babiš, which won the 2025 election; it promises higher pensions and lower energy prices and is critical of the Green Deal and migration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=ANO%202011"
+    },
+    "Motoristé": {
+      "name": "Motoristé sobě",
+      "leader": "Petr Macinka (Chair)",
+      "founded": "2022",
+      "spectrum": "Right",
+      "ideologies": "Libertarianism, Euroscepticism, Right-wing populism",
+      "priorities": "Less red tape, National sovereignty, Cost of living",
+      "description": "Motorists for Themselves, a right-wing party opposed to the EU's ban on combustion engines and to climate regulation.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Motorists%20for%20Themselves"
+    },
+    "SPD": {
+      "name": "Svoboda a přímá demokracie",
+      "leader": "Tomio Okamura (Chair)",
+      "founded": "2015",
+      "spectrum": "Far-right",
+      "ideologies": "Nationalism, Right-wing populism, Euroscepticism, Anti-immigration",
+      "priorities": "Reducing immigration, Direct democracy, National sovereignty",
+      "description": "Freedom and Direct Democracy, a far-right party calling for referendums on leaving the EU and NATO and for zero immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20and%20Direct%20Democracy"
+    }
+  }
+}

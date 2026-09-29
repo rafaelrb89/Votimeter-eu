@@ -1,0 +1,96 @@
+{
+  "name": "Lituania — partidos lituanos",
+  "short_name": "Lituania",
+  "intro": "compararla con los partidos políticos lituanos",
+  "results_title": "Coincidencia con los partidos lituanos",
+  "included_label": "Partidos incluidos",
+  "inclusion_note": "El test incluye los principales partidos nacionales de Lituania: los representados en el parlamento (Seimas) y los que tienen un apoyo nacional relevante. Las posiciones son estimaciones del equipo y pueden revisarse.",
+  "details_title": "Más sobre los partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Lithuania",
+  "hemicycle_note": "Escaños en el parlamento (Seimas) tras las elecciones de 2024, ordenados de izquierda a derecha. Aproximado. 141 miembros. Los partidos sin escaños se incluyen porque tienen peso en las encuestas.",
+  "unaffiliated_label": "Otros",
+  "parties": {
+    "LSDP": {
+      "name": "Lietuvos socialdemokratų partija",
+      "leader": "Mindaugas Sinkevičius (presidente)",
+      "founded": "1896",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Atlantismo",
+      "priorities": "Estado del bienestar, Sanidad pública, Defensa y apoyo a Ucrania",
+      "description": "El Partido Socialdemócrata, claro ganador de las elecciones de 2024 y al frente del Gobierno.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Lithuania"
+    },
+    "DSVL": {
+      "name": "Demokratų sąjunga „Vardan Lietuvos“",
+      "leader": "Saulius Skvernelis (presidente)",
+      "founded": "2022",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Centrismo",
+      "priorities": "Estado del bienestar, Regiones y servicios rurales, Pensiones y mayores",
+      "description": "Unión de Demócratas «Por Lituania», partido de centroizquierda del ex primer ministro Saulius Skvernelis.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Union%20of%20Democrats%20%22For%20Lithuania%22"
+    },
+    "LVŽS": {
+      "name": "Lietuvos valstiečių ir žaliųjų sąjunga",
+      "leader": "Ramūnas Karbauskis (presidente)",
+      "founded": "2001",
+      "spectrum": "Centro",
+      "ideologies": "Agrarismo, Conservadurismo social",
+      "priorities": "Agricultores y mundo rural, Valores de la familia tradicional, Pensiones y mayores",
+      "description": "Unión de Campesinos y Verdes, agraria y socialmente conservadora, con una economía de izquierdas.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Lithuanian%20Farmers%20and%20Greens%20Union"
+    },
+    "Volt": {
+      "name": "Volt Lietuva",
+      "leader": "Sección nacional de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeo, Progresismo",
+      "priorities": "Más integración europea, Acción climática, Innovación digital, Reforma democrática",
+      "description": "Sección nacional de Volt Europa, el primer partido paneuropeo. Todas las secciones comparten un mismo programa: una UE federal y más democrática, políticas basadas en la evidencia, economía de mercado con un Estado del bienestar fuerte y las transiciones digital y climática. En este test Volt tiene las mismas posiciones en todos los países.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "LP": {
+      "name": "Laisvės partija",
+      "leader": "",
+      "founded": "2019",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Progresismo",
+      "priorities": "Libertades civiles, Educación, Más integración europea",
+      "description": "Partido de la Libertad, liberal en lo social, que defendió las uniones del mismo sexo y la despenalización de las drogas; perdió sus escaños en 2024.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20Party%20%28Lithuania%29"
+    },
+    "LS": {
+      "name": "Liberalų sąjūdis",
+      "leader": "",
+      "founded": "2006",
+      "spectrum": "Centroderecha",
+      "ideologies": "Liberalismo, Liberalismo económico",
+      "priorities": "Competitividad y crecimiento, Disciplina presupuestaria, Libertades civiles",
+      "description": "Movimiento Liberal, partido liberal clásico.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Liberals%27%20Movement%20%28Lithuania%29"
+    },
+    "TS-LKD": {
+      "name": "Tėvynės sąjunga – Lietuvos krikščionys demokratai",
+      "leader": "",
+      "founded": "1993",
+      "spectrum": "Centroderecha",
+      "ideologies": "Conservadurismo liberal, Democracia cristiana, Atlantismo",
+      "priorities": "Defensa y apoyo a Ucrania, Más integración europea, Disciplina presupuestaria",
+      "description": "Unión de la Patria – Democristianos, principal partido de centroderecha, duro con Rusia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Homeland%20Union"
+    },
+    "NA": {
+      "name": "Nemuno aušra",
+      "leader": "Remigijus Žemaitaitis (presidente)",
+      "founded": "2024",
+      "spectrum": "Derecha",
+      "ideologies": "Populismo de derecha, Nacionalismo",
+      "priorities": "Coste de la vida, Lucha contra la corrupción, Soberanía nacional",
+      "description": "Amanecer del Niemen, partido nacional-populista fundado en 2024 por Remigijus Žemaitaitis, tercero en su primera elección y ahora en el Gobierno.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Dawn%20of%20Nemunas"
+    }
+  }
+}

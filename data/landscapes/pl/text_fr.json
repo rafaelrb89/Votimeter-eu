@@ -1,0 +1,106 @@
+{
+  "name": "Pologne — partis polonais",
+  "short_name": "Pologne",
+  "intro": "le comparer aux partis politiques polonais",
+  "results_title": "Accord avec les partis polonais",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de Pologne : ceux représentés au parlement (Sejm) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Poland",
+  "hemicycle_note": "Sièges au parlement (Sejm) après les élections de 2023, disposés de gauche à droite. Approximatif. 460 membres. Les partis sans siège sont inclus car ils pèsent dans les sondages.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "Razem": {
+      "name": "Partia Razem",
+      "leader": "Adrian Zandberg (dirigeant(e))",
+      "founded": "2015",
+      "spectrum": "Gauche",
+      "ideologies": "Socialisme démocratique, Progressisme",
+      "priorities": "Logement abordable, Services publics, Droits et salaires des travailleurs",
+      "description": "Ensemble, parti socialiste démocratique sorti de l'alliance Lewica en 2024 ; pro-OTAN et pro-ukrainien, contrairement à une grande partie de la gauche radicale européenne.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Left%20Together"
+    },
+    "Lewica": {
+      "name": "Nowa Lewica",
+      "leader": "Włodzimierz Czarzasty (président(e))",
+      "founded": "2021",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Progressisme, Proeuropéisme",
+      "priorities": "Logement abordable, Santé publique, Libertés civiles",
+      "description": "La Gauche, parti social-démocrate de la coalition gouvernementale de Donald Tusk.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Left%20%28Poland%29"
+    },
+    "Volt": {
+      "name": "Volt Polska",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "P2050": {
+      "name": "Polska 2050",
+      "leader": "Szymon Hołownia (fondateur)",
+      "founded": "2020",
+      "spectrum": "Centre",
+      "ideologies": "Centrisme, Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Action climatique, Éducation, État de droit",
+      "description": "Pologne 2050, parti centriste fondé par l'animateur Szymon Hołownia, membre de la coalition au pouvoir.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Poland%202050"
+    },
+    "KO": {
+      "name": "Koalicja Obywatelska",
+      "leader": "Donald Tusk (Premier ministre)",
+      "founded": "2018",
+      "spectrum": "Centre",
+      "ideologies": "Conservatisme libéral, Démocratie chrétienne, Proeuropéisme",
+      "priorities": "État de droit, Défense et soutien à l'Ukraine, Approfondir l'intégration européenne, Sécurité et ordre public",
+      "description": "Coalition civique du Premier ministre Donald Tusk, proeuropéenne, axée sur le rétablissement de l'État de droit et la défense.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Civic%20Coalition%20%28Poland%29"
+    },
+    "PSL": {
+      "name": "Polskie Stronnictwo Ludowe",
+      "leader": "Władysław Kosiniak-Kamysz (président(e))",
+      "founded": "1990",
+      "spectrum": "Centre droit",
+      "ideologies": "Agrarisme, Démocratie chrétienne",
+      "priorities": "Agriculteurs et monde rural, Défense et soutien à l'Ukraine, Régions et services ruraux",
+      "description": "Parti paysan polonais, agrarien et démocrate-chrétien, dont le chef est ministre de la Défense.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Polish%20People%27s%20Party"
+    },
+    "PiS": {
+      "name": "Prawo i Sprawiedliwość",
+      "leader": "Jarosław Kaczyński (président(e))",
+      "founded": "2001",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme national, Conservatisme social, Euroscepticisme modéré",
+      "priorities": "Valeurs familiales traditionnelles, Souveraineté nationale, Défense et soutien à l'Ukraine, État-providence",
+      "description": "Droit et justice, au pouvoir de 2015 à 2023 ; national-conservateur aux allocations familiales généreuses, en conflit avec l'UE sur ses réformes judiciaires.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Law%20and%20Justice"
+    },
+    "Konfederacja": {
+      "name": "Konfederacja Wolność i Niepodległość",
+      "leader": "Sławomir Mentzen, Krzysztof Bosak (codirigeants)",
+      "founded": "2019",
+      "spectrum": "Extrême droite",
+      "ideologies": "Libertarianisme, Nationalisme, Euroscepticisme",
+      "priorities": "Baisse des impôts, Moins de bureaucratie, Souveraineté nationale, Réduire l'immigration",
+      "description": "Confédération, alliance de libertariens et de nationalistes, populaire chez les jeunes hommes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Confederation%20Liberty%20and%20Independence"
+    },
+    "KKP": {
+      "name": "Konfederacja Korony Polskiej",
+      "leader": "Grzegorz Braun (dirigeant(e))",
+      "founded": "2019",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Conservatisme, Euroscepticisme",
+      "priorities": "Souveraineté nationale, Valeurs chrétiennes, Diplomatie avec la Russie, pas de livraisons d'armes",
+      "description": "Confédération de la Couronne polonaise de Grzegorz Braun, parti d'extrême droite, monarchiste et très anti-UE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Confederation%20of%20the%20Polish%20Crown"
+    }
+  }
+}

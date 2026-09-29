@@ -1,0 +1,106 @@
+{
+  "name": "Finland — Finnish parties",
+  "short_name": "Finland",
+  "intro": "compare it with Finnish political parties",
+  "results_title": "Agreement with Finnish parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Finland: those represented in the parliament (Eduskunta) and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Seats in the parliament (Eduskunta) after the 2023 election, arranged left to right. Approximate. 200 members.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "Vas": {
+      "name": "Vasemmistoliitto",
+      "leader": "Minja Koskela (Chair)",
+      "founded": "1990",
+      "spectrum": "Left",
+      "ideologies": "Democratic socialism, Eco-socialism, Progressivism",
+      "priorities": "Welfare state, Climate action, Workers' rights and wages",
+      "description": "Left Alliance, which grew strongly in the 2024 European election; it defends the welfare state, trade unions and climate action.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Left%20Alliance%20%28Finland%29"
+    },
+    "Vihr": {
+      "name": "Vihreä liitto",
+      "leader": "Sofia Virta (Chair)",
+      "founded": "1987",
+      "spectrum": "Centre-left",
+      "ideologies": "Green politics, Social liberalism, Pro-Europeanism",
+      "priorities": "Climate action, Education, Civil liberties",
+      "description": "Green League, unusual among European greens for supporting nuclear power.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20League"
+    },
+    "SDP": {
+      "name": "Suomen Sosialidemokraattinen Puolue",
+      "leader": "Antti Lindtman (Chair)",
+      "founded": "1899",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Atlanticism",
+      "priorities": "Welfare state, Workers' rights and wages, Public healthcare",
+      "description": "Social Democratic Party, the main opposition force, which leads recent polls.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Finland"
+    },
+    "Volt": {
+      "name": "Volt Suomi",
+      "leader": "National chapter of Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "National chapter of Volt Europa, the first pan-European party. All chapters share one programme: a federal and more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions. Volt has the same positions in every country in this test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Kesk": {
+      "name": "Suomen Keskusta",
+      "leader": "Antti Kaikkonen (Chair)",
+      "founded": "1906",
+      "spectrum": "Centre",
+      "ideologies": "Agrarian liberalism, Centrism",
+      "priorities": "Regions and rural services, Farmers and rural areas, Welfare state",
+      "description": "Centre Party, rooted in rural Finland and agrarian politics.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Centre%20Party%20%28Finland%29"
+    },
+    "RKP": {
+      "name": "Svenska folkpartiet / Ruotsalainen kansanpuolue",
+      "leader": "Anders Adlercreutz (Chair)",
+      "founded": "1906",
+      "spectrum": "Centre",
+      "ideologies": "Liberalism, Swedish-speaking minority interests, Pro-Europeanism",
+      "priorities": "Rights of the national minority, Education, Deeper European integration",
+      "description": "Swedish People's Party, the liberal party of Finland's Swedish-speaking minority.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Swedish%20People%27s%20Party%20of%20Finland"
+    },
+    "Kok": {
+      "name": "Kansallinen Kokoomus",
+      "leader": "Petteri Orpo (Prime Minister)",
+      "founded": "1918",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberal conservatism, Economic liberalism, Atlanticism",
+      "priorities": "Fiscal discipline, Competitiveness and growth, Defence and support for Ukraine",
+      "description": "National Coalition Party of Prime Minister Petteri Orpo, which leads a right-wing government focused on cutting debt and reforming the labour market.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=National%20Coalition%20Party"
+    },
+    "KD": {
+      "name": "Suomen Kristillisdemokraatit",
+      "leader": "Sari Essayah (Chair)",
+      "founded": "1958",
+      "spectrum": "Centre-right",
+      "ideologies": "Christian democracy, Conservatism",
+      "priorities": "Traditional family values, Christian values, Pensions and the elderly",
+      "description": "Christian Democrats, socially conservative and part of the government.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democrats%20%28Finland%29"
+    },
+    "PS": {
+      "name": "Perussuomalaiset",
+      "leader": "Riikka Purra (Chair)",
+      "founded": "1995",
+      "spectrum": "Right to far-right",
+      "ideologies": "National conservatism, Right-wing populism, Euroscepticism, Anti-immigration",
+      "priorities": "Reducing immigration, Fiscal discipline, National sovereignty",
+      "description": "Finns Party, nationalist and Eurosceptic, in government since 2023 with a strict line on immigration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Finns%20Party"
+    }
+  }
+}

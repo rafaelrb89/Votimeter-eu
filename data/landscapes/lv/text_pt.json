@@ -1,0 +1,96 @@
+{
+  "name": "Letónia — partidos letões",
+  "short_name": "Letónia",
+  "intro": "compará-lo com os partidos políticos letões",
+  "results_title": "Percentagem de Concordância com os Partidos Letões",
+  "included_label": "Partidos incluídos",
+  "inclusion_note": "O teste inclui os principais partidos nacionais da Letónia: os representados no parlamento (Saeima) e os que têm uma base de apoio nacional relevante. As posições são estimativas da equipa e estão abertas a revisão.",
+  "details_title": "Descobre mais sobre os Partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Latvia",
+  "hemicycle_note": "Lugares no parlamento (Saeima) após as eleições de 2022, dispostos da esquerda para a direita. Aproximado. 100 deputados.",
+  "unaffiliated_label": "Outros",
+  "parties": {
+    "Prog": {
+      "name": "Progresīvie",
+      "leader": "",
+      "founded": "2017",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Social-democracia, Progressismo, Europeísmo",
+      "priorities": "Estado social, Educação, Defesa e apoio à Ucrânia",
+      "description": "Os Progressistas, partido social-democrata e socialmente liberal, no governo desde 2023.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Progressives%20%28Latvia%29"
+    },
+    "Volt": {
+      "name": "Volt Latvija",
+      "leader": "Secção nacional do Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeu, Progressismo",
+      "priorities": "Maior integração europeia, Ação climática, Inovação digital, Reforma democrática",
+      "description": "Secção nacional do Volt Europa, o primeiro partido pan-europeu. Todas as secções partilham um programa: uma UE federal e mais democrática, políticas baseadas em evidência, economia de mercado com um Estado social forte e as transições digital e climática. O Volt tem as mesmas posições em todos os países deste teste.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "JV": {
+      "name": "Jaunā Vienotība",
+      "leader": "Evika Siliņa (Primeiro-ministro)",
+      "founded": "2021",
+      "spectrum": "Centro-direita",
+      "ideologies": "Conservadorismo liberal, Europeísmo, Atlantismo",
+      "priorities": "Defesa e apoio à Ucrânia, Maior integração europeia, Disciplina orçamental",
+      "description": "Nova Unidade da primeira-ministra Evika Siliņa, europeísta e centrada na segurança.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Unity"
+    },
+    "ZZS": {
+      "name": "Zaļo un Zemnieku savienība",
+      "leader": "",
+      "founded": "2002",
+      "spectrum": "Centro",
+      "ideologies": "Agrarismo, Conservadorismo",
+      "priorities": "Agricultores e mundo rural, Regiões e serviços rurais, Pensões e idosos",
+      "description": "União dos Verdes e Agricultores, aliança agrária de centro e membro da coligação de governo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Union%20of%20Greens%20and%20Farmers"
+    },
+    "AS": {
+      "name": "Apvienotais saraksts",
+      "leader": "",
+      "founded": "2022",
+      "spectrum": "Centro-direita",
+      "ideologies": "Conservadorismo, Conservadorismo liberal",
+      "priorities": "Disciplina orçamental, Regiões e serviços rurais, Segurança e ordem pública",
+      "description": "Lista Unida, aliança conservadora construída em torno de autarcas regionais.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=United%20List%20%28Latvia%29"
+    },
+    "NA": {
+      "name": "Nacionālā apvienība",
+      "leader": "Raivis Dzintars (Presidente)",
+      "founded": "2010",
+      "spectrum": "Direita",
+      "ideologies": "Conservadorismo nacional, Nacionalismo",
+      "priorities": "Língua e cultura nacionais, Identidade nacional, Defesa e apoio à Ucrânia",
+      "description": "Aliança Nacional, partido nacional-conservador centrado na língua e na identidade letãs.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=National%20Alliance%20%28Latvia%29"
+    },
+    "Stabilitātei!": {
+      "name": "Stabilitātei!",
+      "leader": "Aleksejs Rosļikovs (Presidente)",
+      "founded": "2021",
+      "spectrum": "Direita",
+      "ideologies": "Populismo, Interesses da minoria russófona",
+      "priorities": "Custo de vida, Direitos da minoria nacional, Diplomacia com a Rússia, sem envio de armas",
+      "description": "Pela Estabilidade!, partido populista popular entre os eleitores russófonos, crítico da política económica do governo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=For%20Stability%21"
+    },
+    "LPV": {
+      "name": "Latvija pirmajā vietā",
+      "leader": "Ainārs Šlesers (Presidente)",
+      "founded": "2021",
+      "spectrum": "Direita",
+      "ideologies": "Populismo de direita, Conservadorismo",
+      "priorities": "Valores da família tradicional, Custo de vida, Soberania nacional",
+      "description": "Letónia Primeiro, partido populista de direita do empresário Ainārs Šlesers.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Latvia%20First"
+    }
+  }
+}

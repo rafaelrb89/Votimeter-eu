@@ -94,7 +94,7 @@ def load_landscape(landscape_id: str, lang: str, data_dir: Path = DATA_DIR) -> L
     folder = data_dir / "landscapes" / landscape_id
     question_ids = pd.read_csv(data_dir / "questions" / "questions.csv", dtype={"id": str})["id"]
 
-    parties_df = pd.read_csv(folder / "parties.csv", dtype=str)
+    parties_df = pd.read_csv(folder / "parties.csv", dtype=str, keep_default_na=False)  # url may be blank
     _require_columns(parties_df, ["code", "color", "url"], f"{landscape_id}/parties.csv")
     codes = parties_df["code"].tolist()
 
@@ -127,7 +127,7 @@ def load_landscape(landscape_id: str, lang: str, data_dir: Path = DATA_DIR) -> L
 def _load_hemicycle(path: Path, landscape_id: str) -> tuple[tuple[str, int], ...]:
     if not path.exists():
         return ()
-    seats = pd.read_csv(path, dtype={"code": str})
+    seats = pd.read_csv(path, dtype={"code": str}, keep_default_na=False)  # a code like "NA" is text
     _require_columns(seats, ["code", "seats"], f"{landscape_id}/hemicycle.csv")
     if seats["code"].duplicated().any() or not (seats["seats"] > 0).all():
         raise DataError(f"{landscape_id}/hemicycle.csv: codes must be unique and seats positive")

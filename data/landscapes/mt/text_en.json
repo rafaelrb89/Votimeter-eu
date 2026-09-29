@@ -1,0 +1,56 @@
+{
+  "name": "Malta — Maltese parties",
+  "short_name": "Malta",
+  "intro": "compare it with Maltese political parties",
+  "results_title": "Agreement with Maltese parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Malta: those represented in the parliament (Kamra tad-Deputati) and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,Malta",
+  "hemicycle_note": "Seats in the parliament (Kamra tad-Deputati) after the 2022 election, arranged left to right. Approximate. 79 members. Parties shown without seats are included because they poll strongly.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "ADPD": {
+      "name": "ADPD – The Green Party",
+      "leader": "Sandra Gauci (Chair)",
+      "founded": "1989",
+      "spectrum": "Centre-left",
+      "ideologies": "Green politics, Progressivism",
+      "priorities": "Climate action, Rule of law, Public services",
+      "description": "Malta's green party, outside parliament, campaigning on the environment, overdevelopment and good governance.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=ADPD%20%E2%80%93%20The%20Green%20Party"
+    },
+    "PL": {
+      "name": "Partit Laburista",
+      "leader": "Robert Abela (Prime Minister)",
+      "founded": "1921",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Centrism",
+      "priorities": "Welfare state, Competitiveness and growth, Cost of living",
+      "description": "Labour Party of Prime Minister Robert Abela, in power since 2013; it legalised cannabis for personal use in 2021.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Labour%20Party%20%28Malta%29"
+    },
+    "Volt": {
+      "name": "Volt Malta",
+      "leader": "National chapter of Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "National chapter of Volt Europa, the first pan-European party. All chapters share one programme: a federal and more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions. Volt has the same positions in every country in this test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PN": {
+      "name": "Partit Nazzjonalista",
+      "leader": "Alex Borg (Leader)",
+      "founded": "1880",
+      "spectrum": "Centre-right",
+      "ideologies": "Christian democracy, Conservatism, Pro-Europeanism",
+      "priorities": "Rule of law, Fighting corruption, Traditional family values",
+      "description": "Nationalist Party, Christian-democratic and pro-European, the main opposition force.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Nationalist%20Party%20%28Malta%29"
+    }
+  }
+}

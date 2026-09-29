@@ -1,0 +1,116 @@
+{
+  "name": "Ireland — Irish parties",
+  "short_name": "Ireland",
+  "intro": "compare it with Irish political parties",
+  "results_title": "Agreement with Irish parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Ireland: those represented in the parliament (Dáil Éireann) and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,Ireland",
+  "hemicycle_note": "Seats in the parliament (Dáil Éireann) after the 2024 election, arranged left to right. Approximate. 174 members.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "PBP–S": {
+      "name": "People Before Profit–Solidarity",
+      "leader": "",
+      "founded": "2015",
+      "spectrum": "Far-left",
+      "ideologies": "Democratic socialism, Eco-socialism",
+      "priorities": "Affordable housing, Public services, Military neutrality",
+      "description": "Socialist alliance focused on housing, public services and opposition to NATO ties.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=People%20Before%20Profit%E2%80%93Solidarity"
+    },
+    "SF": {
+      "name": "Sinn Féin",
+      "leader": "Mary Lou McDonald (President)",
+      "founded": "1905",
+      "spectrum": "Left",
+      "ideologies": "Irish republicanism, Democratic socialism, Left-wing populism",
+      "priorities": "Irish unity, Affordable housing, Public healthcare",
+      "description": "Irish republican party seeking Irish unity, the largest opposition party, focused on housing and health.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sinn%20F%C3%A9in"
+    },
+    "Lab": {
+      "name": "Labour Party",
+      "leader": "Ivana Bacik (Leader)",
+      "founded": "1912",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Pro-Europeanism",
+      "priorities": "Affordable housing, Workers' rights and wages, Public healthcare",
+      "description": "Ireland's oldest party, social-democratic and pro-European.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Labour%20Party%20%28Ireland%29"
+    },
+    "SD": {
+      "name": "Social Democrats",
+      "leader": "Holly Cairns (Leader)",
+      "founded": "2015",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Progressivism",
+      "priorities": "Public healthcare, Affordable housing, Climate action",
+      "description": "Social Democrats, a centre-left party that grew in 2024 on health and housing.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democrats%20%28Ireland%29"
+    },
+    "Greens": {
+      "name": "Green Party",
+      "leader": "Roderic O'Gorman (Leader)",
+      "founded": "1981",
+      "spectrum": "Centre-left",
+      "ideologies": "Green politics, Pro-Europeanism",
+      "priorities": "Climate action, Public services",
+      "description": "Green Party, which governed from 2020 to 2024 and lost nearly all its seats in 2024.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20Party%20%28Ireland%29"
+    },
+    "Volt": {
+      "name": "Volt Ireland",
+      "leader": "National chapter of Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "National chapter of Volt Europa, the first pan-European party. All chapters share one programme: a federal and more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions. Volt has the same positions in every country in this test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "FF": {
+      "name": "Fianna Fáil",
+      "leader": "Micheál Martin (Prime Minister)",
+      "founded": "1926",
+      "spectrum": "Centre",
+      "ideologies": "Centrism, Christian democracy, Pro-Europeanism",
+      "priorities": "Affordable housing, Competitiveness and growth, Public healthcare",
+      "description": "Centrist party of Taoiseach Micheál Martin, the largest in the Dáil since 2024 and in coalition with Fine Gael.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fianna%20F%C3%A1il"
+    },
+    "FG": {
+      "name": "Fine Gael",
+      "leader": "Simon Harris (Leader)",
+      "founded": "1933",
+      "spectrum": "Centre-right",
+      "ideologies": "Liberal conservatism, Christian democracy, Pro-Europeanism",
+      "priorities": "Competitiveness and growth, Fiscal discipline, Deeper European integration",
+      "description": "Centre-right, pro-European and pro-business party, in government since 2011.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fine%20Gael"
+    },
+    "Aontú": {
+      "name": "Aontú",
+      "leader": "Peadar Tóibín (Leader)",
+      "founded": "2019",
+      "spectrum": "Right",
+      "ideologies": "Irish republicanism, Social conservatism",
+      "priorities": "Irish unity, Protecting life and family, Reducing immigration",
+      "description": "Republican party that combines a united Ireland with socially conservative positions, including opposition to abortion.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Aont%C3%BA"
+    },
+    "II": {
+      "name": "Independent Ireland",
+      "leader": "Michael Collins (Leader)",
+      "founded": "2023",
+      "spectrum": "Right",
+      "ideologies": "Right-wing populism, Anti-immigration",
+      "priorities": "Regions and rural services, Reducing immigration, Military neutrality",
+      "description": "Rural, right-leaning party founded by independent TDs, critical of immigration policy.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Independent%20Ireland"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Malte — partis maltais",
+  "short_name": "Malte",
+  "intro": "le comparer aux partis politiques maltais",
+  "results_title": "Accord avec les partis maltais",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de Malte : ceux représentés au parlement (Kamra tad-Deputati) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Malta",
+  "hemicycle_note": "Sièges au parlement (Kamra tad-Deputati) après les élections de 2022, disposés de gauche à droite. Approximatif. 79 membres. Les partis sans siège sont inclus car ils pèsent dans les sondages.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "ADPD": {
+      "name": "ADPD – The Green Party",
+      "leader": "Sandra Gauci (président(e))",
+      "founded": "1989",
+      "spectrum": "Centre gauche",
+      "ideologies": "Écologie politique, Progressisme",
+      "priorities": "Action climatique, État de droit, Services publics",
+      "description": "Le parti vert maltais, hors du parlement, en campagne sur l'environnement, la bétonisation et la bonne gouvernance.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=ADPD%20%E2%80%93%20The%20Green%20Party"
+    },
+    "PL": {
+      "name": "Partit Laburista",
+      "leader": "Robert Abela (Premier ministre)",
+      "founded": "1921",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Centrisme",
+      "priorities": "État-providence, Compétitivité et croissance, Pouvoir d'achat",
+      "description": "Parti travailliste du Premier ministre Robert Abela, au pouvoir depuis 2013 ; il a légalisé le cannabis à usage personnel en 2021.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Labour%20Party%20%28Malta%29"
+    },
+    "Volt": {
+      "name": "Volt Malta",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PN": {
+      "name": "Partit Nazzjonalista",
+      "leader": "Alex Borg (dirigeant(e))",
+      "founded": "1880",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Conservatisme, Proeuropéisme",
+      "priorities": "État de droit, Lutte contre la corruption, Valeurs familiales traditionnelles",
+      "description": "Parti nationaliste, démocrate-chrétien et proeuropéen, principale force d'opposition.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Nationalist%20Party%20%28Malta%29"
+    }
+  }
+}

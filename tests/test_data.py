@@ -19,7 +19,9 @@ LANDSCAPES = list_landscapes()
 
 def test_expected_languages_and_landscapes():
     assert {"en", "pt", "fr", "de", "it", "es"} <= set(LANGUAGES)
-    assert {"eu", "pt", "fr", "uk", "de", "nl", "it", "es"} <= set(LANDSCAPES)
+    eu27 = {"at", "be", "bg", "hr", "cy", "cz", "dk", "ee", "fi", "fr", "de", "gr", "hu", "ie",
+            "it", "lv", "lt", "lu", "mt", "nl", "pl", "pt", "ro", "sk", "si", "es", "se"}
+    assert eu27 | {"eu", "uk"} <= set(LANDSCAPES)
 
 
 @pytest.mark.parametrize("lang", LANGUAGES)
@@ -82,7 +84,8 @@ def test_volt_has_the_same_positions_everywhere():
         for landscape_id in LANDSCAPES
         if "Volt" in load_landscape(landscape_id, "en").party_codes
     }
-    assert {"pt", "fr", "uk", "de", "nl", "it", "es"} <= set(columns)
+    countries = set(LANDSCAPES) - {"eu"}
+    assert countries <= set(columns), f"Volt missing in {sorted(countries - set(columns))}"
     reference = columns["pt"]
     for landscape_id, column in columns.items():
         assert column.equals(reference), f"Volt differs in {landscape_id}: run scripts/sync_volt.py"

@@ -1,0 +1,116 @@
+{
+  "name": "Grecia — partiti greci",
+  "short_name": "Grecia",
+  "intro": "confrontarlo con i partiti politici greci",
+  "results_title": "Accordo con i partiti greci",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali della Grecia: quelli rappresentati in parlamento (Vouli ton Ellinon) e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimeter,Greece",
+  "hemicycle_note": "Seggi in parlamento (Vouli ton Ellinon) dopo le elezioni del 2023, disposti da sinistra a destra. Dati approssimativi. 300 membri. I partiti senza seggi sono inclusi perché rilevanti nei sondaggi.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "KKE": {
+      "name": "Kommounistiko Komma Elladas",
+      "leader": "Dimitris Koutsoumbas (segretario generale)",
+      "founded": "1918",
+      "spectrum": "Estrema sinistra",
+      "ideologies": "Comunismo",
+      "priorities": "Diritti e salari dei lavoratori, Servizi pubblici, Sovranità nazionale",
+      "description": "Partito comunista ortodosso, contrario a UE e NATO, con una base operaia disciplinata.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Communist%20Party%20of%20Greece"
+    },
+    "SYRIZA": {
+      "name": "SYRIZA",
+      "leader": "Sokratis Famellos (presidente)",
+      "founded": "2004",
+      "spectrum": "Sinistra",
+      "ideologies": "Socialismo democratico, Progressismo, Europeismo",
+      "priorities": "Servizi pubblici, Diritti e salari dei lavoratori, Casa accessibile",
+      "description": "Coalizione della sinistra radicale al governo con Alexis Tsipras dal 2015 al 2019, poi divisa e in calo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Syriza"
+    },
+    "NA": {
+      "name": "Nea Aristera",
+      "leader": "",
+      "founded": "2024",
+      "spectrum": "Sinistra",
+      "ideologies": "Socialismo democratico, Ecologismo, Progressismo",
+      "priorities": "Servizi pubblici, Azione per il clima, Libertà civili",
+      "description": "Nuova Sinistra, fondata nel 2024 da deputati usciti da SYRIZA.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Left%20%28Greece%29"
+    },
+    "Plefsi": {
+      "name": "Plefsi Eleftherias",
+      "leader": "Zoe Konstantopoulou (presidente)",
+      "founded": "2016",
+      "spectrum": "Sinistra",
+      "ideologies": "Populismo di sinistra, Sovranismo",
+      "priorities": "Riforma della giustizia, Lotta alla corruzione, Sovranità nazionale",
+      "description": "Rotta di Libertà, partito populista di sinistra guidato dall'ex presidente del parlamento Zoe Konstantopoulou.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Course%20of%20Freedom"
+    },
+    "PASOK": {
+      "name": "PASOK–KINAL",
+      "leader": "Nikos Androulakis (presidente)",
+      "founded": "1974",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Europeismo",
+      "priorities": "Sanità pubblica, Servizi pubblici, Maggiore integrazione europea",
+      "description": "Lo storico partito socialista, secondo nei sondaggi recenti e prima forza di opposizione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=PASOK%20%E2%80%93%20Movement%20for%20Change"
+    },
+    "Volt": {
+      "name": "Volt Greece",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "ND": {
+      "name": "Nea Dimokratia",
+      "leader": "Kyriakos Mitsotakis (Primo ministro)",
+      "founded": "1974",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo liberale, Democrazia cristiana, Europeismo",
+      "priorities": "Competitività e crescita, Difesa e sostegno all'Ucraina, Ridurre l'immigrazione",
+      "description": "Nuova Democrazia del premier Kyriakos Mitsotakis, al governo con la maggioranza dal 2019.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Democracy%20%28Greece%29"
+    },
+    "Niki": {
+      "name": "Niki",
+      "leader": "Dimitris Natsios (presidente)",
+      "founded": "2019",
+      "spectrum": "Destra",
+      "ideologies": "Conservatorismo nazionale, Conservatorismo",
+      "priorities": "Valori cristiani, Valori della famiglia tradizionale, Identità nazionale",
+      "description": "Vittoria, partito conservatore cristiano-ortodosso.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Niki%20%28political%20party%29"
+    },
+    "EL": {
+      "name": "Elliniki Lysi",
+      "leader": "Kyriakos Velopoulos (presidente)",
+      "founded": "2016",
+      "spectrum": "Estrema destra",
+      "ideologies": "Nazionalismo, Populismo di destra, Euroscetticismo",
+      "priorities": "Ridurre l'immigrazione, Identità nazionale, Sovranità nazionale",
+      "description": "Soluzione Greca, partito nazionalista guidato da Kyriakos Velopoulos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Greek%20Solution"
+    },
+    "Foni Logikis": {
+      "name": "Foni Logikis",
+      "leader": "Afroditi Latinopoulou (presidente)",
+      "founded": "2016",
+      "spectrum": "Estrema destra",
+      "ideologies": "Nazionalismo, Contrarietà all'immigrazione, Conservatorismo",
+      "priorities": "Ridurre l'immigrazione, Valori della famiglia tradizionale, Sicurezza e ordine pubblico",
+      "description": "Voce della Ragione, partito di estrema destra eletto al Parlamento europeo nel 2024 e membro dei Patrioti per l'Europa.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Voice%20of%20Reason%20%28Greece%29"
+    }
+  }
+}

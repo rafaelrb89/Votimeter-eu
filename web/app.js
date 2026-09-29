@@ -190,9 +190,11 @@
       .join("");
     const select = document.getElementById("landscape-select");
     select.setAttribute("aria-label", t("landscape_label"));
-    select.innerHTML = DATA.landscapes
-      .map((l) => `<option value="${l.id}"${l.id === state.landscape ? " selected" : ""}>${esc(l.text[state.lang].short_name)}</option>`)
-      .join("");
+    const option = (l) => `<option value="${l.id}"${l.id === state.landscape ? " selected" : ""}>${esc(l.text[state.lang].short_name)}</option>`;
+    const countries = DATA.landscapes.filter((l) => l.id !== "eu")
+      .sort((a, b) => a.text[state.lang].short_name.localeCompare(b.text[state.lang].short_name, state.lang));
+    select.innerHTML = DATA.landscapes.filter((l) => l.id === "eu").map(option).join("")
+      + `<optgroup label="${esc(t("web_countries"))}">${countries.map(option).join("")}</optgroup>`;
     document.documentElement.lang = state.lang;
   }
 
@@ -459,7 +461,7 @@
               <p>${esc(d.description || "")}</p>
               <dl class="facts">${facts.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
               <div class="links">
-                <a href="${esc(url)}" target="_blank" rel="noopener">${esc(t("official_site"))} ↗</a>
+                ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(t("official_site"))} ↗</a>` : ""}
                 ${d.program_url ? `<a href="${esc(d.program_url)}" target="_blank" rel="noopener">${esc(t("program_link"))} ↗</a>` : ""}
                 ${d.wiki_url ? `<a href="${esc(d.wiki_url)}" target="_blank" rel="noopener">${esc(t("wiki_link"))} ↗</a>` : ""}
               </div>

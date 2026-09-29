@@ -1,0 +1,106 @@
+{
+  "name": "Poland — Polish parties",
+  "short_name": "Poland",
+  "intro": "compare it with Polish political parties",
+  "results_title": "Agreement with Polish parties",
+  "included_label": "Parties included",
+  "inclusion_note": "The test includes the main national parties of Poland: those represented in the parliament (Sejm) and those with a significant national following. Positions are the team's estimates and are open to review.",
+  "details_title": "Learn more about the parties",
+  "entity_label": "Party",
+  "leader_label": "Leader(s) (as of 2025)",
+  "hashtags": "Votimeter,Poland",
+  "hemicycle_note": "Seats in the parliament (Sejm) after the 2023 election, arranged left to right. Approximate. 460 members. Parties shown without seats are included because they poll strongly.",
+  "unaffiliated_label": "Other",
+  "parties": {
+    "Razem": {
+      "name": "Partia Razem",
+      "leader": "Adrian Zandberg (Leader)",
+      "founded": "2015",
+      "spectrum": "Left",
+      "ideologies": "Democratic socialism, Progressivism",
+      "priorities": "Affordable housing, Public services, Workers' rights and wages",
+      "description": "Left Together, a democratic-socialist party that left the Lewica alliance in 2024; pro-NATO and pro-Ukraine, unlike much of Europe's radical left.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Left%20Together"
+    },
+    "Lewica": {
+      "name": "Nowa Lewica",
+      "leader": "Włodzimierz Czarzasty (Chair)",
+      "founded": "2021",
+      "spectrum": "Centre-left",
+      "ideologies": "Social democracy, Progressivism, Pro-Europeanism",
+      "priorities": "Affordable housing, Public healthcare, Civil liberties",
+      "description": "The Left, a social-democratic party in Donald Tusk's coalition government.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Left%20%28Poland%29"
+    },
+    "Volt": {
+      "name": "Volt Polska",
+      "leader": "National chapter of Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "Deeper European integration, Climate action, Digital innovation, Democratic reform",
+      "description": "National chapter of Volt Europa, the first pan-European party. All chapters share one programme: a federal and more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions. Volt has the same positions in every country in this test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "P2050": {
+      "name": "Polska 2050",
+      "leader": "Szymon Hołownia (Founder)",
+      "founded": "2020",
+      "spectrum": "Centre",
+      "ideologies": "Centrism, Christian democracy, Pro-Europeanism",
+      "priorities": "Climate action, Education, Rule of law",
+      "description": "Poland 2050, a centrist party founded by TV presenter Szymon Hołownia, part of the governing coalition.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Poland%202050"
+    },
+    "KO": {
+      "name": "Koalicja Obywatelska",
+      "leader": "Donald Tusk (Prime Minister)",
+      "founded": "2018",
+      "spectrum": "Centre",
+      "ideologies": "Liberal conservatism, Christian democracy, Pro-Europeanism",
+      "priorities": "Rule of law, Defence and support for Ukraine, Deeper European integration, Security and law and order",
+      "description": "Civic Coalition of Prime Minister Donald Tusk, pro-European, focused on restoring the rule of law and on defence.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Civic%20Coalition%20%28Poland%29"
+    },
+    "PSL": {
+      "name": "Polskie Stronnictwo Ludowe",
+      "leader": "Władysław Kosiniak-Kamysz (Chair)",
+      "founded": "1990",
+      "spectrum": "Centre-right",
+      "ideologies": "Agrarianism, Christian democracy",
+      "priorities": "Farmers and rural areas, Defence and support for Ukraine, Regions and rural services",
+      "description": "Polish People's Party, an agrarian Christian-democratic party whose leader is defence minister.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Polish%20People%27s%20Party"
+    },
+    "PiS": {
+      "name": "Prawo i Sprawiedliwość",
+      "leader": "Jarosław Kaczyński (Chair)",
+      "founded": "2001",
+      "spectrum": "Right",
+      "ideologies": "National conservatism, Social conservatism, Soft Euroscepticism",
+      "priorities": "Traditional family values, National sovereignty, Defence and support for Ukraine, Welfare state",
+      "description": "Law and Justice, which governed from 2015 to 2023; national-conservative with generous family benefits, in conflict with the EU over judicial reforms.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Law%20and%20Justice"
+    },
+    "Konfederacja": {
+      "name": "Konfederacja Wolność i Niepodległość",
+      "leader": "Sławomir Mentzen, Krzysztof Bosak (Co-leaders)",
+      "founded": "2019",
+      "spectrum": "Far-right",
+      "ideologies": "Libertarianism, Nationalism, Euroscepticism",
+      "priorities": "Lower taxes, Less red tape, National sovereignty, Reducing immigration",
+      "description": "Confederation, an alliance of free-market libertarians and nationalists, popular with young men.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Confederation%20Liberty%20and%20Independence"
+    },
+    "KKP": {
+      "name": "Konfederacja Korony Polskiej",
+      "leader": "Grzegorz Braun (Leader)",
+      "founded": "2019",
+      "spectrum": "Far-right",
+      "ideologies": "Nationalism, Conservatism, Euroscepticism",
+      "priorities": "National sovereignty, Christian values, Diplomacy with Russia, no arms deliveries",
+      "description": "Confederation of the Polish Crown of Grzegorz Braun, a far-right, monarchist and strongly anti-EU party.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Confederation%20of%20the%20Polish%20Crown"
+    }
+  }
+}

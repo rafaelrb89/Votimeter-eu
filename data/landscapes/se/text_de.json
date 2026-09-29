@@ -1,0 +1,106 @@
+{
+  "name": "Schweden — schwedischen Parteien",
+  "short_name": "Schweden",
+  "intro": "sie mit den schwedischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den schwedischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Schwedens: die im Parlament (Riksdag) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Sweden",
+  "hemicycle_note": "Sitze im Parlament (Riksdag) nach der Wahl 2022, von links nach rechts angeordnet. Ungefähre Angaben. 349 Abgeordnete. Eine neuere Wahl ist in dieser Sitzverteilung noch nicht berücksichtigt; die Liste enthält Parteien, die in aktuellen Umfragen stark sind.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "V": {
+      "name": "Vänsterpartiet",
+      "leader": "Nooshi Dadgostar (Vorsitz)",
+      "founded": "1917",
+      "spectrum": "Links",
+      "ideologies": "Demokratischer Sozialismus, Ökosozialismus",
+      "priorities": "Sozialstaat, Bezahlbares Wohnen, Arbeitnehmerrechte und Löhne",
+      "description": "Linkspartei, die den Sozialstaat verteidigt und den NATO-Beitritt ablehnte.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Left%20Party%20%28Sweden%29"
+    },
+    "MP": {
+      "name": "Miljöpartiet de gröna",
+      "leader": "",
+      "founded": "1981",
+      "spectrum": "Mitte-links",
+      "ideologies": "Grüne Politik, Progressivismus, Proeuropäisch",
+      "priorities": "Klimaschutz, Bürgerrechte, Bildung",
+      "description": "Umweltpartei Die Grünen, mit Fokus auf Klima und eine humane Migrationspolitik.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20Party%20%28Sweden%29"
+    },
+    "S": {
+      "name": "Socialdemokraterna",
+      "leader": "Magdalena Andersson (Vorsitz)",
+      "founded": "1889",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie",
+      "priorities": "Sozialstaat, Sicherheit und Ordnung, Arbeitnehmerrechte und Löhne",
+      "description": "Sozialdemokraten, die größte Partei Schwedens, die das schwedische Wohlfahrtsmodell aufbaute.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Swedish%20Social%20Democratic%20Party"
+    },
+    "C": {
+      "name": "Centerpartiet",
+      "leader": "",
+      "founded": "1913",
+      "spectrum": "Mitte",
+      "ideologies": "Agrarliberalismus, Liberalismus",
+      "priorities": "Regionen und ländliche Versorgung, Mittelstand und Unternehmer, Klimaschutz",
+      "description": "Zentrumspartei, eine liberale Partei mit agrarischen Wurzeln.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Centre%20Party%20%28Sweden%29"
+    },
+    "L": {
+      "name": "Liberalerna",
+      "leader": "Simona Mohamsson (Vorsitz)",
+      "founded": "1934",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberalismus, Proeuropäisch",
+      "priorities": "Bildung, Vertiefte europäische Integration, Bürgerrechte",
+      "description": "Die Liberalen, eine klassisch-liberale Partei in der Mitte-rechts-Regierung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Liberals%20%28Sweden%29"
+    },
+    "Volt": {
+      "name": "Volt Sverige",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "M": {
+      "name": "Moderaterna",
+      "leader": "Ulf Kristersson (Regierungschef(in))",
+      "founded": "1904",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Wirtschaftsliberalismus, Atlantizismus",
+      "priorities": "Sicherheit und Ordnung, Steuersenkungen, Weniger Einwanderung",
+      "description": "Moderate Sammlungspartei von Ministerpräsident Ulf Kristersson, die eine Mitte-rechts-Regierung mit Unterstützung der Schwedendemokraten führt.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Moderate%20Party"
+    },
+    "KD": {
+      "name": "Kristdemokraterna",
+      "leader": "Ebba Busch (Vorsitz)",
+      "founded": "1964",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Christdemokratie, Konservatismus",
+      "priorities": "Öffentliche Gesundheitsversorgung, Traditionelle Familienwerte, Sicherheit und Ordnung",
+      "description": "Christdemokraten, Teil der Regierung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democrats%20%28Sweden%29"
+    },
+    "SD": {
+      "name": "Sverigedemokraterna",
+      "leader": "Jimmie Åkesson (Vorsitz)",
+      "founded": "1988",
+      "spectrum": "Rechts bis rechtsaußen",
+      "ideologies": "Nationalkonservatismus, Nationalismus, Einwanderungskritik, Euroskeptizismus",
+      "priorities": "Weniger Einwanderung, Sicherheit und Ordnung, Kernenergie",
+      "description": "Schwedendemokraten, eine nationalkonservative Partei, 2022 zweitstärkste Kraft, die die Regierung bei Migration und Kriminalität stützt.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sweden%20Democrats"
+    }
+  }
+}

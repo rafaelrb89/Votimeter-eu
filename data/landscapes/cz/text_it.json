@@ -1,0 +1,96 @@
+{
+  "name": "Cechia — partiti cechi",
+  "short_name": "Cechia",
+  "intro": "confrontarlo con i partiti politici cechi",
+  "results_title": "Accordo con i partiti cechi",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali della Cechia: quelli rappresentati in parlamento (Poslanecká sněmovna) e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimeter,Czechia",
+  "hemicycle_note": "Seggi in parlamento (Poslanecká sněmovna) dopo le elezioni del 2025, disposti da sinistra a destra. Dati approssimativi. 200 membri. I partiti senza seggi sono inclusi perché rilevanti nei sondaggi.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "Stačilo!": {
+      "name": "Stačilo!",
+      "leader": "Kateřina Konečná (leader)",
+      "founded": "2024",
+      "spectrum": "Estrema sinistra",
+      "ideologies": "Comunismo, Populismo di sinistra, Sovranismo",
+      "priorities": "Diplomazia con la Russia, niente armi, Costo della vita, Sovranità nazionale",
+      "description": "Alleanza populista di sinistra guidata dai comunisti, contraria agli aiuti all'Ucraina e critica verso UE e NATO; nel 2025 è rimasta di poco fuori.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sta%C4%8Dilo%21"
+    },
+    "Piráti": {
+      "name": "Česká pirátská strana",
+      "leader": "Zdeněk Hřib (presidente)",
+      "founded": "2009",
+      "spectrum": "Centro",
+      "ideologies": "Politica pirata, Liberalismo sociale, Europeismo",
+      "priorities": "Trasparenza e diritti digitali, Innovazione digitale, Libertà civili, Casa accessibile",
+      "description": "Partito Pirata, centrato su trasparenza, amministrazione digitale e libertà civili.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Czech%20Pirate%20Party"
+    },
+    "Volt": {
+      "name": "Volt Česko",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "STAN": {
+      "name": "Starostové a nezávislí",
+      "leader": "Vít Rakušan (presidente)",
+      "founded": "2004",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Centrismo, Europeismo",
+      "priorities": "Regioni e servizi rurali, Istruzione, Maggiore integrazione europea",
+      "description": "Sindaci e Indipendenti, partito centrista radicato negli enti locali, liberale ed europeista.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Mayors%20and%20Independents"
+    },
+    "SPOLU": {
+      "name": "SPOLU (ODS, KDU-ČSL, TOP 09)",
+      "leader": "",
+      "founded": "2020",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo liberale, Democrazia cristiana, Atlantismo",
+      "priorities": "Disciplina di bilancio, Difesa e sostegno all'Ucraina, Competitività e crescita",
+      "description": "Alleanza di centrodestra di Democratici Civici, Democristiani e TOP 09, al governo dal 2021 al 2025; decisamente filo-ucraina e rigorosa sui conti.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Spolu%20%28alliance%29"
+    },
+    "ANO": {
+      "name": "ANO 2011",
+      "leader": "Andrej Babiš (leader)",
+      "founded": "2011",
+      "spectrum": "Destra",
+      "ideologies": "Populismo, Euroscetticismo, Contrarietà all'immigrazione",
+      "priorities": "Costo della vita, Pensioni e anziani, Ridurre l'immigrazione, Sovranità nazionale",
+      "description": "Partito populista del miliardario Andrej Babiš, vincitore delle elezioni del 2025; promette pensioni più alte ed energia meno cara e critica il Green Deal e l'immigrazione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=ANO%202011"
+    },
+    "Motoristé": {
+      "name": "Motoristé sobě",
+      "leader": "Petr Macinka (presidente)",
+      "founded": "2022",
+      "spectrum": "Destra",
+      "ideologies": "Libertarismo, Euroscetticismo, Populismo di destra",
+      "priorities": "Meno burocrazia, Sovranità nazionale, Costo della vita",
+      "description": "Automobilisti per sé stessi, partito di destra contrario allo stop europeo ai motori a combustione e alle regole sul clima.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Motorists%20for%20Themselves"
+    },
+    "SPD": {
+      "name": "Svoboda a přímá demokracie",
+      "leader": "Tomio Okamura (presidente)",
+      "founded": "2015",
+      "spectrum": "Estrema destra",
+      "ideologies": "Nazionalismo, Populismo di destra, Euroscetticismo, Contrarietà all'immigrazione",
+      "priorities": "Ridurre l'immigrazione, Democrazia diretta, Sovranità nazionale",
+      "description": "Libertà e Democrazia Diretta, partito di estrema destra che chiede referendum sull'uscita da UE e NATO e immigrazione zero.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20and%20Direct%20Democracy"
+    }
+  }
+}

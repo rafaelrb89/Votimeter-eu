@@ -1,0 +1,136 @@
+{
+  "name": "Bélgica — partidos belgas",
+  "short_name": "Bélgica",
+  "intro": "compará-lo com os partidos políticos belgas",
+  "results_title": "Percentagem de Concordância com os Partidos Belgas",
+  "included_label": "Partidos incluídos",
+  "inclusion_note": "O teste inclui os principais partidos nacionais da Bélgica: os representados no parlamento (Kamer / Chambre) e os que têm uma base de apoio nacional relevante. As posições são estimativas da equipa e estão abertas a revisão.",
+  "details_title": "Descobre mais sobre os Partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Belgium",
+  "hemicycle_note": "Lugares no parlamento (Kamer / Chambre) após as eleições de 2024, dispostos da esquerda para a direita. Aproximado. 150 deputados.",
+  "unaffiliated_label": "Outros",
+  "parties": {
+    "PVDA-PTB": {
+      "name": "PVDA-PTB",
+      "leader": "Raoul Hedebouw (Presidente)",
+      "founded": "1979",
+      "spectrum": "Extrema-esquerda",
+      "ideologies": "Comunismo, Socialismo democrático, Populismo de esquerda",
+      "priorities": "Custo de vida, Tributar a riqueza, Serviços públicos, Direitos e salários dos trabalhadores",
+      "description": "O Partido do Trabalho, marxista, o único organizado na Flandres, em Bruxelas e na Valónia; faz campanha por um imposto sobre os milionários e energia mais barata.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Workers%27%20Party%20of%20Belgium"
+    },
+    "Groen": {
+      "name": "Groen",
+      "leader": "",
+      "founded": "1979",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Ecologismo, Progressismo, Europeísmo",
+      "priorities": "Ação climática, Habitação acessível, Serviços públicos",
+      "description": "Partido ecologista flamengo, centrado na política climática, no ar limpo e nos transportes públicos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Groen%20%28political%20party%29"
+    },
+    "Ecolo": {
+      "name": "Ecolo",
+      "leader": "",
+      "founded": "1980",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Ecologismo, Progressismo, Europeísmo",
+      "priorities": "Ação climática, Serviços públicos, Liberdades cívicas",
+      "description": "Partido ecologista francófono, que perdeu muito em 2024 depois de anos em governos regionais e federais.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ecolo"
+    },
+    "PS": {
+      "name": "Parti Socialiste",
+      "leader": "Paul Magnette (Presidente)",
+      "founded": "1978",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Social-democracia",
+      "priorities": "Serviços públicos, Direitos e salários dos trabalhadores, Pensões e idosos, Saúde pública",
+      "description": "Partido Socialista francófono, durante muito tempo dominante na Valónia, que defende a indexação dos salários, as pensões e os serviços públicos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Socialist%20Party%20%28Belgium%29"
+    },
+    "Vooruit": {
+      "name": "Vooruit",
+      "leader": "Conner Rousseau (Presidente)",
+      "founded": "1978",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Social-democracia",
+      "priorities": "Saúde pública, Direitos e salários dos trabalhadores, Segurança e ordem pública, Reduzir a imigração",
+      "description": "Os sociais-democratas flamengos, no governo federal desde 2025, que juntam proteção social com uma linha mais firme na imigração e na integração.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vooruit%20%28political%20party%29"
+    },
+    "Volt": {
+      "name": "Volt Belgium",
+      "leader": "Secção nacional do Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeu, Progressismo",
+      "priorities": "Maior integração europeia, Ação climática, Inovação digital, Reforma democrática",
+      "description": "Secção nacional do Volt Europa, o primeiro partido pan-europeu. Todas as secções partilham um programa: uma UE federal e mais democrática, políticas baseadas em evidência, economia de mercado com um Estado social forte e as transições digital e climática. O Volt tem as mesmas posições em todos os países deste teste.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Les Engagés": {
+      "name": "Les Engagés",
+      "leader": "",
+      "founded": "2022",
+      "spectrum": "Centro",
+      "ideologies": "Democracia cristã, Centrismo, Europeísmo",
+      "priorities": "Saúde pública, Educação, Pequenas empresas e empreendedores",
+      "description": "Partido centrista francófono, sucessor do democrata-cristão cdH, que subiu muito em 2024 e entrou nos governos federal e valão.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Les%20Engag%C3%A9s"
+    },
+    "CD&V": {
+      "name": "Christen-Democratisch en Vlaams",
+      "leader": "Sammy Mahdi (Presidente)",
+      "founded": "1945",
+      "spectrum": "Centro-direita",
+      "ideologies": "Democracia cristã, Europeísmo",
+      "priorities": "Valores da família tradicional, Pequenas empresas e empreendedores, Segurança e ordem pública",
+      "description": "Os democratas-cristãos flamengos, historicamente o principal partido belga, hoje um parceiro médio nos governos federal e flamengo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democratic%20and%20Flemish"
+    },
+    "Open VLD": {
+      "name": "Open Vlaamse Liberalen en Democraten",
+      "leader": "",
+      "founded": "1992",
+      "spectrum": "Centro-direita",
+      "ideologies": "Liberalismo, Liberalismo económico, Europeísmo",
+      "priorities": "Disciplina orçamental, Menos impostos, Liberdades cívicas",
+      "description": "Os liberais flamengos do ex-primeiro-ministro Alexander De Croo, fortemente derrotados em 2024.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Open%20Vlaamse%20Liberalen%20en%20Democraten"
+    },
+    "MR": {
+      "name": "Mouvement Réformateur",
+      "leader": "Georges-Louis Bouchez (Presidente)",
+      "founded": "2002",
+      "spectrum": "Centro-direita",
+      "ideologies": "Liberalismo, Liberalismo económico",
+      "priorities": "Menos impostos, Disciplina orçamental, Segurança e ordem pública, Energia nuclear",
+      "description": "Os liberais francófonos, primeiro partido da Valónia desde 2024, que defendem menos impostos, reforma do mercado de trabalho e energia nuclear.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Reformist%20Movement"
+    },
+    "N-VA": {
+      "name": "Nieuw-Vlaamse Alliantie",
+      "leader": "Bart De Wever (Primeiro-ministro)",
+      "founded": "2001",
+      "spectrum": "Direita",
+      "ideologies": "Nacionalismo flamengo, Conservadorismo, Liberalismo económico",
+      "priorities": "Mais autonomia para a Flandres, Disciplina orçamental, Reduzir a imigração, Segurança e ordem pública",
+      "description": "Partido nacionalista flamengo e o maior da Bélgica; o seu líder Bart De Wever tornou-se primeiro-ministro em 2025 e defende uma Bélgica confederal.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Flemish%20Alliance"
+    },
+    "VB": {
+      "name": "Vlaams Belang",
+      "leader": "Tom Van Grieken (Presidente)",
+      "founded": "2004",
+      "spectrum": "Extrema-direita",
+      "ideologies": "Nacionalismo flamengo, Nacionalismo, Anti-imigração, Euroceticismo",
+      "priorities": "Mais autonomia para a Flandres, Reduzir a imigração, Segurança e ordem pública, Identidade nacional",
+      "description": "Partido nacionalista flamengo de extrema-direita que defende a independência da Flandres e o fim da imigração; os outros partidos excluem-no do poder com um «cordão sanitário».",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vlaams%20Belang"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Croatie — partis croates",
+  "short_name": "Croatie",
+  "intro": "le comparer aux partis politiques croates",
+  "results_title": "Accord avec les partis croates",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de Croatie : ceux représentés au parlement (Sabor) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Croatia",
+  "hemicycle_note": "Sièges au parlement (Sabor) après les élections de 2024, disposés de gauche à droite. Approximatif. 151 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "Možemo": {
+      "name": "Možemo!",
+      "leader": "",
+      "founded": "2019",
+      "spectrum": "Gauche",
+      "ideologies": "Écologie politique, Progressisme",
+      "priorities": "Action climatique, Logement abordable, Lutte contre la corruption",
+      "description": "Plateforme verte et de gauche qui dirige Zagreb, axée sur le logement, les services publics et une politique intègre.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Mo%C5%BEemo"
+    },
+    "SDP": {
+      "name": "Socijaldemokratska partija Hrvatske",
+      "leader": "Siniša Hajdaš Dončić (président(e))",
+      "founded": "1990",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Proeuropéisme",
+      "priorities": "Lutte contre la corruption, Services publics, Droits et salaires des travailleurs",
+      "description": "Principal parti de centre gauche de Croatie et première force d'opposition.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Croatia"
+    },
+    "Volt": {
+      "name": "Volt Hrvatska",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "HDZ": {
+      "name": "Hrvatska demokratska zajednica",
+      "leader": "Andrej Plenković (Premier ministre)",
+      "founded": "1989",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Conservatisme, Proeuropéisme",
+      "priorities": "Compétitivité et croissance, Défense et soutien à l'Ukraine, Valeurs familiales traditionnelles",
+      "description": "Parti démocrate-chrétien qui a dirigé la Croatie la majeure partie de son indépendance, aujourd'hui sous le Premier ministre Andrej Plenković.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Croatian%20Democratic%20Union"
+    },
+    "Most": {
+      "name": "Most",
+      "leader": "Božo Petrov (président(e))",
+      "founded": "2012",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme, Populisme",
+      "priorities": "Lutte contre la corruption, Valeurs familiales traditionnelles, Réforme démocratique",
+      "description": "Parti conservateur et réformateur qui lutte contre la corruption et pour les valeurs familiales traditionnelles.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Bridge%20%28Croatia%29"
+    },
+    "DP": {
+      "name": "Domovinski pokret",
+      "leader": "Ivan Penava (président(e))",
+      "founded": "2020",
+      "spectrum": "Droite à extrême droite",
+      "ideologies": "Nationalisme, Conservatisme national, Anti-immigration",
+      "priorities": "Identité nationale, Réduire l'immigration, Sécurité et ordre public",
+      "description": "Le Mouvement patriotique, nationaliste, partenaire minoritaire du gouvernement depuis 2024, axé sur l'identité nationale et la migration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Homeland%20Movement"
+    }
+  }
+}
