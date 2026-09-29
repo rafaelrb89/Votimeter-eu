@@ -1,0 +1,14 @@
+{
+  "name": "Luksemburg — partie polityczne",
+  "short_name": "Luksemburg",
+  "intro": "partie polityczne: Luksemburg",
+  "results_title": "Zgodność z partiami — Luksemburg",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,Luxembourg",
+  "hemicycle_note": "Mandaty w parlamencie (Chambre des Députés) po wyborach w 2023 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 60.",
+  "unaffiliated_label": "Inni"
+}

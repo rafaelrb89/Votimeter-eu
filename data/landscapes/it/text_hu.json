@@ -1,0 +1,14 @@
+{
+  "name": "Olaszország — politikai pártok",
+  "short_name": "Olaszország",
+  "intro": "politikai pártok: Olaszország",
+  "results_title": "Egyezés a pártokkal — Olaszország",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,ItalianPolitics",
+  "hemicycle_note": "Mandátumok a parlamentben (Camera dei deputati) a 2022. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 400.",
+  "unaffiliated_label": "Egyéb"
+}

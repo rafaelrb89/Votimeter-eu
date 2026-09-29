@@ -1,0 +1,136 @@
+{
+  "name": "Belgio — partiti belgi",
+  "short_name": "Belgio",
+  "intro": "confrontarlo con i partiti politici belgi",
+  "results_title": "Accordo con i partiti belgi",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali del Belgio: quelli rappresentati in parlamento (Kamer / Chambre) e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimeter,Belgium",
+  "hemicycle_note": "Seggi in parlamento (Kamer / Chambre) dopo le elezioni del 2024, disposti da sinistra a destra. Dati approssimativi. 150 membri.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "PVDA-PTB": {
+      "name": "PVDA-PTB",
+      "leader": "Raoul Hedebouw (presidente)",
+      "founded": "1979",
+      "spectrum": "Estrema sinistra",
+      "ideologies": "Comunismo, Socialismo democratico, Populismo di sinistra",
+      "priorities": "Costo della vita, Tassare i grandi patrimoni, Servizi pubblici, Diritti e salari dei lavoratori",
+      "description": "Il Partito del Lavoro marxista, l'unico presente in Fiandre, Bruxelles e Vallonia; chiede una tassa sui milionari e energia meno cara.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Workers%27%20Party%20of%20Belgium"
+    },
+    "Groen": {
+      "name": "Groen",
+      "leader": "",
+      "founded": "1979",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Ecologismo, Progressismo, Europeismo",
+      "priorities": "Azione per il clima, Casa accessibile, Servizi pubblici",
+      "description": "Partito ecologista fiammingo, centrato su clima, aria pulita e trasporto pubblico.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Groen%20%28political%20party%29"
+    },
+    "Ecolo": {
+      "name": "Ecolo",
+      "leader": "",
+      "founded": "1980",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Ecologismo, Progressismo, Europeismo",
+      "priorities": "Azione per il clima, Servizi pubblici, Libertà civili",
+      "description": "Partito ecologista francofono, pesantemente sconfitto nel 2024 dopo anni nei governi regionali e federale.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ecolo"
+    },
+    "PS": {
+      "name": "Parti Socialiste",
+      "leader": "Paul Magnette (presidente)",
+      "founded": "1978",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia",
+      "priorities": "Servizi pubblici, Diritti e salari dei lavoratori, Pensioni e anziani, Sanità pubblica",
+      "description": "Il Partito Socialista francofono, a lungo dominante in Vallonia, difensore dell'indicizzazione dei salari, delle pensioni e dei servizi pubblici.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Socialist%20Party%20%28Belgium%29"
+    },
+    "Vooruit": {
+      "name": "Vooruit",
+      "leader": "Conner Rousseau (presidente)",
+      "founded": "1978",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia",
+      "priorities": "Sanità pubblica, Diritti e salari dei lavoratori, Sicurezza e ordine pubblico, Ridurre l'immigrazione",
+      "description": "I socialdemocratici fiamminghi, nel governo federale dal 2025, uniscono protezione sociale e una linea più dura su migrazione e integrazione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vooruit%20%28political%20party%29"
+    },
+    "Volt": {
+      "name": "Volt Belgium",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Les Engagés": {
+      "name": "Les Engagés",
+      "leader": "",
+      "founded": "2022",
+      "spectrum": "Centro",
+      "ideologies": "Democrazia cristiana, Centrismo, Europeismo",
+      "priorities": "Sanità pubblica, Istruzione, Piccole imprese e imprenditori",
+      "description": "Partito centrista francofono, erede del cdH democristiano, cresciuto molto nel 2024 ed entrato nei governi federale e vallone.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Les%20Engag%C3%A9s"
+    },
+    "CD&V": {
+      "name": "Christen-Democratisch en Vlaams",
+      "leader": "Sammy Mahdi (presidente)",
+      "founded": "1945",
+      "spectrum": "Centrodestra",
+      "ideologies": "Democrazia cristiana, Europeismo",
+      "priorities": "Valori della famiglia tradizionale, Piccole imprese e imprenditori, Sicurezza e ordine pubblico",
+      "description": "I democristiani fiamminghi, storicamente il primo partito belga, oggi partner di medie dimensioni nei governi federale e fiammingo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democratic%20and%20Flemish"
+    },
+    "Open VLD": {
+      "name": "Open Vlaamse Liberalen en Democraten",
+      "leader": "",
+      "founded": "1992",
+      "spectrum": "Centrodestra",
+      "ideologies": "Liberalismo, Liberalismo economico, Europeismo",
+      "priorities": "Disciplina di bilancio, Meno tasse, Libertà civili",
+      "description": "I liberali fiamminghi dell'ex primo ministro Alexander De Croo, duramente sconfitti nel 2024.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Open%20Vlaamse%20Liberalen%20en%20Democraten"
+    },
+    "MR": {
+      "name": "Mouvement Réformateur",
+      "leader": "Georges-Louis Bouchez (presidente)",
+      "founded": "2002",
+      "spectrum": "Centrodestra",
+      "ideologies": "Liberalismo, Liberalismo economico",
+      "priorities": "Meno tasse, Disciplina di bilancio, Sicurezza e ordine pubblico, Energia nucleare",
+      "description": "I liberali francofoni, primo partito della Vallonia dal 2024, favorevoli a meno tasse, riforma del lavoro e nucleare.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Reformist%20Movement"
+    },
+    "N-VA": {
+      "name": "Nieuw-Vlaamse Alliantie",
+      "leader": "Bart De Wever (Primo ministro)",
+      "founded": "2001",
+      "spectrum": "Destra",
+      "ideologies": "Nazionalismo fiammingo, Conservatorismo, Liberalismo economico",
+      "priorities": "Più autonomia per le Fiandre, Disciplina di bilancio, Ridurre l'immigrazione, Sicurezza e ordine pubblico",
+      "description": "Partito nazionalista fiammingo e il più grande del Belgio; il suo leader Bart De Wever è diventato primo ministro nel 2025 e punta a un Belgio confederale.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Flemish%20Alliance"
+    },
+    "VB": {
+      "name": "Vlaams Belang",
+      "leader": "Tom Van Grieken (presidente)",
+      "founded": "2004",
+      "spectrum": "Estrema destra",
+      "ideologies": "Nazionalismo fiammingo, Nazionalismo, Contrarietà all'immigrazione, Euroscetticismo",
+      "priorities": "Più autonomia per le Fiandre, Ridurre l'immigrazione, Sicurezza e ordine pubblico, Identità nazionale",
+      "description": "Partito nazionalista fiammingo di estrema destra che vuole l'indipendenza delle Fiandre e lo stop all'immigrazione; gli altri partiti lo escludono con un «cordone sanitario».",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vlaams%20Belang"
+    }
+  }
+}

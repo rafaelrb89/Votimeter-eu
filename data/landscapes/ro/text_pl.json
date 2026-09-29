@@ -1,0 +1,14 @@
+{
+  "name": "Rumunia — partie polityczne",
+  "short_name": "Rumunia",
+  "intro": "partie polityczne: Rumunia",
+  "results_title": "Zgodność z partiami — Rumunia",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,Romania",
+  "hemicycle_note": "Mandaty w parlamencie (Camera Deputaților) po wyborach w 2024 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 331.",
+  "unaffiliated_label": "Inni"
+}

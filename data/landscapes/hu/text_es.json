@@ -1,0 +1,86 @@
+{
+  "name": "Hungría — partidos húngaros",
+  "short_name": "Hungría",
+  "intro": "compararla con los partidos políticos húngaros",
+  "results_title": "Coincidencia con los partidos húngaros",
+  "included_label": "Partidos incluidos",
+  "inclusion_note": "El test incluye los principales partidos nacionales de Hungría: los representados en el parlamento (Országgyűlés) y los que tienen un apoyo nacional relevante. Las posiciones son estimaciones del equipo y pueden revisarse.",
+  "details_title": "Más sobre los partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Hungary",
+  "hemicycle_note": "Escaños en el parlamento (Országgyűlés) tras las elecciones de 2022, ordenados de izquierda a derecha. Aproximado. 199 miembros. Unas elecciones más recientes aún no se reflejan en estos escaños; la lista incluye los partidos fuertes en las encuestas actuales. Los partidos sin escaños se incluyen porque tienen peso en las encuestas.",
+  "unaffiliated_label": "Otros",
+  "parties": {
+    "DK": {
+      "name": "Demokratikus Koalíció",
+      "leader": "",
+      "founded": "2011",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Europeísmo",
+      "priorities": "Estado de derecho, Más integración europea, Estado del bienestar",
+      "description": "Coalición Democrática, partido de centroizquierda fundado por el ex primer ministro Ferenc Gyurcsány y durante años el mayor de la oposición.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Democratic%20Coalition%20%28Hungary%29"
+    },
+    "Momentum": {
+      "name": "Momentum Mozgalom",
+      "leader": "",
+      "founded": "2017",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Europeísmo",
+      "priorities": "Estado de derecho, Educación, Más integración europea",
+      "description": "Partido liberal y europeísta de una generación más joven.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Momentum%20Movement"
+    },
+    "MKKP": {
+      "name": "Magyar Kétfarkú Kutya Párt",
+      "leader": "",
+      "founded": "2006",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Antisistema",
+      "priorities": "Transparencia y derechos digitales, Reforma democrática",
+      "description": "Partido Húngaro del Perro de Dos Colas, satírico, que se burla del sistema político y hace proyectos locales concretos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Hungarian%20Two-tailed%20Dog%20Party"
+    },
+    "Volt": {
+      "name": "Volt Magyarország",
+      "leader": "Sección nacional de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeo, Progresismo",
+      "priorities": "Más integración europea, Acción climática, Innovación digital, Reforma democrática",
+      "description": "Sección nacional de Volt Europa, el primer partido paneuropeo. Todas las secciones comparten un mismo programa: una UE federal y más democrática, políticas basadas en la evidencia, economía de mercado con un Estado del bienestar fuerte y las transiciones digital y climática. En este test Volt tiene las mismas posiciones en todos los países.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Tisza": {
+      "name": "Tisztelet és Szabadság Párt (Tisza)",
+      "leader": "Péter Magyar (presidente)",
+      "founded": "2020",
+      "spectrum": "Centroderecha",
+      "ideologies": "Conservadurismo liberal, Democracia cristiana, Europeísmo",
+      "priorities": "Lucha contra la corrupción, Estado de derecho, Sanidad pública, Más integración europea",
+      "description": "Partido Respeto y Libertad de Péter Magyar, antiguo miembro del Fidesz; se convirtió en el principal rival de Viktor Orbán antes de las elecciones de 2026, contra la corrupción y por los fondos europeos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Tisza%20Party"
+    },
+    "Fidesz–KDNP": {
+      "name": "Fidesz–KDNP",
+      "leader": "Viktor Orbán (líder)",
+      "founded": "1988",
+      "spectrum": "Derecha a extrema derecha",
+      "ideologies": "Conservadurismo nacional, Populismo de derecha, Euroescepticismo moderado, Soberanismo",
+      "priorities": "Soberanía nacional, Valores de la familia tradicional, Reducir la inmigración, Diplomacia con Rusia, sin envío de armas",
+      "description": "La alianza nacional-conservadora de Viktor Orbán, en el poder desde 2010; define Hungría como «democracia iliberal», choca con la UE por el Estado de derecho y rechaza la ayuda militar a Ucrania.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fidesz"
+    },
+    "Mi Hazánk": {
+      "name": "Mi Hazánk Mozgalom",
+      "leader": "László Toroczkai (presidente)",
+      "founded": "2018",
+      "spectrum": "Extrema derecha",
+      "ideologies": "Nacionalismo, Populismo de derecha, Euroescepticismo",
+      "priorities": "Identidad nacional, Soberanía nacional, Reducir la inmigración",
+      "description": "Movimiento Nuestra Patria, partido de extrema derecha a la derecha del Fidesz.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Our%20Homeland%20Movement"
+    }
+  }
+}

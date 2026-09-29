@@ -1,0 +1,96 @@
+{
+  "name": "Rumänien — rumänischen Parteien",
+  "short_name": "Rumänien",
+  "intro": "sie mit den rumänischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den rumänischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Rumäniens: die im Parlament (Camera Deputaților) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Romania",
+  "hemicycle_note": "Sitze im Parlament (Camera Deputaților) nach der Wahl 2024, von links nach rechts angeordnet. Ungefähre Angaben. 331 Abgeordnete.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "PSD": {
+      "name": "Partidul Social Democrat",
+      "leader": "Sorin Grindeanu (Vorsitz)",
+      "founded": "2001",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Sozialkonservatismus",
+      "priorities": "Renten und ältere Menschen, Sozialstaat, Öffentliche Daseinsvorsorge",
+      "description": "Sozialdemokratische Partei, die größte Rumäniens, für eine europäische Mitte-links-Partei gesellschaftlich konservativ.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20%28Romania%29"
+    },
+    "USR": {
+      "name": "Uniunea Salvați România",
+      "leader": "Dominic Fritz (Vorsitz)",
+      "founded": "2016",
+      "spectrum": "Mitte",
+      "ideologies": "Liberalismus, Progressivismus, Proeuropäisch",
+      "priorities": "Korruptionsbekämpfung, Rechtsstaatlichkeit, Digitale Innovation",
+      "description": "Union Rettet Rumänien, eine liberale Antikorruptionspartei, beliebt in Städten und bei jungen Wählern.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Save%20Romania%20Union"
+    },
+    "Volt": {
+      "name": "Volt România",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "PNL": {
+      "name": "Partidul Național Liberal",
+      "leader": "Ilie Bolojan (Regierungschef(in))",
+      "founded": "1875",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Christdemokratie, Proeuropäisch",
+      "priorities": "Haushaltsdisziplin, Wettbewerbsfähigkeit und Wachstum, Vertiefte europäische Integration",
+      "description": "Nationalliberale Partei von Ministerpräsident Ilie Bolojan mit Fokus auf den Abbau des hohen Haushaltsdefizits.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=National%20Liberal%20Party%20%28Romania%29"
+    },
+    "UDMR": {
+      "name": "Uniunea Democrată Maghiară din România",
+      "leader": "Kelemen Hunor (Vorsitz)",
+      "founded": "1989",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Interessen der ungarischen Minderheit, Christdemokratie, Proeuropäisch",
+      "priorities": "Rechte der nationalen Minderheit, Regionen und ländliche Versorgung",
+      "description": "Demokratischer Verband der Ungarn in Rumänien, Vertretung der ungarischen Minderheit und häufiger Regierungspartner.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Democratic%20Alliance%20of%20Hungarians%20in%20Romania"
+    },
+    "AUR": {
+      "name": "Alianța pentru Unirea Românilor",
+      "leader": "George Simion (Vorsitz)",
+      "founded": "2019",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Rechtspopulismus, Gemäßigter Euroskeptizismus",
+      "priorities": "Nationale Souveränität, Christliche Werte, Traditionelle Familienwerte",
+      "description": "Allianz für die Vereinigung der Rumänen, eine nationalistische Partei, deren Chef George Simion 2025 die Stichwahl um das Präsidentenamt erreichte.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Alliance%20for%20the%20Union%20of%20Romanians"
+    },
+    "SOS": {
+      "name": "S.O.S. România",
+      "leader": "Diana Iovanovici-Șoșoacă (Vorsitz)",
+      "founded": "2021",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Rechtspopulismus, Euroskeptizismus",
+      "priorities": "Nationale Souveränität, Diplomatie mit Russland, keine Waffenlieferungen, Christliche Werte",
+      "description": "Rechtsradikale, prorussische Partei von Diana Iovanovici-Șoșoacă, gegen EU und NATO.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=S.O.S.%20Romania"
+    },
+    "POT": {
+      "name": "Partidul Oamenilor Tineri",
+      "leader": "Anamaria Gavrilă (Vorsitz)",
+      "founded": "2023",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Rechtspopulismus, Euroskeptizismus",
+      "priorities": "Nationale Souveränität, Diplomatie mit Russland, keine Waffenlieferungen, Traditionelle Familienwerte",
+      "description": "Partei der jungen Menschen, nationalistisch und Călin Georgescu nahestehend, dessen Sieg in der ersten Runde der Präsidentschaftswahl 2024 annulliert wurde.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Party%20of%20Young%20People"
+    }
+  }
+}

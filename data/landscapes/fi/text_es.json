@@ -1,0 +1,106 @@
+{
+  "name": "Finlandia — partidos finlandeses",
+  "short_name": "Finlandia",
+  "intro": "compararla con los partidos políticos finlandeses",
+  "results_title": "Coincidencia con los partidos finlandeses",
+  "included_label": "Partidos incluidos",
+  "inclusion_note": "El test incluye los principales partidos nacionales de Finlandia: los representados en el parlamento (Eduskunta) y los que tienen un apoyo nacional relevante. Las posiciones son estimaciones del equipo y pueden revisarse.",
+  "details_title": "Más sobre los partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Escaños en el parlamento (Eduskunta) tras las elecciones de 2023, ordenados de izquierda a derecha. Aproximado. 200 miembros.",
+  "unaffiliated_label": "Otros",
+  "parties": {
+    "Vas": {
+      "name": "Vasemmistoliitto",
+      "leader": "Minja Koskela (presidente)",
+      "founded": "1990",
+      "spectrum": "Izquierda",
+      "ideologies": "Socialismo democrático, Ecosocialismo, Progresismo",
+      "priorities": "Estado del bienestar, Acción climática, Derechos y salarios de los trabajadores",
+      "description": "Alianza de la Izquierda, que creció mucho en las europeas de 2024; defiende el Estado del bienestar, los sindicatos y la acción climática.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Left%20Alliance%20%28Finland%29"
+    },
+    "Vihr": {
+      "name": "Vihreä liitto",
+      "leader": "Sofia Virta (presidente)",
+      "founded": "1987",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Ecologismo, Liberalismo social, Europeísmo",
+      "priorities": "Acción climática, Educación, Libertades civiles",
+      "description": "La Liga Verde, excepcional entre los verdes europeos por apoyar la energía nuclear.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20League"
+    },
+    "SDP": {
+      "name": "Suomen Sosialidemokraattinen Puolue",
+      "leader": "Antti Lindtman (presidente)",
+      "founded": "1899",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Atlantismo",
+      "priorities": "Estado del bienestar, Derechos y salarios de los trabajadores, Sanidad pública",
+      "description": "El Partido Socialdemócrata, principal fuerza de la oposición, líder en las encuestas recientes.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Finland"
+    },
+    "Volt": {
+      "name": "Volt Suomi",
+      "leader": "Sección nacional de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeo, Progresismo",
+      "priorities": "Más integración europea, Acción climática, Innovación digital, Reforma democrática",
+      "description": "Sección nacional de Volt Europa, el primer partido paneuropeo. Todas las secciones comparten un mismo programa: una UE federal y más democrática, políticas basadas en la evidencia, economía de mercado con un Estado del bienestar fuerte y las transiciones digital y climática. En este test Volt tiene las mismas posiciones en todos los países.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Kesk": {
+      "name": "Suomen Keskusta",
+      "leader": "Antti Kaikkonen (presidente)",
+      "founded": "1906",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo agrario, Centrismo",
+      "priorities": "Regiones y servicios rurales, Agricultores y mundo rural, Estado del bienestar",
+      "description": "El Partido del Centro, arraigado en la Finlandia rural y la política agraria.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Centre%20Party%20%28Finland%29"
+    },
+    "RKP": {
+      "name": "Svenska folkpartiet / Ruotsalainen kansanpuolue",
+      "leader": "Anders Adlercreutz (presidente)",
+      "founded": "1906",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Intereses de la minoría sueco-hablante, Europeísmo",
+      "priorities": "Derechos de la minoría nacional, Educación, Más integración europea",
+      "description": "Partido Popular Sueco, el partido liberal de la minoría sueco-hablante de Finlandia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Swedish%20People%27s%20Party%20of%20Finland"
+    },
+    "Kok": {
+      "name": "Kansallinen Kokoomus",
+      "leader": "Petteri Orpo (Primer ministro)",
+      "founded": "1918",
+      "spectrum": "Centroderecha",
+      "ideologies": "Conservadurismo liberal, Liberalismo económico, Atlantismo",
+      "priorities": "Disciplina presupuestaria, Competitividad y crecimiento, Defensa y apoyo a Ucrania",
+      "description": "El Partido de la Coalición Nacional del primer ministro Petteri Orpo, que dirige un Gobierno de derechas centrado en la deuda y la reforma laboral.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=National%20Coalition%20Party"
+    },
+    "KD": {
+      "name": "Suomen Kristillisdemokraatit",
+      "leader": "Sari Essayah (presidente)",
+      "founded": "1958",
+      "spectrum": "Centroderecha",
+      "ideologies": "Democracia cristiana, Conservadurismo",
+      "priorities": "Valores de la familia tradicional, Valores cristianos, Pensiones y mayores",
+      "description": "Los democristianos, conservadores en lo social y en el Gobierno.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democrats%20%28Finland%29"
+    },
+    "PS": {
+      "name": "Perussuomalaiset",
+      "leader": "Riikka Purra (presidente)",
+      "founded": "1995",
+      "spectrum": "Derecha a extrema derecha",
+      "ideologies": "Conservadurismo nacional, Populismo de derecha, Euroescepticismo, Contrario a la inmigración",
+      "priorities": "Reducir la inmigración, Disciplina presupuestaria, Soberanía nacional",
+      "description": "El Partido de los Finlandeses, nacionalista y euroescéptico, en el Gobierno desde 2023 con una línea dura en inmigración.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Finns%20Party"
+    }
+  }
+}

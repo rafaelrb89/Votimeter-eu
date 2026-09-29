@@ -1,0 +1,136 @@
+{
+  "name": "Belgique — partis belges",
+  "short_name": "Belgique",
+  "intro": "le comparer aux partis politiques belges",
+  "results_title": "Accord avec les partis belges",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de Belgique : ceux représentés au parlement (Kamer / Chambre) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Belgium",
+  "hemicycle_note": "Sièges au parlement (Kamer / Chambre) après les élections de 2024, disposés de gauche à droite. Approximatif. 150 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "PVDA-PTB": {
+      "name": "PVDA-PTB",
+      "leader": "Raoul Hedebouw (président(e))",
+      "founded": "1979",
+      "spectrum": "Extrême gauche",
+      "ideologies": "Communisme, Socialisme démocratique, Populisme de gauche",
+      "priorities": "Pouvoir d'achat, Taxer les grandes fortunes, Services publics, Droits et salaires des travailleurs",
+      "description": "Le Parti du Travail marxiste, seul parti présent en Flandre, à Bruxelles et en Wallonie ; il milite pour une taxe des millionnaires et une énergie moins chère.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Workers%27%20Party%20of%20Belgium"
+    },
+    "Groen": {
+      "name": "Groen",
+      "leader": "",
+      "founded": "1979",
+      "spectrum": "Centre gauche",
+      "ideologies": "Écologie politique, Progressisme, Proeuropéisme",
+      "priorities": "Action climatique, Logement abordable, Services publics",
+      "description": "Parti écologiste flamand, axé sur le climat, la qualité de l'air et les transports publics.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Groen%20%28political%20party%29"
+    },
+    "Ecolo": {
+      "name": "Ecolo",
+      "leader": "",
+      "founded": "1980",
+      "spectrum": "Centre gauche",
+      "ideologies": "Écologie politique, Progressisme, Proeuropéisme",
+      "priorities": "Action climatique, Services publics, Libertés civiles",
+      "description": "Parti écologiste francophone, lourdement sanctionné en 2024 après des années dans les gouvernements régionaux et fédéral.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Ecolo"
+    },
+    "PS": {
+      "name": "Parti Socialiste",
+      "leader": "Paul Magnette (président(e))",
+      "founded": "1978",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie",
+      "priorities": "Services publics, Droits et salaires des travailleurs, Retraites et personnes âgées, Santé publique",
+      "description": "Le Parti socialiste francophone, longtemps dominant en Wallonie, défenseur de l'indexation des salaires, des pensions et des services publics.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Socialist%20Party%20%28Belgium%29"
+    },
+    "Vooruit": {
+      "name": "Vooruit",
+      "leader": "Conner Rousseau (président(e))",
+      "founded": "1978",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie",
+      "priorities": "Santé publique, Droits et salaires des travailleurs, Sécurité et ordre public, Réduire l'immigration",
+      "description": "Les sociaux-démocrates flamands, au gouvernement fédéral depuis 2025, qui allient protection sociale et ligne plus ferme sur la migration et l'intégration.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vooruit%20%28political%20party%29"
+    },
+    "Volt": {
+      "name": "Volt Belgium",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Les Engagés": {
+      "name": "Les Engagés",
+      "leader": "",
+      "founded": "2022",
+      "spectrum": "Centre",
+      "ideologies": "Démocratie chrétienne, Centrisme, Proeuropéisme",
+      "priorities": "Santé publique, Éducation, PME et entrepreneurs",
+      "description": "Parti centriste francophone, héritier du cdH démocrate-chrétien, en forte hausse en 2024 et entré aux gouvernements fédéral et wallon.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Les%20Engag%C3%A9s"
+    },
+    "CD&V": {
+      "name": "Christen-Democratisch en Vlaams",
+      "leader": "Sammy Mahdi (président(e))",
+      "founded": "1945",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Valeurs familiales traditionnelles, PME et entrepreneurs, Sécurité et ordre public",
+      "description": "Les démocrates-chrétiens flamands, historiquement premier parti du pays, aujourd'hui partenaire de taille moyenne des gouvernements fédéral et flamand.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democratic%20and%20Flemish"
+    },
+    "Open VLD": {
+      "name": "Open Vlaamse Liberalen en Democraten",
+      "leader": "",
+      "founded": "1992",
+      "spectrum": "Centre droit",
+      "ideologies": "Libéralisme, Libéralisme économique, Proeuropéisme",
+      "priorities": "Discipline budgétaire, Baisse des impôts, Libertés civiles",
+      "description": "Les libéraux flamands de l'ancien Premier ministre Alexander De Croo, lourdement battus en 2024.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Open%20Vlaamse%20Liberalen%20en%20Democraten"
+    },
+    "MR": {
+      "name": "Mouvement Réformateur",
+      "leader": "Georges-Louis Bouchez (président(e))",
+      "founded": "2002",
+      "spectrum": "Centre droit",
+      "ideologies": "Libéralisme, Libéralisme économique",
+      "priorities": "Baisse des impôts, Discipline budgétaire, Sécurité et ordre public, Énergie nucléaire",
+      "description": "Les libéraux francophones, premier parti de Wallonie depuis 2024, partisans de moins d'impôts, d'une réforme du marché du travail et du nucléaire.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Reformist%20Movement"
+    },
+    "N-VA": {
+      "name": "Nieuw-Vlaamse Alliantie",
+      "leader": "Bart De Wever (Premier ministre)",
+      "founded": "2001",
+      "spectrum": "Droite",
+      "ideologies": "Nationalisme flamand, Conservatisme, Libéralisme économique",
+      "priorities": "Plus d'autonomie pour la Flandre, Discipline budgétaire, Réduire l'immigration, Sécurité et ordre public",
+      "description": "Parti nationaliste flamand et premier parti de Belgique ; son chef Bart De Wever est devenu Premier ministre en 2025 et il vise une Belgique confédérale.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Flemish%20Alliance"
+    },
+    "VB": {
+      "name": "Vlaams Belang",
+      "leader": "Tom Van Grieken (président(e))",
+      "founded": "2004",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme flamand, Nationalisme, Anti-immigration, Euroscepticisme",
+      "priorities": "Plus d'autonomie pour la Flandre, Réduire l'immigration, Sécurité et ordre public, Identité nationale",
+      "description": "Parti nationaliste flamand d'extrême droite favorable à l'indépendance de la Flandre et à l'arrêt de l'immigration ; les autres partis l'excluent du pouvoir par un « cordon sanitaire ».",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vlaams%20Belang"
+    }
+  }
+}

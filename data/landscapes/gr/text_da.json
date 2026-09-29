@@ -1,0 +1,14 @@
+{
+  "name": "Grækenland — politiske partier",
+  "short_name": "Grækenland",
+  "intro": "de politiske partier i Grækenland",
+  "results_title": "Enighed med partierne — Grækenland",
+  "included_label": "Partier i testen",
+  "inclusion_note": "Testen omfatter de vigtigste landsdækkende partier: dem, der er repræsenteret i parlamentet, og dem med mærkbar opbakning i målingerne. Positionerne er holdets vurderinger og kan revideres.",
+  "details_title": "Mere om partierne",
+  "entity_label": "Parti",
+  "leader_label": "Leder(e) (pr. 2025)",
+  "hashtags": "Votimeter,Greece",
+  "hemicycle_note": "Mandater i parlamentet (Vouli ton Ellinon) efter valget i 2023, fra venstre mod højre. Omtrentligt. Antal mandater: 300. Partier uden mandater er med på grund af deres opbakning i målingerne.",
+  "unaffiliated_label": "Andre"
+}

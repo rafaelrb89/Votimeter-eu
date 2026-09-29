@@ -1,0 +1,14 @@
+{
+  "name": "Espanja — poliittiset puolueet",
+  "short_name": "Espanja",
+  "intro": "poliittiset puolueet: Espanja",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Espanja",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,SpanishPolitics",
+  "hemicycle_note": "Paikat parlamentissa (Congreso de los Diputados) vuoden 2023 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 350. Paikattomat puolueet ovat mukana kannatuksensa vuoksi.",
+  "unaffiliated_label": "Muut"
+}

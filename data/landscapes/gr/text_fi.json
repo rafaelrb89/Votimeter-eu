@@ -1,0 +1,14 @@
+{
+  "name": "Kreikka — poliittiset puolueet",
+  "short_name": "Kreikka",
+  "intro": "poliittiset puolueet: Kreikka",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Kreikka",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,Greece",
+  "hemicycle_note": "Paikat parlamentissa (Vouli ton Ellinon) vuoden 2023 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 300. Paikattomat puolueet ovat mukana kannatuksensa vuoksi.",
+  "unaffiliated_label": "Muut"
+}

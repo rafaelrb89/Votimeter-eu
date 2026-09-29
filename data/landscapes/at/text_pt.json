@@ -1,0 +1,86 @@
+{
+  "name": "Áustria — partidos austríacos",
+  "short_name": "Áustria",
+  "intro": "compará-lo com os partidos políticos austríacos",
+  "results_title": "Percentagem de Concordância com os Partidos Austríacos",
+  "included_label": "Partidos incluídos",
+  "inclusion_note": "O teste inclui os principais partidos nacionais da Áustria: os representados no parlamento (Nationalrat) e os que têm uma base de apoio nacional relevante. As posições são estimativas da equipa e estão abertas a revisão.",
+  "details_title": "Descobre mais sobre os Partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Austria",
+  "hemicycle_note": "Lugares no parlamento (Nationalrat) após as eleições de 2024, dispostos da esquerda para a direita. Aproximado. 183 deputados. Os partidos sem lugares estão incluídos por terem resultados relevantes nas sondagens.",
+  "unaffiliated_label": "Outros",
+  "parties": {
+    "KPÖ": {
+      "name": "Kommunistische Partei Österreichs",
+      "leader": "",
+      "founded": "1918",
+      "spectrum": "Extrema-esquerda",
+      "ideologies": "Comunismo, Socialismo democrático",
+      "priorities": "Habitação acessível, Custo de vida, Serviços públicos",
+      "description": "Partido comunista que renasceu graças ao tema da habitação e governa a cidade de Graz desde 2021; nas sondagens nacionais anda perto dos 4%.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Communist%20Party%20of%20Austria"
+    },
+    "Grüne": {
+      "name": "Die Grünen",
+      "leader": "Leonore Gewessler (Presidente)",
+      "founded": "1986",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Ecologismo, Progressismo, Europeísmo",
+      "priorities": "Ação climática, Estado de direito, Liberdades cívicas",
+      "description": "O partido ecologista austríaco, parceiro minoritário no governo de 2020 a 2025, centrado no clima, na transparência e no combate à corrupção.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Greens%20%E2%80%93%20The%20Green%20Alternative"
+    },
+    "SPÖ": {
+      "name": "Sozialdemokratische Partei Österreichs",
+      "leader": "Andreas Babler (Presidente)",
+      "founded": "1889",
+      "spectrum": "Centro-esquerda",
+      "ideologies": "Social-democracia",
+      "priorities": "Direitos e salários dos trabalhadores, Saúde pública, Tributar a riqueza, Habitação acessível",
+      "description": "Os sociais-democratas austríacos, no governo com o ÖVP e os NEOS desde 2025; com Andreas Babler defendem impostos sobre a riqueza e as heranças e uma semana de trabalho mais curta.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Austria"
+    },
+    "Volt": {
+      "name": "Volt Österreich",
+      "leader": "Secção nacional do Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeu, Progressismo",
+      "priorities": "Maior integração europeia, Ação climática, Inovação digital, Reforma democrática",
+      "description": "Secção nacional do Volt Europa, o primeiro partido pan-europeu. Todas as secções partilham um programa: uma UE federal e mais democrática, políticas baseadas em evidência, economia de mercado com um Estado social forte e as transições digital e climática. O Volt tem as mesmas posições em todos os países deste teste.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "NEOS": {
+      "name": "NEOS – Das Neue Österreich",
+      "leader": "Beate Meinl-Reisinger (Presidente)",
+      "founded": "2012",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Europeísmo",
+      "priorities": "Educação, Disciplina orçamental, Maior integração europeia, Estado de direito",
+      "description": "Partido liberal, no governo desde 2025, que defende reformas da educação e das pensões, transparência e maior integração europeia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=NEOS%20%28Austria%29"
+    },
+    "ÖVP": {
+      "name": "Österreichische Volkspartei",
+      "leader": "Christian Stocker (Presidente)",
+      "founded": "1945",
+      "spectrum": "Centro-direita",
+      "ideologies": "Democracia cristã, Conservadorismo liberal",
+      "priorities": "Reduzir a imigração, Competitividade e crescimento, Disciplina orçamental, Segurança e ordem pública",
+      "description": "O Partido Popular democrata-cristão, que lidera o governo com o chanceler Christian Stocker; defende regras de asilo apertadas, impostos baixos e políticas favoráveis às empresas.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Austrian%20People%27s%20Party"
+    },
+    "FPÖ": {
+      "name": "Freiheitliche Partei Österreichs",
+      "leader": "Herbert Kickl (Presidente)",
+      "founded": "1956",
+      "spectrum": "Extrema-direita",
+      "ideologies": "Conservadorismo nacional, Populismo de direita, Anti-imigração, Euroceticismo",
+      "priorities": "Remigração e fronteiras fechadas, Soberania nacional, Neutralidade militar, Custo de vida",
+      "description": "O Partido da Liberdade, de direita radical, primeiro nas eleições de 2024 com o melhor resultado de sempre; defende a «remigração», o fim das sanções à Rússia e uma neutralidade estrita.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20Party%20of%20Austria"
+    }
+  }
+}

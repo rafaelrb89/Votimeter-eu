@@ -1,0 +1,14 @@
+{
+  "name": "Řecko — politické strany",
+  "short_name": "Řecko",
+  "intro": "politické strany: Řecko",
+  "results_title": "Shoda se stranami — Řecko",
+  "included_label": "Zahrnuté strany",
+  "inclusion_note": "Test zahrnuje hlavní celostátní strany: zastoupené v parlamentu a ty, které mají významnou podporu v průzkumech. Postoje jsou odhady týmu a mohou být upraveny.",
+  "details_title": "Více o stranách",
+  "entity_label": "Strana",
+  "leader_label": "Předseda/předsedové (2025)",
+  "hashtags": "Votimeter,Greece",
+  "hemicycle_note": "Mandáty v parlamentu (Vouli ton Ellinon) po volbách v roce 2023, zleva doprava. Přibližně. Počet mandátů: 300. Strany bez mandátů jsou zahrnuty kvůli podpoře v průzkumech.",
+  "unaffiliated_label": "Ostatní"
+}

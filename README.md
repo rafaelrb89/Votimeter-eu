@@ -2,8 +2,8 @@
 
 A quiz that places you on three political axes (economic, social, political) and measures your agreement with a set of parties. It is based on [paradigmapolitico2](https://github.com/rafaelrb89/paradigmapolitico2) (Votímetro).
 
-- **Languages:** English, Português, Français, Deutsch, Italiano, Español
-- **Party landscapes:** European Parliament groups (2024–2029 term), France, Germany, Italy, Netherlands, Portugal, Spain, United Kingdom
+- **Languages:** all 24 official EU languages — Български, Čeština, Dansk, Deutsch, Eesti, Ελληνικά, English, Español, Français, Gaeilge, Hrvatski, Italiano, Latviešu, Lietuvių, Magyar, Malti, Nederlands, Polski, Português, Română, Slovenčina, Slovenščina, Suomi, Svenska. Party profiles (descriptions, ideologies, priorities) are fully translated in English, Portuguese, French, German, Italian and Spanish; the other 18 languages show them in English for now.
+- **Party landscapes:** European Parliament groups (2024–2029 term), all 27 EU member states, and the United Kingdom
 
 You can switch language and landscape at any time. Answers are stored by question ID, so switching keeps them. The selection is also saved in the URL (`?lang=pt&landscape=eu`), so you can share a link with a preset.
 
@@ -72,18 +72,19 @@ data/
 
 1. Add `data/i18n/ui_<lang>.json` with the same keys as `ui_en.json`.
 2. Add `data/questions/text_<lang>.csv` with every question ID.
-3. Add `text_<lang>.json` to every landscape folder.
+3. Add `text_<lang>.json` to landscape folders. Anything missing from it (a key, a party profile) falls back to `text_en.json`, so a file with just the landscape name and notes is enough to start.
 
 A language shows up in the sidebar only when both its UI file and its question file exist. The tests check that the keys and IDs are complete.
 
 ### Adding a landscape
 
-Create `data/landscapes/<id>/` with `parties.csv`, `positions.csv` and a `text_<lang>.json` for every language, then add `<id>` to `landscapes.csv`.
+Create `data/landscapes/<id>/` with `parties.csv`, `positions.csv`, a complete `text_en.json` and optional `text_<lang>.json` translations, then add `<id>` to `landscapes.csv`.
 
 ## About the positions
 
 - **Portugal:** the positions are unchanged from the original app.
 - **Volt** is listed in every country with **identical positions**, because it runs on one pan-European programme. The reference is Volt's column in `data/landscapes/pt/positions.csv`. After editing it, run `python scripts/sync_volt.py` to copy it to every country; a test fails if the copies differ. The European Parliament view stays by group, where Volt sits in Greens/EFA.
-- **France, Germany, Italy, Netherlands, Spain, United Kingdom:** first estimates. Each party starts from the column of its European Parliament group, or of a sister party (Volt Nederland from Volt Portugal), and is then adjusted where it differs from that group. For example, the RN is more protectionist than PfE, the PCF is pro-nuclear, the FDP opposes common EU debt, BSW is left-wing on the economy but restrictive on migration, and M5S was scored from scratch. **All of these need the same review as the EU groups.**
-- **Seat counts** (`hemicycle.csv`) are approximate, and seats not held by a listed party are shown in grey as "Other". Snapshots: France by parliamentary group, July 2024; UK, July 2024; Germany, February 2025; Netherlands, October 2025; Italy, September 2022; Spain, July 2023, with regional parties grouped as "Other".
+- **All countries except Portugal:** first estimates. Each party starts from the column of its European Parliament group, or of a sister party (Volt Nederland from Volt Portugal), and is then adjusted where it differs from that group. For example, the RN is more protectionist than PfE, the PCF is pro-nuclear, the FDP opposes common EU debt, BSW is left-wing on the economy but restrictive on migration, and M5S was scored from scratch. **All of these need the same review as the EU groups.**
+- **Seat counts** (`hemicycle.csv`) are approximate, and seats not held by a listed party are shown in grey as "Other". Snapshots: France by parliamentary group, July 2024; UK, July 2024; Germany, February 2025; Netherlands, October 2025; Italy, September 2022; Spain, July 2023, with regional parties grouped as "Other". Other countries use the latest result available when this data was built. For Hungary, Slovenia, Cyprus, Sweden and Bulgaria, a newer election is not yet reflected; the chamber says so, and parties that are strong in polls, such as Tisza in Hungary, are included without seats.
+- **Websites and links:** `url` in `parties.csv` may be blank when the official site was not confirmed. The site then omits the "Official website" link. Wikipedia links for the EU27 extension use Wikipedia search, so they never point to a wrong article.
 - **European Parliament groups:** these positions are a first estimate. Each group started from its Portuguese member parties where it has them (EPP↔AD, S&D↔PS, Renew↔IL, Greens/EFA↔Livre/Volt, The Left↔BE/CDU, PfE↔Chega), then was adjusted to the group's overall line: its manifestos, its main national delegations and its voting record. ECR and ESN have no Portuguese members and were estimated directly. **Please review them before a public launch**, especially on points where groups are split internally, for example The Left on Ukraine, S&D and Greens on prostitution, and EPP on common EU debt.

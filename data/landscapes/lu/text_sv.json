@@ -1,0 +1,14 @@
+{
+  "name": "Luxemburg — politiska partier",
+  "short_name": "Luxemburg",
+  "intro": "de politiska partierna i Luxemburg",
+  "results_title": "Samstämmighet med partierna — Luxemburg",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,Luxembourg",
+  "hemicycle_note": "Mandat i parlamentet (Chambre des Députés) efter valet 2023, från vänster till höger. Ungefärligt. Antal mandat: 60.",
+  "unaffiliated_label": "Övriga"
+}

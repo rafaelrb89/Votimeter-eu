@@ -1,0 +1,96 @@
+{
+  "name": "Bulgarie — partis bulgares",
+  "short_name": "Bulgarie",
+  "intro": "le comparer aux partis politiques bulgares",
+  "results_title": "Accord avec les partis bulgares",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de Bulgarie : ceux représentés au parlement (Narodno sabranie) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Bulgaria",
+  "hemicycle_note": "Sièges au parlement (Narodno sabranie) après les élections de 2024, disposés de gauche à droite. Approximatif. 240 membres. Une élection plus récente n'est pas encore prise en compte dans ces sièges ; la liste inclut les partis forts dans les sondages actuels.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "BSP": {
+      "name": "BSP – United Left",
+      "leader": "",
+      "founded": "1891",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Conservatisme social",
+      "priorities": "Retraites et personnes âgées, Pouvoir d'achat, Services publics",
+      "description": "Héritier du Parti communiste ; socialement conservateur pour un parti socialiste européen et historiquement proche de la Russie.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Bulgarian%20Socialist%20Party"
+    },
+    "PP–DB": {
+      "name": "We Continue the Change – Democratic Bulgaria",
+      "leader": "",
+      "founded": "2021",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme, Proeuropéisme, Atlantisme",
+      "priorities": "Lutte contre la corruption, État de droit, Approfondir l'intégration européenne, Défense et soutien à l'Ukraine",
+      "description": "Alliance réformatrice proeuropéenne centrée sur la réforme de la justice et la lutte anticorruption, fermement pro-ukrainienne.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=We%20Continue%20the%20Change%20%E2%80%93%20Democratic%20Bulgaria"
+    },
+    "Volt": {
+      "name": "Volt Bulgaria",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "DPS–NN": {
+      "name": "DPS – New Beginning",
+      "leader": "Delyan Peevski (président(e))",
+      "founded": "1990",
+      "spectrum": "Centre",
+      "ideologies": "Droits des minorités, Populisme",
+      "priorities": "Droits de la minorité nationale, Sécurité et ordre public",
+      "description": "Branche du Mouvement des droits et libertés, parti de la minorité turque, dirigée par Delyan Peevski, sanctionné pour corruption par les États-Unis et le Royaume-Uni.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=DPS%20%E2%80%93%20New%20Beginning"
+    },
+    "GERB": {
+      "name": "GERB–SDS",
+      "leader": "Boyko Borisov (dirigeant(e))",
+      "founded": "2006",
+      "spectrum": "Centre droit",
+      "ideologies": "Conservatisme libéral, Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Compétitivité et croissance, Sécurité et ordre public, Approfondir l'intégration européenne",
+      "description": "Parti de centre droit de l'ancien Premier ministre Boïko Borissov, arrivé en tête de la plupart des élections depuis 2009.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=GERB"
+    },
+    "ITN": {
+      "name": "There Is Such a People",
+      "leader": "Slavi Trifonov (dirigeant(e))",
+      "founded": "2020",
+      "spectrum": "Droite",
+      "ideologies": "Populisme, Conservatisme",
+      "priorities": "Lutte contre la corruption, Réforme démocratique",
+      "description": "Parti populiste fondé par le présentateur et chanteur Slavi Trifonov, en campagne contre l'establishment politique.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=There%20Is%20Such%20a%20People"
+    },
+    "MECh": {
+      "name": "Morality, Unity, Honour",
+      "leader": "Radostin Vasilev (dirigeant(e))",
+      "founded": "2023",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme, Populisme",
+      "priorities": "Lutte contre la corruption, Réforme de la justice, Sécurité et ordre public",
+      "description": "Parti anticorruption entré au parlement pour la première fois en 2024.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Morality%2C%20Unity%2C%20Honour"
+    },
+    "Vazrazhdane": {
+      "name": "Vazrazhdane (Revival)",
+      "leader": "Kostadin Kostadinov (dirigeant(e))",
+      "founded": "2014",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Euroscepticisme, Populisme de droite",
+      "priorities": "Souveraineté nationale, Diplomatie avec la Russie, pas de livraisons d'armes, Identité nationale",
+      "description": "Parti nationaliste prorusse, opposé à l'euro, à l'OTAN et au soutien à l'Ukraine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Revival%20%28Bulgaria%29"
+    }
+  }
+}

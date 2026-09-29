@@ -1,0 +1,116 @@
+{
+  "name": "Irlanda — partiti irlandesi",
+  "short_name": "Irlanda",
+  "intro": "confrontarlo con i partiti politici irlandesi",
+  "results_title": "Accordo con i partiti irlandesi",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali dell'Irlanda: quelli rappresentati in parlamento (Dáil Éireann) e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimeter,Ireland",
+  "hemicycle_note": "Seggi in parlamento (Dáil Éireann) dopo le elezioni del 2024, disposti da sinistra a destra. Dati approssimativi. 174 membri.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "PBP–S": {
+      "name": "People Before Profit–Solidarity",
+      "leader": "",
+      "founded": "2015",
+      "spectrum": "Estrema sinistra",
+      "ideologies": "Socialismo democratico, Ecosocialismo",
+      "priorities": "Casa accessibile, Servizi pubblici, Neutralità militare",
+      "description": "Alleanza socialista centrata su casa, servizi pubblici e contrarietà ai legami con la NATO.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=People%20Before%20Profit%E2%80%93Solidarity"
+    },
+    "SF": {
+      "name": "Sinn Féin",
+      "leader": "Mary Lou McDonald (presidente)",
+      "founded": "1905",
+      "spectrum": "Sinistra",
+      "ideologies": "Repubblicanesimo irlandese, Socialismo democratico, Populismo di sinistra",
+      "priorities": "Unità irlandese, Casa accessibile, Sanità pubblica",
+      "description": "Partito repubblicano irlandese per l'unità dell'Irlanda, primo partito di opposizione, centrato su casa e sanità.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Sinn%20F%C3%A9in"
+    },
+    "Lab": {
+      "name": "Labour Party",
+      "leader": "Ivana Bacik (leader)",
+      "founded": "1912",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Europeismo",
+      "priorities": "Casa accessibile, Diritti e salari dei lavoratori, Sanità pubblica",
+      "description": "Il partito più antico d'Irlanda, socialdemocratico ed europeista.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Labour%20Party%20%28Ireland%29"
+    },
+    "SD": {
+      "name": "Social Democrats",
+      "leader": "Holly Cairns (leader)",
+      "founded": "2015",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Progressismo",
+      "priorities": "Sanità pubblica, Casa accessibile, Azione per il clima",
+      "description": "Socialdemocratici, partito di centrosinistra cresciuto nel 2024 su sanità e casa.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democrats%20%28Ireland%29"
+    },
+    "Greens": {
+      "name": "Green Party",
+      "leader": "Roderic O'Gorman (leader)",
+      "founded": "1981",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Ecologismo, Europeismo",
+      "priorities": "Azione per il clima, Servizi pubblici",
+      "description": "Il Partito Verde, al governo dal 2020 al 2024, che nel 2024 ha perso quasi tutti i seggi.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20Party%20%28Ireland%29"
+    },
+    "Volt": {
+      "name": "Volt Ireland",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "FF": {
+      "name": "Fianna Fáil",
+      "leader": "Micheál Martin (Primo ministro)",
+      "founded": "1926",
+      "spectrum": "Centro",
+      "ideologies": "Centrismo, Democrazia cristiana, Europeismo",
+      "priorities": "Casa accessibile, Competitività e crescita, Sanità pubblica",
+      "description": "Partito centrista del Taoiseach Micheál Martin, il più grande del Dáil dal 2024 e in coalizione con il Fine Gael.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fianna%20F%C3%A1il"
+    },
+    "FG": {
+      "name": "Fine Gael",
+      "leader": "Simon Harris (leader)",
+      "founded": "1933",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo liberale, Democrazia cristiana, Europeismo",
+      "priorities": "Competitività e crescita, Disciplina di bilancio, Maggiore integrazione europea",
+      "description": "Partito di centrodestra, europeista e favorevole alle imprese, al governo dal 2011.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fine%20Gael"
+    },
+    "Aontú": {
+      "name": "Aontú",
+      "leader": "Peadar Tóibín (leader)",
+      "founded": "2019",
+      "spectrum": "Destra",
+      "ideologies": "Repubblicanesimo irlandese, Conservatorismo sociale",
+      "priorities": "Unità irlandese, Tutela della vita e della famiglia, Ridurre l'immigrazione",
+      "description": "Partito repubblicano che unisce l'Irlanda unita a posizioni socialmente conservatrici, compresa l'opposizione all'aborto.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Aont%C3%BA"
+    },
+    "II": {
+      "name": "Independent Ireland",
+      "leader": "Michael Collins (leader)",
+      "founded": "2023",
+      "spectrum": "Destra",
+      "ideologies": "Populismo di destra, Contrarietà all'immigrazione",
+      "priorities": "Regioni e servizi rurali, Ridurre l'immigrazione, Neutralità militare",
+      "description": "Partito rurale e di destra fondato da deputati indipendenti, critico sulla politica migratoria.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Independent%20Ireland"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Dania — partie polityczne",
+  "short_name": "Dania",
+  "intro": "partie polityczne: Dania",
+  "results_title": "Zgodność z partiami — Dania",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,Denmark",
+  "hemicycle_note": "Mandaty w parlamencie (Folketing) po wyborach w 2022 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 179.",
+  "unaffiliated_label": "Inni"
+}

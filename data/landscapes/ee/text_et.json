@@ -1,0 +1,14 @@
+{
+  "name": "Eesti — erakonnad",
+  "short_name": "Eesti",
+  "intro": "erakonnad: Eesti",
+  "results_title": "Kokkulangevus erakondadega — Eesti",
+  "included_label": "Testis olevad erakonnad",
+  "inclusion_note": "Testis on peamised üleriigilised erakonnad: parlamendis esindatud ja arvamusküsitlustes märkimisväärse toetusega erakonnad. Seisukohad on koostajate hinnangud ja neid võib muuta.",
+  "details_title": "Lähemalt erakondadest",
+  "entity_label": "Erakond",
+  "leader_label": "Esimees/esimehed (2025)",
+  "hashtags": "Votimeter,Estonia",
+  "hemicycle_note": "Kohad parlamendis (Riigikogu) pärast 2023. aasta valimisi, vasakult paremale. Ligikaudne. Kohti kokku: 101. Kohtadeta erakonnad on lisatud nende küsitlustoetuse tõttu.",
+  "unaffiliated_label": "Muud"
+}

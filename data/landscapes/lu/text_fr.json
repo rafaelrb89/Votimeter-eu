@@ -1,0 +1,96 @@
+{
+  "name": "Luxembourg — partis luxembourgeois",
+  "short_name": "Luxembourg",
+  "intro": "le comparer aux partis politiques luxembourgeois",
+  "results_title": "Accord avec les partis luxembourgeois",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux du Luxembourg : ceux représentés au parlement (Chambre des Députés) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Luxembourg",
+  "hemicycle_note": "Sièges au parlement (Chambre des Députés) après les élections de 2023, disposés de gauche à droite. Approximatif. 60 membres.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "Lénk": {
+      "name": "déi Lénk",
+      "leader": "",
+      "founded": "1999",
+      "spectrum": "Extrême gauche",
+      "ideologies": "Socialisme démocratique, Écosocialisme",
+      "priorities": "Logement abordable, Taxer les grandes fortunes, Services publics",
+      "description": "La Gauche, parti socialiste démocratique axé sur le logement et la taxation du patrimoine.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Left%20%28Luxembourg%29"
+    },
+    "Gréng": {
+      "name": "déi gréng",
+      "leader": "",
+      "founded": "1983",
+      "spectrum": "Centre gauche",
+      "ideologies": "Écologie politique, Proeuropéisme",
+      "priorities": "Action climatique, Logement abordable, Services publics",
+      "description": "Les Verts, au gouvernement de 2013 à 2023.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Greens%20%28Luxembourg%29"
+    },
+    "LSAP": {
+      "name": "Lëtzebuerger Sozialistesch Aarbechterpartei",
+      "leader": "",
+      "founded": "1902",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Proeuropéisme",
+      "priorities": "Logement abordable, Droits et salaires des travailleurs, État-providence",
+      "description": "Parti ouvrier socialiste, principal parti de centre gauche, dans l'opposition depuis 2023.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Luxembourg%20Socialist%20Workers%27%20Party"
+    },
+    "Piraten": {
+      "name": "Piratepartei Lëtzebuerg",
+      "leader": "Sven Clement (dirigeant(e))",
+      "founded": "2009",
+      "spectrum": "Centre",
+      "ideologies": "Parti pirate, Libéralisme",
+      "priorities": "Transparence et droits numériques, Innovation numérique, Bien-être animal",
+      "description": "Parti pirate, axé sur la transparence, les droits numériques et le bien-être animal.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Pirate%20Party%20Luxembourg"
+    },
+    "Volt": {
+      "name": "Volt Luxembourg",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "DP": {
+      "name": "Demokratesch Partei",
+      "leader": "",
+      "founded": "1955",
+      "spectrum": "Centre droit",
+      "ideologies": "Libéralisme, Proeuropéisme",
+      "priorities": "Compétitivité et croissance, Éducation, Libertés civiles",
+      "description": "Parti démocratique de l'ancien Premier ministre Xavier Bettel, libéral et au gouvernement avec le CSV.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Democratic%20Party%20%28Luxembourg%29"
+    },
+    "CSV": {
+      "name": "Chrëschtlech-Sozial Vollekspartei",
+      "leader": "Luc Frieden (Premier ministre)",
+      "founded": "1944",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Proeuropéisme",
+      "priorities": "Logement abordable, Discipline budgétaire, Sécurité et ordre public",
+      "description": "Parti chrétien-social du Premier ministre Luc Frieden, premier parti du pays.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Social%20People%27s%20Party"
+    },
+    "ADR": {
+      "name": "Alternativ Demokratesch Reformpartei",
+      "leader": "",
+      "founded": "1987",
+      "spectrum": "Droite",
+      "ideologies": "Conservatisme national, Euroscepticisme modéré",
+      "priorities": "Langue et culture nationales, Identité nationale, Retraites et personnes âgées",
+      "description": "Parti réformiste alternatif démocratique, national-conservateur et attaché à la langue luxembourgeoise.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Alternative%20Democratic%20Reform%20Party"
+    }
+  }
+}

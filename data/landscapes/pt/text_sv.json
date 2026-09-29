@@ -1,0 +1,14 @@
+{
+  "name": "Portugal — politiska partier",
+  "short_name": "Portugal",
+  "intro": "de politiska partierna i Portugal",
+  "results_title": "Samstämmighet med partierna — Portugal",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,PortuguesePolitics",
+  "hemicycle_note": "Mandat i parlamentet (Assembleia da República) efter valet 2025, från vänster till höger. Ungefärligt. Antal mandat: 230. Partier utan mandat är med på grund av sitt stöd i opinionsmätningar.",
+  "unaffiliated_label": "Övriga"
+}

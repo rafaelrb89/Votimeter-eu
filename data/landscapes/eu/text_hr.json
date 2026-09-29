@@ -1,0 +1,14 @@
+{
+  "name": "Europska unija — klubovi zastupnika u Europskom parlamentu",
+  "short_name": "Europski parlament",
+  "intro": "klubovi zastupnika u Europskom parlamentu (saziv 2024. – 2029.)",
+  "results_title": "Podudarnost s klubovima u Europskom parlamentu",
+  "included_label": "Uključeni klubovi",
+  "inclusion_note": "Test uključuje sve klubove zastupnika u Europskom parlamentu u sazivu 2024. – 2029. Nezavisni zastupnici nisu uključeni. Stajališta odražavaju glavnu liniju stranaka članica; nacionalna izaslanstva u istom klubu mogu se znatno razlikovati.",
+  "details_title": "Više o klubovima",
+  "entity_label": "Klub zastupnika",
+  "leader_label": "Predsjednik/ci (2025.)",
+  "hashtags": "Votimeter,EuropeanParliament",
+  "hemicycle_note": "Mandati na početku saziva 2024. – 2029. (srpanj 2024.), slijeva nadesno kao u dvorani. 720 zastupnika.",
+  "unaffiliated_label": "Nezavisni zastupnici"
+}

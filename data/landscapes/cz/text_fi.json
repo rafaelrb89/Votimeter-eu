@@ -1,0 +1,14 @@
+{
+  "name": "Tšekki — poliittiset puolueet",
+  "short_name": "Tšekki",
+  "intro": "poliittiset puolueet: Tšekki",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Tšekki",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,Czechia",
+  "hemicycle_note": "Paikat parlamentissa (Poslanecká sněmovna) vuoden 2025 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 200. Paikattomat puolueet ovat mukana kannatuksensa vuoksi.",
+  "unaffiliated_label": "Muut"
+}

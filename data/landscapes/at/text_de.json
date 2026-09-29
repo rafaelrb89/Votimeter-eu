@@ -1,0 +1,86 @@
+{
+  "name": "Österreich — österreichischen Parteien",
+  "short_name": "Österreich",
+  "intro": "sie mit den österreichischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den österreichischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Österreichs: die im Parlament (Nationalrat) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Austria",
+  "hemicycle_note": "Sitze im Parlament (Nationalrat) nach der Wahl 2024, von links nach rechts angeordnet. Ungefähre Angaben. 183 Abgeordnete. Parteien ohne Sitze sind enthalten, weil sie in Umfragen relevant sind.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "KPÖ": {
+      "name": "Kommunistische Partei Österreichs",
+      "leader": "",
+      "founded": "1918",
+      "spectrum": "Linksaußen",
+      "ideologies": "Kommunismus, Demokratischer Sozialismus",
+      "priorities": "Bezahlbares Wohnen, Lebenshaltungskosten, Öffentliche Daseinsvorsorge",
+      "description": "Kommunistische Partei, die mit dem Thema Wohnen wiedererstarkt ist und seit 2021 Graz regiert; bundesweit liegt sie in Umfragen nahe der 4-Prozent-Hürde.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Communist%20Party%20of%20Austria"
+    },
+    "Grüne": {
+      "name": "Die Grünen",
+      "leader": "Leonore Gewessler (Vorsitz)",
+      "founded": "1986",
+      "spectrum": "Mitte-links",
+      "ideologies": "Grüne Politik, Progressivismus, Proeuropäisch",
+      "priorities": "Klimaschutz, Rechtsstaatlichkeit, Bürgerrechte",
+      "description": "Die österreichischen Grünen, 2020 bis 2025 Juniorpartner in der Regierung, mit Schwerpunkt auf Klimaschutz, Transparenz und Korruptionsbekämpfung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Greens%20%E2%80%93%20The%20Green%20Alternative"
+    },
+    "SPÖ": {
+      "name": "Sozialdemokratische Partei Österreichs",
+      "leader": "Andreas Babler (Vorsitz)",
+      "founded": "1889",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie",
+      "priorities": "Arbeitnehmerrechte und Löhne, Öffentliche Gesundheitsversorgung, Vermögensbesteuerung, Bezahlbares Wohnen",
+      "description": "Die österreichische Sozialdemokratie, seit 2025 mit ÖVP und NEOS in der Regierung; unter Andreas Babler fordert sie Vermögens- und Erbschaftssteuern und eine kürzere Arbeitswoche.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Austria"
+    },
+    "Volt": {
+      "name": "Volt Österreich",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "NEOS": {
+      "name": "NEOS – Das Neue Österreich",
+      "leader": "Beate Meinl-Reisinger (Vorsitz)",
+      "founded": "2012",
+      "spectrum": "Mitte",
+      "ideologies": "Liberalismus, Proeuropäisch",
+      "priorities": "Bildung, Haushaltsdisziplin, Vertiefte europäische Integration, Rechtsstaatlichkeit",
+      "description": "Liberale Partei, seit 2025 in der Regierung, die Bildungs- und Pensionsreformen, Transparenz und mehr europäische Integration vorantreibt.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=NEOS%20%28Austria%29"
+    },
+    "ÖVP": {
+      "name": "Österreichische Volkspartei",
+      "leader": "Christian Stocker (Vorsitz)",
+      "founded": "1945",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Christdemokratie, Liberaler Konservatismus",
+      "priorities": "Weniger Einwanderung, Wettbewerbsfähigkeit und Wachstum, Haushaltsdisziplin, Sicherheit und Ordnung",
+      "description": "Die christdemokratische Volkspartei, die mit Bundeskanzler Christian Stocker die Regierung führt; sie steht für strenge Asylregeln, niedrige Steuern und wirtschaftsfreundliche Politik.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Austrian%20People%27s%20Party"
+    },
+    "FPÖ": {
+      "name": "Freiheitliche Partei Österreichs",
+      "leader": "Herbert Kickl (Vorsitz)",
+      "founded": "1956",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalkonservatismus, Rechtspopulismus, Einwanderungskritik, Euroskeptizismus",
+      "priorities": "Remigration und geschlossene Grenzen, Nationale Souveränität, Militärische Neutralität, Lebenshaltungskosten",
+      "description": "Die rechte Freiheitliche Partei, 2024 mit ihrem besten Ergebnis stärkste Kraft; sie fordert „Remigration“, ein Ende der Russland-Sanktionen und strikte Neutralität.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20Party%20of%20Austria"
+    }
+  }
+}

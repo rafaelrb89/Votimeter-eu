@@ -1,0 +1,116 @@
+{
+  "name": "Griechenland — griechischen Parteien",
+  "short_name": "Griechenland",
+  "intro": "sie mit den griechischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den griechischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Griechenlands: die im Parlament (Vouli ton Ellinon) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Greece",
+  "hemicycle_note": "Sitze im Parlament (Vouli ton Ellinon) nach der Wahl 2023, von links nach rechts angeordnet. Ungefähre Angaben. 300 Abgeordnete. Parteien ohne Sitze sind enthalten, weil sie in Umfragen relevant sind.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "KKE": {
+      "name": "Kommounistiko Komma Elladas",
+      "leader": "Dimitris Koutsoumbas (Generalsekretär)",
+      "founded": "1918",
+      "spectrum": "Linksaußen",
+      "ideologies": "Kommunismus",
+      "priorities": "Arbeitnehmerrechte und Löhne, Öffentliche Daseinsvorsorge, Nationale Souveränität",
+      "description": "Orthodoxe Kommunistische Partei gegen EU und NATO mit einer disziplinierten Arbeiterbasis.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Communist%20Party%20of%20Greece"
+    },
+    "SYRIZA": {
+      "name": "SYRIZA",
+      "leader": "Sokratis Famellos (Vorsitz)",
+      "founded": "2004",
+      "spectrum": "Links",
+      "ideologies": "Demokratischer Sozialismus, Progressivismus, Proeuropäisch",
+      "priorities": "Öffentliche Daseinsvorsorge, Arbeitnehmerrechte und Löhne, Bezahlbares Wohnen",
+      "description": "Radikal linkes Bündnis, das 2015 bis 2019 unter Alexis Tsipras regierte und sich seither gespalten hat und Boden verlor.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Syriza"
+    },
+    "NA": {
+      "name": "Nea Aristera",
+      "leader": "",
+      "founded": "2024",
+      "spectrum": "Links",
+      "ideologies": "Demokratischer Sozialismus, Grüne Politik, Progressivismus",
+      "priorities": "Öffentliche Daseinsvorsorge, Klimaschutz, Bürgerrechte",
+      "description": "Neue Linke, 2024 von aus SYRIZA ausgetretenen Abgeordneten gegründet.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Left%20%28Greece%29"
+    },
+    "Plefsi": {
+      "name": "Plefsi Eleftherias",
+      "leader": "Zoe Konstantopoulou (Vorsitz)",
+      "founded": "2016",
+      "spectrum": "Links",
+      "ideologies": "Linkspopulismus, Souveränismus",
+      "priorities": "Justizreform, Korruptionsbekämpfung, Nationale Souveränität",
+      "description": "Kurs der Freiheit, eine linkspopulistische Partei unter der früheren Parlamentspräsidentin Zoi Konstantopoulou.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Course%20of%20Freedom"
+    },
+    "PASOK": {
+      "name": "PASOK–KINAL",
+      "leader": "Nikos Androulakis (Vorsitz)",
+      "founded": "1974",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Proeuropäisch",
+      "priorities": "Öffentliche Gesundheitsversorgung, Öffentliche Daseinsvorsorge, Vertiefte europäische Integration",
+      "description": "Die historische sozialistische Partei, in jüngsten Umfragen Zweite und wichtigste Oppositionskraft.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=PASOK%20%E2%80%93%20Movement%20for%20Change"
+    },
+    "Volt": {
+      "name": "Volt Greece",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "ND": {
+      "name": "Nea Dimokratia",
+      "leader": "Kyriakos Mitsotakis (Regierungschef(in))",
+      "founded": "1974",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Christdemokratie, Proeuropäisch",
+      "priorities": "Wettbewerbsfähigkeit und Wachstum, Verteidigung und Unterstützung der Ukraine, Weniger Einwanderung",
+      "description": "Nea Dimokratia von Ministerpräsident Kyriakos Mitsotakis, seit 2019 mit absoluter Mehrheit an der Regierung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Democracy%20%28Greece%29"
+    },
+    "Niki": {
+      "name": "Niki",
+      "leader": "Dimitris Natsios (Vorsitz)",
+      "founded": "2019",
+      "spectrum": "Rechts",
+      "ideologies": "Nationalkonservatismus, Konservatismus",
+      "priorities": "Christliche Werte, Traditionelle Familienwerte, Nationale Identität",
+      "description": "Sieg, eine christlich-orthodoxe konservative Partei.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Niki%20%28political%20party%29"
+    },
+    "EL": {
+      "name": "Elliniki Lysi",
+      "leader": "Kyriakos Velopoulos (Vorsitz)",
+      "founded": "2016",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Rechtspopulismus, Euroskeptizismus",
+      "priorities": "Weniger Einwanderung, Nationale Identität, Nationale Souveränität",
+      "description": "Griechische Lösung, eine nationalistische Partei unter Kyriakos Velopoulos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Greek%20Solution"
+    },
+    "Foni Logikis": {
+      "name": "Foni Logikis",
+      "leader": "Afroditi Latinopoulou (Vorsitz)",
+      "founded": "2016",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Einwanderungskritik, Konservatismus",
+      "priorities": "Weniger Einwanderung, Traditionelle Familienwerte, Sicherheit und Ordnung",
+      "description": "Stimme der Vernunft, eine rechtsextreme Partei, die 2024 ins Europaparlament einzog und zu den Patrioten für Europa gehört.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Voice%20of%20Reason%20%28Greece%29"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Europeiska unionen — grupper i Europaparlamentet",
+  "short_name": "Europaparlamentet",
+  "intro": "de politiska grupperna i Europaparlamentet (mandatperioden 2024–2029)",
+  "results_title": "Samstämmighet med grupperna i Europaparlamentet",
+  "included_label": "Grupper i testet",
+  "inclusion_note": "Testet omfattar alla politiska grupper i Europaparlamentet under mandatperioden 2024–2029. Grupplösa ledamöter ingår inte. Positionerna speglar medlemspartiernas huvudlinje; nationella delegationer i samma grupp kan skilja sig betydligt.",
+  "details_title": "Mer om grupperna",
+  "entity_label": "Politisk grupp",
+  "leader_label": "Ordförande (2025)",
+  "hashtags": "Votimeter,EuropeanParliament",
+  "hemicycle_note": "Mandat vid början av mandatperioden 2024–2029 (juli 2024), från vänster till höger som i kammaren. 720 ledamöter.",
+  "unaffiliated_label": "Grupplösa"
+}

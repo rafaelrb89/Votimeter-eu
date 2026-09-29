@@ -1,0 +1,14 @@
+{
+  "name": "Cypr — partie polityczne",
+  "short_name": "Cypr",
+  "intro": "partie polityczne: Cypr",
+  "results_title": "Zgodność z partiami — Cypr",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,Cyprus",
+  "hemicycle_note": "Mandaty w parlamencie (Vouli ton Antiprosopon) po wyborach w 2021 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 56. Nowsze wybory nie zostały tu jeszcze uwzględnione. Partie bez mandatów uwzględniono ze względu na poparcie w sondażach.",
+  "unaffiliated_label": "Inni"
+}

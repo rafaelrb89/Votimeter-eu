@@ -1,0 +1,14 @@
+{
+  "name": "Česko — politické strany",
+  "short_name": "Česko",
+  "intro": "politické strany: Česko",
+  "results_title": "Zhoda so stranami — Česko",
+  "included_label": "Zahrnuté strany",
+  "inclusion_note": "Test zahŕňa hlavné celoštátne strany: zastúpené v parlamente a tie, ktoré majú významnú podporu v prieskumoch. Postoje sú odhady tímu a môžu byť upravené.",
+  "details_title": "Viac o stranách",
+  "entity_label": "Strana",
+  "leader_label": "Predseda/predsedovia (2025)",
+  "hashtags": "Votimeter,Czechia",
+  "hemicycle_note": "Mandáty v parlamente (Poslanecká sněmovna) po voľbách v roku 2025, zľava doprava. Približne. Počet mandátov: 200. Strany bez mandátov sú zahrnuté pre podporu v prieskumoch.",
+  "unaffiliated_label": "Ostatní"
+}

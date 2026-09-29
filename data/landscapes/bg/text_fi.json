@@ -1,0 +1,14 @@
+{
+  "name": "Bulgaria — poliittiset puolueet",
+  "short_name": "Bulgaria",
+  "intro": "poliittiset puolueet: Bulgaria",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Bulgaria",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,Bulgaria",
+  "hemicycle_note": "Paikat parlamentissa (Narodno sabranie) vuoden 2024 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 240. Uudempia vaaleja ei ole vielä huomioitu.",
+  "unaffiliated_label": "Muut"
+}

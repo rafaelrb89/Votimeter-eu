@@ -1,0 +1,106 @@
+{
+  "name": "Eslovenia — partidos eslovenos",
+  "short_name": "Eslovenia",
+  "intro": "compararla con los partidos políticos eslovenos",
+  "results_title": "Coincidencia con los partidos eslovenos",
+  "included_label": "Partidos incluidos",
+  "inclusion_note": "El test incluye los principales partidos nacionales de Eslovenia: los representados en el parlamento (Državni zbor) y los que tienen un apoyo nacional relevante. Las posiciones son estimaciones del equipo y pueden revisarse.",
+  "details_title": "Más sobre los partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Slovenia",
+  "hemicycle_note": "Escaños en el parlamento (Državni zbor) tras las elecciones de 2022, ordenados de izquierda a derecha. Aproximado. 90 miembros. Unas elecciones más recientes aún no se reflejan en estos escaños; la lista incluye los partidos fuertes en las encuestas actuales. Los partidos sin escaños se incluyen porque tienen peso en las encuestas.",
+  "unaffiliated_label": "Otros",
+  "parties": {
+    "Levica": {
+      "name": "Levica",
+      "leader": "Luka Mesec (coordinador)",
+      "founded": "2017",
+      "spectrum": "Izquierda",
+      "ideologies": "Socialismo democrático, Ecosocialismo",
+      "priorities": "Vivienda asequible, Servicios públicos, Derechos y salarios de los trabajadores",
+      "description": "La Izquierda, partido socialista democrático en la coalición de gobierno desde 2022.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Left%20%28Slovenia%29"
+    },
+    "Vesna": {
+      "name": "Vesna – zelena stranka",
+      "leader": "",
+      "founded": "2021",
+      "spectrum": "Izquierda",
+      "ideologies": "Ecologismo, Progresismo",
+      "priorities": "Acción climática, Reforma democrática",
+      "description": "Vesna, un joven partido ecologista.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Vesna%20%E2%80%93%20Green%20Party"
+    },
+    "SD": {
+      "name": "Socialni demokrati",
+      "leader": "Matjaž Han (presidente)",
+      "founded": "1993",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Europeísmo",
+      "priorities": "Estado del bienestar, Pensiones y mayores, Derechos y salarios de los trabajadores",
+      "description": "Socialdemócratas, en la coalición de gobierno desde 2022.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democrats%20%28Slovenia%29"
+    },
+    "GS": {
+      "name": "Gibanje Svoboda",
+      "leader": "Robert Golob (presidente)",
+      "founded": "2021",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Ecologismo, Europeísmo",
+      "priorities": "Acción climática, Sanidad pública, Estado de derecho",
+      "description": "Movimiento Libertad de Robert Golob, partido liberal y ecologista que ganó con holgura las elecciones de 2022.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20Movement%20%28Slovenia%29"
+    },
+    "Volt": {
+      "name": "Volt Slovenija",
+      "leader": "Sección nacional de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeo, Progresismo",
+      "priorities": "Más integración europea, Acción climática, Innovación digital, Reforma democrática",
+      "description": "Sección nacional de Volt Europa, el primer partido paneuropeo. Todas las secciones comparten un mismo programa: una UE federal y más democrática, políticas basadas en la evidencia, economía de mercado con un Estado del bienestar fuerte y las transiciones digital y climática. En este test Volt tiene las mismas posiciones en todos los países.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "NSi": {
+      "name": "Nova Slovenija",
+      "leader": "Jernej Vrtovec (presidente)",
+      "founded": "2000",
+      "spectrum": "Centroderecha",
+      "ideologies": "Democracia cristiana, Conservadurismo, Europeísmo",
+      "priorities": "Valores de la familia tradicional, Bajar impuestos, Competitividad y crecimiento",
+      "description": "Nueva Eslovenia, partido democristiano.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=New%20Slovenia"
+    },
+    "Demokrati": {
+      "name": "Demokrati Anžeta Logarja",
+      "leader": "Anže Logar (presidente)",
+      "founded": "2024",
+      "spectrum": "Centroderecha",
+      "ideologies": "Conservadurismo liberal, Centrismo, Europeísmo",
+      "priorities": "Competitividad y crecimiento, Estado de derecho",
+      "description": "Los Demócratas de Anže Logar, partido de centroderecha fundado en 2024 por un exministro del SDS.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=An%C5%BEe%20Logar"
+    },
+    "SDS": {
+      "name": "Slovenska demokratska stranka",
+      "leader": "Janez Janša (presidente)",
+      "founded": "1989",
+      "spectrum": "Derecha",
+      "ideologies": "Conservadurismo nacional, Populismo de derecha, Contrario a la inmigración",
+      "priorities": "Reducir la inmigración, Seguridad y orden público, Identidad nacional",
+      "description": "Partido Democrático Esloveno del ex primer ministro Janez Janša, mayor partido de la oposición; populista de derechas aunque miembro del PPE.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Slovenian%20Democratic%20Party"
+    },
+    "Resni.ca": {
+      "name": "Resni.ca",
+      "leader": "Zoran Stevanović (presidente)",
+      "founded": "2021",
+      "spectrum": "Derecha",
+      "ideologies": "Populismo, Antisistema, Euroescepticismo",
+      "priorities": "Soberanía nacional, Diplomacia con Rusia, sin envío de armas, Reforma democrática",
+      "description": "Resni.ca («Verdad»), partido antisistema surgido de la oposición a las medidas contra la COVID.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Resni.ca"
+    }
+  }
+}

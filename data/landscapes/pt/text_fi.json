@@ -1,0 +1,14 @@
+{
+  "name": "Portugali — poliittiset puolueet",
+  "short_name": "Portugali",
+  "intro": "poliittiset puolueet: Portugali",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Portugali",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,PortuguesePolitics",
+  "hemicycle_note": "Paikat parlamentissa (Assembleia da República) vuoden 2025 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 230. Paikattomat puolueet ovat mukana kannatuksensa vuoksi.",
+  "unaffiliated_label": "Muut"
+}

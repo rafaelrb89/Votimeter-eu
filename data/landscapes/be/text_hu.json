@@ -1,0 +1,14 @@
+{
+  "name": "Belgium — politikai pártok",
+  "short_name": "Belgium",
+  "intro": "politikai pártok: Belgium",
+  "results_title": "Egyezés a pártokkal — Belgium",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Belgium",
+  "hemicycle_note": "Mandátumok a parlamentben (Kamer / Chambre) a 2024. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 150.",
+  "unaffiliated_label": "Egyéb"
+}

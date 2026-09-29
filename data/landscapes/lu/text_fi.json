@@ -1,0 +1,14 @@
+{
+  "name": "Luxemburg — poliittiset puolueet",
+  "short_name": "Luxemburg",
+  "intro": "poliittiset puolueet: Luxemburg",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Luxemburg",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,Luxembourg",
+  "hemicycle_note": "Paikat parlamentissa (Chambre des Députés) vuoden 2023 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 60.",
+  "unaffiliated_label": "Muut"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Dinamarca — partidos daneses",
+  "short_name": "Dinamarca",
+  "intro": "compararla con los partidos políticos daneses",
+  "results_title": "Coincidencia con los partidos daneses",
+  "included_label": "Partidos incluidos",
+  "inclusion_note": "El test incluye los principales partidos nacionales de Dinamarca: los representados en el parlamento (Folketing) y los que tienen un apoyo nacional relevante. Las posiciones son estimaciones del equipo y pueden revisarse.",
+  "details_title": "Más sobre los partidos",
+  "entity_label": "Partido",
+  "leader_label": "Líder(es) (ref. 2025)",
+  "hashtags": "Votimeter,Denmark",
+  "hemicycle_note": "Escaños en el parlamento (Folketing) tras las elecciones de 2022, ordenados de izquierda a derecha. Aproximado. 179 miembros.",
+  "unaffiliated_label": "Otros",
+  "parties": {
+    "EL": {
+      "name": "Enhedslisten",
+      "leader": "",
+      "founded": "1989",
+      "spectrum": "Extrema izquierda",
+      "ideologies": "Socialismo democrático, Ecosocialismo",
+      "priorities": "Estado del bienestar, Acción climática, Gravar las grandes fortunas",
+      "description": "Alianza Rojiverde, partido socialista y ecologista de dirección colectiva, que apoya a Ucrania pero critica la OTAN.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Red%E2%80%93Green%20Alliance%20%28Denmark%29"
+    },
+    "SF": {
+      "name": "Socialistisk Folkeparti",
+      "leader": "Pia Olsen Dyhr (presidente)",
+      "founded": "1959",
+      "spectrum": "Izquierda",
+      "ideologies": "Ecologismo, Socialismo democrático, Europeísmo",
+      "priorities": "Acción climática, Estado del bienestar, Educación",
+      "description": "Partido Popular Socialista, verde y de izquierdas, el más votado en Dinamarca en las europeas de 2024, que une bienestar, clima y apoyo firme a Ucrania.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20Left%20%28Denmark%29"
+    },
+    "ALT": {
+      "name": "Alternativet",
+      "leader": "Franciska Rosenkilde (presidente)",
+      "founded": "2013",
+      "spectrum": "Izquierda",
+      "ideologies": "Ecologismo, Progresismo",
+      "priorities": "Acción climática, Bienestar animal, Reforma democrática",
+      "description": "Partido ecologista que quiere dejar atrás el crecimiento como objetivo de la política.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Alternative%20%28Denmark%29"
+    },
+    "S": {
+      "name": "Socialdemokratiet",
+      "leader": "Mette Frederiksen (Primer ministro)",
+      "founded": "1871",
+      "spectrum": "Centroizquierda",
+      "ideologies": "Socialdemocracia, Atlantismo",
+      "priorities": "Estado del bienestar, Reducir la inmigración, Defensa y apoyo a Ucrania, Sanidad pública",
+      "description": "Los socialdemócratas de la primera ministra Mette Frederiksen combinan un Estado del bienestar fuerte con una de las políticas migratorias más estrictas de Europa.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democrats%20%28Denmark%29"
+    },
+    "RV": {
+      "name": "Radikale Venstre",
+      "leader": "Martin Lidegaard (presidente)",
+      "founded": "1905",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Europeísmo",
+      "priorities": "Educación, Acción climática, Más integración europea",
+      "description": "Partido socioliberal, europeísta y liberal en inmigración.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Danish%20Social%20Liberal%20Party"
+    },
+    "Volt": {
+      "name": "Volt Danmark",
+      "leader": "Sección nacional de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo social, Federalismo europeo, Progresismo",
+      "priorities": "Más integración europea, Acción climática, Innovación digital, Reforma democrática",
+      "description": "Sección nacional de Volt Europa, el primer partido paneuropeo. Todas las secciones comparten un mismo programa: una UE federal y más democrática, políticas basadas en la evidencia, economía de mercado con un Estado del bienestar fuerte y las transiciones digital y climática. En este test Volt tiene las mismas posiciones en todos los países.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "M": {
+      "name": "Moderaterne",
+      "leader": "Lars Løkke Rasmussen (presidente)",
+      "founded": "2022",
+      "spectrum": "Centro",
+      "ideologies": "Centrismo, Liberalismo, Europeísmo",
+      "priorities": "Competitividad y crecimiento, Estado del bienestar, Más integración europea",
+      "description": "Partido centrista del ex primer ministro Lars Løkke Rasmussen, en el Gobierno transversal desde 2022.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Moderates%20%28Denmark%29"
+    },
+    "V": {
+      "name": "Venstre",
+      "leader": "Troels Lund Poulsen (presidente)",
+      "founded": "1870",
+      "spectrum": "Centroderecha",
+      "ideologies": "Liberalismo, Liberalismo económico, Liberalismo agrario",
+      "priorities": "Competitividad y crecimiento, Agricultores y mundo rural, Defensa y apoyo a Ucrania",
+      "description": "Partido Liberal, fuerza tradicional del centroderecha danés, en el Gobierno con los socialdemócratas desde 2022.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Venstre%20%28Denmark%29"
+    },
+    "K": {
+      "name": "Det Konservative Folkeparti",
+      "leader": "Mona Juul (presidente)",
+      "founded": "1916",
+      "spectrum": "Centroderecha",
+      "ideologies": "Conservadurismo liberal",
+      "priorities": "Seguridad y orden público, Bajar impuestos, Defensa y apoyo a Ucrania",
+      "description": "Partido Popular Conservador, liberal-conservador y firmemente pro-OTAN.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Conservative%20People%27s%20Party%20%28Denmark%29"
+    },
+    "LA": {
+      "name": "Liberal Alliance",
+      "leader": "Alex Vanopslagh (presidente)",
+      "founded": "2007",
+      "spectrum": "Derecha",
+      "ideologies": "Libertarismo, Liberalismo económico",
+      "priorities": "Bajar impuestos, Menos burocracia, Educación",
+      "description": "Partido liberal clásico popular entre los jóvenes, que pide impuestos mucho más bajos y un Estado más pequeño.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Liberal%20Alliance%20%28Denmark%29"
+    },
+    "DD": {
+      "name": "Danmarksdemokraterne",
+      "leader": "Inger Støjberg (presidente)",
+      "founded": "2022",
+      "spectrum": "Derecha",
+      "ideologies": "Conservadurismo nacional, Contrario a la inmigración, Agrarismo",
+      "priorities": "Reducir la inmigración, Regiones y servicios rurales, Seguridad y orden público",
+      "description": "Demócratas de Dinamarca, de Inger Støjberg, partido de derechas centrado en la Dinamarca rural y una inmigración estricta.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Denmark%20Democrats"
+    },
+    "DF": {
+      "name": "Dansk Folkeparti",
+      "leader": "Morten Messerschmidt (presidente)",
+      "founded": "1995",
+      "spectrum": "Derecha a extrema derecha",
+      "ideologies": "Nacionalismo, Populismo de derecha, Euroescepticismo, Contrario a la inmigración",
+      "priorities": "Reducir la inmigración, Estado del bienestar, Identidad nacional",
+      "description": "Partido Popular Danés, nacionalista y contrario a la inmigración, que une bienestar para los mayores y euroescepticismo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Danish%20People%27s%20Party"
+    }
+  }
+}

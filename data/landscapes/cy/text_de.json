@@ -1,0 +1,106 @@
+{
+  "name": "Zypern — zyprischen Parteien",
+  "short_name": "Zypern",
+  "intro": "sie mit den zyprischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den zyprischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Zyperns: die im Parlament (Vouli ton Antiprosopon) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Cyprus",
+  "hemicycle_note": "Sitze im Parlament (Vouli ton Antiprosopon) nach der Wahl 2021, von links nach rechts angeordnet. Ungefähre Angaben. 56 Abgeordnete. Eine neuere Wahl ist in dieser Sitzverteilung noch nicht berücksichtigt; die Liste enthält Parteien, die in aktuellen Umfragen stark sind. Parteien ohne Sitze sind enthalten, weil sie in Umfragen relevant sind.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "AKEL": {
+      "name": "AKEL",
+      "leader": "Stefanos Stefanou (Generalsekretär)",
+      "founded": "1926",
+      "spectrum": "Linksaußen",
+      "ideologies": "Kommunismus, Demokratischer Sozialismus",
+      "priorities": "Wiedervereinigung Zyperns, Arbeitnehmerrechte und Löhne, Öffentliche Daseinsvorsorge",
+      "description": "Kommunistisch geprägte Partei, eine der beiden größten Zyperns, die die Wiedervereinigung mit der türkisch-zyprischen Gemeinschaft entschieden unterstützt.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Progressive%20Party%20of%20Working%20People"
+    },
+    "Greens": {
+      "name": "Movement of Ecologists – Citizens' Cooperation",
+      "leader": "",
+      "founded": "1996",
+      "spectrum": "Mitte-links",
+      "ideologies": "Grüne Politik, Progressivismus",
+      "priorities": "Klimaschutz, Korruptionsbekämpfung",
+      "description": "Die zyprische Grünen-Partei mit Fokus auf Umwelt, Wasser und gute Regierungsführung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Movement%20of%20Ecologists%20%E2%80%93%20Citizens%27%20Cooperation"
+    },
+    "EDEK": {
+      "name": "Movement for Social Democracy (EDEK)",
+      "leader": "",
+      "founded": "1969",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Nationalismus",
+      "priorities": "Öffentliche Daseinsvorsorge, Nationale Souveränität",
+      "description": "Sozialdemokratische Partei mit harter Linie in der Zypernfrage.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Movement%20for%20Social%20Democracy%20%28Cyprus%29"
+    },
+    "Volt": {
+      "name": "Volt Cyprus",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "DIKO": {
+      "name": "Democratic Party (DIKO)",
+      "leader": "Nikolas Papadopoulos (Vorsitz)",
+      "founded": "1976",
+      "spectrum": "Mitte",
+      "ideologies": "Zentrismus, Nationalismus",
+      "priorities": "Nationale Souveränität, Renten und ältere Menschen",
+      "description": "Zentristische Partei und häufiger Königsmacher, skeptisch gegenüber UN-Wiedervereinigungsplänen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Democratic%20Party%20%28Cyprus%29"
+    },
+    "ALMA": {
+      "name": "ALMA – Citizens for Cyprus",
+      "leader": "Odysseas Michaelides (Gründer)",
+      "founded": "2024",
+      "spectrum": "Mitte",
+      "ideologies": "Zentrismus, Anti-Establishment",
+      "priorities": "Korruptionsbekämpfung, Rechtsstaatlichkeit, Transparenz und digitale Rechte",
+      "description": "Antikorruptionspartei des früheren Generalrechnungsprüfers Odysseas Michaelides.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Odysseas%20Michaelides"
+    },
+    "DD": {
+      "name": "Direct Democracy",
+      "leader": "Fidias Panayiotou (Gründer)",
+      "founded": "2025",
+      "spectrum": "Mitte",
+      "ideologies": "Populismus, Anti-Establishment",
+      "priorities": "Direkte Demokratie, Transparenz und digitale Rechte",
+      "description": "Bewegung des YouTubers Fidias Panayiotou, 2024 als Unabhängiger ins EU-Parlament gewählt, der Bürger online über jede Entscheidung abstimmen lassen will.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Fidias%20Panayiotou"
+    },
+    "DISY": {
+      "name": "Democratic Rally (DISY)",
+      "leader": "Annita Demetriou (Vorsitz)",
+      "founded": "1976",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Christdemokratie, Proeuropäisch",
+      "priorities": "Wiedervereinigung Zyperns, Wettbewerbsfähigkeit und Wachstum, Vertiefte europäische Integration",
+      "description": "Die wichtigste Mitte-rechts-Partei, proeuropäisch und wirtschaftsfreundlich, historisch offen für eine föderale Lösung der Zypernfrage.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Democratic%20Rally"
+    },
+    "ELAM": {
+      "name": "ELAM (National Popular Front)",
+      "leader": "Christos Christou (Vorsitz)",
+      "founded": "2008",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Einwanderungskritik",
+      "priorities": "Weniger Einwanderung, Nationale Identität, Nationale Souveränität",
+      "description": "Nationalistische Partei mit Wurzeln in der griechischen Goldenen Morgenröte, die mit dem Migrationsthema rasch wuchs.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=National%20Popular%20Front"
+    }
+  }
+}

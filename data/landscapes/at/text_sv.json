@@ -1,0 +1,14 @@
+{
+  "name": "Österrike — politiska partier",
+  "short_name": "Österrike",
+  "intro": "de politiska partierna i Österrike",
+  "results_title": "Samstämmighet med partierna — Österrike",
+  "included_label": "Partier i testet",
+  "inclusion_note": "Testet omfattar de viktigaste rikspartierna: de som är representerade i parlamentet och de som har märkbart stöd i opinionsmätningar. Positionerna är teamets bedömningar och kan revideras.",
+  "details_title": "Mer om partierna",
+  "entity_label": "Parti",
+  "leader_label": "Partiledare (2025)",
+  "hashtags": "Votimeter,Austria",
+  "hemicycle_note": "Mandat i parlamentet (Nationalrat) efter valet 2024, från vänster till höger. Ungefärligt. Antal mandat: 183. Partier utan mandat är med på grund av sitt stöd i opinionsmätningar.",
+  "unaffiliated_label": "Övriga"
+}

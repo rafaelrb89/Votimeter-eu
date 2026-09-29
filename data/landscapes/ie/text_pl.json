@@ -1,0 +1,14 @@
+{
+  "name": "Irlandia — partie polityczne",
+  "short_name": "Irlandia",
+  "intro": "partie polityczne: Irlandia",
+  "results_title": "Zgodność z partiami — Irlandia",
+  "included_label": "Uwzględnione partie",
+  "inclusion_note": "Test obejmuje najważniejsze partie ogólnokrajowe: reprezentowane w parlamencie oraz te, które mają istotne poparcie w sondażach. Stanowiska są szacunkami zespołu i mogą zostać zmienione.",
+  "details_title": "Więcej o partiach",
+  "entity_label": "Partia",
+  "leader_label": "Lider(zy) (stan na 2025 r.)",
+  "hashtags": "Votimeter,Ireland",
+  "hemicycle_note": "Mandaty w parlamencie (Dáil Éireann) po wyborach w 2024 r., od lewej do prawej. Dane przybliżone. Liczba mandatów: 174.",
+  "unaffiliated_label": "Inni"
+}

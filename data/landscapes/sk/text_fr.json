@@ -1,0 +1,106 @@
+{
+  "name": "Slovaquie — partis slovaques",
+  "short_name": "Slovaquie",
+  "intro": "le comparer aux partis politiques slovaques",
+  "results_title": "Accord avec les partis slovaques",
+  "included_label": "Partis inclus",
+  "inclusion_note": "Le test inclut les principaux partis nationaux de Slovaquie : ceux représentés au parlement (Národná rada) et ceux qui disposent d'une audience nationale significative. Les positions sont des estimations de l'équipe et peuvent être révisées.",
+  "details_title": "En savoir plus sur les partis",
+  "entity_label": "Parti",
+  "leader_label": "Dirigeant(e)(s) (réf. 2025)",
+  "hashtags": "Votimeter,Slovakia",
+  "hemicycle_note": "Sièges au parlement (Národná rada) après les élections de 2023, disposés de gauche à droite. Approximatif. 150 membres. Les partis sans siège sont inclus car ils pèsent dans les sondages.",
+  "unaffiliated_label": "Autres",
+  "parties": {
+    "PS": {
+      "name": "Progresívne Slovensko",
+      "leader": "Michal Šimečka (président(e))",
+      "founded": "2017",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Progressisme, Proeuropéisme",
+      "priorities": "État de droit, Approfondir l'intégration européenne, Éducation",
+      "description": "Slovaquie progressiste, principal parti d'opposition, libéral et proeuropéen, en tête des sondages récents.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Progressive%20Slovakia"
+    },
+    "Volt": {
+      "name": "Volt Slovensko",
+      "leader": "Branche nationale de Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centre",
+      "ideologies": "Libéralisme social, Fédéralisme européen, Progressisme",
+      "priorities": "Approfondir l'intégration européenne, Action climatique, Innovation numérique, Réforme démocratique",
+      "description": "Branche nationale de Volt Europa, le premier parti paneuropéen. Toutes les branches partagent un même programme : une UE fédérale et plus démocratique, des politiques fondées sur les données, une économie de marché avec un État social fort et les transitions numérique et climatique. Volt a les mêmes positions dans tous les pays de ce test.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Hlas": {
+      "name": "Hlas – sociálna demokracia",
+      "leader": "Matúš Šutaj Eštok (président(e))",
+      "founded": "2020",
+      "spectrum": "Centre gauche",
+      "ideologies": "Social-démocratie, Conservatisme social",
+      "priorities": "État-providence, Retraites et personnes âgées, Sécurité et ordre public",
+      "description": "Voix – Social-démocratie, scission du Smer aujourd'hui au gouvernement avec lui.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Voice%20%E2%80%93%20Social%20Democracy"
+    },
+    "Smer": {
+      "name": "Smer – sociálna demokracia",
+      "leader": "Robert Fico (Premier ministre)",
+      "founded": "1999",
+      "spectrum": "Gauche",
+      "ideologies": "Populisme de gauche, Conservatisme social, Souverainisme",
+      "priorities": "État-providence, Souveraineté nationale, Diplomatie avec la Russie, pas de livraisons d'armes",
+      "description": "Le parti de Robert Fico, populiste de gauche en économie et nationaliste sur le plan culturel, opposé à l'aide militaire à l'Ukraine et en conflit avec l'UE sur l'État de droit.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Direction%20%E2%80%93%20Social%20Democracy"
+    },
+    "SaS": {
+      "name": "Sloboda a Solidarita",
+      "leader": "Branislav Gröhling (président(e))",
+      "founded": "2009",
+      "spectrum": "Centre droit",
+      "ideologies": "Libertarianisme, Libéralisme économique",
+      "priorities": "Baisse des impôts, Moins de bureaucratie, Éducation",
+      "description": "Liberté et solidarité, parti libéral classique pour des impôts bas et moins de bureaucratie.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20and%20Solidarity"
+    },
+    "KDH": {
+      "name": "Kresťanskodemokratické hnutie",
+      "leader": "Milan Majerský (président(e))",
+      "founded": "1990",
+      "spectrum": "Centre droit",
+      "ideologies": "Démocratie chrétienne, Conservatisme",
+      "priorities": "Valeurs familiales traditionnelles, Valeurs chrétiennes, Régions et services ruraux",
+      "description": "Mouvement chrétien-démocrate, conservateur sur les questions de société et proeuropéen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democratic%20Movement"
+    },
+    "Slovensko": {
+      "name": "Hnutie Slovensko",
+      "leader": "Igor Matovič (dirigeant(e))",
+      "founded": "2011",
+      "spectrum": "Centre droit",
+      "ideologies": "Populisme, Antisystème",
+      "priorities": "Lutte contre la corruption, Réforme de la justice",
+      "description": "Mouvement Slovaquie (ex-OĽaNO) de l'ancien Premier ministre Igor Matovič, parti populiste anticorruption.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Slovakia%20%28political%20party%29"
+    },
+    "SNS": {
+      "name": "Slovenská národná strana",
+      "leader": "Andrej Danko (président(e))",
+      "founded": "1990",
+      "spectrum": "Droite à extrême droite",
+      "ideologies": "Nationalisme, Conservatisme national",
+      "priorities": "Identité nationale, Souveraineté nationale, Valeurs chrétiennes",
+      "description": "Parti national slovaque, partenaire nationaliste minoritaire du gouvernement de Robert Fico.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Slovak%20National%20Party"
+    },
+    "Republika": {
+      "name": "Republika",
+      "leader": "Milan Uhrík (président(e))",
+      "founded": "2021",
+      "spectrum": "Extrême droite",
+      "ideologies": "Nationalisme, Euroscepticisme, Populisme de droite",
+      "priorities": "Souveraineté nationale, Diplomatie avec la Russie, pas de livraisons d'armes, Réduire l'immigration",
+      "description": "République, parti d'extrême droite qui a manqué de peu le parlement en 2023 mais monte dans les sondages ; opposé à l'aide à l'Ukraine et aux sanctions contre la Russie.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Republic%20%28Slovakia%29"
+    }
+  }
+}

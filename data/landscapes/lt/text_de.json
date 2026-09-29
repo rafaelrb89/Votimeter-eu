@@ -1,0 +1,96 @@
+{
+  "name": "Litauen — litauischen Parteien",
+  "short_name": "Litauen",
+  "intro": "sie mit den litauischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den litauischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Litauens: die im Parlament (Seimas) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Lithuania",
+  "hemicycle_note": "Sitze im Parlament (Seimas) nach der Wahl 2024, von links nach rechts angeordnet. Ungefähre Angaben. 141 Abgeordnete. Parteien ohne Sitze sind enthalten, weil sie in Umfragen relevant sind.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "LSDP": {
+      "name": "Lietuvos socialdemokratų partija",
+      "leader": "Mindaugas Sinkevičius (Vorsitz)",
+      "founded": "1896",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Atlantizismus",
+      "priorities": "Sozialstaat, Öffentliche Gesundheitsversorgung, Verteidigung und Unterstützung der Ukraine",
+      "description": "Sozialdemokratische Partei, klare Siegerin der Wahl 2024 und Regierungsführerin.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Lithuania"
+    },
+    "DSVL": {
+      "name": "Demokratų sąjunga „Vardan Lietuvos“",
+      "leader": "Saulius Skvernelis (Vorsitz)",
+      "founded": "2022",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Zentrismus",
+      "priorities": "Sozialstaat, Regionen und ländliche Versorgung, Renten und ältere Menschen",
+      "description": "Union der Demokraten „Für Litauen“, eine Mitte-links-Partei des früheren Ministerpräsidenten Saulius Skvernelis.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Union%20of%20Democrats%20%22For%20Lithuania%22"
+    },
+    "LVŽS": {
+      "name": "Lietuvos valstiečių ir žaliųjų sąjunga",
+      "leader": "Ramūnas Karbauskis (Vorsitz)",
+      "founded": "2001",
+      "spectrum": "Mitte",
+      "ideologies": "Agrarpolitik, Sozialkonservatismus",
+      "priorities": "Landwirtschaft und ländlicher Raum, Traditionelle Familienwerte, Renten und ältere Menschen",
+      "description": "Bund der Bauern und Grünen, agrarisch und gesellschaftlich konservativ, wirtschaftlich eher links.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Lithuanian%20Farmers%20and%20Greens%20Union"
+    },
+    "Volt": {
+      "name": "Volt Lietuva",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "LP": {
+      "name": "Laisvės partija",
+      "leader": "",
+      "founded": "2019",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Progressivismus",
+      "priorities": "Bürgerrechte, Bildung, Vertiefte europäische Integration",
+      "description": "Freiheitspartei, gesellschaftsliberal, die sich für gleichgeschlechtliche Partnerschaften und Drogenentkriminalisierung einsetzte; 2024 verlor sie ihre Sitze.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Freedom%20Party%20%28Lithuania%29"
+    },
+    "LS": {
+      "name": "Liberalų sąjūdis",
+      "leader": "",
+      "founded": "2006",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberalismus, Wirtschaftsliberalismus",
+      "priorities": "Wettbewerbsfähigkeit und Wachstum, Haushaltsdisziplin, Bürgerrechte",
+      "description": "Liberale Bewegung, eine klassisch-liberale Partei.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Liberals%27%20Movement%20%28Lithuania%29"
+    },
+    "TS-LKD": {
+      "name": "Tėvynės sąjunga – Lietuvos krikščionys demokratai",
+      "leader": "",
+      "founded": "1993",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Christdemokratie, Atlantizismus",
+      "priorities": "Verteidigung und Unterstützung der Ukraine, Vertiefte europäische Integration, Haushaltsdisziplin",
+      "description": "Vaterlandsbund – Christdemokraten, die wichtigste Mitte-rechts-Partei, hart gegenüber Russland.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Homeland%20Union"
+    },
+    "NA": {
+      "name": "Nemuno aušra",
+      "leader": "Remigijus Žemaitaitis (Vorsitz)",
+      "founded": "2024",
+      "spectrum": "Rechts",
+      "ideologies": "Rechtspopulismus, Nationalismus",
+      "priorities": "Lebenshaltungskosten, Korruptionsbekämpfung, Nationale Souveränität",
+      "description": "Morgenröte der Memel, eine 2024 von Remigijus Žemaitaitis gegründete nationalpopulistische Partei, bei ihrer ersten Wahl Dritte und nun in der Regierung.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Dawn%20of%20Nemunas"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Italia — poliittiset puolueet",
+  "short_name": "Italia",
+  "intro": "poliittiset puolueet: Italia",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Italia",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,ItalianPolitics",
+  "hemicycle_note": "Paikat parlamentissa (Camera dei deputati) vuoden 2022 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 400.",
+  "unaffiliated_label": "Muut"
+}

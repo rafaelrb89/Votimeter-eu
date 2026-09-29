@@ -1,0 +1,14 @@
+{
+  "name": "Itálie — politické strany",
+  "short_name": "Itálie",
+  "intro": "politické strany: Itálie",
+  "results_title": "Shoda se stranami — Itálie",
+  "included_label": "Zahrnuté strany",
+  "inclusion_note": "Test zahrnuje hlavní celostátní strany: zastoupené v parlamentu a ty, které mají významnou podporu v průzkumech. Postoje jsou odhady týmu a mohou být upraveny.",
+  "details_title": "Více o stranách",
+  "entity_label": "Strana",
+  "leader_label": "Předseda/předsedové (2025)",
+  "hashtags": "Votimeter,ItalianPolitics",
+  "hemicycle_note": "Mandáty v parlamentu (Camera dei deputati) po volbách v roce 2022, zleva doprava. Přibližně. Počet mandátů: 400.",
+  "unaffiliated_label": "Ostatní"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Svédország — politikai pártok",
+  "short_name": "Svédország",
+  "intro": "politikai pártok: Svédország",
+  "results_title": "Egyezés a pártokkal — Svédország",
+  "included_label": "Szereplő pártok",
+  "inclusion_note": "A teszt a legfontosabb országos pártokat tartalmazza: a parlamentben képviselteket és azokat, amelyek jelentős támogatottságot mutatnak a felmérésekben. Az álláspontok a csapat becslései, és módosíthatók.",
+  "details_title": "Bővebben a pártokról",
+  "entity_label": "Párt",
+  "leader_label": "Elnök(ök) (2025)",
+  "hashtags": "Votimeter,Sweden",
+  "hemicycle_note": "Mandátumok a parlamentben (Riksdag) a 2022. évi választás után, balról jobbra. Közelítő adatok. Mandátumok száma: 349. Egy újabb választás eredménye itt még nem szerepel.",
+  "unaffiliated_label": "Egyéb"
+}

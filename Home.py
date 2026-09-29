@@ -128,7 +128,7 @@ def show_intro():
             start_test(all_ids, "full")
         st.markdown("</div>", unsafe_allow_html=True)
     st.write("---")
-    st.markdown(f"**{lt['included_label']}:** " + " | ".join(f"[{p.code}]({p.url})" for p in landscape.parties))
+    st.markdown(f"**{lt['included_label']}:** " + " | ".join(f"[{p.code}]({p.url or p.details.get('wiki_url', '#')})" for p in landscape.parties))
     st.caption(lt["inclusion_note"])
     st.caption(t["statements_note"])
     st.caption("")
@@ -286,7 +286,8 @@ def show_results():
             st.markdown(f"**{t['priorities_label']}:** {d.get('priorities', na)}")
             st.markdown(f"**{t['description_label']}:** {d.get('description', na)}")
             st.markdown(f"**{t['links_label']}:**")
-            st.markdown(f"- [{t['official_site']}]({party.url})")
+            if party.url:
+                st.markdown(f"- [{t['official_site']}]({party.url})")
             if d.get("program_url"):
                 st.markdown(f"- [{t['program_link']}]({d['program_url']})")
             if d.get("wiki_url"):

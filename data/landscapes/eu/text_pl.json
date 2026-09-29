@@ -1,0 +1,14 @@
+{
+  "name": "Unia Europejska — grupy w Parlamencie Europejskim",
+  "short_name": "Parlament Europejski",
+  "intro": "grupy polityczne w Parlamencie Europejskim (kadencja 2024–2029)",
+  "results_title": "Zgodność z grupami w Parlamencie Europejskim",
+  "included_label": "Uwzględnione grupy",
+  "inclusion_note": "Test obejmuje wszystkie grupy polityczne Parlamentu Europejskiego w kadencji 2024–2029. Posłowie niezrzeszeni nie zostali uwzględnieni. Stanowiska odzwierciedlają główną linię partii członkowskich; delegacje krajowe w tej samej grupie mogą się znacznie różnić.",
+  "details_title": "Więcej o grupach",
+  "entity_label": "Grupa polityczna",
+  "leader_label": "Przewodniczący (stan na 2025 r.)",
+  "hashtags": "Votimeter,EuropeanParliament",
+  "hemicycle_note": "Mandaty na początku kadencji 2024–2029 (lipiec 2024), od lewej do prawej jak na sali obrad. 720 posłów.",
+  "unaffiliated_label": "Niezrzeszeni"
+}

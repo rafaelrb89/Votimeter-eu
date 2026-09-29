@@ -1,0 +1,96 @@
+{
+  "name": "Estland — estnischen Parteien",
+  "short_name": "Estland",
+  "intro": "sie mit den estnischen Parteien zu vergleichen",
+  "results_title": "Übereinstimmung mit den estnischen Parteien",
+  "included_label": "Enthaltene Parteien",
+  "inclusion_note": "Der Test umfasst die wichtigsten nationalen Parteien Estlands: die im Parlament (Riigikogu) vertretenen und jene mit nennenswerter landesweiter Unterstützung. Die Positionen sind Schätzungen des Teams und können überarbeitet werden.",
+  "details_title": "Mehr über die Parteien",
+  "entity_label": "Partei",
+  "leader_label": "Vorsitz (Stand 2025)",
+  "hashtags": "Votimeter,Estonia",
+  "hemicycle_note": "Sitze im Parlament (Riigikogu) nach der Wahl 2023, von links nach rechts angeordnet. Ungefähre Angaben. 101 Abgeordnete. Parteien ohne Sitze sind enthalten, weil sie in Umfragen relevant sind.",
+  "unaffiliated_label": "Sonstige",
+  "parties": {
+    "SDE": {
+      "name": "Sotsiaaldemokraatlik Erakond",
+      "leader": "Lauri Läänemets (Vorsitz)",
+      "founded": "1990",
+      "spectrum": "Mitte-links",
+      "ideologies": "Sozialdemokratie, Proeuropäisch",
+      "priorities": "Sozialstaat, Bildung, Verteidigung und Unterstützung der Ukraine",
+      "description": "Sozialdemokratische Partei, proeuropäisch und klar ukrainefreundlich.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20%28Estonia%29"
+    },
+    "Kesk": {
+      "name": "Eesti Keskerakond",
+      "leader": "Mihhail Kõlvart (Vorsitz)",
+      "founded": "1991",
+      "spectrum": "Mitte-links",
+      "ideologies": "Populismus, Interessen der russischsprachigen Minderheit",
+      "priorities": "Sozialstaat, Renten und ältere Menschen, Rechte der nationalen Minderheit",
+      "description": "Zentrumspartei, lange beliebt bei der russischsprachigen Minderheit, für progressive Steuern und Sozialausgaben.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Estonian%20Centre%20Party"
+    },
+    "Volt": {
+      "name": "Volt Estonia",
+      "leader": "Nationaler Zweig von Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Vertiefte europäische Integration, Klimaschutz, Digitale Innovation, Demokratiereform",
+      "description": "Nationaler Zweig von Volt Europa, der ersten paneuropäischen Partei. Alle Zweige teilen ein Programm: eine föderale und demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie der digitale und klimatische Wandel. Volt hat in diesem Test in jedem Land dieselben Positionen.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "E200": {
+      "name": "Eesti 200",
+      "leader": "",
+      "founded": "2018",
+      "spectrum": "Mitte",
+      "ideologies": "Liberalismus, Proeuropäisch",
+      "priorities": "Bildung, Digitale Innovation, Vertiefte europäische Integration",
+      "description": "Liberale Partei, die 2023 ins Parlament und in die Regierung einzog.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Estonia%20200"
+    },
+    "Reform": {
+      "name": "Eesti Reformierakond",
+      "leader": "Kristen Michal (Regierungschef(in))",
+      "founded": "1994",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberalismus, Wirtschaftsliberalismus, Atlantizismus",
+      "priorities": "Verteidigung und Unterstützung der Ukraine, Haushaltsdisziplin, Digitale Innovation",
+      "description": "Die liberale Reformpartei, die die Regierung führt; marktliberal, für den digitalen Staat und hart gegenüber Russland.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Estonian%20Reform%20Party"
+    },
+    "Isamaa": {
+      "name": "Isamaa",
+      "leader": "Urmas Reinsalu (Vorsitz)",
+      "founded": "2006",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Nationalkonservatismus, Christdemokratie, Atlantizismus",
+      "priorities": "Verteidigung und Unterstützung der Ukraine, Nationale Sprache und Kultur, Traditionelle Familienwerte",
+      "description": "Die nationalkonservative Partei Vaterland, 2025 in Umfragen vorn mit Verteidigung, estnischer Identität und Steuerkritik.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Isamaa"
+    },
+    "Parempoolsed": {
+      "name": "Erakond Parempoolsed",
+      "leader": "Lavly Perling (Vorsitz)",
+      "founded": "2022",
+      "spectrum": "Mitte-rechts",
+      "ideologies": "Liberaler Konservatismus, Wirtschaftsliberalismus",
+      "priorities": "Haushaltsdisziplin, Steuersenkungen, Rechtsstaatlichkeit",
+      "description": "Die Rechten, eine liberal-konservative Partei früherer Isamaa-Mitglieder.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Parempoolsed"
+    },
+    "EKRE": {
+      "name": "Eesti Konservatiivne Rahvaerakond",
+      "leader": "Martin Helme (Vorsitz)",
+      "founded": "2012",
+      "spectrum": "Rechtsaußen",
+      "ideologies": "Nationalismus, Rechtspopulismus, Euroskeptizismus",
+      "priorities": "Nationale Identität, Weniger Einwanderung, Nationale Souveränität",
+      "description": "Konservative Volkspartei, nationalistisch und euroskeptisch, aber klar antirussisch.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Conservative%20People%27s%20Party%20of%20Estonia"
+    }
+  }
+}

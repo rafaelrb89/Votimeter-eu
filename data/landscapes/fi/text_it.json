@@ -1,0 +1,106 @@
+{
+  "name": "Finlandia — partiti finlandesi",
+  "short_name": "Finlandia",
+  "intro": "confrontarlo con i partiti politici finlandesi",
+  "results_title": "Accordo con i partiti finlandesi",
+  "included_label": "Partiti inclusi",
+  "inclusion_note": "Il test include i principali partiti nazionali della Finlandia: quelli rappresentati in parlamento (Eduskunta) e quelli con un seguito nazionale significativo. Le posizioni sono stime del gruppo e possono essere riviste.",
+  "details_title": "Scopri di più sui partiti",
+  "entity_label": "Partito",
+  "leader_label": "Leader (rif. 2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Seggi in parlamento (Eduskunta) dopo le elezioni del 2023, disposti da sinistra a destra. Dati approssimativi. 200 membri.",
+  "unaffiliated_label": "Altri",
+  "parties": {
+    "Vas": {
+      "name": "Vasemmistoliitto",
+      "leader": "Minja Koskela (presidente)",
+      "founded": "1990",
+      "spectrum": "Sinistra",
+      "ideologies": "Socialismo democratico, Ecosocialismo, Progressismo",
+      "priorities": "Stato sociale, Azione per il clima, Diritti e salari dei lavoratori",
+      "description": "Alleanza di Sinistra, cresciuta molto alle europee del 2024; difende welfare, sindacati e azione per il clima.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Left%20Alliance%20%28Finland%29"
+    },
+    "Vihr": {
+      "name": "Vihreä liitto",
+      "leader": "Sofia Virta (presidente)",
+      "founded": "1987",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Ecologismo, Liberalismo sociale, Europeismo",
+      "priorities": "Azione per il clima, Istruzione, Libertà civili",
+      "description": "La Lega Verde, insolita tra i verdi europei perché favorevole al nucleare.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Green%20League"
+    },
+    "SDP": {
+      "name": "Suomen Sosialidemokraattinen Puolue",
+      "leader": "Antti Lindtman (presidente)",
+      "founded": "1899",
+      "spectrum": "Centrosinistra",
+      "ideologies": "Socialdemocrazia, Atlantismo",
+      "priorities": "Stato sociale, Diritti e salari dei lavoratori, Sanità pubblica",
+      "description": "Il Partito Socialdemocratico, prima forza di opposizione, in testa ai sondaggi recenti.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Social%20Democratic%20Party%20of%20Finland"
+    },
+    "Volt": {
+      "name": "Volt Suomi",
+      "leader": "Sezione nazionale di Volt Europa",
+      "founded": "2017 (Volt Europa)",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Maggiore integrazione europea, Azione per il clima, Innovazione digitale, Riforma democratica",
+      "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
+    },
+    "Kesk": {
+      "name": "Suomen Keskusta",
+      "leader": "Antti Kaikkonen (presidente)",
+      "founded": "1906",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo agrario, Centrismo",
+      "priorities": "Regioni e servizi rurali, Agricoltori e aree rurali, Stato sociale",
+      "description": "Il Partito di Centro, radicato nella Finlandia rurale e nella politica agraria.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Centre%20Party%20%28Finland%29"
+    },
+    "RKP": {
+      "name": "Svenska folkpartiet / Ruotsalainen kansanpuolue",
+      "leader": "Anders Adlercreutz (presidente)",
+      "founded": "1906",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo, Interessi della minoranza svedese, Europeismo",
+      "priorities": "Diritti della minoranza nazionale, Istruzione, Maggiore integrazione europea",
+      "description": "Partito Popolare Svedese, forza liberale della minoranza svedese di Finlandia.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Swedish%20People%27s%20Party%20of%20Finland"
+    },
+    "Kok": {
+      "name": "Kansallinen Kokoomus",
+      "leader": "Petteri Orpo (Primo ministro)",
+      "founded": "1918",
+      "spectrum": "Centrodestra",
+      "ideologies": "Conservatorismo liberale, Liberalismo economico, Atlantismo",
+      "priorities": "Disciplina di bilancio, Competitività e crescita, Difesa e sostegno all'Ucraina",
+      "description": "Il Partito di Coalizione Nazionale del premier Petteri Orpo, alla guida di un governo di destra centrato su debito e riforma del lavoro.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=National%20Coalition%20Party"
+    },
+    "KD": {
+      "name": "Suomen Kristillisdemokraatit",
+      "leader": "Sari Essayah (presidente)",
+      "founded": "1958",
+      "spectrum": "Centrodestra",
+      "ideologies": "Democrazia cristiana, Conservatorismo",
+      "priorities": "Valori della famiglia tradizionale, Valori cristiani, Pensioni e anziani",
+      "description": "I cristiano-democratici, conservatori sui temi sociali e al governo.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Democrats%20%28Finland%29"
+    },
+    "PS": {
+      "name": "Perussuomalaiset",
+      "leader": "Riikka Purra (presidente)",
+      "founded": "1995",
+      "spectrum": "Destra-estrema destra",
+      "ideologies": "Conservatorismo nazionale, Populismo di destra, Euroscetticismo, Contrarietà all'immigrazione",
+      "priorities": "Ridurre l'immigrazione, Disciplina di bilancio, Sovranità nazionale",
+      "description": "Il Partito dei Finlandesi, nazionalista ed euroscettico, al governo dal 2023 con una linea dura sull'immigrazione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Special:Search?search=Finns%20Party"
+    }
+  }
+}

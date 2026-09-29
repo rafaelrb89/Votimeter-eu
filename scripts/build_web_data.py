@@ -14,7 +14,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from votimeter.data import available_languages, list_landscapes, load_landscape, load_questions, load_ui  # noqa: E402
+from votimeter.data import (  # noqa: E402
+    DATA_DIR,
+    FALLBACK_LANGUAGE,
+    available_languages,
+    list_landscapes,
+    load_landscape,
+    load_questions,
+    load_ui,
+)
 
 OUTPUT = ROOT / "web" / "data.json"
 DEFAULTS = {"lang": "en", "landscape": "eu"}
@@ -22,7 +30,7 @@ DEFAULTS = {"lang": "en", "landscape": "eu"}
 
 def build() -> dict:
     languages = available_languages()
-    meta = load_questions(languages[0])
+    meta = load_questions(FALLBACK_LANGUAGE)
     question_ids = meta.index.tolist()
 
     bundle = {
@@ -42,14 +50,19 @@ def build() -> dict:
             "questions": load_questions(lang)["text"].to_dict(),
         }
     for landscape_id in list_landscapes():
-        per_lang = {lang: load_landscape(landscape_id, lang) for lang in languages}
-        landscape = per_lang[languages[0]]
+        landscape = load_landscape(landscape_id, FALLBACK_LANGUAGE)
+        # English in full; other languages only as written, the site falls back to English per key.
+        texts = {FALLBACK_LANGUAGE: landscape.text}
+        for lang in languages:
+            path = DATA_DIR / "landscapes" / landscape_id / f"text_{lang}.json"
+            if lang != FALLBACK_LANGUAGE and path.exists():
+                texts[lang] = json.loads(path.read_text(encoding="utf-8"))
         bundle["landscapes"].append({
             "id": landscape_id,
             "parties": [{"code": p.code, "color": p.color, "url": p.url} for p in landscape.parties],
             "positions": {code: landscape.positions.loc[question_ids, code].astype(int).tolist() for code in landscape.party_codes},
             "hemicycle": [list(seat) for seat in landscape.hemicycle],
-            "text": {lang: l.text for lang, l in per_lang.items()},
+            "text": texts,
         })
     return bundle
 

@@ -1,0 +1,14 @@
+{
+  "name": "Finska — politične stranke",
+  "short_name": "Finska",
+  "intro": "politične stranke: Finska",
+  "results_title": "Ujemanje s strankami — Finska",
+  "included_label": "Vključene stranke",
+  "inclusion_note": "Test vključuje glavne vsedržavne stranke: zastopane v parlamentu in tiste z opazno podporo v anketah. Stališča so ocene ekipe in jih je mogoče popraviti.",
+  "details_title": "Več o strankah",
+  "entity_label": "Stranka",
+  "leader_label": "Predsednik/-i (2025)",
+  "hashtags": "Votimeter,Finland",
+  "hemicycle_note": "Sedeži v parlamentu (Eduskunta) po volitvah 2023, od leve proti desni. Približno. Število sedežev: 200.",
+  "unaffiliated_label": "Drugi"
+}

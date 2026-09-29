@@ -1,0 +1,14 @@
+{
+  "name": "Belgia — poliittiset puolueet",
+  "short_name": "Belgia",
+  "intro": "poliittiset puolueet: Belgia",
+  "results_title": "Yhteneväisyys puolueiden kanssa — Belgia",
+  "included_label": "Mukana olevat puolueet",
+  "inclusion_note": "Testissä ovat mukana tärkeimmät valtakunnalliset puolueet: parlamentissa edustetut ja ne, joilla on merkittävää kannatusta mielipidemittauksissa. Kannat ovat tekijöiden arvioita, ja niitä voidaan tarkistaa.",
+  "details_title": "Lisää puolueista",
+  "entity_label": "Puolue",
+  "leader_label": "Puheenjohtaja(t) (2025)",
+  "hashtags": "Votimeter,Belgium",
+  "hemicycle_note": "Paikat parlamentissa (Kamer / Chambre) vuoden 2024 vaalien jälkeen, vasemmalta oikealle. Suuntaa-antava. Paikkoja yhteensä: 150.",
+  "unaffiliated_label": "Muut"
+}
