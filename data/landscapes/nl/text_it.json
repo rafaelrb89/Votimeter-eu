@@ -32,6 +32,16 @@
       "description": "Il primo partito animalista al mondo entrato in un parlamento nazionale. Vuole ridurre gli allevamenti, eliminare i sussidi ai combustibili fossili e mettere la natura davanti alla crescita.",
       "wiki_url": "https://en.wikipedia.org/wiki/Party_for_the_Animals"
     },
+    "DENK": {
+      "name": "DENK",
+      "leader": "Stephan van Baarle (leader)",
+      "founded": "2015",
+      "spectrum": "Centro-sinistra",
+      "ideologies": "Multiculturalismo, Antirazzismo, Socialdemocrazia",
+      "priorities": "Lotta a discriminazione e razzismo, Pari opportunità, Cure accessibili, Palestina",
+      "description": "Fondato da due deputati olandesi di origine turca usciti dal PvdA, DENK parla soprattutto per gli olandesi di origine migrante. È di sinistra in economia, combatte discriminazione e islamofobia ed è molto attivo sulla Palestina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/DENK_(political_party)"
+    },
     "GL-PvdA": {
       "name": "GroenLinks–PvdA",
       "leader": "Jesse Klaver (capogruppo)",
@@ -61,6 +71,16 @@
       "priorities": "Istruzione, Casa accessibile, Azione per il clima, Maggiore integrazione europea, Riforma democratica",
       "description": "Partito social-liberale che ha ottenuto più voti a ottobre 2025 con Rob Jetten. Fortemente europeista e progressista sui temi etici, punta su istruzione, costruzione di case e clima.",
       "wiki_url": "https://en.wikipedia.org/wiki/Democrats_66"
+    },
+    "50PLUS": {
+      "name": "50PLUS",
+      "leader": "Jan Struijs (leader)",
+      "founded": "2009",
+      "spectrum": "Centro",
+      "ideologies": "Interessi dei pensionati, Liberalismo sociale",
+      "priorities": "Pensioni e loro indicizzazione, Età pensionabile, Assistenza agli anziani, Potere d'acquisto",
+      "description": "Partito degli over 50 e dei pensionati, tornato in parlamento nel 2025. Difende i diritti pensionistici e la pensione statale, si oppone all'innalzamento dell'età pensionabile e sostiene il diritto di decidere la fine della propria vita.",
+      "wiki_url": "https://en.wikipedia.org/wiki/50PLUS"
     },
     "CDA": {
       "name": "Christen-Democratisch Appèl",
@@ -111,6 +131,16 @@
       "priorities": "Ridurre l'immigrazione, Sicurezza e ordine pubblico, Meno tasse, Difesa e sostegno all'Ucraina",
       "description": "Partito conservatore-liberale nato da una scissione del Forum per la Democrazia. Unisce una politica migratoria rigida all'economia di mercato e a una linea pro-NATO e pro-Ucraina.",
       "wiki_url": "https://en.wikipedia.org/wiki/JA21"
+    },
+    "SGP": {
+      "name": "Staatkundig Gereformeerde Partij",
+      "leader": "Chris Stoffer (leader)",
+      "founded": "1918",
+      "spectrum": "Destra",
+      "ideologies": "Calvinismo ortodosso, Destra cristiana, Conservatorismo sociale",
+      "priorities": "Tutela della vita, Matrimonio e famiglia, Riposo domenicale, Libertà dell'istruzione religiosa, Conti pubblici in ordine",
+      "description": "Il partito più antico del parlamento olandese, di matrice calvinista ortodossa. Si oppone con fermezza a eutanasia, aborto, prostituzione e droghe, è rigoroso sui conti pubblici e filo-NATO, e vuole meno poteri a Bruxelles.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reformed_Political_Party"
     },
     "PVV": {
       "name": "Partij voor de Vrijheid",
