@@ -109,3 +109,16 @@ def test_no_two_parties_in_a_landscape_have_identical_answers(landscape_id):
     positions = load_landscape(landscape_id, "en").positions
     duplicated = positions.T.duplicated(keep=False)
     assert not duplicated.any(), f"identical answers: {positions.columns[duplicated].tolist()}"
+
+
+def test_national_parties_are_not_copies_of_another_party():
+    """Volt is the same everywhere by design; every other party has its own answers."""
+    owners = {}
+    for landscape_id in LANDSCAPES:
+        positions = load_landscape(landscape_id, "en").positions
+        for code in positions.columns:
+            if code == "Volt":
+                continue
+            key = tuple(positions[code])
+            assert key not in owners, f"{landscape_id}:{code} has the same answers as {owners[key]}"
+            owners[key] = f"{landscape_id}:{code}"
