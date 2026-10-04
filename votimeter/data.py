@@ -2,7 +2,7 @@
 
 Layout of ``data/``:
 
-- ``questions/questions.csv``       id, axis, multiplier, short (language-neutral)
+- ``questions/questions.csv``       id, axis, subaxis, multiplier, short (language-neutral)
 - ``questions/text_<lang>.csv``     id, text (one file per language)
 - ``i18n/ui_<lang>.json``           interface strings (one file per language)
 - ``landscapes/landscapes.csv``     ordered list of landscape ids
@@ -67,12 +67,15 @@ def load_ui(lang: str, data_dir: Path = DATA_DIR) -> dict:
 def load_questions(lang: str, data_dir: Path = DATA_DIR) -> pd.DataFrame:
     """Question metadata joined with the texts for ``lang``, indexed by id, in file order."""
     meta = pd.read_csv(data_dir / "questions" / "questions.csv", dtype={"id": str})
-    _require_columns(meta, ["id", "axis", "multiplier", "short"], "questions.csv")
+    _require_columns(meta, ["id", "axis", "subaxis", "multiplier", "short"], "questions.csv")
     if meta["id"].duplicated().any():
         raise DataError(f"questions.csv: duplicate ids {meta.loc[meta['id'].duplicated(), 'id'].tolist()}")
     bad_axes = set(meta["axis"]) - set(AXES)
     if bad_axes:
         raise DataError(f"questions.csv: unknown axes {sorted(bad_axes)}")
+    parents = meta.groupby("subaxis")["axis"].nunique()
+    if (parents > 1).any():
+        raise DataError(f"questions.csv: sub-axes spanning several axes {parents[parents > 1].index.tolist()}")
     if not meta["multiplier"].isin([1, -1]).all():
         raise DataError("questions.csv: 'multiplier' must be 1 or -1")
     if not meta["short"].isin([0, 1]).all():
@@ -85,6 +88,12 @@ def load_questions(lang: str, data_dir: Path = DATA_DIR) -> pd.DataFrame:
 
     questions = meta.merge(texts, on="id", how="left", validate="one_to_one")
     return questions.set_index("id")
+
+
+def subaxes(questions: pd.DataFrame) -> list[tuple[str, str]]:
+    """(sub-axis, parent axis) pairs, grouped by axis in AXES order, then in file order."""
+    pairs = list(dict.fromkeys(zip(questions["subaxis"], questions["axis"])))
+    return sorted(pairs, key=lambda pair: AXES.index(pair[1]))
 
 
 def list_landscapes(data_dir: Path = DATA_DIR) -> list[str]:

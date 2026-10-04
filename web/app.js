@@ -119,6 +119,24 @@
     }
     return scores;
   }
+  const MAX_SKIPPED_PER_SUBAXIS = 2; // beyond this a sub-axis score is not shown
+  function subaxisScores(valueOf) {
+    const scores = {};
+    for (const sub of DATA.subaxes) {
+      const qs = DATA.questions.filter((q) => q.subaxis === sub.id);
+      let sum = 0;
+      let n = 0;
+      for (const q of qs) {
+        const v = valueOf(q.id);
+        if (v === undefined || v === null) continue;
+        sum += v * q.multiplier;
+        n += 1;
+      }
+      scores[sub.id] = n && n >= qs.length - MAX_SKIPPED_PER_SUBAXIS ? Math.max(-1, Math.min(1, sum / (2 * n))) : null;
+    }
+    return scores;
+  }
+  const isFullTest = () => state.kind === "full" && state.sequence.length === allIds().length;
   const userCompass = () => compass((id) => state.answers[id]);
   const partyCompass = (code) => compass((id) => landscape().positions[code][qIndex[id]]);
 
@@ -236,6 +254,7 @@
           ${nShort ? `<button class="btn btn-primary" data-action="start-short">${esc(t("start_short", { n: nShort }))}<small>${esc(t("web_duration_short"))}</small></button>` : ""}
           <button class="btn" data-action="start-full">${esc(t("start_full", { n: nAll }))}<small>${esc(t("web_duration_full"))}</small></button>
         </div>
+        <p class="note">${esc(t("intro_subaxes_note", { n: DATA.subaxes.length }))}</p>
         ${resumable && answered ? `<button class="btn btn-quiet resume" data-action="resume">↻ ${esc(t("web_resume", { n: answered }))}</button>` : ""}
       </div>
       <figure class="chamber" style="margin:0"></figure>`;
@@ -349,6 +368,7 @@
       <p class="eyebrow">${esc(t("web_answered", { n: Object.keys(state.answers).length }))}</p>
       <h1 class="section-title">${esc(t("midpoint_header", { n: nShort }))}</h1>
       <p class="prose">${esc(t("midpoint_text"))}</p>
+      <p class="note">${esc(t("midpoint_subaxes_note", { n: DATA.subaxes.length }))}</p>
       <div class="btn-row">
         <button class="btn btn-primary" data-action="see-results">${esc(t("see_results", { n: nShort }))}</button>
         <button class="btn" data-action="continue">${esc(t("continue_test", { n: nAll }))}</button>
@@ -439,7 +459,10 @@
     drawCompass(comp.querySelector(".compass"), you, parties);
     comp.querySelectorAll(".strip-plot").forEach((el) => drawStrip(el, el.dataset.axis, you, parties));
 
-    // 4. Group details
+    // 4. Detailed profile: sub-axes, full test only
+    view.appendChild(renderSubaxes(top.code));
+
+    // 5. Group details
     const scoreOf = Object.fromEntries(ranking.map((r) => [r.code, r.score]));
     const groups = document.createElement("section");
     groups.className = "section";
@@ -474,7 +497,7 @@
       </div>`;
     view.appendChild(groups);
 
-    // 5. Share + restart
+    // 6. Share + restart
     const shareText = t("share_text", { party: top.code, affinity: pct(top.score) });
     const pageUrl = location.href.split("#")[0];
     const enc = encodeURIComponent;
@@ -495,6 +518,62 @@
       </div>
       <div class="btn-row"><button class="btn" data-action="restart">↺ ${esc(t("restart"))}</button></div>`;
     view.appendChild(share);
+  }
+
+  function renderSubaxes(topCode) {
+    const section = document.createElement("section");
+    section.className = "section";
+    const head = `<div class="section-head"><h2 class="section-title">${esc(t("subaxes_title"))}</h2>`;
+    if (!isFullTest()) {
+      section.innerHTML = `${head}<p class="prose">${esc(t("subaxes_locked", { n: DATA.subaxes.length, m: allIds().length }))}</p></div>
+        ${state.kind === "short" ? `<div class="btn-row"><button class="btn" data-action="continue">${esc(t("continue_test", { n: allIds().length }))}</button></div>` : ""}`;
+      return section;
+    }
+    const you = subaxisScores((id) => state.answers[id]);
+    const parties = landscape().parties.map((p) => ({ code: p.code, color: p.color, ...subaxisScores((id) => landscape().positions[p.code][qIndex[id]]) }));
+    section.innerHTML = `${head}<p class="prose">${esc(t("subaxes_caption"))}</p></div>
+      <div class="subaxes">
+        ${AXES.map((axis) => `
+          <div class="subaxis-group">
+            <h3>${esc(t("web_axis_" + axis))}</h3>
+            ${DATA.subaxes.filter((sub) => sub.axis === axis).map((sub) => `
+              <div class="substrip">
+                <div class="substrip-head">
+                  <span>${esc(t("sub_" + sub.id + "_low"))}</span>
+                  <span class="strip-score">${you[sub.id] === null ? esc(t("subaxis_insufficient")) : signed(you[sub.id])}</span>
+                  <span>${esc(t("sub_" + sub.id + "_high"))}</span>
+                </div>
+                <div class="substrip-plot" data-subaxis="${sub.id}"></div>
+              </div>`).join("")}
+          </div>`).join("")}
+      </div>`;
+    section.querySelectorAll(".substrip-plot").forEach((el) => drawSubstrip(el, el.dataset.subaxis, you[el.dataset.subaxis], parties, topCode));
+    return section;
+  }
+
+  function drawSubstrip(container, subaxis, you, parties, topCode) {
+    // Compact strip: every party as a faint dot, your closest party labelled, your position as the triangle.
+    const W = 320, P = 10, mid = 24;
+    const X = (v) => P + ((v + 1) / 2) * (W - 2 * P);
+    const root = svg("svg", { viewBox: `0 0 ${W} 40`, role: "img", "aria-label": `${t("sub_" + subaxis + "_low")} – ${t("sub_" + subaxis + "_high")}` });
+    svg("line", { x1: P, x2: W - P, y1: mid, y2: mid, class: "strip-line" }, root);
+    svg("line", { x1: X(0), x2: X(0), y1: mid - 5, y2: mid + 5, class: "strip-line", "stroke-width": 1 }, root);
+    const ordered = [...parties].sort((a, b) => (a.code === topCode) - (b.code === topCode));
+    for (const p of ordered) {
+      const isTop = p.code === topCode;
+      const c = svg("circle", { cx: X(p[subaxis]), cy: mid, r: isTop ? 5.5 : 4, class: "party-dot" + (isTop ? "" : " is-faint") }, root);
+      c.style.fill = p.color;
+      svg("title", {}, c).textContent = `${p.code}: ${signed(p[subaxis])}`;
+      if (isTop) {
+        const label = svg("text", { x: Math.min(W - P, Math.max(P, X(p[subaxis]))), y: mid - 9, "text-anchor": "middle", class: "dot-label" }, root);
+        label.textContent = p.code;
+      }
+    }
+    if (you !== null) {
+      const x = X(you);
+      svg("path", { d: `M${x} ${mid - 7} L${x + 7} ${mid + 6} L${x - 7} ${mid + 6} Z`, class: "you-mark" }, root);
+    }
+    container.appendChild(root);
   }
 
   function drawCompass(container, you, parties) {

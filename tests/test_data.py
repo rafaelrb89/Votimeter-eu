@@ -47,6 +47,12 @@ def test_ui_strings_have_same_keys(lang):
     assert set(load_ui(lang)) == reference
 
 
+def test_every_subaxis_has_pole_labels():
+    ui = load_ui("en")
+    for subaxis in load_questions("en")["subaxis"].unique():
+        assert ui[f"sub_{subaxis}_low"] and ui[f"sub_{subaxis}_high"]
+
+
 @pytest.mark.parametrize("landscape_id", LANDSCAPES)
 @pytest.mark.parametrize("lang", LANGUAGES)
 def test_landscapes_load(landscape_id, lang):

@@ -1,6 +1,6 @@
 # Votimeter EU
 
-A quiz that places you on three political axes (economic, social, political) and measures your agreement with a set of parties. It is based on [paradigmapolitico2](https://github.com/rafaelrb89/paradigmapolitico2) (Votímetro).
+A quiz that places you on three political axes (economic, social, political) and measures your agreement with a set of parties. The full test also gives a detailed profile on 12 sub-axes, four within each main axis. It is based on [paradigmapolitico2](https://github.com/rafaelrb89/paradigmapolitico2) (Votímetro).
 
 - **Languages:** all 24 official EU languages — Български, Čeština, Dansk, Deutsch, Eesti, Ελληνικά, English, Español, Français, Gaeilge, Hrvatski, Italiano, Latviešu, Lietuvių, Magyar, Malti, Nederlands, Polski, Português, Română, Slovenčina, Slovenščina, Suomi, Svenska. Party profiles (descriptions, ideologies, priorities) are fully translated in English, Portuguese, French, German, Italian and Spanish; the other 18 languages show them in English for now.
 - **Party landscapes:** European Parliament groups (2024–2029 term), all 27 EU member states, and the United Kingdom
@@ -46,7 +46,7 @@ Everything the quiz shows comes from `data/`. The code has no hard-coded questio
 ```
 data/
 ├── questions/
-│   ├── questions.csv        # id, axis, multiplier, short   (language-neutral)
+│   ├── questions.csv        # id, axis, subaxis, multiplier, short   (language-neutral)
 │   ├── text_en.csv          # id, text
 │   └── text_pt.csv          # id, text
 ├── i18n/
@@ -64,6 +64,7 @@ data/
 ```
 
 - **Question IDs** have the form `ECO01`, `SOC01` or `POL01`. The `axis` column (`economic`, `social`, `political`) decides which compass axis a question counts towards. Question order no longer matters.
+- **Sub-axes:** the `subaxis` column puts each question in one of 12 groups of 4–6 statements, for example `eco_state` (State – Market) or `pol_world` (Isolationism – Internationalism). They are scored like the main axes, but only after the full test, because the short test has just 2 statements per sub-axis. A sub-axis with more than 2 skipped statements shows no score. The main scores and party agreement do not use sub-axes. Pole labels are the `sub_<id>_low` / `sub_<id>_high` keys in the UI files.
 - **`multiplier`** is `1` when agreeing moves you right (economic), progressive (social) or liberal/globalist (political). It is `-1` when agreeing moves you the other way.
 - **`short`** is `1` for questions included in the short test.
 - **Positions** use the same scale as user answers: `-2` strongly disagree … `2` strongly agree.
