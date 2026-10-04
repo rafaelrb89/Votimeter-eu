@@ -6,8 +6,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-from votimeter.data import ANSWER_VALUES, available_languages, list_landscapes, load_landscape, load_questions, load_ui
-from votimeter.scoring import affinity, compass_scores
+from votimeter.data import ANSWER_VALUES, available_languages, list_landscapes, load_landscape, load_questions, load_ui, subaxes
+from votimeter.scoring import affinity, compass_scores, subaxis_scores
 
 # -------------------------------------------------------------------------
 # Page Configuration
@@ -73,6 +73,7 @@ lt = landscape.text  # landscape-specific strings
 
 all_ids = questions.index.tolist()
 short_ids = questions.index[questions["short"] == 1].tolist()
+SUBAXES = subaxes(questions)
 can_run_short_test = bool(short_ids)
 
 if "mode" not in st.session_state:
@@ -112,6 +113,7 @@ def show_intro():
     st.write(t["intro_method"])
     st.write("")
     st.write(t["intro_choice"].format(n_short=len(short_ids), n_full=len(all_ids)))
+    st.caption(t["intro_subaxes_note"].format(n=len(SUBAXES)))
     st.caption(t["intro_landscape_hint"])
     st.write("---")
     col1, col2 = st.columns(2)
@@ -185,6 +187,7 @@ def show_midpoint_choice():
     """Displays screen after short test, asking user to continue or see results."""
     st.header(t["midpoint_header"].format(n=len(short_ids)))
     st.write(t["midpoint_text"])
+    st.info(t["midpoint_subaxes_note"].format(n=len(SUBAXES)))
     st.write("---")
     col1, col2 = st.columns(2)
     with col1:
@@ -202,6 +205,36 @@ def show_midpoint_choice():
             st.session_state.mode = "full"
             st.rerun()
         st.markdown("</div>", unsafe_allow_html=True)
+
+
+def show_subaxes(answers):
+    """One row per sub-axis, grouped by main axis: your score and the parties' for reference."""
+    st.write(t["subaxes_caption"])
+    labels = {sid: f"{t[f'sub_{sid}_low']} – {t[f'sub_{sid}_high']}" for sid, _ in SUBAXES}
+    you = subaxis_scores(answers, questions)
+    rows = [{"who": t["you"], "subaxis": labels[sid], "score": score, "you": True} for sid, score in you.items() if score is not None]
+    for code in landscape.party_codes:
+        party = subaxis_scores(landscape.positions[code], questions)
+        rows += [{"who": code, "subaxis": labels[sid], "score": party[sid], "you": False} for sid in you if you[sid] is not None]
+    for sid, score in you.items():
+        if score is None:
+            st.caption(f"{labels[sid]}: {t['subaxis_insufficient']}")
+    if not rows:
+        return
+    df = pd.DataFrame(rows)
+    colors = {p.code: p.color for p in landscape.parties} | {t["you"]: "#E3B23C"}
+    domain = list(colors)
+    order = [labels[sid] for sid, _ in SUBAXES]
+    base = alt.Chart(df).encode(
+        x=alt.X("score:Q", scale=alt.Scale(domain=[-1, 1]), axis=alt.Axis(title=None, format=".1f", grid=False)),
+        y=alt.Y("subaxis:N", sort=order, title=None, axis=alt.Axis(labelLimit=320)),
+        color=alt.Color("who:N", scale=alt.Scale(domain=domain, range=[colors[c] for c in domain]), legend=None),
+        tooltip=["who", "subaxis", alt.Tooltip("score:Q", format="+.2f")],
+    )
+    parties = base.transform_filter(~alt.datum.you).mark_circle(size=70, opacity=0.55)
+    marker = base.transform_filter(alt.datum.you).mark_point(shape="triangle-up", size=220, filled=True, opacity=1)
+    zero = alt.Chart(pd.DataFrame({"zero": [0]})).mark_rule(strokeDash=[3, 3], color="grey", size=0.5).encode(x="zero:Q")
+    st.altair_chart((zero + parties + marker).properties(background="transparent", height=36 * len(order)), use_container_width=True)
 
 
 def show_results():
@@ -271,7 +304,15 @@ def show_results():
         st.warning(t["compass_error"])
     st.write("---")
 
-    # --- 3. Party details ---
+    # --- 3. Detailed profile (full test only: the short test has 2 statements per sub-axis) ---
+    st.header(t["subaxes_title"])
+    if len(sequence) == len(all_ids):
+        show_subaxes(answers)
+    else:
+        st.info(t["subaxes_locked"].format(n=len(SUBAXES), m=len(all_ids)))
+    st.write("---")
+
+    # --- 4. Party details ---
     st.subheader(lt["details_title"])
     st.caption(t["details_disclaimer"])
     na = t["not_available"]
@@ -293,7 +334,7 @@ def show_results():
             if d.get("wiki_url"):
                 st.markdown(f"- [{t['wiki_link']}]({d['wiki_url']})")
 
-    # --- 4. Share ---
+    # --- 5. Share ---
     st.write("---")
     st.subheader(t["share_title"])
     top_party = affinity_df.iloc[0][party_col] if not affinity_df.empty else t["none"]

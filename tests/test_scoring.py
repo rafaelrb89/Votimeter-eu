@@ -1,8 +1,8 @@
 import pandas as pd
 import pytest
 
-from votimeter.data import load_questions
-from votimeter.scoring import affinity, compass_scores
+from votimeter.data import load_questions, subaxes
+from votimeter.scoring import affinity, compass_scores, subaxis_scores
 
 
 @pytest.fixture
@@ -56,3 +56,27 @@ def test_compass_matches_original_positional_logic():
             mult = questions["multiplier"].iloc[block]
             expected[axis] = max(-1.0, min(1.0, (values * mult).sum() / (len(values) * 2.0)))
         assert compass_scores(answers, questions) == pytest.approx(expected)
+
+
+def test_subaxis_scores_use_multiplier_and_hide_thin_subaxes():
+    questions = pd.DataFrame(
+        {
+            "axis": ["economic"] * 4 + ["social"] * 4,
+            "subaxis": ["eco_a"] * 4 + ["soc_b"] * 4,
+            "multiplier": [1, -1, 1, 1, 1, 1, 1, 1],
+        },
+        index=["E1", "E2", "E3", "E4", "S1", "S2", "S3", "S4"],
+    )
+    scores = subaxis_scores({"E1": 2, "E2": -2, "S1": 1}, questions)
+    assert scores["eco_a"] == 1.0  # 2 of 4 skipped: at the limit, still scored
+    assert scores["soc_b"] is None  # 3 of 4 skipped: too few answers
+
+
+def test_subaxes_follow_the_groups_and_main_axes():
+    questions = load_questions("en")
+    groups = subaxes(questions)
+    assert len(groups) == 12
+    assert [axis for _, axis in groups] == ["economic"] * 4 + ["social"] * 4 + ["political"] * 4
+    sizes = questions["subaxis"].value_counts()
+    assert sizes.between(4, 6).all()
+    assert (questions[questions["short"] == 1]["subaxis"].value_counts() == 2).all()

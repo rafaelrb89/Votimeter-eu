@@ -6,9 +6,10 @@ from collections.abc import Mapping
 
 import pandas as pd
 
-from votimeter.data import AXES
+from votimeter.data import AXES, subaxes
 
 MAX_DISTANCE_PER_QUESTION = 4  # answers range from -2 to 2
+MAX_SKIPPED_PER_SUBAXIS = 2  # beyond this a sub-axis score is not shown
 
 
 def affinity(answers: Mapping[str, int], positions: pd.DataFrame) -> pd.Series:
@@ -32,13 +33,23 @@ def compass_scores(answers: Mapping[str, int] | pd.Series, questions: pd.DataFra
     Unanswered questions are ignored; an axis with no answers scores 0.
     """
     answered = pd.Series(answers, dtype=float).dropna()
+    return {axis: _score(answered, questions, questions.index[questions["axis"] == axis]) or 0.0 for axis in AXES}
+
+
+def subaxis_scores(answers: Mapping[str, int] | pd.Series, questions: pd.DataFrame) -> dict[str, float | None]:
+    """Score (-1..1) on each sub-axis, or None when more than MAX_SKIPPED_PER_SUBAXIS of its questions are unanswered."""
+    answered = pd.Series(answers, dtype=float).dropna()
     scores = {}
-    for axis in AXES:
-        axis_ids = questions.index[questions["axis"] == axis]
-        values = answered.reindex(axis_ids).dropna()
-        if values.empty:
-            scores[axis] = 0.0
-            continue
-        weighted = (values * questions.loc[values.index, "multiplier"]).sum()
-        scores[axis] = max(-1.0, min(1.0, weighted / (len(values) * 2.0)))
+    for subaxis, _ in subaxes(questions):
+        ids = questions.index[questions["subaxis"] == subaxis]
+        enough = answered.index.isin(ids).sum() >= len(ids) - MAX_SKIPPED_PER_SUBAXIS
+        scores[subaxis] = _score(answered, questions, ids) if enough else None
     return scores
+
+
+def _score(answered: pd.Series, questions: pd.DataFrame, ids: pd.Index) -> float | None:
+    values = answered.reindex(ids).dropna()
+    if values.empty:
+        return None
+    weighted = (values * questions.loc[values.index, "multiplier"]).sum()
+    return max(-1.0, min(1.0, weighted / (len(values) * 2.0)))

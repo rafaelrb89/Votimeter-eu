@@ -47,6 +47,12 @@ def test_ui_strings_have_same_keys(lang):
     assert set(load_ui(lang)) == reference
 
 
+def test_every_subaxis_has_pole_labels():
+    ui = load_ui("en")
+    for subaxis in load_questions("en")["subaxis"].unique():
+        assert ui[f"sub_{subaxis}_low"] and ui[f"sub_{subaxis}_high"]
+
+
 @pytest.mark.parametrize("landscape_id", LANDSCAPES)
 @pytest.mark.parametrize("lang", LANGUAGES)
 def test_landscapes_load(landscape_id, lang):
@@ -96,3 +102,23 @@ def test_volt_has_the_same_positions_everywhere():
     reference = columns["pt"]
     for landscape_id, column in columns.items():
         assert column.equals(reference), f"Volt differs in {landscape_id}: run scripts/sync_volt.py"
+
+
+@pytest.mark.parametrize("landscape_id", LANDSCAPES)
+def test_no_two_parties_in_a_landscape_have_identical_answers(landscape_id):
+    positions = load_landscape(landscape_id, "en").positions
+    duplicated = positions.T.duplicated(keep=False)
+    assert not duplicated.any(), f"identical answers: {positions.columns[duplicated].tolist()}"
+
+
+def test_national_parties_are_not_copies_of_another_party():
+    """Volt is the same everywhere by design; every other party has its own answers."""
+    owners = {}
+    for landscape_id in LANDSCAPES:
+        positions = load_landscape(landscape_id, "en").positions
+        for code in positions.columns:
+            if code == "Volt":
+                continue
+            key = tuple(positions[code])
+            assert key not in owners, f"{landscape_id}:{code} has the same answers as {owners[key]}"
+            owners[key] = f"{landscape_id}:{code}"

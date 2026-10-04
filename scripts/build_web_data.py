@@ -22,6 +22,7 @@ from votimeter.data import (  # noqa: E402
     load_landscape,
     load_questions,
     load_ui,
+    subaxes,
 )
 
 OUTPUT = ROOT / "web" / "data.json"
@@ -36,9 +37,10 @@ def build() -> dict:
     bundle = {
         "defaults": DEFAULTS,
         "questions": [
-            {"id": qid, "axis": row.axis, "multiplier": int(row.multiplier), "short": bool(row.short)}
+            {"id": qid, "axis": row.axis, "subaxis": row.subaxis, "multiplier": int(row.multiplier), "short": bool(row.short)}
             for qid, row in meta.iterrows()
         ],
+        "subaxes": [{"id": subaxis, "axis": axis} for subaxis, axis in subaxes(meta)],
         "languages": {},
         "landscapes": [],
     }
