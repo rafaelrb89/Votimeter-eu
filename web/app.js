@@ -223,7 +223,7 @@
     footer.innerHTML = `
       <h2>${esc(t("web_about"))}</h2>
       <p class="small">${md(lt("inclusion_note"))}</p>
-      <p class="small">${md(t("positions_note", { contact: "miguelptcosta1995+votimetro@gmail.com" }))}</p>
+      <p class="small">${md(t("positions_note", { contact: "ribeirobarbosarafael@gmail.com" }))}</p>
       <p class="small">${md(t("affinity_note"))}</p>
       <p class="small">${md(t("details_disclaimer"))}</p>`;
   }
