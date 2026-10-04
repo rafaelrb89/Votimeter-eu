@@ -9,9 +9,19 @@
   "entity_label": "Partito",
   "leader_label": "Leader (rif. 2025)",
   "hashtags": "Votimetro,Spagna",
-  "hemicycle_note": "Seggi al Congresso dei deputati dopo le elezioni generali di luglio 2023, disposti da sinistra a destra. Dati approssimativi. 350 membri. Podemos ha lasciato il gruppo di Sumar a dicembre 2023. I partiti regionali (ERC, Junts, EH Bildu, PNV, BNG, CC, UPN) compaiono come Altri.",
+  "hemicycle_note": "Seggi al Congresso dei deputati dopo le elezioni generali di luglio 2023, disposti da sinistra a destra. Dati approssimativi. 350 membri. Podemos ha lasciato il gruppo di Sumar a dicembre 2023.",
   "unaffiliated_label": "Altri",
   "parties": {
+    "EH Bildu": {
+      "name": "Euskal Herria Bildu",
+      "leader": "Arnaldo Otegi (coordinatore generale)",
+      "founded": "2012",
+      "spectrum": "Sinistra",
+      "ideologies": "Indipendenza basca, Socialismo, Femminismo",
+      "priorities": "Autodeterminazione basca, Diritti dei lavoratori, Casa, Lingua basca, Servizi pubblici",
+      "description": "Coalizione della sinistra indipendentista basca guidata da Arnaldo Otegi. Sostiene il governo Sánchez da sinistra, difende l'autodeterminazione e la lingua basca e si oppone alla NATO.",
+      "wiki_url": "https://en.wikipedia.org/wiki/EH_Bildu"
+    },
     "Podemos": {
       "name": "Podemos",
       "leader": "Ione Belarra (segretario generale)",
@@ -21,6 +31,26 @@
       "priorities": "Casa accessibile, Servizi pubblici, Tassare i grandi patrimoni, Diplomazia con la Russia, niente armi, Parità e femminismo",
       "description": "Partito populista di sinistra nato dalle proteste del 15-M del 2011. Al governo con il PSOE dal 2020 al 2023, ha poi lasciato l'alleanza Sumar. Chiede il controllo degli affitti, case popolari e più tasse sui ricchi, e si oppone all'invio di armi all'Ucraina.",
       "wiki_url": "https://en.wikipedia.org/wiki/Podemos_(Spanish_political_party)"
+    },
+    "BNG": {
+      "name": "Bloque Nacionalista Galego",
+      "leader": "Ana Pontón (portavoce nazionale)",
+      "founded": "1982",
+      "spectrum": "Sinistra",
+      "ideologies": "Nazionalismo galiziano, Socialismo, Femminismo, Euroscetticismo",
+      "priorities": "Autogoverno galiziano, Servizi pubblici, Lingua galiziana, Galizia rurale e pesca, Diritti dei lavoratori",
+      "description": "La sinistra nazionalista galiziana guidata da Ana Pontón, oggi principale opposizione nel parlamento galiziano. Sostiene il governo Sánchez, critica la NATO e le regole economiche dell'UE e difende la lingua galiziana.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Galician_Nationalist_Bloc"
+    },
+    "ERC": {
+      "name": "Esquerra Republicana de Catalunya",
+      "leader": "Oriol Junqueras (presidente)",
+      "founded": "1931",
+      "spectrum": "Centro-sinistra / sinistra",
+      "ideologies": "Indipendenza della Catalogna, Socialdemocrazia, Repubblicanesimo, Europeismo",
+      "priorities": "Autodeterminazione della Catalogna, Servizi pubblici, Lingua catalana, Casa, Azione per il clima",
+      "description": "Il principale partito indipendentista di sinistra della Catalogna. Sostiene il governo Sánchez in cambio di concessioni come la legge di amnistia e più poteri fiscali per la Catalogna, e vuole l'indipendenza con un referendum concordato.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Republican_Left_of_Catalonia"
     },
     "Sumar": {
       "name": "Sumar",
@@ -52,6 +82,36 @@
       "description": "Sezione nazionale di Volt Europa, il primo partito paneuropeo. Tutte le sezioni condividono un unico programma: un'UE federale e più democratica, politiche basate sulle evidenze, un'economia di mercato con uno Stato sociale forte e le transizioni digitale e climatica. In questo test Volt ha le stesse posizioni in ogni Paese.",
       "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
     },
+    "PNV": {
+      "name": "Partido Nacionalista Vasco / Euzko Alderdi Jeltzalea",
+      "leader": "Aitor Esteban (presidente)",
+      "founded": "1895",
+      "spectrum": "Centro-destra",
+      "ideologies": "Nazionalismo basco, Democrazia cristiana, Europeismo",
+      "priorities": "Autogoverno basco, Sistema fiscale proprio, Industria e lavoro, Servizi pubblici, Integrazione europea",
+      "description": "Il Partito nazionalista basco ha governato i Paesi Baschi per gran parte del tempo dal 1980. Pragmatico e vicino alle imprese, negozia il sostegno ai governi spagnoli in cambio di più autogoverno.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Basque_Nationalist_Party"
+    },
+    "CC": {
+      "name": "Coalición Canaria",
+      "leader": "Fernando Clavijo (segretario generale)",
+      "founded": "1993",
+      "spectrum": "Centro",
+      "ideologies": "Nazionalismo canario, Regionalismo",
+      "priorities": "Statuto speciale delle Canarie, Sostegno di Spagna e UE sulle migrazioni, Turismo, Costo della vita nelle isole",
+      "description": "Partito regionalista canario di centro che governa le Canarie. Tratta con qualunque governo spagnolo per conto delle isole e chiede aiuto a Madrid e Bruxelles di fronte agli arrivi di barconi di migranti.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Canarian_Coalition"
+    },
+    "Junts": {
+      "name": "Junts per Catalunya",
+      "leader": "Carles Puigdemont (presidente)",
+      "founded": "2020",
+      "spectrum": "Centro-destra",
+      "ideologies": "Indipendenza della Catalogna, Nazionalismo catalano, Liberalismo",
+      "priorities": "Autodeterminazione della Catalogna, Amnistia, Poteri fiscali per la Catalogna, Competenze sull'immigrazione per la Catalogna, Meno tasse",
+      "description": "Il partito indipendentista di Carles Puigdemont. I suoi sette deputati sono stati decisivi per l'investitura di Sánchez nel 2023, ma nel 2025 ha rotto con il governo. Liberale in economia, ha inasprito la linea sull'immigrazione.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Together_for_Catalonia_(2020)"
+    },
     "PP": {
       "name": "Partido Popular",
       "leader": "Alberto Núñez Feijóo (presidente)",
@@ -61,6 +121,16 @@
       "priorities": "Meno tasse, Unità della Spagna, Lotta alla corruzione, Ridurre l'immigrazione, Disciplina di bilancio",
       "description": "Il principale partito del centrodestra spagnolo e il più grande al Congresso dal 2023, pur senza maggioranza. Sostiene tagli fiscali, fermezza verso i nazionalismi catalano e basco e più controllo dell'immigrazione, e vuole mantenere le centrali nucleari.",
       "wiki_url": "https://en.wikipedia.org/wiki/People%27s_Party_(Spain)"
+    },
+    "UPN": {
+      "name": "Unión del Pueblo Navarro",
+      "leader": "Cristina Ibarrola (presidente)",
+      "founded": "1979",
+      "spectrum": "Centro-destra",
+      "ideologies": "Regionalismo navarro, Conservatorismo, Unionismo spagnolo",
+      "priorities": "Regime forale della Navarra, Unità della Spagna, Meno tasse, Sicurezza, Opposizione al nazionalismo basco",
+      "description": "Partito conservatore navarro che difende le istituzioni proprie della Navarra all'interno della Spagna e si oppone all'unione con i Paesi Baschi. Di solito si allea con il PP.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Navarrese_People%27s_Union"
     },
     "Vox": {
       "name": "Vox",
