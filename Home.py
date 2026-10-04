@@ -15,7 +15,7 @@ from votimeter.scoring import affinity, compass_scores, subaxis_scores
 st.set_page_config(page_title="Votimeter", page_icon="⚛️", layout="wide")
 
 APP_URL = os.environ.get("VOTIMETER_APP_URL", "https://YOUR_APP_DEPLOYED_URL_HERE")
-CONTACT_EMAIL = "miguelptcosta1995+votimetro@gmail.com"
+CONTACT_EMAIL = "ribeirobarbosarafael@gmail.com"
 DEFAULT_LANGUAGE = "en"
 DEFAULT_LANDSCAPE = "eu"
 

@@ -2,7 +2,7 @@
 name = "votimeter-eu"
 version = "1.0.0"
 description = "Streamlit app to find your political alignment against Portuguese parties and European Parliament groups"
-authors = ["Miguel Costa <miguelptcosta1995@gmail.com>"]
+authors = ["Miguel Costa", "Rafael <ribeirobarbosarafael@gmail.com>"]
 readme = "README.md"
 package-mode = false
 
