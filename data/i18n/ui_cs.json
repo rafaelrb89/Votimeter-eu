@@ -123,5 +123,6 @@
   "subaxes_title": "Podrobný profil",
   "subaxes_caption": "Každá hlavní osa se dělí na čtyři dílčí osy. Každá dílčí osa stojí na 4 až 6 výrocích, berte ji proto jako tendenci, ne přesné měření. Body stran slouží pro srovnání.",
   "subaxes_locked": "Podrobný profil na {n} dílčích osách je k dispozici jen s úplným testem ({m} otázek).",
-  "subaxis_insufficient": "Příliš málo odpovědí"
+  "subaxis_insufficient": "Příliš málo odpovědí",
+  "subaxes_explainer": "Každý rozměr tvoří čtyři dílčí osy, z nichž každou měří 4 až 6 výroků: celkem {n}. Po úplném testu uvidíte i svůj výsledek na každé z nich."
 }

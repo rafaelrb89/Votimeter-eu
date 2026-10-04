@@ -206,7 +206,7 @@
     const langSelect = document.getElementById("lang-select");
     langSelect.setAttribute("aria-label", t("language_label"));
     langSelect.innerHTML = Object.entries(DATA.languages)
-      .sort(([, a], [, b]) => a.name.localeCompare(b.name))
+      .sort(([ca, a], [cb, b]) => (cb === DATA.defaults.lang) - (ca === DATA.defaults.lang) || a.name.localeCompare(b.name))
       .map(([code, l]) => `<option value="${code}" lang="${code}"${code === state.lang ? " selected" : ""}>${esc(l.name)}</option>`)
       .join("");
     const select = document.getElementById("landscape-select");
@@ -272,6 +272,7 @@
       <div class="section-head">
         <h2 class="section-title">${esc(t("web_axes_title"))}</h2>
         <p class="prose">${esc(t("statements_note").replace(/[:：]\s*$/, "."))}</p>
+        <p class="prose">${esc(t("subaxes_explainer", { n: DATA.subaxes.length }))}</p>
       </div>
       <div class="axes">
         ${AXES.map((axis) => `
@@ -281,6 +282,10 @@
             <p>${esc(stripLabel(t("axis_" + axis + "_desc")))}</p>
             <div class="spectrum"><div class="spectrum-bar"></div>
               <div class="spectrum-ends"><span>${esc(t(ends[axis][0]))}</span><span>${esc(t(ends[axis][1]))}</span></div></div>
+            <ul class="subaxis-list">
+              ${DATA.subaxes.filter((sub) => sub.axis === axis).map((sub) => `
+                <li><span>${esc(t("sub_" + sub.id + "_low"))}</span><span aria-hidden="true">↔</span><span>${esc(t("sub_" + sub.id + "_high"))}</span></li>`).join("")}
+            </ul>
           </article>`).join("")}
       </div>`;
     view.appendChild(axes);
@@ -728,8 +733,7 @@
     const saved = restore();
     const url = readUrl();
     const pick = (value, options, fallback) => (options.includes(value) ? value : fallback);
-    const browserLang = (navigator.language || "").slice(0, 2).toLowerCase();
-    state.lang = pick(url.lang, langs, pick(saved && saved.lang, langs, pick(browserLang, langs, DATA.defaults.lang)));
+    state.lang = pick(url.lang, langs, pick(saved && saved.lang, langs, DATA.defaults.lang));
     state.landscape = pick(url.landscape, lands, pick(saved && saved.landscape, lands, DATA.defaults.landscape));
     if (saved && saved.answers && Array.isArray(saved.sequence)) {
       const known = new Set(allIds());

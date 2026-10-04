@@ -1,4 +1,5 @@
 import os
+import unicodedata
 import urllib.parse
 from pathlib import Path
 
@@ -24,7 +25,15 @@ st.markdown(f"<style>{(Path(__file__).parent / 'assets' / 'style.css').read_text
 # -------------------------------------------------------------------------
 # Language & landscape selection (persisted in the URL: ?lang=en&landscape=eu)
 # -------------------------------------------------------------------------
-LANGUAGES = available_languages()
+# English first, then the other languages by their own name.
+def _menu_key(code):
+    """English first, then Latin-script names ignoring accents, then other scripts (as on the website)."""
+    name = load_ui(code)["language_name"]
+    latin = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    return (code != DEFAULT_LANGUAGE, not latin, latin or name)
+
+
+LANGUAGES = sorted(available_languages(), key=_menu_key)
 LANDSCAPES = list_landscapes()
 
 
@@ -137,6 +146,10 @@ def show_intro():
     st.caption(t["axis_economic_desc"])
     st.caption(t["axis_social_desc"])
     st.caption(t["axis_political_desc"])
+    st.caption(t["subaxes_explainer"].format(n=len(SUBAXES)))
+    for axis in ("economic", "social", "political"):
+        poles = [f"{t[f'sub_{sid}_low']} – {t[f'sub_{sid}_high']}" for sid, parent in SUBAXES if parent == axis]
+        st.caption(f"**{t['axis_' + axis]}:** " + " · ".join(poles))
     st.caption("")
     st.caption(t["positions_note"].format(contact=CONTACT_EMAIL))
 

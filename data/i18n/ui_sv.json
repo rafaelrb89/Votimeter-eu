@@ -123,5 +123,6 @@
   "subaxes_title": "Detaljerad profil",
   "subaxes_caption": "Varje huvudaxel delas i fyra delaxlar. Varje delaxel bygger på 4 till 6 påståenden, så läs den som en tendens snarare än en exakt mätning. Partiernas punkter visas som jämförelse.",
   "subaxes_locked": "Den detaljerade profilen på {n} delaxlar finns bara med det fullständiga testet ({m} frågor).",
-  "subaxis_insufficient": "För få svar"
+  "subaxis_insufficient": "För få svar",
+  "subaxes_explainer": "Varje dimension består av fyra delaxlar som var och en mäts med 4 till 6 påståenden: {n} totalt. Efter det fullständiga testet ser du också ditt resultat på var och en av dem."
 }

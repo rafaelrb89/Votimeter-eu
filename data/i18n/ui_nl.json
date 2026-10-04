@@ -123,5 +123,6 @@
   "subaxes_title": "Gedetailleerd profiel",
   "subaxes_caption": "Elke hoofdas is verdeeld in vier subassen. Elke subas rust op 4 tot 6 stellingen; lees haar dus als een tendens, niet als een precieze meting. De partijstippen dienen ter vergelijking.",
   "subaxes_locked": "Het gedetailleerde profiel op {n} subassen is alleen beschikbaar bij de volledige test ({m} vragen).",
-  "subaxis_insufficient": "Te weinig antwoorden"
+  "subaxis_insufficient": "Te weinig antwoorden",
+  "subaxes_explainer": "Elke dimensie bestaat uit vier subassen, elk gemeten met 4 tot 6 stellingen: {n} in totaal. Na de volledige test ziet u ook uw score op elk van die subassen."
 }

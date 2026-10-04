@@ -123,5 +123,6 @@
   "subaxes_title": "Profil dettaljat",
   "subaxes_caption": "Kull ass ewlieni jinqasam f'erba' sotto-assi. Kull sotto-ass huwa bbażat fuq 4 sa 6 stqarrijiet, għalhekk aqrah bħala tendenza u mhux bħala kejl preċiż. Il-punti tal-partiti huma murija għall-paragun.",
   "subaxes_locked": "Il-profil dettaljat fuq {n} sotto-assi huwa disponibbli biss bit-test sħiħ ({m} mistoqsija).",
-  "subaxis_insufficient": "Ftit wisq tweġibiet"
+  "subaxis_insufficient": "Ftit wisq tweġibiet",
+  "subaxes_explainer": "Kull dimensjoni hija magħmula minn erba' sotto-assi, kull wieħed imkejjel b'4 sa 6 stqarrijiet: {n} b'kollox. Wara t-test sħiħ tara wkoll il-punteġġ tiegħek fuq kull wieħed minnhom."
 }

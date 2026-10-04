@@ -123,5 +123,6 @@
   "subaxes_title": "Podroben profil",
   "subaxes_caption": "Vsaka glavna os se deli na štiri podosi. Vsaka podos temelji na 4 do 6 trditvah, zato jo berite kot težnjo, ne kot natančno meritev. Točke strank so prikazane za primerjavo.",
   "subaxes_locked": "Podroben profil na {n} podoseh je na voljo le s celotnim testom ({m} vprašanj).",
-  "subaxis_insufficient": "Premalo odgovorov"
+  "subaxis_insufficient": "Premalo odgovorov",
+  "subaxes_explainer": "Vsaka razsežnost je sestavljena iz štirih podosi, vsako merijo 4 do 6 trditev: skupaj {n}. Po celotnem testu vidite tudi svoj rezultat na vsaki od njih."
 }

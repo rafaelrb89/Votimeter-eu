@@ -123,5 +123,6 @@
   "subaxes_title": "Yksityiskohtainen profiili",
   "subaxes_caption": "Jokainen pääakseli jakautuu neljään ala-akseliin. Kukin ala-akseli perustuu 4–6 väittämään, joten lue se suuntauksena eikä tarkkana mittauksena. Puolueiden pisteet näytetään vertailun vuoksi.",
   "subaxes_locked": "Yksityiskohtainen profiili {n} ala-akselilla on saatavilla vain koko testissä ({m} kysymystä).",
-  "subaxis_insufficient": "Liian vähän vastauksia"
+  "subaxis_insufficient": "Liian vähän vastauksia",
+  "subaxes_explainer": "Jokainen ulottuvuus koostuu neljästä ala-akselista, joista kutakin mitataan 4–6 väittämällä: yhteensä {n}. Koko testin jälkeen näet myös tuloksesi jokaisella niistä."
 }

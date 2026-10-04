@@ -123,5 +123,6 @@
   "subaxes_title": "Profil détaillé",
   "subaxes_caption": "Chaque axe principal se divise en quatre sous-axes. Chaque sous-axe repose sur 4 à 6 affirmations : lisez-le comme une tendance plutôt qu'une mesure précise. Les points des partis sont donnés à titre de repère.",
   "subaxes_locked": "Le profil détaillé sur {n} sous-axes n'est disponible qu'avec le test complet ({m} questions).",
-  "subaxis_insufficient": "Trop peu de réponses"
+  "subaxis_insufficient": "Trop peu de réponses",
+  "subaxes_explainer": "Chaque dimension se compose de quatre sous-axes, mesurés chacun par 4 à 6 affirmations : {n} au total. À la fin du test complet, vous voyez aussi votre score sur chacun d'eux."
 }

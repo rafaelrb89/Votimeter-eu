@@ -123,5 +123,6 @@
   "subaxes_title": "Próifíl mhionsonraithe",
   "subaxes_caption": "Roinntear gach príomh-ais ina ceithre fo-ais. Tá gach fo-ais bunaithe ar 4 go 6 ráiteas, mar sin léigh í mar threocht seachas mar thomhas beacht. Taispeántar poncanna na bpáirtithe le haghaidh comparáide.",
   "subaxes_locked": "Níl an phróifíl mhionsonraithe ar {n} fo-ais ar fáil ach leis an tástáil iomlán ({m} ceist).",
-  "subaxis_insufficient": "Ró-bheagán freagraí"
+  "subaxis_insufficient": "Ró-bheagán freagraí",
+  "subaxes_explainer": "Tá ceithre fho-ais i ngach toise, agus tomhaistear gach ceann acu le 4 go 6 ráiteas: {n} san iomlán. Tar éis na tástála iomláine feicfidh tú do scór ar gach ceann acu freisin."
 }
