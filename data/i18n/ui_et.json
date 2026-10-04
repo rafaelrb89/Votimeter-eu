@@ -123,5 +123,6 @@
   "subaxes_title": "Üksikasjalik profiil",
   "subaxes_caption": "Iga peatelg jaguneb neljaks alamteljeks. Iga alamtelg põhineb 4–6 väitel, seega lugege seda kui suundumust, mitte täpset mõõtu. Erakondade punktid on toodud võrdluseks.",
   "subaxes_locked": "Üksikasjalik profiil {n} alamteljel on saadaval ainult täieliku testiga ({m} küsimust).",
-  "subaxis_insufficient": "Liiga vähe vastuseid"
+  "subaxis_insufficient": "Liiga vähe vastuseid",
+  "subaxes_explainer": "Iga mõõde koosneb neljast alamteljest, mida mõõdetakse 4–6 väitega: kokku {n}. Pärast täielikku testi näete ka oma tulemust igal neist."
 }

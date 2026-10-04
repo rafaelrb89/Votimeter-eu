@@ -123,5 +123,6 @@
   "subaxes_title": "Detailliertes Profil",
   "subaxes_caption": "Jede Hauptachse teilt sich in vier Unterachsen. Jede Unterachse beruht auf 4 bis 6 Aussagen – lesen Sie sie als Tendenz, nicht als genaue Messung. Die Parteipunkte dienen zur Orientierung.",
   "subaxes_locked": "Das detaillierte Profil auf {n} Unterachsen gibt es nur mit dem vollständigen Test ({m} Fragen).",
-  "subaxis_insufficient": "Zu wenige Antworten"
+  "subaxis_insufficient": "Zu wenige Antworten",
+  "subaxes_explainer": "Jede Dimension besteht aus vier Unterachsen, die jeweils mit 4 bis 6 Aussagen gemessen werden – insgesamt {n}. Nach dem vollständigen Test sehen Sie auch Ihr Ergebnis auf jeder von ihnen."
 }

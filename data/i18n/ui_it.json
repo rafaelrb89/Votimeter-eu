@@ -123,5 +123,6 @@
   "subaxes_title": "Profilo dettagliato",
   "subaxes_caption": "Ogni asse principale si divide in quattro sottoassi. Ogni sottoasse si basa su 4-6 affermazioni: leggilo come una tendenza, non come una misura precisa. I punti dei partiti servono da riferimento.",
   "subaxes_locked": "Il profilo dettagliato su {n} sottoassi è disponibile solo con il test completo ({m} domande).",
-  "subaxis_insufficient": "Risposte insufficienti"
+  "subaxis_insufficient": "Risposte insufficienti",
+  "subaxes_explainer": "Ogni dimensione è composta da quattro sottoassi, misurati ciascuno da 4 a 6 affermazioni: {n} in tutto. Alla fine del test completo vedi anche il tuo punteggio su ciascuno di essi."
 }

@@ -123,5 +123,6 @@
   "subaxes_title": "Perfil detalhado",
   "subaxes_caption": "Cada eixo principal divide-se em quatro subeixos. Cada subeixo assenta em 4 a 6 afirmações, por isso leia-o como uma tendência e não como uma medida exata. Os pontos dos partidos servem de referência.",
   "subaxes_locked": "O perfil detalhado em {n} subeixos só está disponível com o teste completo ({m} perguntas).",
-  "subaxis_insufficient": "Respostas insuficientes"
+  "subaxis_insufficient": "Respostas insuficientes",
+  "subaxes_explainer": "Cada dimensão é composta por quatro subeixos, cada um medido por 4 a 6 afirmações: {n} no total. No fim do teste completo vê também o seu resultado em cada um deles."
 }

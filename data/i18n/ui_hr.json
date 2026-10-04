@@ -123,5 +123,6 @@
   "subaxes_title": "Detaljan profil",
   "subaxes_caption": "Svaka glavna os dijeli se na četiri podosi. Svaka podos temelji se na 4 do 6 tvrdnji, pa je čitajte kao sklonost, a ne kao preciznu mjeru. Točke stranaka prikazane su radi usporedbe.",
   "subaxes_locked": "Detaljan profil na {n} podosi dostupan je samo uz cijeli test ({m} pitanja).",
-  "subaxis_insufficient": "Premalo odgovora"
+  "subaxis_insufficient": "Premalo odgovora",
+  "subaxes_explainer": "Svaka se dimenzija sastoji od četiri podosi, a svaku mjeri 4 do 6 tvrdnji: ukupno {n}. Nakon cijelog testa vidjet ćete i svoj rezultat na svakoj od njih."
 }

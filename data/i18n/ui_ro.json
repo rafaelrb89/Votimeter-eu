@@ -123,5 +123,6 @@
   "subaxes_title": "Profil detaliat",
   "subaxes_caption": "Fiecare axă principală se împarte în patru subaxe. Fiecare subaxă se bazează pe 4–6 afirmații, așa că citiți-o ca pe o tendință, nu ca pe o măsurătoare exactă. Punctele partidelor sunt afișate ca reper.",
   "subaxes_locked": "Profilul detaliat pe {n} subaxe este disponibil doar cu testul complet ({m} întrebări).",
-  "subaxis_insufficient": "Prea puține răspunsuri"
+  "subaxis_insufficient": "Prea puține răspunsuri",
+  "subaxes_explainer": "Fiecare dimensiune este formată din patru subaxe, fiecare măsurată prin 4–6 afirmații: {n} în total. După testul complet vedeți și scorul dumneavoastră pe fiecare dintre ele."
 }

@@ -123,5 +123,6 @@
   "subaxes_title": "Szczegółowy profil",
   "subaxes_caption": "Każda oś główna dzieli się na cztery podosie. Każda podoś opiera się na 4–6 stwierdzeniach, więc traktuj ją jako tendencję, a nie dokładny pomiar. Punkty partii pokazano dla porównania.",
   "subaxes_locked": "Szczegółowy profil na {n} podosiach jest dostępny tylko w pełnym teście ({m} pytań).",
-  "subaxis_insufficient": "Za mało odpowiedzi"
+  "subaxis_insufficient": "Za mało odpowiedzi",
+  "subaxes_explainer": "Każdy wymiar składa się z czterech podosi, z których każdą mierzy 4–6 stwierdzeń: łącznie {n}. Po pełnym teście zobaczysz też swój wynik na każdej z nich."
 }

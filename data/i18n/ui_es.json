@@ -123,5 +123,6 @@
   "subaxes_title": "Perfil detallado",
   "subaxes_caption": "Cada eje principal se divide en cuatro subejes. Cada subeje se basa en 4 a 6 afirmaciones, así que léelo como una tendencia y no como una medida exacta. Los puntos de los partidos sirven de referencia.",
   "subaxes_locked": "El perfil detallado en {n} subejes solo está disponible con el test completo ({m} preguntas).",
-  "subaxis_insufficient": "Respuestas insuficientes"
+  "subaxis_insufficient": "Respuestas insuficientes",
+  "subaxes_explainer": "Cada dimensión se compone de cuatro subejes, medidos cada uno con 4 a 6 afirmaciones: {n} en total. Al terminar el test completo verás también tu puntuación en cada uno."
 }

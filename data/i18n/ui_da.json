@@ -123,5 +123,6 @@
   "subaxes_title": "Detaljeret profil",
   "subaxes_caption": "Hver hovedakse er delt i fire underakser. Hver underakse bygger på 4 til 6 udsagn, så læs den som en tendens snarere end en præcis måling. Partiernes prikker vises til sammenligning.",
   "subaxes_locked": "Den detaljerede profil på {n} underakser er kun tilgængelig med den fulde test ({m} spørgsmål).",
-  "subaxis_insufficient": "For få svar"
+  "subaxis_insufficient": "For få svar",
+  "subaxes_explainer": "Hver dimension består af fire underakser, der hver måles med 4 til 6 udsagn: {n} i alt. Efter den fulde test ser du også din score på hver af dem."
 }

@@ -123,5 +123,6 @@
   "subaxes_title": "Detalizēts profils",
   "subaxes_caption": "Katra galvenā ass sadalās četrās apakšasīs. Katra apakšass balstās uz 4–6 apgalvojumiem, tāpēc uztveriet to kā tendenci, nevis precīzu mērījumu. Partiju punkti parādīti salīdzinājumam.",
   "subaxes_locked": "Detalizētais profils {n} apakšasīs pieejams tikai ar pilno testu ({m} jautājumi).",
-  "subaxis_insufficient": "Pārāk maz atbilžu"
+  "subaxis_insufficient": "Pārāk maz atbilžu",
+  "subaxes_explainer": "Katra dimensija sastāv no četrām apakšasīm, ko katru mēra ar 4–6 apgalvojumiem: kopā {n}. Pēc pilnā testa redzēsiet arī savu rezultātu katrā no tām."
 }

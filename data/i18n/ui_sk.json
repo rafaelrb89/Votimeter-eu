@@ -123,5 +123,6 @@
   "subaxes_title": "Podrobný profil",
   "subaxes_caption": "Každá hlavná os sa delí na štyri čiastkové osi. Každá čiastková os stojí na 4 až 6 výrokoch, berte ju preto ako tendenciu, nie presné meranie. Body strán slúžia na porovnanie.",
   "subaxes_locked": "Podrobný profil na {n} čiastkových osiach je dostupný len s úplným testom ({m} otázok).",
-  "subaxis_insufficient": "Príliš málo odpovedí"
+  "subaxis_insufficient": "Príliš málo odpovedí",
+  "subaxes_explainer": "Každý rozmer tvoria štyri čiastkové osi, z ktorých každú meria 4 až 6 výrokov: spolu {n}. Po úplnom teste uvidíte aj svoj výsledok na každej z nich."
 }

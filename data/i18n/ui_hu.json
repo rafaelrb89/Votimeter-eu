@@ -123,5 +123,6 @@
   "subaxes_title": "Részletes profil",
   "subaxes_caption": "Minden főtengely négy altengelyre oszlik. Minden altengely 4–6 állításon alapul, ezért irányzatként olvassa, ne pontos mérésként. A pártok pontjai összehasonlításként szerepelnek.",
   "subaxes_locked": "A(z) {n} altengelyes részletes profil csak a teljes teszttel érhető el ({m} kérdés).",
-  "subaxis_insufficient": "Túl kevés válasz"
+  "subaxis_insufficient": "Túl kevés válasz",
+  "subaxes_explainer": "Minden dimenzió négy altengelyből áll, mindegyiket 4–6 állítás méri: összesen {n}. A teljes teszt után mindegyiken látja a saját eredményét is."
 }

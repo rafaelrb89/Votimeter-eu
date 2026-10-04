@@ -123,5 +123,6 @@
   "subaxes_title": "Detailed profile",
   "subaxes_caption": "Each main axis splits into four sub-axes. Each sub-axis rests on 4 to 6 statements, so read it as a tendency rather than a precise measure. Party dots are shown for reference.",
   "subaxes_locked": "The detailed profile on {n} sub-axes is only available with the full test ({m} questions).",
-  "subaxis_insufficient": "Too few answers"
+  "subaxis_insufficient": "Too few answers",
+  "subaxes_explainer": "Each dimension is made up of four sub-axes, each measured by 4 to 6 statements: {n} in total. After the full test you also see your score on every one of them."
 }

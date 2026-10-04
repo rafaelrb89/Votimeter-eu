@@ -123,5 +123,6 @@
   "subaxes_title": "Išsamus profilis",
   "subaxes_caption": "Kiekviena pagrindinė ašis skirstoma į keturias dalines ašis. Kiekviena jų remiasi 4–6 teiginiais, todėl vertinkite ją kaip tendenciją, o ne tikslų matavimą. Partijų taškai pateikiami palyginimui.",
   "subaxes_locked": "Išsamus profilis {n} dalinėse ašyse pateikiamas tik atlikus visą testą ({m} klausimų).",
-  "subaxis_insufficient": "Per mažai atsakymų"
+  "subaxis_insufficient": "Per mažai atsakymų",
+  "subaxes_explainer": "Kiekvieną dimensiją sudaro keturios dalinės ašys, kurių kiekviena matuojama 4–6 teiginiais: iš viso {n}. Atlikę visą testą matysite ir savo rezultatą kiekvienoje iš jų."
 }
