@@ -102,3 +102,10 @@ def test_volt_has_the_same_positions_everywhere():
     reference = columns["pt"]
     for landscape_id, column in columns.items():
         assert column.equals(reference), f"Volt differs in {landscape_id}: run scripts/sync_volt.py"
+
+
+@pytest.mark.parametrize("landscape_id", LANDSCAPES)
+def test_no_two_parties_in_a_landscape_have_identical_answers(landscape_id):
+    positions = load_landscape(landscape_id, "en").positions
+    duplicated = positions.T.duplicated(keep=False)
+    assert not duplicated.any(), f"identical answers: {positions.columns[duplicated].tolist()}"
