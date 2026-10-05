@@ -441,33 +441,52 @@
       </ol>`;
     view.appendChild(rank);
 
-    // 3. Compass
+    // 3. Compass, then the three dimensions; after the full test each one opens into its four sub-axes
     const you = userCompass();
     const parties = landscape().parties.map((p) => ({ code: p.code, color: p.color, ...partyCompass(p.code) }));
+    const full = isFullTest();
+    const subYou = full ? subaxisScores((id) => state.answers[id]) : {};
+    const subParties = full
+      ? landscape().parties.map((p) => ({ code: p.code, color: p.color, ...subaxisScores((id) => landscape().positions[p.code][qIndex[id]]) }))
+      : [];
+    const subLabel = (id) => `${t("sub_" + id + "_low")} – ${t("sub_" + id + "_high")}`;
     const comp = document.createElement("section");
     comp.className = "section";
     comp.innerHTML = `
       <div class="section-head"><h2 class="section-title">${esc(t("compass_title"))}</h2>
         <p class="prose">${esc(t("web_compass_caption"))}</p></div>
-      <div class="compass-wrap">
-        <figure class="compass" style="margin:0"></figure>
-        <div class="strips">
-          ${AXES.map((a) => `
-            <div class="strip">
-              <div class="strip-head"><h3>${esc(t("web_axis_" + a))}</h3><span class="strip-score">${esc(t("you"))} ${signed(you[a])}</span></div>
-              <div class="strip-plot" data-axis="${a}"></div>
-              <div class="spectrum-ends"><span>${esc(t(AXIS_ENDS[a][0]))}</span><span>${esc(t(AXIS_ENDS[a][1]))}</span></div>
-            </div>`).join("")}
-        </div>
-      </div>`;
+      <figure class="compass" style="margin:0"></figure>
+      <div class="strips">
+        ${AXES.map((a) => `
+          <div class="strip">
+            <div class="strip-head"><h3>${esc(t("web_axis_" + a))}</h3><span class="strip-score">${esc(t("you"))} ${signed(you[a])}</span></div>
+            <div class="strip-plot" data-axis="${a}"></div>
+            <div class="spectrum-ends"><span>${esc(t(AXIS_ENDS[a][0]))}</span><span>${esc(t(AXIS_ENDS[a][1]))}</span></div>
+            ${full ? `
+            <button type="button" class="sub-toggle" data-action="toggle-sub" aria-expanded="false" aria-controls="sub-${a}">
+              <span class="chev" aria-hidden="true">▸</span> ${esc(t("subaxes_title"))} <span class="sub-count">${DATA.subaxes.filter((sub) => sub.axis === a).length}</span>
+            </button>
+            <div class="sub-panel" id="sub-${a}" hidden>
+              ${DATA.subaxes.filter((sub) => sub.axis === a).map((sub) => `
+                <div class="strip strip-sub">
+                  <div class="strip-head"><h4>${esc(subLabel(sub.id))}</h4>
+                    <span class="strip-score">${subYou[sub.id] === null ? esc(t("subaxis_insufficient")) : `${esc(t("you"))} ${signed(subYou[sub.id])}`}</span></div>
+                  <div class="strip-plot" data-sub="${sub.id}"></div>
+                  <div class="spectrum-ends"><span>${esc(t("sub_" + sub.id + "_low"))}</span><span>${esc(t("sub_" + sub.id + "_high"))}</span></div>
+                </div>`).join("")}
+            </div>` : ""}
+          </div>`).join("")}
+      </div>
+      ${full
+        ? `<p class="small sub-note">${esc(t("subaxes_caption"))}</p>`
+        : `<div class="sub-locked"><h3>${esc(t("subaxes_title"))}</h3><p>${esc(t("subaxes_locked", { n: DATA.subaxes.length, m: allIds().length }))}</p>
+            ${state.kind === "short" ? `<div class="btn-row"><button class="btn" data-action="continue">${esc(t("continue_test", { n: allIds().length }))}</button></div>` : ""}</div>`}`;
     view.appendChild(comp);
     drawCompass(comp.querySelector(".compass"), you, parties);
-    comp.querySelectorAll(".strip-plot").forEach((el) => drawStrip(el, el.dataset.axis, you, parties));
+    comp.querySelectorAll(".strip-plot[data-axis]").forEach((el) => drawStrip(el, el.dataset.axis, you, parties, t("web_axis_" + el.dataset.axis)));
+    comp.querySelectorAll(".strip-plot[data-sub]").forEach((el) => drawStrip(el, el.dataset.sub, subYou, subParties, subLabel(el.dataset.sub)));
 
-    // 4. Detailed profile: sub-axes, full test only
-    view.appendChild(renderSubaxes(top.code));
-
-    // 5. Group details
+    // 4. Group details
     const scoreOf = Object.fromEntries(ranking.map((r) => [r.code, r.score]));
     const groups = document.createElement("section");
     groups.className = "section";
@@ -502,7 +521,7 @@
       </div>`;
     view.appendChild(groups);
 
-    // 6. Share + restart
+    // 5. Share + restart
     const shareText = t("share_text", { party: top.code, affinity: pct(top.score) });
     const pageUrl = location.href.split("#")[0];
     const enc = encodeURIComponent;
@@ -523,62 +542,6 @@
       </div>
       <div class="btn-row"><button class="btn" data-action="restart">↺ ${esc(t("restart"))}</button></div>`;
     view.appendChild(share);
-  }
-
-  function renderSubaxes(topCode) {
-    const section = document.createElement("section");
-    section.className = "section";
-    const head = `<div class="section-head"><h2 class="section-title">${esc(t("subaxes_title"))}</h2>`;
-    if (!isFullTest()) {
-      section.innerHTML = `${head}<p class="prose">${esc(t("subaxes_locked", { n: DATA.subaxes.length, m: allIds().length }))}</p></div>
-        ${state.kind === "short" ? `<div class="btn-row"><button class="btn" data-action="continue">${esc(t("continue_test", { n: allIds().length }))}</button></div>` : ""}`;
-      return section;
-    }
-    const you = subaxisScores((id) => state.answers[id]);
-    const parties = landscape().parties.map((p) => ({ code: p.code, color: p.color, ...subaxisScores((id) => landscape().positions[p.code][qIndex[id]]) }));
-    section.innerHTML = `${head}<p class="prose">${esc(t("subaxes_caption"))}</p></div>
-      <div class="subaxes">
-        ${AXES.map((axis) => `
-          <div class="subaxis-group">
-            <h3>${esc(t("web_axis_" + axis))}</h3>
-            ${DATA.subaxes.filter((sub) => sub.axis === axis).map((sub) => `
-              <div class="substrip">
-                <div class="substrip-head">
-                  <span>${esc(t("sub_" + sub.id + "_low"))}</span>
-                  <span class="strip-score">${you[sub.id] === null ? esc(t("subaxis_insufficient")) : signed(you[sub.id])}</span>
-                  <span>${esc(t("sub_" + sub.id + "_high"))}</span>
-                </div>
-                <div class="substrip-plot" data-subaxis="${sub.id}"></div>
-              </div>`).join("")}
-          </div>`).join("")}
-      </div>`;
-    section.querySelectorAll(".substrip-plot").forEach((el) => drawSubstrip(el, el.dataset.subaxis, you[el.dataset.subaxis], parties, topCode));
-    return section;
-  }
-
-  function drawSubstrip(container, subaxis, you, parties, topCode) {
-    // Compact strip: every party as a faint dot, your closest party labelled, your position as the triangle.
-    const W = 320, P = 10, mid = 24;
-    const X = (v) => P + ((v + 1) / 2) * (W - 2 * P);
-    const root = svg("svg", { viewBox: `0 0 ${W} 40`, role: "img", "aria-label": `${t("sub_" + subaxis + "_low")} – ${t("sub_" + subaxis + "_high")}` });
-    svg("line", { x1: P, x2: W - P, y1: mid, y2: mid, class: "strip-line" }, root);
-    svg("line", { x1: X(0), x2: X(0), y1: mid - 5, y2: mid + 5, class: "strip-line", "stroke-width": 1 }, root);
-    const ordered = [...parties].sort((a, b) => (a.code === topCode) - (b.code === topCode));
-    for (const p of ordered) {
-      const isTop = p.code === topCode;
-      const c = svg("circle", { cx: X(p[subaxis]), cy: mid, r: isTop ? 5.5 : 4, class: "party-dot" + (isTop ? "" : " is-faint") }, root);
-      c.style.fill = p.color;
-      svg("title", {}, c).textContent = `${p.code}: ${signed(p[subaxis])}`;
-      if (isTop) {
-        const label = svg("text", { x: Math.min(W - P, Math.max(P, X(p[subaxis]))), y: mid - 9, "text-anchor": "middle", class: "dot-label" }, root);
-        label.textContent = p.code;
-      }
-    }
-    if (you !== null) {
-      const x = X(you);
-      svg("path", { d: `M${x} ${mid - 7} L${x + 7} ${mid + 6} L${x - 7} ${mid + 6} Z`, class: "you-mark" }, root);
-    }
-    container.appendChild(root);
   }
 
   function drawCompass(container, you, parties) {
@@ -629,7 +592,7 @@
     container.appendChild(root);
   }
 
-  function drawStrip(container, axis, you, parties) {
+  function drawStrip(container, axis, you, parties, label) {
     const W = 420, P = 14, mid = 58;
     const X = (v) => P + ((v + 1) / 2) * (W - 2 * P);
     // Label lanes above and below the line; each party takes the first lane where its label fits.
@@ -644,7 +607,7 @@
     });
     const top = Math.min(...labels.map((l) => l.y)) - 14;
     const bottom = Math.max(mid + 16, ...labels.map((l) => l.y + 6));
-    const root = svg("svg", { viewBox: `0 ${top} ${W} ${bottom - top}`, role: "img", "aria-label": t("web_axis_" + axis) });
+    const root = svg("svg", { viewBox: `0 ${top} ${W} ${bottom - top}`, role: "img", "aria-label": label });
     svg("line", { x1: P, x2: W - P, y1: mid, y2: mid, class: "strip-line" }, root);
     for (const { p, x, y } of labels) {
       if (Math.abs(y - mid) > 20) svg("line", { x1: x, x2: x, y1: mid, y2: y < mid ? y + 3 : y - 11, class: "strip-line", "stroke-width": 1 }, root);
@@ -654,9 +617,11 @@
       const tx = svg("text", { x, y, "text-anchor": "middle", class: "dot-label" }, root);
       tx.textContent = p.code;
     }
-    const x = X(you[axis]);
-    svg("line", { x1: x, x2: x, y1: top + 4, y2: bottom - 4, class: "you-rule" }, root);
-    svg("path", { d: `M${x} ${mid - 9} L${x + 9} ${mid + 7} L${x - 9} ${mid + 7} Z`, class: "you-mark" }, root);
+    if (you[axis] !== null && you[axis] !== undefined) {
+      const x = X(you[axis]);
+      svg("line", { x1: x, x2: x, y1: top + 4, y2: bottom - 4, class: "you-rule" }, root);
+      svg("path", { d: `M${x} ${mid - 9} L${x + 9} ${mid + 7} L${x - 9} ${mid + 7} Z`, class: "you-mark" }, root);
+    }
     container.appendChild(root);
   }
 
@@ -706,6 +671,12 @@
       back,
       "see-results": () => { state.mode = "results"; render(); focusView(); },
       continue: continueFull,
+      "toggle-sub": () => {
+        const open = el.getAttribute("aria-expanded") !== "true";
+        el.setAttribute("aria-expanded", String(open));
+        el.querySelector(".chev").textContent = open ? "▾" : "▸";
+        document.getElementById(el.getAttribute("aria-controls")).hidden = !open;
+      },
       copy: copyResult,
       restart,
     }[action] || (() => {}))();
