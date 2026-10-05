@@ -124,5 +124,19 @@
   "subaxes_caption": "Każda oś główna dzieli się na cztery podosie. Każda podoś opiera się na 4–6 stwierdzeniach, więc traktuj ją jako tendencję, a nie dokładny pomiar. Punkty partii pokazano dla porównania.",
   "subaxes_locked": "Szczegółowy profil na {n} podosiach jest dostępny tylko w pełnym teście ({m} pytań).",
   "subaxis_insufficient": "Za mało odpowiedzi",
-  "subaxes_explainer": "Każdy wymiar składa się z czterech podosi, z których każdą mierzy 4–6 stwierdzeń: łącznie {n}. Po pełnym teście zobaczysz też swój wynik na każdej z nich."
+  "subaxes_explainer": "Każdy wymiar składa się z czterech podosi, z których każdą mierzy 4–6 stwierdzeń: łącznie {n}. Po pełnym teście zobaczysz też swój wynik na każdej z nich.",
+  "web_dimensions_title": "Twoja pozycja w każdym wymiarze",
+  "web_dimensions_intro": "Każdy z trzech wymiarów dzieli się na cztery osie. Po pełnym teście otwórz „{name}” pod wymiarem, aby zobaczyć, gdzie Ty i partie znajdujecie się na każdej z nich.",
+  "sub_eco_state_desc": "Czy usługi i strategiczne firmy powinno prowadzić państwo, czy sektor prywatny.",
+  "sub_eco_regulation_desc": "Jak bardzo państwo powinno regulować i sterować gospodarką.",
+  "sub_eco_taxes_desc": "Na ile podatki i świadczenia powinny zmniejszać nierówności.",
+  "sub_eco_trade_desc": "Ochrona krajowego przemysłu czy wolny handel i jednolity rynek europejski.",
+  "sub_soc_values_desc": "Stosunek do wyborów osobistych i zmian społecznych, np. narkotyków, eutanazji i równości.",
+  "sub_soc_religion_desc": "Miejsce religii w państwie, szkole i społeczeństwie.",
+  "sub_soc_diversity_desc": "Czy przybysze powinni przyjąć kulturę narodową, czy społeczeństwo ma objąć wiele kultur.",
+  "sub_soc_tech_desc": "Zaufanie do technologii i nauki, np. energii jądrowej, GMO i AI, w rozwiązywaniu problemów.",
+  "sub_pol_checks_desc": "Silni przywódcy, którzy szybko decydują, czy instytucje ograniczające władzę.",
+  "sub_pol_liberties_desc": "Porządek i kara czy prawa jednostki i wolność słowa.",
+  "sub_pol_world_desc": "Trzymanie się z dala od spraw świata czy współpraca z sojusznikami i organizacjami międzynarodowymi.",
+  "sub_pol_sovereignty_desc": "Decyzje na poziomie krajowym czy głębsza integracja europejska i międzynarodowa."
 }

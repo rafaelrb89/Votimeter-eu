@@ -455,11 +455,20 @@
     comp.innerHTML = `
       <div class="section-head"><h2 class="section-title">${esc(t("compass_title"))}</h2>
         <p class="prose">${esc(t("web_compass_caption"))}</p></div>
-      <figure class="compass" style="margin:0"></figure>
+      <figure class="compass" style="margin:0"></figure>`;
+    view.appendChild(comp);
+    drawCompass(comp.querySelector(".compass"), you, parties);
+
+    const dims = document.createElement("section");
+    dims.className = "section";
+    dims.innerHTML = `
+      <div class="section-head"><h2 class="section-title">${esc(t("web_dimensions_title"))}</h2>
+        <p class="prose">${esc(t("web_dimensions_intro", { name: t("subaxes_title") }))}</p></div>
       <div class="strips">
         ${AXES.map((a) => `
           <div class="strip">
             <div class="strip-head"><h3>${esc(t("web_axis_" + a))}</h3><span class="strip-score">${esc(t("you"))} ${signed(you[a])}</span></div>
+            <p class="strip-desc">${esc(stripLabel(t("axis_" + a + "_desc")))}</p>
             <div class="strip-plot" data-axis="${a}"></div>
             <div class="spectrum-ends"><span>${esc(t(AXIS_ENDS[a][0]))}</span><span>${esc(t(AXIS_ENDS[a][1]))}</span></div>
             ${full ? `
@@ -471,6 +480,7 @@
                 <div class="strip strip-sub">
                   <div class="strip-head"><h4>${esc(subLabel(sub.id))}</h4>
                     <span class="strip-score">${subYou[sub.id] === null ? esc(t("subaxis_insufficient")) : `${esc(t("you"))} ${signed(subYou[sub.id])}`}</span></div>
+                  <p class="strip-desc">${esc(t("sub_" + sub.id + "_desc"))}</p>
                   <div class="strip-plot" data-sub="${sub.id}"></div>
                   <div class="spectrum-ends"><span>${esc(t("sub_" + sub.id + "_low"))}</span><span>${esc(t("sub_" + sub.id + "_high"))}</span></div>
                 </div>`).join("")}
@@ -481,10 +491,9 @@
         ? `<p class="small sub-note">${esc(t("subaxes_caption"))}</p>`
         : `<div class="sub-locked"><h3>${esc(t("subaxes_title"))}</h3><p>${esc(t("subaxes_locked", { n: DATA.subaxes.length, m: allIds().length }))}</p>
             ${state.kind === "short" ? `<div class="btn-row"><button class="btn" data-action="continue">${esc(t("continue_test", { n: allIds().length }))}</button></div>` : ""}</div>`}`;
-    view.appendChild(comp);
-    drawCompass(comp.querySelector(".compass"), you, parties);
-    comp.querySelectorAll(".strip-plot[data-axis]").forEach((el) => drawStrip(el, el.dataset.axis, you, parties, t("web_axis_" + el.dataset.axis)));
-    comp.querySelectorAll(".strip-plot[data-sub]").forEach((el) => drawStrip(el, el.dataset.sub, subYou, subParties, subLabel(el.dataset.sub)));
+    view.appendChild(dims);
+    dims.querySelectorAll(".strip-plot[data-axis]").forEach((el) => drawStrip(el, el.dataset.axis, you, parties, t("web_axis_" + el.dataset.axis)));
+    dims.querySelectorAll(".strip-plot[data-sub]").forEach((el) => drawStrip(el, el.dataset.sub, subYou, subParties, subLabel(el.dataset.sub)));
 
     // 4. Group details
     const scoreOf = Object.fromEntries(ranking.map((r) => [r.code, r.score]));

@@ -124,5 +124,19 @@
   "subaxes_caption": "Jokainen pääakseli jakautuu neljään ala-akseliin. Kukin ala-akseli perustuu 4–6 väittämään, joten lue se suuntauksena eikä tarkkana mittauksena. Puolueiden pisteet näytetään vertailun vuoksi.",
   "subaxes_locked": "Yksityiskohtainen profiili {n} ala-akselilla on saatavilla vain koko testissä ({m} kysymystä).",
   "subaxis_insufficient": "Liian vähän vastauksia",
-  "subaxes_explainer": "Jokainen ulottuvuus koostuu neljästä ala-akselista, joista kutakin mitataan 4–6 väittämällä: yhteensä {n}. Koko testin jälkeen näet myös tuloksesi jokaisella niistä."
+  "subaxes_explainer": "Jokainen ulottuvuus koostuu neljästä ala-akselista, joista kutakin mitataan 4–6 väittämällä: yhteensä {n}. Koko testin jälkeen näet myös tuloksesi jokaisella niistä.",
+  "web_dimensions_title": "Sijaintisi kullakin ulottuvuudella",
+  "web_dimensions_intro": "Jokainen kolmesta ulottuvuudesta jakautuu neljään akseliin. Koko testin jälkeen voit avata ulottuvuuden alta kohdan ”{name}” ja nähdä, missä sinä ja puolueet olette kullakin akselilla.",
+  "sub_eco_state_desc": "Pitäisikö palveluja ja strategisia yrityksiä johtaa valtion vai yksityisten toimesta.",
+  "sub_eco_regulation_desc": "Kuinka paljon valtion pitäisi säännellä ja ohjata taloutta.",
+  "sub_eco_taxes_desc": "Kuinka paljon verojen ja tukien pitäisi kaventaa eriarvoisuutta.",
+  "sub_eco_trade_desc": "Kotimaisen teollisuuden suojelu vai vapaakauppa ja Euroopan sisämarkkinat.",
+  "sub_soc_values_desc": "Suhtautuminen henkilökohtaisiin valintoihin ja yhteiskunnan muutokseen, kuten huumeisiin, eutanasiaan ja tasa-arvoon.",
+  "sub_soc_religion_desc": "Uskonnon paikka valtiossa, koulussa ja yhteiskunnassa.",
+  "sub_soc_diversity_desc": "Pitäisikö tulijoiden omaksua kansallinen kulttuuri vai yhteiskunnan omaksua monia kulttuureja.",
+  "sub_soc_tech_desc": "Luottamus tekniikkaan ja tieteeseen, kuten ydinvoimaan, geenimuunteluun ja tekoälyyn, ongelmien ratkaisijana.",
+  "sub_pol_checks_desc": "Vahvat, nopeasti päättävät johtajat vai valtaa rajoittavat instituutiot.",
+  "sub_pol_liberties_desc": "Järjestys ja rangaistukset vai yksilön oikeudet ja sananvapaus.",
+  "sub_pol_world_desc": "Pysyminen erossa maailmanpolitiikasta vai yhteistyö liittolaisten ja kansainvälisten järjestöjen kanssa.",
+  "sub_pol_sovereignty_desc": "Päätösvallan pitäminen kansallisella tasolla vai syvempi eurooppalainen ja kansainvälinen yhdentyminen."
 }

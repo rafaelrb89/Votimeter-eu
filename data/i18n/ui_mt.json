@@ -124,5 +124,19 @@
   "subaxes_caption": "Kull ass ewlieni jinqasam f'erba' sotto-assi. Kull sotto-ass huwa bbażat fuq 4 sa 6 stqarrijiet, għalhekk aqrah bħala tendenza u mhux bħala kejl preċiż. Il-punti tal-partiti huma murija għall-paragun.",
   "subaxes_locked": "Il-profil dettaljat fuq {n} sotto-assi huwa disponibbli biss bit-test sħiħ ({m} mistoqsija).",
   "subaxis_insufficient": "Ftit wisq tweġibiet",
-  "subaxes_explainer": "Kull dimensjoni hija magħmula minn erba' sotto-assi, kull wieħed imkejjel b'4 sa 6 stqarrijiet: {n} b'kollox. Wara t-test sħiħ tara wkoll il-punteġġ tiegħek fuq kull wieħed minnhom."
+  "subaxes_explainer": "Kull dimensjoni hija magħmula minn erba' sotto-assi, kull wieħed imkejjel b'4 sa 6 stqarrijiet: {n} b'kollox. Wara t-test sħiħ tara wkoll il-punteġġ tiegħek fuq kull wieħed minnhom.",
+  "web_dimensions_title": "Il-pożizzjoni tiegħek f'kull dimensjoni",
+  "web_dimensions_intro": "Kull waħda mit-tliet dimensjonijiet hija maqsuma f'erba' assi. Wara t-test sħiħ, iftaħ “{name}” taħt dimensjoni biex tara fejn tinsab int u fejn jinsabu l-partiti fuq kull wieħed minnhom.",
+  "sub_eco_state_desc": "Jekk is-servizzi u l-kumpaniji strateġiċi għandhomx jitmexxew mill-Istat jew mill-privat.",
+  "sub_eco_regulation_desc": "Kemm l-Istat għandu jirregola u jidderieġi l-ekonomija.",
+  "sub_eco_taxes_desc": "Kemm it-taxxi u l-benefiċċji għandhom inaqqsu l-inugwaljanza.",
+  "sub_eco_trade_desc": "Il-protezzjoni tal-industrija nazzjonali jew il-kummerċ ħieles u suq uniku Ewropew.",
+  "sub_soc_values_desc": "L-attitudni lejn għażliet personali u bidla soċjali, bħad-drogi, l-ewtanasja u l-ugwaljanza.",
+  "sub_soc_religion_desc": "Il-post tar-reliġjon fl-Istat, fl-iskola u fis-soċjetà.",
+  "sub_soc_diversity_desc": "Jekk min jasal għandux jadotta l-kultura nazzjonali jew is-soċjetà għandhiex tilqa' ħafna kulturi.",
+  "sub_soc_tech_desc": "Il-fiduċja fit-teknoloġija u x-xjenza, bħall-enerġija nukleari, l-OĠM u l-IA, biex jissolvew il-problemi.",
+  "sub_pol_checks_desc": "Mexxejja b'saħħithom li jiddeċiedu malajr jew istituzzjonijiet li jillimitaw il-poter.",
+  "sub_pol_liberties_desc": "Ordni u kastig jew drittijiet individwali u libertà tal-espressjoni.",
+  "sub_pol_world_desc": "Tibqa' 'l barra mill-affarijiet tad-dinja jew taħdem ma' alleati u organizzazzjonijiet internazzjonali.",
+  "sub_pol_sovereignty_desc": "Iżżomm id-deċiżjonijiet fil-livell nazzjonali jew integrazzjoni Ewropea u internazzjonali aktar profonda."
 }

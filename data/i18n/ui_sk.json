@@ -124,5 +124,19 @@
   "subaxes_caption": "Každá hlavná os sa delí na štyri čiastkové osi. Každá čiastková os stojí na 4 až 6 výrokoch, berte ju preto ako tendenciu, nie presné meranie. Body strán slúžia na porovnanie.",
   "subaxes_locked": "Podrobný profil na {n} čiastkových osiach je dostupný len s úplným testom ({m} otázok).",
   "subaxis_insufficient": "Príliš málo odpovedí",
-  "subaxes_explainer": "Každý rozmer tvoria štyri čiastkové osi, z ktorých každú meria 4 až 6 výrokov: spolu {n}. Po úplnom teste uvidíte aj svoj výsledok na každej z nich."
+  "subaxes_explainer": "Každý rozmer tvoria štyri čiastkové osi, z ktorých každú meria 4 až 6 výrokov: spolu {n}. Po úplnom teste uvidíte aj svoj výsledok na každej z nich.",
+  "web_dimensions_title": "Vaša pozícia v každom rozmere",
+  "web_dimensions_intro": "Každý z troch rozmerov sa delí na štyri osi. Po úplnom teste otvorte pod rozmerom „{name}“ a uvidíte, kde na každej z nich stojíte vy a strany.",
+  "sub_eco_state_desc": "Či služby a strategické podniky má riadiť štát, alebo súkromný sektor.",
+  "sub_eco_regulation_desc": "Ako veľmi má štát regulovať a usmerňovať ekonomiku.",
+  "sub_eco_taxes_desc": "Do akej miery majú dane a dávky znižovať nerovnosť.",
+  "sub_eco_trade_desc": "Ochrana domáceho priemyslu, alebo voľný obchod a jednotný európsky trh.",
+  "sub_soc_values_desc": "Postoj k osobným voľbám a spoločenskej zmene, napr. drogám, eutanázii a rovnosti.",
+  "sub_soc_religion_desc": "Miesto náboženstva v štáte, škole a spoločnosti.",
+  "sub_soc_diversity_desc": "Či majú prichádzajúci prijať národnú kultúru, alebo má spoločnosť prijať mnoho kultúr.",
+  "sub_soc_tech_desc": "Dôvera v technológie a vedu, napr. jadro, GMO a AI, pri riešení problémov.",
+  "sub_pol_checks_desc": "Silní lídri, ktorí rozhodujú rýchlo, alebo inštitúcie, ktoré obmedzujú moc.",
+  "sub_pol_liberties_desc": "Poriadok a trest, alebo práva jednotlivca a sloboda prejavu.",
+  "sub_pol_world_desc": "Držať sa bokom od svetového diania, alebo konať so spojencami a medzinárodnými organizáciami.",
+  "sub_pol_sovereignty_desc": "Ponechať rozhodovanie na národnej úrovni, alebo prehlbovať európsku a medzinárodnú integráciu."
 }

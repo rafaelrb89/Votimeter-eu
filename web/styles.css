@@ -378,7 +378,7 @@ main:focus, main:focus-visible { outline: none; }
 @keyframes grow { from { transform: scaleX(.2); } to { transform: none; } }
 .rank-pct { font-family: var(--font-mono); font-variant-numeric: tabular-nums; text-align: right; }
 
-.section > .compass { max-width: 520px; margin-bottom: 28px !important; }
+.section > .compass { max-width: 520px; }
 .compass svg, .strip svg { width: 100%; height: auto; display: block; overflow: visible; }
 .compass-frame { fill: var(--surface); stroke: var(--rule); }
 .compass-grid { stroke: var(--rule); stroke-dasharray: 3 4; }
@@ -395,6 +395,7 @@ main:focus, main:focus-visible { outline: none; }
 .you-rule { stroke: var(--gold); stroke-width: 1.5; stroke-dasharray: 2 3; }
 .strip-line { stroke: var(--rule); stroke-width: 2; }
 .strip h4 { font-size: var(--step-0); font-weight: 700; }
+.strip-desc { font-family: var(--font-text); font-size: var(--step--1); color: var(--ink-2); max-width: 62ch; }
 .sub-toggle { justify-self: start; display: inline-flex; align-items: center; gap: 8px; margin-top: 4px; padding: 6px 12px; border-radius: 999px;
   border: 1px solid var(--rule); background: transparent; color: var(--ink); font: inherit; font-size: var(--step--1); font-weight: 600; cursor: pointer; }
 .sub-toggle:hover { border-color: var(--ink-2); }
