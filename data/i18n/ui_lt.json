@@ -124,5 +124,19 @@
   "subaxes_caption": "Kiekviena pagrindinė ašis skirstoma į keturias dalines ašis. Kiekviena jų remiasi 4–6 teiginiais, todėl vertinkite ją kaip tendenciją, o ne tikslų matavimą. Partijų taškai pateikiami palyginimui.",
   "subaxes_locked": "Išsamus profilis {n} dalinėse ašyse pateikiamas tik atlikus visą testą ({m} klausimų).",
   "subaxis_insufficient": "Per mažai atsakymų",
-  "subaxes_explainer": "Kiekvieną dimensiją sudaro keturios dalinės ašys, kurių kiekviena matuojama 4–6 teiginiais: iš viso {n}. Atlikę visą testą matysite ir savo rezultatą kiekvienoje iš jų."
+  "subaxes_explainer": "Kiekvieną dimensiją sudaro keturios dalinės ašys, kurių kiekviena matuojama 4–6 teiginiais: iš viso {n}. Atlikę visą testą matysite ir savo rezultatą kiekvienoje iš jų.",
+  "web_dimensions_title": "Jūsų padėtis kiekvienoje dimensijoje",
+  "web_dimensions_intro": "Kiekviena iš trijų dimensijų skirstoma į keturias ašis. Atlikę visą testą, po dimensija atverkite „{name}“ ir pamatysite, kur jūs ir partijos esate kiekvienoje iš jų.",
+  "sub_eco_state_desc": "Ar paslaugas ir strategines įmones turėtų valdyti valstybė, ar privatus sektorius.",
+  "sub_eco_regulation_desc": "Kiek valstybė turėtų reguliuoti ir kreipti ekonomiką.",
+  "sub_eco_taxes_desc": "Kiek mokesčiai ir išmokos turėtų mažinti nelygybę.",
+  "sub_eco_trade_desc": "Nacionalinės pramonės apsauga ar laisva prekyba ir bendroji Europos rinka.",
+  "sub_soc_values_desc": "Požiūris į asmeninius pasirinkimus ir socialinius pokyčius, pavyzdžiui, narkotikus, eutanaziją ir lygybę.",
+  "sub_soc_religion_desc": "Religijos vieta valstybėje, mokykloje ir visuomenėje.",
+  "sub_soc_diversity_desc": "Ar atvykėliai turėtų perimti nacionalinę kultūrą, ar visuomenė turėtų priimti daug kultūrų.",
+  "sub_soc_tech_desc": "Pasitikėjimas technologijomis ir mokslu, pavyzdžiui, branduoline energetika, GMO ir DI, sprendžiant problemas.",
+  "sub_pol_checks_desc": "Stiprūs, greitai sprendžiantys lyderiai ar valdžią ribojančios institucijos.",
+  "sub_pol_liberties_desc": "Tvarka ir bausmės ar asmens teisės ir žodžio laisvė.",
+  "sub_pol_world_desc": "Laikytis nuošalyje nuo pasaulio reikalų ar veikti su sąjungininkais ir tarptautinėmis organizacijomis.",
+  "sub_pol_sovereignty_desc": "Palikti sprendimus nacionaliniu lygmeniu ar gilinti Europos ir tarptautinę integraciją."
 }

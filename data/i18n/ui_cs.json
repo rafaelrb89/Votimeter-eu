@@ -124,5 +124,19 @@
   "subaxes_caption": "Každá hlavní osa se dělí na čtyři dílčí osy. Každá dílčí osa stojí na 4 až 6 výrocích, berte ji proto jako tendenci, ne přesné měření. Body stran slouží pro srovnání.",
   "subaxes_locked": "Podrobný profil na {n} dílčích osách je k dispozici jen s úplným testem ({m} otázek).",
   "subaxis_insufficient": "Příliš málo odpovědí",
-  "subaxes_explainer": "Každý rozměr tvoří čtyři dílčí osy, z nichž každou měří 4 až 6 výroků: celkem {n}. Po úplném testu uvidíte i svůj výsledek na každé z nich."
+  "subaxes_explainer": "Každý rozměr tvoří čtyři dílčí osy, z nichž každou měří 4 až 6 výroků: celkem {n}. Po úplném testu uvidíte i svůj výsledek na každé z nich.",
+  "web_dimensions_title": "Vaše pozice v každém rozměru",
+  "web_dimensions_intro": "Každý ze tří rozměrů se dělí na čtyři osy. Po úplném testu otevřete pod rozměrem „{name}“ a uvidíte, kde na každé z nich stojíte vy a strany.",
+  "sub_eco_state_desc": "Zda služby a strategické podniky má řídit stát, nebo soukromý sektor.",
+  "sub_eco_regulation_desc": "Jak moc má stát regulovat a řídit ekonomiku.",
+  "sub_eco_taxes_desc": "Do jaké míry mají daně a dávky snižovat nerovnost.",
+  "sub_eco_trade_desc": "Ochrana domácího průmyslu, nebo volný obchod a jednotný evropský trh.",
+  "sub_soc_values_desc": "Postoj k osobním volbám a společenské změně, např. drogám, eutanazii a rovnosti.",
+  "sub_soc_religion_desc": "Místo náboženství ve státě, škole a společnosti.",
+  "sub_soc_diversity_desc": "Zda mají příchozí přijmout národní kulturu, nebo má společnost přijmout mnoho kultur.",
+  "sub_soc_tech_desc": "Důvěra v technologie a vědu, např. jádro, GMO a AI, při řešení problémů.",
+  "sub_pol_checks_desc": "Silní lídři, kteří rozhodují rychle, nebo instituce, které omezují moc.",
+  "sub_pol_liberties_desc": "Pořádek a trest, nebo práva jednotlivce a svoboda projevu.",
+  "sub_pol_world_desc": "Držet se stranou světového dění, nebo jednat se spojenci a mezinárodními organizacemi.",
+  "sub_pol_sovereignty_desc": "Ponechat rozhodování na národní úrovni, nebo prohlubovat evropskou a mezinárodní integraci."
 }

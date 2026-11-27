@@ -124,5 +124,19 @@
   "subaxes_caption": "Iga peatelg jaguneb neljaks alamteljeks. Iga alamtelg põhineb 4–6 väitel, seega lugege seda kui suundumust, mitte täpset mõõtu. Erakondade punktid on toodud võrdluseks.",
   "subaxes_locked": "Üksikasjalik profiil {n} alamteljel on saadaval ainult täieliku testiga ({m} küsimust).",
   "subaxis_insufficient": "Liiga vähe vastuseid",
-  "subaxes_explainer": "Iga mõõde koosneb neljast alamteljest, mida mõõdetakse 4–6 väitega: kokku {n}. Pärast täielikku testi näete ka oma tulemust igal neist."
+  "subaxes_explainer": "Iga mõõde koosneb neljast alamteljest, mida mõõdetakse 4–6 väitega: kokku {n}. Pärast täielikku testi näete ka oma tulemust igal neist.",
+  "web_dimensions_title": "Teie asukoht igal mõõtmel",
+  "web_dimensions_intro": "Iga kolmest mõõtmest jaguneb neljaks teljeks. Pärast täielikku testi avage mõõtme all „{name}“, et näha, kus teie ja erakonnad igal teljel asuvad.",
+  "sub_eco_state_desc": "Kas teenuseid ja strateegilisi ettevõtteid peaks juhtima riik või erasektor.",
+  "sub_eco_regulation_desc": "Kui palju peaks riik majandust reguleerima ja suunama.",
+  "sub_eco_taxes_desc": "Kui palju peaksid maksud ja toetused ebavõrdsust vähendama.",
+  "sub_eco_trade_desc": "Kodumaise tööstuse kaitsmine või vabakaubandus ja Euroopa ühtne turg.",
+  "sub_soc_values_desc": "Suhtumine isiklikesse valikutesse ja ühiskonna muutumisse, nagu narkootikumid, eutanaasia ja võrdsus.",
+  "sub_soc_religion_desc": "Usu koht riigis, koolis ja ühiskonnas.",
+  "sub_soc_diversity_desc": "Kas tulijad peaksid omaks võtma rahvusliku kultuuri või ühiskond peaks hõlmama paljusid kultuure.",
+  "sub_soc_tech_desc": "Usaldus tehnoloogia ja teaduse vastu, nagu tuumaenergia, GMO ja tehisintellekt, probleemide lahendamisel.",
+  "sub_pol_checks_desc": "Tugevad kiiresti otsustavad juhid või võimu piiravad institutsioonid.",
+  "sub_pol_liberties_desc": "Kord ja karistus või inimõigused ja sõnavabadus.",
+  "sub_pol_world_desc": "Maailmaasjadest eemale hoidmine või koostöö liitlaste ja rahvusvaheliste organisatsioonidega.",
+  "sub_pol_sovereignty_desc": "Otsuste hoidmine riigi tasandil või sügavam Euroopa ja rahvusvaheline lõimumine."
 }

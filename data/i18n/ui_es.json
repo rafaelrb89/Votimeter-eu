@@ -124,5 +124,19 @@
   "subaxes_caption": "Cada eje principal se divide en cuatro subejes. Cada subeje se basa en 4 a 6 afirmaciones, así que léelo como una tendencia y no como una medida exacta. Los puntos de los partidos sirven de referencia.",
   "subaxes_locked": "El perfil detallado en {n} subejes solo está disponible con el test completo ({m} preguntas).",
   "subaxis_insufficient": "Respuestas insuficientes",
-  "subaxes_explainer": "Cada dimensión se compone de cuatro subejes, medidos cada uno con 4 a 6 afirmaciones: {n} en total. Al terminar el test completo verás también tu puntuación en cada uno."
+  "subaxes_explainer": "Cada dimensión se compone de cuatro subejes, medidos cada uno con 4 a 6 afirmaciones: {n} en total. Al terminar el test completo verás también tu puntuación en cada uno.",
+  "web_dimensions_title": "Tu posición en cada dimensión",
+  "web_dimensions_intro": "Cada una de las tres dimensiones se divide en cuatro ejes. Al terminar el test completo, abre «{name}» bajo una dimensión para ver dónde te sitúas tú, y dónde se sitúan los partidos, en cada uno de ellos.",
+  "sub_eco_state_desc": "Si los servicios y las empresas estratégicas deben estar en manos del Estado o de privados.",
+  "sub_eco_regulation_desc": "Cuánto debe el Estado regular y orientar la economía.",
+  "sub_eco_taxes_desc": "Hasta qué punto los impuestos y las prestaciones deben reducir la desigualdad.",
+  "sub_eco_trade_desc": "Proteger la industria nacional o apostar por el libre comercio y un mercado único europeo.",
+  "sub_soc_values_desc": "Actitud ante las decisiones personales y el cambio social, como drogas, eutanasia e igualdad.",
+  "sub_soc_religion_desc": "El papel de la religión en el Estado, la escuela y la sociedad.",
+  "sub_soc_diversity_desc": "Si quien llega debe adoptar la cultura nacional o la sociedad acoger muchas culturas.",
+  "sub_soc_tech_desc": "Confianza en la tecnología y la ciencia, como la nuclear, los transgénicos y la IA, para resolver problemas.",
+  "sub_pol_checks_desc": "Líderes fuertes que deciden rápido o instituciones que limitan el poder.",
+  "sub_pol_liberties_desc": "Orden y castigo o derechos individuales y libertad de expresión.",
+  "sub_pol_world_desc": "Mantenerse al margen del mundo o actuar con aliados y organizaciones internacionales.",
+  "sub_pol_sovereignty_desc": "Mantener las decisiones a nivel nacional o profundizar la integración europea e internacional."
 }

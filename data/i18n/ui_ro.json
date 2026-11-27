@@ -124,5 +124,19 @@
   "subaxes_caption": "Fiecare axă principală se împarte în patru subaxe. Fiecare subaxă se bazează pe 4–6 afirmații, așa că citiți-o ca pe o tendință, nu ca pe o măsurătoare exactă. Punctele partidelor sunt afișate ca reper.",
   "subaxes_locked": "Profilul detaliat pe {n} subaxe este disponibil doar cu testul complet ({m} întrebări).",
   "subaxis_insufficient": "Prea puține răspunsuri",
-  "subaxes_explainer": "Fiecare dimensiune este formată din patru subaxe, fiecare măsurată prin 4–6 afirmații: {n} în total. După testul complet vedeți și scorul dumneavoastră pe fiecare dintre ele."
+  "subaxes_explainer": "Fiecare dimensiune este formată din patru subaxe, fiecare măsurată prin 4–6 afirmații: {n} în total. După testul complet vedeți și scorul dumneavoastră pe fiecare dintre ele.",
+  "web_dimensions_title": "Poziția dumneavoastră pe fiecare dimensiune",
+  "web_dimensions_intro": "Fiecare dintre cele trei dimensiuni se împarte în patru axe. După testul complet, deschideți „{name}” sub o dimensiune pentru a vedea unde vă situați dumneavoastră și partidele pe fiecare dintre ele.",
+  "sub_eco_state_desc": "Dacă serviciile și companiile strategice trebuie conduse de stat sau de privați.",
+  "sub_eco_regulation_desc": "Cât de mult ar trebui statul să reglementeze și să orienteze economia.",
+  "sub_eco_taxes_desc": "Cât ar trebui taxele și ajutoarele să reducă inegalitatea.",
+  "sub_eco_trade_desc": "Protejarea industriei naționale sau comerț liber și o piață unică europeană.",
+  "sub_soc_values_desc": "Atitudinea față de alegerile personale și schimbarea socială, cum ar fi drogurile, eutanasia și egalitatea.",
+  "sub_soc_religion_desc": "Locul religiei în stat, în școală și în societate.",
+  "sub_soc_diversity_desc": "Dacă noii veniți trebuie să adopte cultura națională sau societatea să cuprindă multe culturi.",
+  "sub_soc_tech_desc": "Încrederea în tehnologie și știință, cum ar fi energia nucleară, OMG-urile și IA, pentru a rezolva probleme.",
+  "sub_pol_checks_desc": "Lideri puternici care decid repede sau instituții care limitează puterea.",
+  "sub_pol_liberties_desc": "Ordine și pedeapsă sau drepturi individuale și libertate de exprimare.",
+  "sub_pol_world_desc": "A sta departe de treburile lumii sau a acționa cu aliații și organizațiile internaționale.",
+  "sub_pol_sovereignty_desc": "Păstrarea deciziilor la nivel național sau o integrare europeană și internațională mai profundă."
 }

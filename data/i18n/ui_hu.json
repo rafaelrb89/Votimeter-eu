@@ -124,5 +124,19 @@
   "subaxes_caption": "Minden főtengely négy altengelyre oszlik. Minden altengely 4–6 állításon alapul, ezért irányzatként olvassa, ne pontos mérésként. A pártok pontjai összehasonlításként szerepelnek.",
   "subaxes_locked": "A(z) {n} altengelyes részletes profil csak a teljes teszttel érhető el ({m} kérdés).",
   "subaxis_insufficient": "Túl kevés válasz",
-  "subaxes_explainer": "Minden dimenzió négy altengelyből áll, mindegyiket 4–6 állítás méri: összesen {n}. A teljes teszt után mindegyiken látja a saját eredményét is."
+  "subaxes_explainer": "Minden dimenzió négy altengelyből áll, mindegyiket 4–6 állítás méri: összesen {n}. A teljes teszt után mindegyiken látja a saját eredményét is.",
+  "web_dimensions_title": "Az Ön helyzete az egyes dimenziókban",
+  "web_dimensions_intro": "A három dimenzió mindegyike négy tengelyre oszlik. A teljes teszt után nyissa meg egy dimenzió alatt a(z) „{name}” részt, hogy lássa, hol áll Ön és hol állnak a pártok az egyes tengelyeken.",
+  "sub_eco_state_desc": "Az állam vagy a magánszféra működtesse-e a szolgáltatásokat és a stratégiai vállalatokat.",
+  "sub_eco_regulation_desc": "Mennyire szabályozza és irányítsa az állam a gazdaságot.",
+  "sub_eco_taxes_desc": "Mennyire csökkentsék az adók és a juttatások az egyenlőtlenséget.",
+  "sub_eco_trade_desc": "A hazai ipar védelme vagy a szabad kereskedelem és az európai egységes piac.",
+  "sub_soc_values_desc": "Viszony a személyes döntésekhez és a társadalmi változáshoz, például a drogokhoz, az eutanáziához és az egyenlőséghez.",
+  "sub_soc_religion_desc": "A vallás helye az államban, az iskolában és a társadalomban.",
+  "sub_soc_diversity_desc": "Az érkezők vegyék-e át a nemzeti kultúrát, vagy a társadalom fogadjon be sokféle kultúrát.",
+  "sub_soc_tech_desc": "Bizalom a technológiában és a tudományban, például az atomenergiában, a GMO-ban és a MI-ben, a problémák megoldásában.",
+  "sub_pol_checks_desc": "Gyorsan döntő erős vezetők vagy a hatalmat korlátozó intézmények.",
+  "sub_pol_liberties_desc": "Rend és büntetés vagy egyéni jogok és szólásszabadság.",
+  "sub_pol_world_desc": "Távolmaradás a világ ügyeitől vagy együttműködés szövetségesekkel és nemzetközi szervezetekkel.",
+  "sub_pol_sovereignty_desc": "A döntések nemzeti szinten tartása vagy mélyebb európai és nemzetközi integráció."
 }

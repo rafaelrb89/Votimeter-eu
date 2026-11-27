@@ -4,7 +4,7 @@
   "intro": "confrontarlo con i gruppi politici del Parlamento europeo (legislatura 2024–2029)",
   "results_title": "Accordo con i gruppi del Parlamento europeo",
   "included_label": "Gruppi inclusi",
-  "inclusion_note": "Il test include tutti i gruppi politici del Parlamento europeo nella legislatura 2024–2029. I non iscritti non sono inclusi. Le posizioni dei gruppi riflettono la linea prevalente dei partiti membri; le delegazioni nazionali all'interno di un gruppo possono differire in modo significativo.",
+  "inclusion_note": "Il test include tutti i gruppi politici del Parlamento europeo nella legislatura 2024–2029. I non iscritti non sono inclusi. Le posizioni dei gruppi riflettono la linea prevalente dei partiti membri; le delegazioni nazionali all'interno di un gruppo possono differire in modo significativo. Volt, partito paneuropeo i cui cinque eurodeputati siedono nel gruppo Verdi/ALE, è mostrato anche separatamente.",
   "details_title": "Scopri di più sui gruppi",
   "entity_label": "Gruppo politico",
   "leader_label": "Presidenza (rif. 2025)",
@@ -51,6 +51,16 @@
       "priorities": "Azione per il clima e Green Deal europeo, Giustizia sociale, Diritti umani, Diritti digitali, Riforma democratica dell'UE",
       "description": "Alleanza di partiti verdi (come i Verdi tedeschi ed Europa Verde) con partiti regionalisti e progressisti dell'Alleanza Libera Europea e nuovi partiti europeisti come Volt. Sostiene una politica climatica ambiziosa, un'UE più federale e democratica e forti libertà civili.",
       "wiki_url": "https://en.wikipedia.org/wiki/Greens%E2%80%93European_Free_Alliance"
+    },
+    "Volt": {
+      "name": "Volt Europa",
+      "leader": "Partito paneuropeo; eurodeputati nel gruppo Verdi/ALE",
+      "founded": "2017",
+      "spectrum": "Centro",
+      "ideologies": "Liberalismo sociale, Federalismo europeo, Progressismo",
+      "priorities": "Un'UE federale e più democratica, Azione per il clima, Innovazione digitale, Politiche basate sui dati",
+      "description": "Il primo partito paneuropeo, presente in tutti i Paesi dell'UE. Nel 2024 ha ottenuto cinque seggi, tre in Germania e due nei Paesi Bassi, e i suoi eurodeputati siedono nel gruppo Verdi/ALE. Tutte le sezioni condividono un programma: un'UE federale e più democratica, politiche basate sui dati, economia di mercato con un forte stato sociale e le transizioni digitale e climatica.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
     },
     "The Left": {
       "name": "La Sinistra al Parlamento europeo – GUE/NGL",
