@@ -4,7 +4,7 @@
   "intro": "sie mit den Fraktionen des Europäischen Parlaments (Wahlperiode 2024–2029) zu vergleichen",
   "results_title": "Übereinstimmung mit den Fraktionen des Europäischen Parlaments",
   "included_label": "Enthaltene Fraktionen",
-  "inclusion_note": "Der Test umfasst alle Fraktionen des Europäischen Parlaments der Wahlperiode 2024–2029. Fraktionslose Abgeordnete sind nicht enthalten. Die Positionen spiegeln die vorherrschende Linie der Mitgliedsparteien wider; nationale Delegationen innerhalb einer Fraktion können deutlich abweichen.",
+  "inclusion_note": "Der Test umfasst alle Fraktionen des Europäischen Parlaments der Wahlperiode 2024–2029. Fraktionslose Abgeordnete sind nicht enthalten. Die Positionen spiegeln die vorherrschende Linie der Mitgliedsparteien wider; nationale Delegationen innerhalb einer Fraktion können deutlich abweichen. Volt, eine paneuropäische Partei, deren fünf Abgeordnete der Fraktion Grüne/EFA angehören, wird zusätzlich einzeln gezeigt.",
   "details_title": "Mehr über die Fraktionen",
   "entity_label": "Fraktion",
   "leader_label": "Vorsitz (Stand 2025)",
@@ -51,6 +51,16 @@
       "priorities": "Klimaschutz und Europäischer Grüner Deal, Soziale Gerechtigkeit, Menschenrechte, Digitale Rechte, Demokratische Reform der EU",
       "description": "Bündnis grüner Parteien (wie Bündnis 90/Die Grünen) mit regionalistischen und progressiven Parteien der Freien Europäischen Allianz sowie neuen proeuropäischen Parteien wie Volt. Sie steht für ehrgeizige Klimapolitik, eine föderalere und demokratischere EU und starke Bürgerrechte.",
       "wiki_url": "https://en.wikipedia.org/wiki/Greens%E2%80%93European_Free_Alliance"
+    },
+    "Volt": {
+      "name": "Volt Europa",
+      "leader": "Paneuropäische Partei; Abgeordnete in der Fraktion Grüne/EFA",
+      "founded": "2017",
+      "spectrum": "Mitte",
+      "ideologies": "Sozialliberalismus, Europäischer Föderalismus, Progressivismus",
+      "priorities": "Eine föderale und demokratischere EU, Klimaschutz, Digitale Innovation, Evidenzbasierte Politik",
+      "description": "Die erste paneuropäische Partei, mit Ablegern in allen EU-Ländern. 2024 gewann sie fünf Sitze, drei in Deutschland und zwei in den Niederlanden; ihre Abgeordneten gehören der Fraktion Grüne/EFA an. Alle Ableger teilen ein Programm: eine föderale, demokratischere EU, evidenzbasierte Politik, Marktwirtschaft mit starkem Sozialstaat sowie die digitale und die Klimawende.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
     },
     "The Left": {
       "name": "Die Linke im Europäischen Parlament – GUE/NGL",

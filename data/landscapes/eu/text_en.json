@@ -4,7 +4,7 @@
   "intro": "compare it with the political groups of the European Parliament (2024–2029 term)",
   "results_title": "Agreement with European Parliament Groups",
   "included_label": "Groups included",
-  "inclusion_note": "The test includes all political groups of the European Parliament in the 2024–2029 term. Non-attached members are not included. Group positions reflect the dominant line of their member parties; national delegations within a group can differ considerably.",
+  "inclusion_note": "The test includes all political groups of the European Parliament in the 2024–2029 term. Non-attached members are not included. Group positions reflect the dominant line of their member parties; national delegations within a group can differ considerably. Volt, a pan-European party whose five MEPs sit in the Greens/EFA group, is also shown on its own.",
   "details_title": "Learn more about the groups",
   "entity_label": "Political group",
   "leader_label": "Chair(s) (as of 2025)",
@@ -51,6 +51,16 @@
       "priorities": "Climate action and the European Green Deal, Social justice, Human rights, Digital rights, Democratic reform of the EU",
       "description": "Alliance of green parties (such as Germany's Greens) with regionalist and progressive parties of the European Free Alliance, and pro-European newcomers such as Volt. Portugal's Livre sits in this group. It pushes for ambitious climate policy, a more federal and democratic EU and strong civil liberties.",
       "wiki_url": "https://en.wikipedia.org/wiki/Greens%E2%80%93European_Free_Alliance"
+    },
+    "Volt": {
+      "name": "Volt Europa",
+      "leader": "Pan-European party; MEPs in the Greens/EFA group",
+      "founded": "2017",
+      "spectrum": "Centre",
+      "ideologies": "Social liberalism, European federalism, Progressivism",
+      "priorities": "A federal and more democratic EU, Climate action, Digital innovation, Evidence-based policy",
+      "description": "The first pan-European party, with chapters in every EU country. It won five seats in 2024, three in Germany and two in the Netherlands, and its MEPs sit in the Greens/EFA group. All chapters share one programme: a federal, more democratic EU, evidence-based policy, a market economy with a strong welfare state, and the digital and climate transitions.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Volt_Europa"
     },
     "The Left": {
       "name": "The Left in the European Parliament – GUE/NGL",
