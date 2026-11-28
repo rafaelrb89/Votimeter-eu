@@ -7,6 +7,17 @@
   const AXES = ["economic", "social", "political"];
   const AXIS_PREFIX = { economic: "ECO", social: "SOC", political: "POL" };
   const AXIS_ENDS = { economic: ["web_left", "web_right"], social: ["web_conservative", "web_progressive"], political: ["web_authoritarian", "web_liberal"] };
+  // Display order: the social and political axes (and their sub-axes) are drawn mirrored, progressive and
+  // liberal/internationalist on the left. Scores keep their sign internally; shown values follow the picture.
+  const MIRRORED = new Set(["social", "political"]);
+  const axisOf = (key) => (AXES.includes(key) ? key : (DATA.subaxes.find((sub) => sub.id === key) || {}).axis);
+  const mirrored = (key) => MIRRORED.has(axisOf(key));
+  const shown = (key, v) => (mirrored(key) ? -v : v);
+  const endKeys = (key) => {
+    const ends = AXES.includes(key) ? AXIS_ENDS[key] : ["sub_" + key + "_low", "sub_" + key + "_high"];
+    return mirrored(key) ? [ends[1], ends[0]] : ends;
+  };
+  const firstSentence = (text) => text.split(/(?<=[.!?。])\s+/)[0];
   const UNAFFILIATED_COLOR = "#9AA1B5";
   const SVG_NS = "http://www.w3.org/2000/svg";
 
@@ -265,7 +276,6 @@
 
     const counts = {};
     DATA.questions.forEach((q) => (counts[q.axis] = (counts[q.axis] || 0) + 1));
-    const ends = AXIS_ENDS;
     const axes = document.createElement("section");
     axes.className = "section";
     axes.innerHTML = `
@@ -279,12 +289,12 @@
           <article class="axis-card">
             <p class="eyebrow">${AXIS_PREFIX[axis]} · ${esc(t("web_axis_statements", { n: counts[axis] }))}</p>
             <h3>${esc(t("web_axis_" + axis))}</h3>
-            <p>${esc(stripLabel(t("axis_" + axis + "_desc")))}</p>
-            <div class="spectrum"><div class="spectrum-bar"></div>
-              <div class="spectrum-ends"><span>${esc(t(ends[axis][0]))}</span><span>${esc(t(ends[axis][1]))}</span></div></div>
+            <p>${esc(firstSentence(stripLabel(t("axis_" + axis + "_desc"))))}</p>
+            <div class="spectrum"><div class="spectrum-bar${mirrored(axis) ? " is-mirrored" : ""}"></div>
+              <div class="spectrum-ends"><span>${esc(t(endKeys(axis)[0]))}</span><span>${esc(t(endKeys(axis)[1]))}</span></div></div>
             <ul class="subaxis-list">
               ${DATA.subaxes.filter((sub) => sub.axis === axis).map((sub) => `
-                <li><span>${esc(t("sub_" + sub.id + "_low"))}</span><span aria-hidden="true">↔</span><span>${esc(t("sub_" + sub.id + "_high"))}</span></li>`).join("")}
+                <li><span>${esc(t(endKeys(sub.id)[0]))}</span><span aria-hidden="true">↔</span><span>${esc(t(endKeys(sub.id)[1]))}</span></li>`).join("")}
             </ul>
           </article>`).join("")}
       </div>`;
@@ -449,7 +459,7 @@
     const subParties = full
       ? landscape().parties.map((p) => ({ code: p.code, color: p.color, ...subaxisScores((id) => landscape().positions[p.code][qIndex[id]]) }))
       : [];
-    const subLabel = (id) => `${t("sub_" + id + "_low")} – ${t("sub_" + id + "_high")}`;
+    const subLabel = (id) => `${t(endKeys(id)[0])} – ${t(endKeys(id)[1])}`;
     const comp = document.createElement("section");
     comp.className = "section";
     comp.innerHTML = `
@@ -467,10 +477,10 @@
       <div class="strips">
         ${AXES.map((a) => `
           <div class="strip">
-            <div class="strip-head"><h3>${esc(t("web_axis_" + a))}</h3><span class="strip-score">${esc(t("you"))} ${signed(you[a])}</span></div>
-            <p class="strip-desc">${esc(stripLabel(t("axis_" + a + "_desc")))}</p>
+            <div class="strip-head"><h3>${esc(t("web_axis_" + a))}</h3><span class="strip-score">${esc(t("you"))} ${signed(shown(a, you[a]))}</span></div>
+            <p class="strip-desc">${esc(firstSentence(stripLabel(t("axis_" + a + "_desc"))))}</p>
             <div class="strip-plot" data-axis="${a}"></div>
-            <div class="spectrum-ends"><span>${esc(t(AXIS_ENDS[a][0]))}</span><span>${esc(t(AXIS_ENDS[a][1]))}</span></div>
+            <div class="spectrum-ends"><span>${esc(t(endKeys(a)[0]))}</span><span>${esc(t(endKeys(a)[1]))}</span></div>
             ${full ? `
             <button type="button" class="sub-toggle" data-action="toggle-sub" aria-expanded="false" aria-controls="sub-${a}">
               <span class="chev" aria-hidden="true">▸</span> ${esc(t("subaxes_title"))} <span class="sub-count">${DATA.subaxes.filter((sub) => sub.axis === a).length}</span>
@@ -479,10 +489,10 @@
               ${DATA.subaxes.filter((sub) => sub.axis === a).map((sub) => `
                 <div class="strip strip-sub">
                   <div class="strip-head"><h4>${esc(subLabel(sub.id))}</h4>
-                    <span class="strip-score">${subYou[sub.id] === null ? esc(t("subaxis_insufficient")) : `${esc(t("you"))} ${signed(subYou[sub.id])}`}</span></div>
+                    <span class="strip-score">${subYou[sub.id] === null ? esc(t("subaxis_insufficient")) : `${esc(t("you"))} ${signed(shown(sub.id, subYou[sub.id]))}`}</span></div>
                   <p class="strip-desc">${esc(t("sub_" + sub.id + "_desc"))}</p>
                   <div class="strip-plot" data-sub="${sub.id}"></div>
-                  <div class="spectrum-ends"><span>${esc(t("sub_" + sub.id + "_low"))}</span><span>${esc(t("sub_" + sub.id + "_high"))}</span></div>
+                  <div class="spectrum-ends"><span>${esc(t(endKeys(sub.id)[0]))}</span><span>${esc(t(endKeys(sub.id)[1]))}</span></div>
                 </div>`).join("")}
             </div>` : ""}
           </div>`).join("")}
@@ -592,7 +602,7 @@
     for (const p of parties) {
       const c = svg("circle", { cx: X(p.economic), cy: Y(p.social), r: 6, class: "party-dot" }, root);
       c.style.fill = p.color;
-      svg("title", {}, c).textContent = `${p.code}: ${signed(p.economic)}, ${signed(p.social)}`;
+      svg("title", {}, c).textContent = `${p.code}: ${signed(p.economic)}, ${signed(shown("social", p.social))}`;
     }
     const yx = X(you.economic), yy = Y(you.social);
     svg("path", { d: `M${yx} ${yy - 10} L${yx + 9} ${yy + 6} L${yx - 9} ${yy + 6} Z`, class: "you-mark" }, root);
@@ -607,8 +617,9 @@
     // Label lanes above and below the line; each party takes the first lane where its label fits.
     const lanes = [mid - 12, mid + 24, mid - 28, mid + 40, mid - 44, mid + 56];
     const laneEnd = lanes.map(() => -Infinity);
-    const labels = [...parties].sort((a, b) => a[axis] - b[axis]).map((p) => {
-      const x = X(p[axis]), w = p.code.length * 7.8 + 10;
+    const val = (v) => shown(axis, v);
+    const labels = [...parties].sort((a, b) => val(a[axis]) - val(b[axis])).map((p) => {
+      const x = X(val(p[axis])), w = p.code.length * 7.8 + 10;
       let lane = lanes.findIndex((_, i) => x - w / 2 > laneEnd[i]);
       if (lane < 0) lane = 0;
       laneEnd[lane] = x + w / 2;
@@ -622,12 +633,12 @@
       if (Math.abs(y - mid) > 20) svg("line", { x1: x, x2: x, y1: mid, y2: y < mid ? y + 3 : y - 11, class: "strip-line", "stroke-width": 1 }, root);
       const c = svg("circle", { cx: x, cy: mid, r: 6, class: "party-dot" }, root);
       c.style.fill = p.color;
-      svg("title", {}, c).textContent = `${p.code}: ${signed(p[axis])}`;
+      svg("title", {}, c).textContent = `${p.code}: ${signed(val(p[axis]))}`;
       const tx = svg("text", { x, y, "text-anchor": "middle", class: "dot-label" }, root);
       tx.textContent = p.code;
     }
     if (you[axis] !== null && you[axis] !== undefined) {
-      const x = X(you[axis]);
+      const x = X(val(you[axis]));
       svg("line", { x1: x, x2: x, y1: top + 4, y2: bottom - 4, class: "you-rule" }, root);
       svg("path", { d: `M${x} ${mid - 9} L${x + 9} ${mid + 7} L${x - 9} ${mid + 7} Z`, class: "you-mark" }, root);
     }

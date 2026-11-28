@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Nacionalinės pramonės apsauga ar laisva prekyba ir bendroji Europos rinka.",
   "sub_soc_values_desc": "Požiūris į asmeninius pasirinkimus ir socialinius pokyčius, pavyzdžiui, narkotikus, eutanaziją ir lygybę.",
   "sub_soc_religion_desc": "Religijos vieta valstybėje, mokykloje ir visuomenėje.",
-  "sub_soc_diversity_desc": "Ar atvykėliai turėtų perimti nacionalinę kultūrą, ar visuomenė turėtų priimti daug kultūrų.",
+  "sub_soc_diversity_desc": "Ar visuomenė turėtų priimti daug kultūrų, ar atvykėliai perimti nacionalinę kultūrą.",
   "sub_soc_tech_desc": "Pasitikėjimas technologijomis ir mokslu, pavyzdžiui, branduoline energetika, GMO ir DI, sprendžiant problemas.",
-  "sub_pol_checks_desc": "Stiprūs, greitai sprendžiantys lyderiai ar valdžią ribojančios institucijos.",
-  "sub_pol_liberties_desc": "Tvarka ir bausmės ar asmens teisės ir žodžio laisvė.",
-  "sub_pol_world_desc": "Laikytis nuošalyje nuo pasaulio reikalų ar veikti su sąjungininkais ir tarptautinėmis organizacijomis.",
-  "sub_pol_sovereignty_desc": "Palikti sprendimus nacionaliniu lygmeniu ar gilinti Europos ir tarptautinę integraciją."
+  "sub_pol_checks_desc": "Valdžią ribojančios institucijos ar stiprūs, greitai sprendžiantys lyderiai.",
+  "sub_pol_liberties_desc": "Asmens teisės ir žodžio laisvė ar tvarka ir bausmės.",
+  "sub_pol_world_desc": "Veikti su sąjungininkais ir tarptautinėmis organizacijomis ar laikytis nuošalyje nuo pasaulio reikalų.",
+  "sub_pol_sovereignty_desc": "Gilinti Europos ir tarptautinę integraciją ar palikti sprendimus nacionaliniu lygmeniu."
 }

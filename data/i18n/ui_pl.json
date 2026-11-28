@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Ochrona krajowego przemysłu czy wolny handel i jednolity rynek europejski.",
   "sub_soc_values_desc": "Stosunek do wyborów osobistych i zmian społecznych, np. narkotyków, eutanazji i równości.",
   "sub_soc_religion_desc": "Miejsce religii w państwie, szkole i społeczeństwie.",
-  "sub_soc_diversity_desc": "Czy przybysze powinni przyjąć kulturę narodową, czy społeczeństwo ma objąć wiele kultur.",
+  "sub_soc_diversity_desc": "Czy społeczeństwo ma objąć wiele kultur, czy przybysze powinni przyjąć kulturę narodową.",
   "sub_soc_tech_desc": "Zaufanie do technologii i nauki, np. energii jądrowej, GMO i AI, w rozwiązywaniu problemów.",
-  "sub_pol_checks_desc": "Silni przywódcy, którzy szybko decydują, czy instytucje ograniczające władzę.",
-  "sub_pol_liberties_desc": "Porządek i kara czy prawa jednostki i wolność słowa.",
-  "sub_pol_world_desc": "Trzymanie się z dala od spraw świata czy współpraca z sojusznikami i organizacjami międzynarodowymi.",
-  "sub_pol_sovereignty_desc": "Decyzje na poziomie krajowym czy głębsza integracja europejska i międzynarodowa."
+  "sub_pol_checks_desc": "Instytucje ograniczające władzę czy silni przywódcy, którzy szybko decydują.",
+  "sub_pol_liberties_desc": "Prawa jednostki i wolność słowa czy porządek i kara.",
+  "sub_pol_world_desc": "Współpraca z sojusznikami i organizacjami międzynarodowymi czy trzymanie się z dala od spraw świata.",
+  "sub_pol_sovereignty_desc": "Głębsza integracja europejska i międzynarodowa czy decyzje na poziomie krajowym."
 }

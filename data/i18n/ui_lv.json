@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Vietējās rūpniecības aizsardzība vai brīvā tirdzniecība un Eiropas vienotais tirgus.",
   "sub_soc_values_desc": "Attieksme pret personiskām izvēlēm un sociālām pārmaiņām, piemēram, narkotikām, eitanāziju un līdztiesību.",
   "sub_soc_religion_desc": "Reliģijas vieta valstī, skolā un sabiedrībā.",
-  "sub_soc_diversity_desc": "Vai iebraucējiem pārņemt nacionālo kultūru, vai sabiedrībai pieņemt daudzas kultūras.",
+  "sub_soc_diversity_desc": "Vai sabiedrībai pieņemt daudzas kultūras, vai iebraucējiem pārņemt nacionālo kultūru.",
   "sub_soc_tech_desc": "Uzticība tehnoloģijām un zinātnei, piemēram, kodolenerģijai, ĢMO un MI, problēmu risināšanā.",
-  "sub_pol_checks_desc": "Spēcīgi līderi, kas lemj ātri, vai institūcijas, kas ierobežo varu.",
-  "sub_pol_liberties_desc": "Kārtība un sods vai indivīda tiesības un vārda brīvība.",
-  "sub_pol_world_desc": "Turēties pa gabalu no pasaules lietām vai sadarboties ar sabiedrotajiem un starptautiskām organizācijām.",
-  "sub_pol_sovereignty_desc": "Saglabāt lēmumus nacionālā līmenī vai padziļināt Eiropas un starptautisko integrāciju."
+  "sub_pol_checks_desc": "Institūcijas, kas ierobežo varu, vai spēcīgi līderi, kas lemj ātri.",
+  "sub_pol_liberties_desc": "Indivīda tiesības un vārda brīvība vai kārtība un sods.",
+  "sub_pol_world_desc": "Sadarboties ar sabiedrotajiem un starptautiskām organizācijām vai turēties pa gabalu no pasaules lietām.",
+  "sub_pol_sovereignty_desc": "Padziļināt Eiropas un starptautisko integrāciju vai saglabāt lēmumus nacionālā līmenī."
 }

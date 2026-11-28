@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Skydda den egna industrin eller frihandel och en europeisk inre marknad.",
   "sub_soc_values_desc": "Synen på personliga val och samhällsförändring, som droger, dödshjälp och jämställdhet.",
   "sub_soc_religion_desc": "Religionens plats i staten, skolan och samhället.",
-  "sub_soc_diversity_desc": "Om nyanlända ska anta den nationella kulturen eller samhället ska rymma många kulturer.",
+  "sub_soc_diversity_desc": "Om samhället ska rymma många kulturer eller nyanlända ska anta den nationella kulturen.",
   "sub_soc_tech_desc": "Tilltro till teknik och vetenskap, som kärnkraft, GMO och AI, för att lösa problem.",
-  "sub_pol_checks_desc": "Starka ledare som beslutar snabbt eller institutioner som begränsar makten.",
-  "sub_pol_liberties_desc": "Ordning och straff eller individens rättigheter och yttrandefrihet.",
-  "sub_pol_world_desc": "Att hålla sig utanför världspolitiken eller samarbeta med allierade och internationella organisationer.",
-  "sub_pol_sovereignty_desc": "Att behålla besluten på nationell nivå eller fördjupa den europeiska och internationella integrationen."
+  "sub_pol_checks_desc": "Institutioner som begränsar makten eller starka ledare som beslutar snabbt.",
+  "sub_pol_liberties_desc": "Individens rättigheter och yttrandefrihet eller ordning och straff.",
+  "sub_pol_world_desc": "Att samarbeta med allierade och internationella organisationer eller hålla sig utanför världspolitiken.",
+  "sub_pol_sovereignty_desc": "Att fördjupa den europeiska och internationella integrationen eller behålla besluten på nationell nivå."
 }

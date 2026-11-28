@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Protecting national industry versus open trade and a single European market.",
   "sub_soc_values_desc": "Attitudes to personal choices and social change, such as drugs, euthanasia and equality.",
   "sub_soc_religion_desc": "The place of religion in the State, schools and society.",
-  "sub_soc_diversity_desc": "Whether newcomers should adopt the national culture or society should embrace many cultures.",
+  "sub_soc_diversity_desc": "Whether society should embrace many cultures or newcomers should adopt the national culture.",
   "sub_soc_tech_desc": "Trust in technology and science, such as nuclear power, GMOs and AI, to solve problems.",
-  "sub_pol_checks_desc": "Strong leaders who decide quickly versus institutions that limit power.",
-  "sub_pol_liberties_desc": "Order and punishment versus individual rights and free speech.",
-  "sub_pol_world_desc": "Staying out of world affairs versus working with allies and international organisations.",
-  "sub_pol_sovereignty_desc": "Keeping decisions at national level versus deeper European and international integration."
+  "sub_pol_checks_desc": "Institutions that limit power versus strong leaders who decide quickly.",
+  "sub_pol_liberties_desc": "Individual rights and free speech versus order and punishment.",
+  "sub_pol_world_desc": "Working with allies and international organisations versus staying out of world affairs.",
+  "sub_pol_sovereignty_desc": "Deeper European and international integration versus keeping decisions at national level."
 }

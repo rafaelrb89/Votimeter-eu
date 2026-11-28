@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "A hazai ipar védelme vagy a szabad kereskedelem és az európai egységes piac.",
   "sub_soc_values_desc": "Viszony a személyes döntésekhez és a társadalmi változáshoz, például a drogokhoz, az eutanáziához és az egyenlőséghez.",
   "sub_soc_religion_desc": "A vallás helye az államban, az iskolában és a társadalomban.",
-  "sub_soc_diversity_desc": "Az érkezők vegyék-e át a nemzeti kultúrát, vagy a társadalom fogadjon be sokféle kultúrát.",
+  "sub_soc_diversity_desc": "A társadalom fogadjon-e be sokféle kultúrát, vagy az érkezők vegyék át a nemzeti kultúrát.",
   "sub_soc_tech_desc": "Bizalom a technológiában és a tudományban, például az atomenergiában, a GMO-ban és a MI-ben, a problémák megoldásában.",
-  "sub_pol_checks_desc": "Gyorsan döntő erős vezetők vagy a hatalmat korlátozó intézmények.",
-  "sub_pol_liberties_desc": "Rend és büntetés vagy egyéni jogok és szólásszabadság.",
-  "sub_pol_world_desc": "Távolmaradás a világ ügyeitől vagy együttműködés szövetségesekkel és nemzetközi szervezetekkel.",
-  "sub_pol_sovereignty_desc": "A döntések nemzeti szinten tartása vagy mélyebb európai és nemzetközi integráció."
+  "sub_pol_checks_desc": "A hatalmat korlátozó intézmények vagy gyorsan döntő erős vezetők.",
+  "sub_pol_liberties_desc": "Egyéni jogok és szólásszabadság vagy rend és büntetés.",
+  "sub_pol_world_desc": "Együttműködés szövetségesekkel és nemzetközi szervezetekkel vagy távolmaradás a világ ügyeitől.",
+  "sub_pol_sovereignty_desc": "Mélyebb európai és nemzetközi integráció vagy a döntések nemzeti szinten tartása."
 }

@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Schutz der heimischen Industrie oder offener Handel und ein europäischer Binnenmarkt.",
   "sub_soc_values_desc": "Haltung zu persönlichen Entscheidungen und gesellschaftlichem Wandel, etwa Drogen, Sterbehilfe und Gleichstellung.",
   "sub_soc_religion_desc": "Die Rolle der Religion in Staat, Schule und Gesellschaft.",
-  "sub_soc_diversity_desc": "Ob Zugewanderte die nationale Kultur übernehmen sollen oder die Gesellschaft viele Kulturen annehmen soll.",
+  "sub_soc_diversity_desc": "Ob die Gesellschaft viele Kulturen annehmen soll oder Zugewanderte die nationale Kultur übernehmen sollen.",
   "sub_soc_tech_desc": "Vertrauen in Technik und Wissenschaft, etwa Kernkraft, Gentechnik und KI, zur Lösung von Problemen.",
-  "sub_pol_checks_desc": "Starke Führung, die schnell entscheidet, oder Institutionen, die Macht begrenzen.",
-  "sub_pol_liberties_desc": "Ordnung und Strafe oder Grundrechte und Meinungsfreiheit.",
-  "sub_pol_world_desc": "Sich aus der Weltpolitik heraushalten oder mit Verbündeten und internationalen Organisationen handeln.",
-  "sub_pol_sovereignty_desc": "Entscheidungen auf nationaler Ebene halten oder die europäische und internationale Integration vertiefen."
+  "sub_pol_checks_desc": "Institutionen, die Macht begrenzen, oder starke Führung, die schnell entscheidet.",
+  "sub_pol_liberties_desc": "Grundrechte und Meinungsfreiheit oder Ordnung und Strafe.",
+  "sub_pol_world_desc": "Mit Verbündeten und internationalen Organisationen handeln oder sich aus der Weltpolitik heraushalten.",
+  "sub_pol_sovereignty_desc": "Die europäische und internationale Integration vertiefen oder Entscheidungen auf nationaler Ebene halten."
 }

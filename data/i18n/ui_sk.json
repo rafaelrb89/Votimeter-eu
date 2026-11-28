@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Ochrana domáceho priemyslu, alebo voľný obchod a jednotný európsky trh.",
   "sub_soc_values_desc": "Postoj k osobným voľbám a spoločenskej zmene, napr. drogám, eutanázii a rovnosti.",
   "sub_soc_religion_desc": "Miesto náboženstva v štáte, škole a spoločnosti.",
-  "sub_soc_diversity_desc": "Či majú prichádzajúci prijať národnú kultúru, alebo má spoločnosť prijať mnoho kultúr.",
+  "sub_soc_diversity_desc": "Či má spoločnosť prijať mnoho kultúr, alebo majú prichádzajúci prijať národnú kultúru.",
   "sub_soc_tech_desc": "Dôvera v technológie a vedu, napr. jadro, GMO a AI, pri riešení problémov.",
-  "sub_pol_checks_desc": "Silní lídri, ktorí rozhodujú rýchlo, alebo inštitúcie, ktoré obmedzujú moc.",
-  "sub_pol_liberties_desc": "Poriadok a trest, alebo práva jednotlivca a sloboda prejavu.",
-  "sub_pol_world_desc": "Držať sa bokom od svetového diania, alebo konať so spojencami a medzinárodnými organizáciami.",
-  "sub_pol_sovereignty_desc": "Ponechať rozhodovanie na národnej úrovni, alebo prehlbovať európsku a medzinárodnú integráciu."
+  "sub_pol_checks_desc": "Inštitúcie, ktoré obmedzujú moc, alebo silní lídri, ktorí rozhodujú rýchlo.",
+  "sub_pol_liberties_desc": "Práva jednotlivca a sloboda prejavu, alebo poriadok a trest.",
+  "sub_pol_world_desc": "Konať so spojencami a medzinárodnými organizáciami, alebo sa držať bokom od svetového diania.",
+  "sub_pol_sovereignty_desc": "Prehlbovať európsku a medzinárodnú integráciu, alebo ponechať rozhodovanie na národnej úrovni."
 }

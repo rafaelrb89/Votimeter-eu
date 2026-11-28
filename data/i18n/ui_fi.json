@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Kotimaisen teollisuuden suojelu vai vapaakauppa ja Euroopan sisämarkkinat.",
   "sub_soc_values_desc": "Suhtautuminen henkilökohtaisiin valintoihin ja yhteiskunnan muutokseen, kuten huumeisiin, eutanasiaan ja tasa-arvoon.",
   "sub_soc_religion_desc": "Uskonnon paikka valtiossa, koulussa ja yhteiskunnassa.",
-  "sub_soc_diversity_desc": "Pitäisikö tulijoiden omaksua kansallinen kulttuuri vai yhteiskunnan omaksua monia kulttuureja.",
+  "sub_soc_diversity_desc": "Pitäisikö yhteiskunnan omaksua monia kulttuureja vai tulijoiden omaksua kansallinen kulttuuri.",
   "sub_soc_tech_desc": "Luottamus tekniikkaan ja tieteeseen, kuten ydinvoimaan, geenimuunteluun ja tekoälyyn, ongelmien ratkaisijana.",
-  "sub_pol_checks_desc": "Vahvat, nopeasti päättävät johtajat vai valtaa rajoittavat instituutiot.",
-  "sub_pol_liberties_desc": "Järjestys ja rangaistukset vai yksilön oikeudet ja sananvapaus.",
-  "sub_pol_world_desc": "Pysyminen erossa maailmanpolitiikasta vai yhteistyö liittolaisten ja kansainvälisten järjestöjen kanssa.",
-  "sub_pol_sovereignty_desc": "Päätösvallan pitäminen kansallisella tasolla vai syvempi eurooppalainen ja kansainvälinen yhdentyminen."
+  "sub_pol_checks_desc": "Valtaa rajoittavat instituutiot vai vahvat, nopeasti päättävät johtajat.",
+  "sub_pol_liberties_desc": "Yksilön oikeudet ja sananvapaus vai järjestys ja rangaistukset.",
+  "sub_pol_world_desc": "Yhteistyö liittolaisten ja kansainvälisten järjestöjen kanssa vai pysyminen erossa maailmanpolitiikasta.",
+  "sub_pol_sovereignty_desc": "Syvempi eurooppalainen ja kansainvälinen yhdentyminen vai päätösvallan pitäminen kansallisella tasolla."
 }

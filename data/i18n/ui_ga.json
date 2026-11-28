@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Tionscal náisiúnta a chosaint nó saorthrádáil agus margadh aonair Eorpach.",
   "sub_soc_values_desc": "Dearcadh ar roghanna pearsanta agus athrú sóisialta, mar dhrugaí, eotanáis agus comhionannas.",
   "sub_soc_religion_desc": "Áit an chreidimh sa Stát, sa scoil agus sa tsochaí.",
-  "sub_soc_diversity_desc": "Ar cheart do dhaoine nua an cultúr náisiúnta a ghlacadh nó don tsochaí go leor cultúr a ghlacadh chuici.",
+  "sub_soc_diversity_desc": "Ar cheart don tsochaí go leor cultúr a ghlacadh chuici nó do dhaoine nua an cultúr náisiúnta a ghlacadh.",
   "sub_soc_tech_desc": "Muinín as an teicneolaíocht agus as an eolaíocht, mar fhuinneamh núicléach, OGManna agus IS, chun fadhbanna a réiteach.",
-  "sub_pol_checks_desc": "Ceannairí láidre a chinneann go tapa nó institiúidí a chuireann srian ar chumhacht.",
-  "sub_pol_liberties_desc": "Ord agus pionós nó cearta an duine aonair agus saoirse cainte.",
-  "sub_pol_world_desc": "Fanacht amach ó chúrsaí an domhain nó oibriú le comhghuaillithe agus eagraíochtaí idirnáisiúnta.",
-  "sub_pol_sovereignty_desc": "Cinntí a choinneáil ar an leibhéal náisiúnta nó lánpháirtíocht Eorpach agus idirnáisiúnta níos doimhne."
+  "sub_pol_checks_desc": "Institiúidí a chuireann srian ar chumhacht nó ceannairí láidre a chinneann go tapa.",
+  "sub_pol_liberties_desc": "Cearta an duine aonair agus saoirse cainte nó ord agus pionós.",
+  "sub_pol_world_desc": "Oibriú le comhghuaillithe agus eagraíochtaí idirnáisiúnta nó fanacht amach ó chúrsaí an domhain.",
+  "sub_pol_sovereignty_desc": "Lánpháirtíocht Eorpach agus idirnáisiúnta níos doimhne nó cinntí a choinneáil ar an leibhéal náisiúnta."
 }

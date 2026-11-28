@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Protéger l'industrie nationale ou miser sur le libre-échange et un marché unique européen.",
   "sub_soc_values_desc": "Le rapport aux choix personnels et au changement social : drogues, euthanasie, égalité.",
   "sub_soc_religion_desc": "La place de la religion dans l'État, l'école et la société.",
-  "sub_soc_diversity_desc": "Les nouveaux arrivants doivent-ils adopter la culture nationale, ou la société accueillir plusieurs cultures ?",
+  "sub_soc_diversity_desc": "La société doit-elle accueillir plusieurs cultures, ou les nouveaux arrivants adopter la culture nationale ?",
   "sub_soc_tech_desc": "La confiance dans la technologie et la science, comme le nucléaire, les OGM et l'IA, pour résoudre les problèmes.",
-  "sub_pol_checks_desc": "Des dirigeants forts qui décident vite ou des institutions qui limitent le pouvoir.",
-  "sub_pol_liberties_desc": "L'ordre et la sanction ou les droits individuels et la liberté d'expression.",
-  "sub_pol_world_desc": "Rester à l'écart des affaires du monde ou agir avec des alliés et des organisations internationales.",
-  "sub_pol_sovereignty_desc": "Garder les décisions au niveau national ou approfondir l'intégration européenne et internationale."
+  "sub_pol_checks_desc": "Des institutions qui limitent le pouvoir ou des dirigeants forts qui décident vite.",
+  "sub_pol_liberties_desc": "Les droits individuels et la liberté d'expression ou l'ordre et la sanction.",
+  "sub_pol_world_desc": "Agir avec des alliés et des organisations internationales ou rester à l'écart des affaires du monde.",
+  "sub_pol_sovereignty_desc": "Approfondir l'intégration européenne et internationale ou garder les décisions au niveau national."
 }

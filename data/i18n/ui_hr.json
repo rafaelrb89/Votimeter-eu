@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Zaštita domaće industrije ili slobodna trgovina i jedinstveno europsko tržište.",
   "sub_soc_values_desc": "Stav prema osobnim izborima i društvenim promjenama, poput droga, eutanazije i ravnopravnosti.",
   "sub_soc_religion_desc": "Mjesto vjere u državi, školi i društvu.",
-  "sub_soc_diversity_desc": "Trebaju li pridošlice prihvatiti nacionalnu kulturu ili društvo prigrliti mnoge kulture.",
+  "sub_soc_diversity_desc": "Treba li društvo prigrliti mnoge kulture ili pridošlice prihvatiti nacionalnu kulturu.",
   "sub_soc_tech_desc": "Povjerenje u tehnologiju i znanost, poput nuklearne energije, GMO-a i UI, u rješavanju problema.",
-  "sub_pol_checks_desc": "Snažni vođe koji brzo odlučuju ili institucije koje ograničavaju moć.",
-  "sub_pol_liberties_desc": "Red i kazna ili prava pojedinca i sloboda govora.",
-  "sub_pol_world_desc": "Držati se po strani od svjetskih zbivanja ili djelovati sa saveznicima i međunarodnim organizacijama.",
-  "sub_pol_sovereignty_desc": "Zadržati odlučivanje na nacionalnoj razini ili produbiti europsku i međunarodnu integraciju."
+  "sub_pol_checks_desc": "Institucije koje ograničavaju moć ili snažni vođe koji brzo odlučuju.",
+  "sub_pol_liberties_desc": "Prava pojedinca i sloboda govora ili red i kazna.",
+  "sub_pol_world_desc": "Djelovati sa saveznicima i međunarodnim organizacijama ili se držati po strani od svjetskih zbivanja.",
+  "sub_pol_sovereignty_desc": "Produbiti europsku i međunarodnu integraciju ili zadržati odlučivanje na nacionalnoj razini."
 }

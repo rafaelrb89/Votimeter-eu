@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Zaščita domače industrije ali prosta trgovina in enotni evropski trg.",
   "sub_soc_values_desc": "Odnos do osebnih odločitev in družbenih sprememb, kot so droge, evtanazija in enakost.",
   "sub_soc_religion_desc": "Mesto vere v državi, šoli in družbi.",
-  "sub_soc_diversity_desc": "Ali naj priseljenci prevzamejo nacionalno kulturo ali naj družba sprejme mnogo kultur.",
+  "sub_soc_diversity_desc": "Ali naj družba sprejme mnogo kultur ali naj priseljenci prevzamejo nacionalno kulturo.",
   "sub_soc_tech_desc": "Zaupanje v tehnologijo in znanost, kot so jedrska energija, GSO in UI, pri reševanju problemov.",
-  "sub_pol_checks_desc": "Močni voditelji, ki odločajo hitro, ali institucije, ki omejujejo moč.",
-  "sub_pol_liberties_desc": "Red in kazen ali pravice posameznika in svoboda govora.",
-  "sub_pol_world_desc": "Ostati ob strani svetovnih zadev ali delovati z zavezniki in mednarodnimi organizacijami.",
-  "sub_pol_sovereignty_desc": "Ohraniti odločanje na nacionalni ravni ali poglobiti evropsko in mednarodno povezovanje."
+  "sub_pol_checks_desc": "Institucije, ki omejujejo moč, ali močni voditelji, ki odločajo hitro.",
+  "sub_pol_liberties_desc": "Pravice posameznika in svoboda govora ali red in kazen.",
+  "sub_pol_world_desc": "Delovati z zavezniki in mednarodnimi organizacijami ali ostati ob strani svetovnih zadev.",
+  "sub_pol_sovereignty_desc": "Poglobiti evropsko in mednarodno povezovanje ali ohraniti odločanje na nacionalni ravni."
 }

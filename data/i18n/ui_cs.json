@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Ochrana domácího průmyslu, nebo volný obchod a jednotný evropský trh.",
   "sub_soc_values_desc": "Postoj k osobním volbám a společenské změně, např. drogám, eutanazii a rovnosti.",
   "sub_soc_religion_desc": "Místo náboženství ve státě, škole a společnosti.",
-  "sub_soc_diversity_desc": "Zda mají příchozí přijmout národní kulturu, nebo má společnost přijmout mnoho kultur.",
+  "sub_soc_diversity_desc": "Zda má společnost přijmout mnoho kultur, nebo mají příchozí přijmout národní kulturu.",
   "sub_soc_tech_desc": "Důvěra v technologie a vědu, např. jádro, GMO a AI, při řešení problémů.",
-  "sub_pol_checks_desc": "Silní lídři, kteří rozhodují rychle, nebo instituce, které omezují moc.",
-  "sub_pol_liberties_desc": "Pořádek a trest, nebo práva jednotlivce a svoboda projevu.",
-  "sub_pol_world_desc": "Držet se stranou světového dění, nebo jednat se spojenci a mezinárodními organizacemi.",
-  "sub_pol_sovereignty_desc": "Ponechat rozhodování na národní úrovni, nebo prohlubovat evropskou a mezinárodní integraci."
+  "sub_pol_checks_desc": "Instituce, které omezují moc, nebo silní lídři, kteří rozhodují rychle.",
+  "sub_pol_liberties_desc": "Práva jednotlivce a svoboda projevu, nebo pořádek a trest.",
+  "sub_pol_world_desc": "Jednat se spojenci a mezinárodními organizacemi, nebo se držet stranou světového dění.",
+  "sub_pol_sovereignty_desc": "Prohlubovat evropskou a mezinárodní integraci, nebo ponechat rozhodování na národní úrovni."
 }
