@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Beskyttelse af dansk industri eller frihandel og et europæisk indre marked.",
   "sub_soc_values_desc": "Holdning til personlige valg og samfundsforandring, fx narko, aktiv dødshjælp og ligestilling.",
   "sub_soc_religion_desc": "Religionens plads i staten, skolen og samfundet.",
-  "sub_soc_diversity_desc": "Om nytilkomne skal tage den nationale kultur til sig, eller samfundet skal rumme mange kulturer.",
+  "sub_soc_diversity_desc": "Om samfundet skal rumme mange kulturer, eller nytilkomne skal tage den nationale kultur til sig.",
   "sub_soc_tech_desc": "Tillid til teknologi og videnskab, fx atomkraft, GMO og AI, til at løse problemer.",
-  "sub_pol_checks_desc": "Stærke ledere, der beslutter hurtigt, eller institutioner, der begrænser magten.",
-  "sub_pol_liberties_desc": "Orden og straf eller individets rettigheder og ytringsfrihed.",
-  "sub_pol_world_desc": "At holde sig ude af verdenspolitikken eller samarbejde med allierede og internationale organisationer.",
-  "sub_pol_sovereignty_desc": "At holde beslutninger på nationalt niveau eller uddybe det europæiske og internationale samarbejde."
+  "sub_pol_checks_desc": "Institutioner, der begrænser magten, eller stærke ledere, der beslutter hurtigt.",
+  "sub_pol_liberties_desc": "Individets rettigheder og ytringsfrihed eller orden og straf.",
+  "sub_pol_world_desc": "At samarbejde med allierede og internationale organisationer eller holde sig ude af verdenspolitikken.",
+  "sub_pol_sovereignty_desc": "At uddybe det europæiske og internationale samarbejde eller holde beslutninger på nationalt niveau."
 }

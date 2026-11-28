@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "De eigen industrie beschermen of vrijhandel en één Europese markt.",
   "sub_soc_values_desc": "Houding tegenover persoonlijke keuzes en maatschappelijke verandering, zoals drugs, euthanasie en gelijkheid.",
   "sub_soc_religion_desc": "De plaats van religie in staat, school en samenleving.",
-  "sub_soc_diversity_desc": "Of nieuwkomers de nationale cultuur moeten overnemen of de samenleving veel culturen moet omarmen.",
+  "sub_soc_diversity_desc": "Of de samenleving veel culturen moet omarmen of nieuwkomers de nationale cultuur moeten overnemen.",
   "sub_soc_tech_desc": "Vertrouwen in techniek en wetenschap, zoals kernenergie, gentech en AI, om problemen op te lossen.",
-  "sub_pol_checks_desc": "Sterke leiders die snel beslissen of instituties die macht beperken.",
-  "sub_pol_liberties_desc": "Orde en straf of individuele rechten en vrijheid van meningsuiting.",
-  "sub_pol_world_desc": "Buiten de wereldpolitiek blijven of samenwerken met bondgenoten en internationale organisaties.",
-  "sub_pol_sovereignty_desc": "Besluiten op nationaal niveau houden of verdere Europese en internationale integratie."
+  "sub_pol_checks_desc": "Instituties die macht beperken of sterke leiders die snel beslissen.",
+  "sub_pol_liberties_desc": "Individuele rechten en vrijheid van meningsuiting of orde en straf.",
+  "sub_pol_world_desc": "Samenwerken met bondgenoten en internationale organisaties of buiten de wereldpolitiek blijven.",
+  "sub_pol_sovereignty_desc": "Verdere Europese en internationale integratie of besluiten op nationaal niveau houden."
 }

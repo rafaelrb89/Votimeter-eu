@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Il-protezzjoni tal-industrija nazzjonali jew il-kummerċ ħieles u suq uniku Ewropew.",
   "sub_soc_values_desc": "L-attitudni lejn għażliet personali u bidla soċjali, bħad-drogi, l-ewtanasja u l-ugwaljanza.",
   "sub_soc_religion_desc": "Il-post tar-reliġjon fl-Istat, fl-iskola u fis-soċjetà.",
-  "sub_soc_diversity_desc": "Jekk min jasal għandux jadotta l-kultura nazzjonali jew is-soċjetà għandhiex tilqa' ħafna kulturi.",
+  "sub_soc_diversity_desc": "Jekk is-soċjetà għandhiex tilqa' ħafna kulturi jew min jasal għandux jadotta l-kultura nazzjonali.",
   "sub_soc_tech_desc": "Il-fiduċja fit-teknoloġija u x-xjenza, bħall-enerġija nukleari, l-OĠM u l-IA, biex jissolvew il-problemi.",
-  "sub_pol_checks_desc": "Mexxejja b'saħħithom li jiddeċiedu malajr jew istituzzjonijiet li jillimitaw il-poter.",
-  "sub_pol_liberties_desc": "Ordni u kastig jew drittijiet individwali u libertà tal-espressjoni.",
-  "sub_pol_world_desc": "Tibqa' 'l barra mill-affarijiet tad-dinja jew taħdem ma' alleati u organizzazzjonijiet internazzjonali.",
-  "sub_pol_sovereignty_desc": "Iżżomm id-deċiżjonijiet fil-livell nazzjonali jew integrazzjoni Ewropea u internazzjonali aktar profonda."
+  "sub_pol_checks_desc": "Istituzzjonijiet li jillimitaw il-poter jew mexxejja b'saħħithom li jiddeċiedu malajr.",
+  "sub_pol_liberties_desc": "Drittijiet individwali u libertà tal-espressjoni jew ordni u kastig.",
+  "sub_pol_world_desc": "Taħdem ma' alleati u organizzazzjonijiet internazzjonali jew tibqa' 'l barra mill-affarijiet tad-dinja.",
+  "sub_pol_sovereignty_desc": "Integrazzjoni Ewropea u internazzjonali aktar profonda jew iżżomm id-deċiżjonijiet fil-livell nazzjonali."
 }

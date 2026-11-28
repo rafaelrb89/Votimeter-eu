@@ -133,10 +133,10 @@
   "sub_eco_trade_desc": "Protejarea industriei naționale sau comerț liber și o piață unică europeană.",
   "sub_soc_values_desc": "Atitudinea față de alegerile personale și schimbarea socială, cum ar fi drogurile, eutanasia și egalitatea.",
   "sub_soc_religion_desc": "Locul religiei în stat, în școală și în societate.",
-  "sub_soc_diversity_desc": "Dacă noii veniți trebuie să adopte cultura națională sau societatea să cuprindă multe culturi.",
+  "sub_soc_diversity_desc": "Dacă societatea trebuie să cuprindă multe culturi sau noii veniți să adopte cultura națională.",
   "sub_soc_tech_desc": "Încrederea în tehnologie și știință, cum ar fi energia nucleară, OMG-urile și IA, pentru a rezolva probleme.",
-  "sub_pol_checks_desc": "Lideri puternici care decid repede sau instituții care limitează puterea.",
-  "sub_pol_liberties_desc": "Ordine și pedeapsă sau drepturi individuale și libertate de exprimare.",
-  "sub_pol_world_desc": "A sta departe de treburile lumii sau a acționa cu aliații și organizațiile internaționale.",
-  "sub_pol_sovereignty_desc": "Păstrarea deciziilor la nivel național sau o integrare europeană și internațională mai profundă."
+  "sub_pol_checks_desc": "Instituții care limitează puterea sau lideri puternici care decid repede.",
+  "sub_pol_liberties_desc": "Drepturi individuale și libertate de exprimare sau ordine și pedeapsă.",
+  "sub_pol_world_desc": "A acționa cu aliații și organizațiile internaționale sau a sta departe de treburile lumii.",
+  "sub_pol_sovereignty_desc": "O integrare europeană și internațională mai profundă sau păstrarea deciziilor la nivel național."
 }
